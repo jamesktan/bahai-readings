@@ -13,6 +13,7 @@
 		54B1DD1A1B192CEA00BF74E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD191B192CEA00BF74E4 /* Images.xcassets */; };
 		54B1DD1D1B192CEA00BF74E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD1B1B192CEA00BF74E4 /* LaunchScreen.xib */; };
 		54B1DD291B192CEA00BF74E4 /* BahaiReadingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD281B192CEA00BF74E4 /* BahaiReadingsTests.swift */; };
+		54B1DD331B1A427800BF74E4 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD321B1A427800BF74E4 /* ReaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		54B1DD221B192CEA00BF74E4 /* BahaiReadingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BahaiReadingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD271B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD281B192CEA00BF74E4 /* BahaiReadingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahaiReadingsTests.swift; sourceTree = "<group>"; };
+		54B1DD321B1A427800BF74E4 /* ReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */,
 				54B1DD141B192CEA00BF74E4 /* ViewController.swift */,
 				54B1DD161B192CEA00BF74E4 /* Main.storyboard */,
+				54B1DD321B1A427800BF74E4 /* ReaderView.swift */,
 				54B1DD191B192CEA00BF74E4 /* Images.xcassets */,
 				54B1DD1B1B192CEA00BF74E4 /* LaunchScreen.xib */,
 				54B1DD101B192CEA00BF74E4 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */,
+				54B1DD331B1A427800BF74E4 /* ReaderView.swift in Sources */,
 				54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
