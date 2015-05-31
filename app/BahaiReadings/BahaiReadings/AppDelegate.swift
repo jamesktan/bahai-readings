@@ -19,9 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Override point for customization after application launch.
     var readerView : ReaderView = ReaderView.shared
     var readerPresent : ReaderPresenter = ReaderPresenter()
+    var readerInteract : ReaderInteractor = ReaderInteractor()
     readerPresent.vc = readerView
+    readerPresent.interactor = readerInteract
+    readerInteract.presenter = readerPresent
     ReaderView.frame.presenter = readerPresent
-    
     
     return true
   }

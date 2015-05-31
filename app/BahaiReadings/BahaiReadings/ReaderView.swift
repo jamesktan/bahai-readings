@@ -27,20 +27,18 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
 
   
   override func viewDidLoad() {
-      super.viewDidLoad()
+    super.viewDidLoad()
 
-      // Do any additional setup after loading the view.
-    
-    var urlString = "https://s3-us-west-2.amazonaws.com/bahai-reading/Epistle+To+The+Son+of+the+Wolf.html"
-    var url = NSURL(string: urlString)
-    var contents = NSString(contentsOfURL: url!, encoding: NSUTF8StringEncoding, error: nil)
-    readerWebView.loadHTMLString(contents as String!, baseURL: nil)
+    // Do any additional setup after loading the view.
     
     var tap = UITapGestureRecognizer(target: self, action: "showOrHideSettings")
     tap.numberOfTapsRequired = 1
     tap.numberOfTouchesRequired = 1
     tap.delegate = self
     self.readerWebView.addGestureRecognizer(tap)
+    
+    loadWebDataForHandle()
+    
   }
 
   override func didReceiveMemoryWarning() {
@@ -66,6 +64,14 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+  
+  
+  func loadWebDataForHandle() {
+    var urlString = "https://s3-us-west-2.amazonaws.com/bahai-reading/Epistle+To+The+Son+of+the+Wolf.html"
+    var url = NSURL(string: urlString)
+    var contents = NSString(contentsOfURL: url!, encoding: NSUTF8StringEncoding, error: nil)
+    readerWebView.loadHTMLString(contents as String!, baseURL: nil)
+  }
   
   
   @IBAction func showOrHideReaderSettings(sender: AnyObject) {
@@ -98,6 +104,9 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   }
   
   @IBAction func changeFontTheme(sender: UIButton) {
+    var themes : NSArray = frame.presenter!.arrayOfReaderThemes()
+    var selected : String = themes.objectAtIndex(sender.tag) as! String
+    
   }
   
   @IBAction func changeReaderOrientation(sender: UIButton) {

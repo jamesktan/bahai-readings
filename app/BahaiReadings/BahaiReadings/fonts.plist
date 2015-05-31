@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>style_serif</key>
+	<string>body {font-family: &apos;Roboto Slab&apos;, serif;}
+h1 {font-family: &apos;Merriweather&apos;, serif; }
+h2 {font-family: &apos;Merriweather&apos;, serif; }
+</string>
+	<key>style_sansserif</key>
+	<string>body {font-family: &apos;Oxygen&apos;, sans-serif;}
+h2 {font-family: &apos;Oswald&apos;, sans-serif;}
+h1 {font-family: &apos;Oswald&apos;, sans-serif;}</string>
+	<key>theme_light</key>
+	<string>body { color: rgb(47,48,49); background-color: rgb(255,255,255); }
+h1 { color: rgb(47,48,49); }
+h2 { color: rgb(47,48,49); }</string>
+	<key>theme_dark</key>
+	<string>body { color: rgb(153,153,154); background-color: rgb(47,48,49);}
+h1 { color: rgb(255,255,255); }
+h2 { color: rgb(255,255,255); }</string>
+	<key>theme_sunset</key>
+	<string>body { color: rgb(0,33,41); background-color: rgb(253,246,219); }
+h1 { color: rgb(0,33,41); }
+h2 { color: rgb(0,33,41); }</string>
+	<key>theme_midnight</key>
+	<string>body { background-color: rgb(0,33,41); color: rgb(253,246,219);}
+h1 { color: rgb(253,246,219); }
+h2 { color: rgb(253,246,219); }</string>
+	<key>font_size</key>
+	<string>body { font-size: %@; line-height:%@ }
+h1 {font-size: %@; line-height:%@; }
+h2 {font-size: %@; line-height:%@; }</string>
+	<key>style_tag</key>
+	<string>&lt;style&gt;%@&lt;/style&gt;</string>
+	<key>size_body</key>
+	<string>13, 15, 17, 20, 25</string>
+	<key>size_title_h1</key>
+	<string>21, 23, 25, 28, 33</string>
+	<key>side_title_h2</key>
+	<string>17, 19, 21, 24, 29</string>
+</dict>
+</plist>

@@ -1,5 +1,5 @@
 //
-//  ReaderPresenter.swift
+//  ReaderInteractor.swift
 //  BahaiReadings
 //
 //  Created by James Tan on 5/31/15.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ReaderPresenter: NSObject {
+class ReaderInteractor: NSObject {
   
-  var vc : ReaderView? = nil
-  var interactor : ReaderInteractor? = nil
+  var presenter : ReaderPresenter? = nil
 
   func arrayOfReaderThemes() -> NSArray {
-    return interactor!.arrayOfReaderThemes()
+    return DataManager.arrayOfReaderThemes()
   }
-  
 }

@@ -60,6 +60,10 @@
 		54338E311B1B73F7009EAE17 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E2D1B1B73F7009EAE17 /* RobotoSlab-Light.ttf */; };
 		54338E321B1B73F7009EAE17 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E2E1B1B73F7009EAE17 /* RobotoSlab-Regular.ttf */; };
 		54338E331B1B73F7009EAE17 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E2F1B1B73F7009EAE17 /* RobotoSlab-Thin.ttf */; };
+		54338E361B1B75D4009EAE17 /* fonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54338E351B1B75D4009EAE17 /* fonts.plist */; };
+		54338E381B1B79D3009EAE17 /* Reader Specifications in Resources */ = {isa = PBXBuildFile; fileRef = 54338E371B1B79D3009EAE17 /* Reader Specifications */; };
+		54338E3A1B1B7B3D009EAE17 /* ReaderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E391B1B7B3D009EAE17 /* ReaderInteractor.swift */; };
+		54338E3C1B1B7B4C009EAE17 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E3B1B1B7B4C009EAE17 /* DataManager.swift */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -133,6 +137,10 @@
 		54338E2D1B1B73F7009EAE17 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
 		54338E2E1B1B73F7009EAE17 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		54338E2F1B1B73F7009EAE17 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		54338E351B1B75D4009EAE17 /* fonts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fonts.plist; sourceTree = "<group>"; };
+		54338E371B1B79D3009EAE17 /* Reader Specifications */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Reader Specifications"; sourceTree = "<group>"; };
+		54338E391B1B7B3D009EAE17 /* ReaderInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderInteractor.swift; sourceTree = "<group>"; };
+		54338E3B1B1B7B4C009EAE17 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +211,7 @@
 		54338E0F1B1B614A009EAE17 /* Example HTML */ = {
 			isa = PBXGroup;
 			children = (
+				54338E371B1B79D3009EAE17 /* Reader Specifications */,
 				54338E051B1B6145009EAE17 /* Glad Tidings.html */,
 				54338E061B1B6145009EAE17 /* Epistle To The Son of the Wolf.html */,
 				54338E071B1B6145009EAE17 /* The Most Holy Tablet.html */,
@@ -233,6 +242,7 @@
 				54338E2D1B1B73F7009EAE17 /* RobotoSlab-Light.ttf */,
 				54338E2E1B1B73F7009EAE17 /* RobotoSlab-Regular.ttf */,
 				54338E2F1B1B73F7009EAE17 /* RobotoSlab-Thin.ttf */,
+				54338E351B1B75D4009EAE17 /* fonts.plist */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -263,6 +273,8 @@
 				54B1DD161B192CEA00BF74E4 /* Main.storyboard */,
 				54B1DD321B1A427800BF74E4 /* ReaderView.swift */,
 				54338E031B1B3D81009EAE17 /* ReaderPresenter.swift */,
+				54338E391B1B7B3D009EAE17 /* ReaderInteractor.swift */,
+				54338E3B1B1B7B4C009EAE17 /* DataManager.swift */,
 				54B1DD191B192CEA00BF74E4 /* Images.xcassets */,
 				54B1DD1B1B192CEA00BF74E4 /* LaunchScreen.xib */,
 				54338E341B1B7402009EAE17 /* Fonts */,
@@ -409,6 +421,7 @@
 				54338E271B1B73E3009EAE17 /* Merriweather-HeavyItalic.ttf in Resources */,
 				54338DF91B1AF49E009EAE17 /* gallery1.png in Resources */,
 				54338E321B1B73F7009EAE17 /* RobotoSlab-Regular.ttf in Resources */,
+				54338E361B1B75D4009EAE17 /* fonts.plist in Resources */,
 				54338DE71B1AED71009EAE17 /* bahaireadings180.png in Resources */,
 				54338E0D1B1B6145009EAE17 /* The Tablet of Carmel.html in Resources */,
 				54338DCE1B1A4FA7009EAE17 /* document161.png in Resources */,
@@ -426,6 +439,7 @@
 				54338DDD1B1AED4F009EAE17 /* bahaireadings120.png in Resources */,
 				54338DD11B1A4FA7009EAE17 /* grids.png in Resources */,
 				54338E2B1B1B73E3009EAE17 /* Merriweather-Regular.ttf in Resources */,
+				54338E381B1B79D3009EAE17 /* Reader Specifications in Resources */,
 				54338DCD1B1A4FA7009EAE17 /* world94.png in Resources */,
 				54338E291B1B73E3009EAE17 /* Merriweather-Light.ttf in Resources */,
 				54338E0E1B1B6145009EAE17 /* The Tabernacle of Unity.html in Resources */,
@@ -450,6 +464,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54338E3A1B1B7B3D009EAE17 /* ReaderInteractor.swift in Sources */,
+				54338E3C1B1B7B4C009EAE17 /* DataManager.swift in Sources */,
 				54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */,
 				54B1DD331B1A427800BF74E4 /* ReaderView.swift in Sources */,
 				54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */,
