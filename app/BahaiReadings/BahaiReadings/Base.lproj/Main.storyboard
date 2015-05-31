@@ -5,25 +5,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--GALLERY-->
-        <scene sceneID="yuf-pe-HpZ">
-            <objects>
-                <viewController id="JnA-U4-no0" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qmY-qz-zjo"/>
-                        <viewControllerLayoutGuide type="bottom" id="WyQ-jd-iLn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fAt-La-TrL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="GALLERY" image="gallery1.png" id="x5Q-oT-bxq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gnv-vc-BxO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3768" y="-295"/>
-        </scene>
         <!--ABOUT-->
         <scene sceneID="jIl-D2-o3g">
             <objects>
@@ -97,26 +78,135 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
-                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="79w-M6-HbZ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="79w-M6-HbZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SETTINGS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58t-cP-dn3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Epistle to the Son of the Wolf" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqo-DU-W22">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="159" y="48" width="83" height="21"/>
+                                            <rect key="frame" x="8" y="0.0" width="384" height="49"/>
                                         </variation>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfc-nD-nJC">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="Light">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="202" y="112" width="80" height="30"/>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dl8-AV-t3n">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="Dark">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="202" y="150" width="80" height="30"/>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PH-Wy-uY1">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="Dusk">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="114" y="150" width="80" height="30"/>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeG-Mx-bmL">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="Midnight">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="114" y="112" width="80" height="30"/>
+                                        </variation>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Style" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0m-Cn-PUX">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="83" width="39" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eX6-KQ-5fm">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="114" y="83" width="53" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9j-qi-h5e">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="289" y="83" width="33" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 of 40 pages completed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDa-Jz-4pE">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="44" width="384" height="27"/>
+                                        </variation>
+                                    </label>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="UlD-ea-5aq">
+                                        <rect key="frame" x="-47" y="-14" width="94" height="29"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="290" y="113" width="94" height="29"/>
+                                        </variation>
+                                    </stepper>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzj-b7-mrM">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="Serif">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="112" width="98" height="30"/>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNR-xB-RwI">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="Sans-serif">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="150" width="98" height="30"/>
+                                        </variation>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="117" id="Hgb-AW-Qcf"/>
+                                    <constraint firstAttribute="height" constant="117" id="Hgb-AW-Qcf">
+                                        <variation key="widthClass=compact" constant="188"/>
+                                    </constraint>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="subviews">
-                                        <exclude reference="58t-cP-dn3"/>
+                                        <exclude reference="aqo-DU-W22"/>
+                                        <exclude reference="Qfc-nD-nJC"/>
+                                        <exclude reference="Dl8-AV-t3n"/>
+                                        <exclude reference="0PH-Wy-uY1"/>
+                                        <exclude reference="DeG-Mx-bmL"/>
+                                        <exclude reference="a0m-Cn-PUX"/>
+                                        <exclude reference="eX6-KQ-5fm"/>
+                                        <exclude reference="W9j-qi-h5e"/>
+                                        <exclude reference="LDa-Jz-4pE"/>
+                                        <exclude reference="UlD-ea-5aq"/>
+                                        <exclude reference="Wzj-b7-mrM"/>
+                                        <exclude reference="RNR-xB-RwI"/>
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="Hgb-AW-Qcf"/>
@@ -124,7 +214,18 @@
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="subviews">
-                                        <include reference="58t-cP-dn3"/>
+                                        <include reference="aqo-DU-W22"/>
+                                        <include reference="Qfc-nD-nJC"/>
+                                        <include reference="Dl8-AV-t3n"/>
+                                        <include reference="0PH-Wy-uY1"/>
+                                        <include reference="DeG-Mx-bmL"/>
+                                        <include reference="a0m-Cn-PUX"/>
+                                        <include reference="eX6-KQ-5fm"/>
+                                        <include reference="W9j-qi-h5e"/>
+                                        <include reference="LDa-Jz-4pE"/>
+                                        <include reference="UlD-ea-5aq"/>
+                                        <include reference="Wzj-b7-mrM"/>
+                                        <include reference="RNR-xB-RwI"/>
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="Hgb-AW-Qcf"/>
@@ -141,6 +242,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fGl-uE-Pha" secondAttribute="bottom" id="XmG-UH-P4E">
                                 <variation key="widthClass=compact" constant="-49"/>
                             </constraint>
+                            <constraint firstItem="79w-M6-HbZ" firstAttribute="top" secondItem="fGl-uE-Pha" secondAttribute="bottom" constant="-237" id="Z2v-ih-RgY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fGl-uE-Pha" secondAttribute="trailing" constant="-16" id="diZ-z0-VU1"/>
                             <constraint firstItem="fGl-uE-Pha" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="eft-zt-xup"/>
                             <constraint firstItem="79w-M6-HbZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="idl-sZ-vjk"/>
@@ -155,6 +257,7 @@
                                 <exclude reference="diZ-z0-VU1"/>
                                 <exclude reference="eft-zt-xup"/>
                                 <exclude reference="Ss0-U9-j4s"/>
+                                <exclude reference="Z2v-ih-RgY"/>
                                 <exclude reference="idl-sZ-vjk"/>
                                 <exclude reference="u0k-Ce-zJd"/>
                                 <exclude reference="XmG-UH-P4E"/>
@@ -169,8 +272,9 @@
                                 <include reference="diZ-z0-VU1"/>
                                 <include reference="eft-zt-xup"/>
                                 <include reference="Ss0-U9-j4s"/>
+                                <include reference="Z2v-ih-RgY"/>
                                 <include reference="idl-sZ-vjk"/>
-                                <include reference="u0k-Ce-zJd"/>
+                                <exclude reference="u0k-Ce-zJd"/>
                                 <include reference="XmG-UH-P4E"/>
                             </mask>
                         </variation>
@@ -205,7 +309,6 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="s4I-He-2f4"/>
                         <segue destination="G3d-eC-xCl" kind="relationship" relationship="viewControllers" id="G7R-FQ-X0k"/>
-                        <segue destination="JnA-U4-no0" kind="relationship" relationship="viewControllers" id="WT5-LB-S8R"/>
                         <segue destination="wHa-vf-q8Y" kind="relationship" relationship="viewControllers" id="ONO-d5-zJX"/>
                         <segue destination="x3Y-Ba-uw6" kind="relationship" relationship="viewControllers" id="Eth-e3-erx"/>
                     </connections>
@@ -216,7 +319,6 @@
     </scenes>
     <resources>
         <image name="about2.png" width="30" height="30"/>
-        <image name="gallery1.png" width="30" height="30"/>
         <image name="library1.png" width="30" height="30"/>
         <image name="notification1.png" width="30" height="30"/>
         <image name="reader3.png" width="30" height="30"/>
