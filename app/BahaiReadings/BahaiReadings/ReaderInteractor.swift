@@ -51,6 +51,10 @@ class ReaderInteractor: NSObject {
   func getCurrentTheme() -> String {
     return DataManager.getCurrentThemeKey()
   }
+  func getCurrentOrientation()->String {
+    return DataManager.getCurrentOrientationKey()
+  }
+  
   
   func selectStyle(val:String) {
     DataManager.setCurrentKey(val, key: "family")
@@ -62,5 +66,9 @@ class ReaderInteractor: NSObject {
   
   func selectSize(val:String) {
     DataManager.setCurrentKey(val, key: "size")
+  }
+  
+  func selectOrientation(val:String) {
+    DataManager.setCurrentKey(val, key: "orientation")
   }
 }

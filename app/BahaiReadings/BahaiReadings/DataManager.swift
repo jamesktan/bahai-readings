@@ -43,6 +43,9 @@ class DataManager: NSObject {
 
     return css
   }
+  class func currentOrientation() -> String {
+    return DataManager.getCurrentOrientationKey()
+  }
   
   // MARK: Get Keys for Reader
   
@@ -71,8 +74,18 @@ class DataManager: NSObject {
     if val != nil {
       return val as! String
     } else {
-      setCurrentKey("font_size2", key: "size")
-      return "font_size2"
+      setCurrentKey("font_size0", key: "size")
+      return "font_size0"
+    }
+  }
+  
+  class func getCurrentOrientationKey()->String {
+    var val : AnyObject? = NSUserDefaults.standardUserDefaults().objectForKey("orientation")
+    if val != nil {
+      return val as! String
+    } else {
+      setCurrentKey("vertical", key: "orientation")
+      return "vertical"
     }
   }
   

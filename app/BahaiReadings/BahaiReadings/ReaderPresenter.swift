@@ -35,12 +35,14 @@ class ReaderPresenter: NSObject {
   func getStyle() -> String {
     return interactor!.getCurrentStyle()
   }
-  
   func getTheme() -> String {
     return interactor!.getCurrentTheme()
   }
   func getSize() -> String {
     return interactor!.getCurrentSize()
+  }
+  func getOrientation()->String{
+    return interactor!.getCurrentOrientation()
   }
   
   func selectStyle(key:String) {
@@ -53,5 +55,8 @@ class ReaderPresenter: NSObject {
   
   func selectSize(key:String) {
     interactor!.selectSize(key)
+  }
+  func selectOrientation(key:String) {
+    interactor!.selectOrientation(key)
   }
 }

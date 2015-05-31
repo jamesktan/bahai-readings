@@ -11,6 +11,7 @@ import UIKit
 class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   
   @IBOutlet weak var readerWebView: UIWebView!
+  
   @IBOutlet weak var settingsView: UIView!
   @IBOutlet weak var readerSettingsView: UIView!
 
@@ -21,6 +22,12 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   @IBOutlet weak var buttonDark: UIButton!
   @IBOutlet weak var buttonSunset: UIButton!
   @IBOutlet weak var buttonMidnight: UIButton!
+  
+  @IBOutlet weak var buttonOrientation: UIButton!
+  
+  @IBOutlet weak var sizeSlider: UISlider!
+  
+  var shadowView : UIView = UIView()
   
   var themeButtons : NSArray = []
   var styleButtons : NSArray = []
@@ -42,6 +49,11 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     super.viewDidLoad()
 
     // Do any additional setup after loading the view.
+    
+    shadowView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+    shadowView.backgroundColor = UIColor.blackColor()
+    shadowView.alpha = 0.5
+    
     themeButtons = [buttonLight, buttonDark, buttonSunset, buttonMidnight]
     styleButtons = [buttonSerif, buttonSans]
     
@@ -51,9 +63,17 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     tap.delegate = self
     self.readerWebView.addGestureRecognizer(tap)
     
+    var tap2 = UITapGestureRecognizer(target: self, action: "showOrHideSettings")
+    tap2.numberOfTapsRequired = 1
+    tap2.numberOfTouchesRequired = 1
+    tap2.delegate = self
+    self.shadowView.addGestureRecognizer(tap2)
+    
+    loadOrientation()
     loadWebDataForHandle(frame.currentBook)
     highlightStyleButton()
     highlightThemeButton()
+    highlightOrientationButton()
   }
 
   override func didReceiveMemoryWarning() {
@@ -94,15 +114,26 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     UIView.animateWithDuration(0.3, animations: {
       if self.settingsView.alpha == 0 {
         self.settingsView.alpha = 1
+        self.view.insertSubview(self.shadowView, aboveSubview: self.readerWebView)
       } else {
         self.settingsView.alpha = 0
         self.readerSettingsView.alpha = 0
+        self.shadowView.removeFromSuperview()
       }
     })
 
   }
   
   @IBAction func sliderDidMove(sender: UISlider) {
+    sender.value = round(sender.value);
+  }
+  
+  @IBAction func sliderDidEnd(sender: UISlider) {
+    var index : Int = Int(sender.value)
+    var sizes : NSArray = frame.presenter!.arrayOfReaderSizes()
+    var selected : String = sizes.objectAtIndex(index) as! String
+    frame.presenter!.selectSize(selected)
+    loadWebDataForHandle(frame.currentBook)
   }
   
   @IBAction func changeFontStyle(sender: UIButton) {
@@ -121,18 +152,16 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     highlightThemeButton()
   }
   
-  @IBAction func changeReaderOrientation(sender: UIButton) {
-    if readerWebView.paginationMode == UIWebPaginationMode.LeftToRight {
-      sender.selected = false
+  func loadOrientation() {
+    var orientation = frame.presenter!.getOrientation()
+    if orientation == "vertical" {
       self.readerWebView.paginationMode = UIWebPaginationMode.TopToBottom;
       self.readerWebView.paginationBreakingMode = UIWebPaginationBreakingMode.Page;
       self.readerWebView.gapBetweenPages = 0;
       self.readerWebView.scrollView.pagingEnabled = true;
       self.readerWebView.scrollView.bounces = true;
       self.readerWebView.scrollView.alwaysBounceVertical = false;
-
     } else {
-      sender.selected = true
       self.readerWebView.paginationMode = UIWebPaginationMode.LeftToRight;
       self.readerWebView.paginationBreakingMode = UIWebPaginationBreakingMode.Page;
       self.readerWebView.gapBetweenPages = 0;
@@ -141,7 +170,15 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
       self.readerWebView.scrollView.alwaysBounceVertical = false;
 
     }
-
+  }
+  @IBAction func changeReaderOrientation(sender: UIButton) {
+    if frame.presenter!.getOrientation() == "horizontal" {
+      frame.presenter?.selectOrientation("vertical")
+    } else {
+      frame.presenter?.selectOrientation("horizontal")
+    }
+    loadOrientation()
+    highlightOrientationButton()
   }
   
   func highlightStyleButton() {
@@ -155,7 +192,6 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     var index = styleList.indexOfObject(currentStyle)
     var button : UIButton = styleButtons.objectAtIndex(index) as! UIButton
     button.selected = true
-
   }
   
   func highlightThemeButton() {
@@ -170,6 +206,21 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     button.selected = true
   }
   
+  func updateSlider() {
+    var currentSlider : String = frame.presenter!.getSize()
+    var sliderList : NSArray = frame.presenter!.arrayOfReaderSizes()
+    var index = sliderList.indexOfObject(currentSlider)
+    sizeSlider.value = Float(index)
+  }
+  
+  func highlightOrientationButton() {
+    var orientation : String = frame.presenter!.getOrientation()
+    if orientation == "vertical" {
+      buttonOrientation.selected = false
+    } else {
+      buttonOrientation.selected = true
+    }
+  }
   override func prefersStatusBarHidden() -> Bool {
     return true
   }

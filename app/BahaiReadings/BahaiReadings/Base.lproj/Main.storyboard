@@ -989,6 +989,8 @@
                                             <rect key="frame" x="18" y="83" width="232" height="31"/>
                                         </variation>
                                         <connections>
+                                            <action selector="sliderDidEnd:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="TC0-uA-EQx"/>
+                                            <action selector="sliderDidEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9g-LK-Uw1"/>
                                             <action selector="sliderDidMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="MpX-3L-WSh"/>
                                         </connections>
                                     </slider>
@@ -1211,12 +1213,14 @@
                         <outlet property="buttonDark" destination="tqk-yq-k2O" id="9Ix-tK-lb1"/>
                         <outlet property="buttonLight" destination="kvZ-iA-vse" id="31s-iw-9tX"/>
                         <outlet property="buttonMidnight" destination="ba7-C8-1hy" id="yLx-Rj-TQi"/>
+                        <outlet property="buttonOrientation" destination="TWM-jE-35t" id="A6x-g6-e0H"/>
                         <outlet property="buttonSans" destination="hUC-Rg-Lmg" id="gnc-G3-rKh"/>
                         <outlet property="buttonSerif" destination="rYm-mZ-5ef" id="CFq-Wi-PPo"/>
                         <outlet property="buttonSunset" destination="KaC-ts-wpY" id="zYv-Ko-7vD"/>
                         <outlet property="readerSettingsView" destination="XkW-li-KMp" id="qYi-yN-dOD"/>
                         <outlet property="readerWebView" destination="fGl-uE-Pha" id="fUh-TV-V9u"/>
                         <outlet property="settingsView" destination="79w-M6-HbZ" id="cBb-cq-Wa7"/>
+                        <outlet property="sizeSlider" destination="lG1-ao-1bn" id="lTF-HD-tlc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
