@@ -101,6 +101,26 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   }
   
   @IBAction func changeReaderOrientation(sender: UIButton) {
+    if readerWebView.paginationMode == UIWebPaginationMode.LeftToRight {
+      sender.selected = false
+      self.readerWebView.paginationMode = UIWebPaginationMode.TopToBottom;
+      self.readerWebView.paginationBreakingMode = UIWebPaginationBreakingMode.Page;
+      self.readerWebView.gapBetweenPages = 0;
+      self.readerWebView.scrollView.pagingEnabled = true;
+      self.readerWebView.scrollView.bounces = true;
+      self.readerWebView.scrollView.alwaysBounceVertical = false;
+
+    } else {
+      sender.selected = true
+      self.readerWebView.paginationMode = UIWebPaginationMode.LeftToRight;
+      self.readerWebView.paginationBreakingMode = UIWebPaginationBreakingMode.Page;
+      self.readerWebView.gapBetweenPages = 0;
+      self.readerWebView.scrollView.pagingEnabled = true;
+      self.readerWebView.scrollView.bounces = true;
+      self.readerWebView.scrollView.alwaysBounceVertical = false;
+
+    }
+
   }
   
   
