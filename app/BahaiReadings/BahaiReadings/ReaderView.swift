@@ -14,6 +14,18 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   @IBOutlet weak var settingsView: UIView!
   @IBOutlet weak var readerSettingsView: UIView!
 
+  class var shared : ReaderView {
+    struct Static {
+      static let instance : ReaderView = ReaderView()
+    }
+    return Static.instance
+  }
+  
+  struct frame {
+    static var presenter : ReaderPresenter? = nil
+  }
+
+  
   override func viewDidLoad() {
       super.viewDidLoad()
 
@@ -32,32 +44,13 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   }
 
   override func didReceiveMemoryWarning() {
-      super.didReceiveMemoryWarning()
-      // Dispose of any resources that can be recreated.
-  }
-    
-
-  override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    super.didReceiveMemoryWarning()
   }
   
   func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
-//    if([otherGestureRecognizer isKindOfClass:[UITapGestureRecognizer class]]){
-//      
-//      UITapGestureRecognizer *tapRecognizer = (UITapGestureRecognizer*)otherGestureRecognizer;
-//      if(tapRecognizer.numberOfTapsRequired == 2 && tapRecognizer.numberOfTouchesRequired == 1){
-//        
-//        //this disalbes and cancels all other singleTouchDoubleTap recognizers
-//        // default is YES. disabled gesture recognizers will not receive touches. when changed to NO the gesture recognizer will be cancelled if it's currently recognizing a gesture
-//        otherGestureRecognizer.enabled = NO;
-//        
-//      }
-//      
-//    }
-
     if otherGestureRecognizer.isKindOfClass(UITapGestureRecognizer) {
       var tapRecognizer : UITapGestureRecognizer = otherGestureRecognizer as! UITapGestureRecognizer
       if tapRecognizer.numberOfTapsRequired == 1 && tapRecognizer.numberOfTouchesRequired == 1 {
-//        showOrHideSettings()
         otherGestureRecognizer.enabled = false
       }
     }
@@ -73,6 +66,8 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+  
+  
   @IBAction func showOrHideReaderSettings(sender: AnyObject) {
     UIView.animateWithDuration(0.3, animations: {
       if self.readerSettingsView.alpha == 0 {
@@ -95,7 +90,24 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     })
 
   }
+  
+  @IBAction func sliderDidMove(sender: UISlider) {
+  }
+  
+  @IBAction func changeFontStyle(sender: UIButton) {
+  }
+  
+  @IBAction func changeFontTheme(sender: UIButton) {
+  }
+  
+  @IBAction func changeReaderOrientation(sender: UIButton) {
+  }
+  
+  
+  
   override func prefersStatusBarHidden() -> Bool {
     return true
   }
+  
+  
 }

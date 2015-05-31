@@ -230,6 +230,15 @@
                                             <rect key="frame" x="20" y="151" width="110" height="21"/>
                                         </variation>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direction" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5x-qK-Pub">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="20" y="269" width="110" height="21"/>
+                                        </variation>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hp-xc-rXY">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
@@ -253,7 +262,23 @@
                                         <variation key="widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="18" y="83" width="232" height="31"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="sliderDidMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="MpX-3L-WSh"/>
+                                        </connections>
                                     </slider>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYm-mZ-5ef">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Serif">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="20" y="189" width="32" height="30"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyi-Mn-RpQ"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvZ-iA-vse">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
@@ -263,6 +288,9 @@
                                         <variation key="widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="138" y="189" width="35" height="30"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rac-Rt-705"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqk-yq-k2O">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -273,6 +301,9 @@
                                         <variation key="widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="138" y="227" width="32" height="30"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4Z-De-jQO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaC-ts-wpY">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -283,6 +314,9 @@
                                         <variation key="widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="138" y="265" width="56" height="30"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zel-VS-j8c"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba7-C8-1hy">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -293,16 +327,9 @@
                                         <variation key="widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="138" y="303" width="60" height="30"/>
                                         </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYm-mZ-5ef">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Serif">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="189" width="32" height="30"/>
-                                        </variation>
+                                        <connections>
+                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gmg-PW-Wro"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUC-Rg-Lmg">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -313,6 +340,23 @@
                                         <variation key="widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="20" y="227" width="70" height="30"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ub4-0H-vuX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWM-jE-35t">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Vertical">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="Horizontal"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="20" y="303" width="110" height="30"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="changeReaderOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uTH-iq-VTd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -324,15 +368,17 @@
                                     <mask key="subviews">
                                         <exclude reference="g0h-vb-QYf"/>
                                         <exclude reference="3hL-2d-J0z"/>
+                                        <exclude reference="L5x-qK-Pub"/>
                                         <exclude reference="7hp-xc-rXY"/>
                                         <exclude reference="J99-ZX-7wz"/>
                                         <exclude reference="lG1-ao-1bn"/>
+                                        <exclude reference="rYm-mZ-5ef"/>
                                         <exclude reference="kvZ-iA-vse"/>
                                         <exclude reference="tqk-yq-k2O"/>
                                         <exclude reference="KaC-ts-wpY"/>
                                         <exclude reference="ba7-C8-1hy"/>
-                                        <exclude reference="rYm-mZ-5ef"/>
                                         <exclude reference="hUC-Rg-Lmg"/>
+                                        <exclude reference="TWM-jE-35t"/>
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="Phg-wQ-mhB"/>
@@ -343,15 +389,17 @@
                                     <mask key="subviews">
                                         <include reference="g0h-vb-QYf"/>
                                         <include reference="3hL-2d-J0z"/>
+                                        <include reference="L5x-qK-Pub"/>
                                         <include reference="7hp-xc-rXY"/>
                                         <include reference="J99-ZX-7wz"/>
                                         <include reference="lG1-ao-1bn"/>
+                                        <include reference="rYm-mZ-5ef"/>
                                         <include reference="kvZ-iA-vse"/>
                                         <include reference="tqk-yq-k2O"/>
                                         <include reference="KaC-ts-wpY"/>
                                         <include reference="ba7-C8-1hy"/>
-                                        <include reference="rYm-mZ-5ef"/>
                                         <include reference="hUC-Rg-Lmg"/>
+                                        <include reference="TWM-jE-35t"/>
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="Phg-wQ-mhB"/>

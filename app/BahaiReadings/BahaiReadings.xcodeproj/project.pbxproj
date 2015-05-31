@@ -36,6 +36,7 @@
 		54338DFD1B1AF552009EAE17 /* about1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338DFC1B1AF552009EAE17 /* about1.png */; };
 		54338DFF1B1AF6B6009EAE17 /* about2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338DFE1B1AF6B6009EAE17 /* about2.png */; };
 		54338E011B1B18DE009EAE17 /* settings20.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E001B1B18DE009EAE17 /* settings20.png */; };
+		54338E041B1B3D81009EAE17 /* ReaderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E031B1B3D81009EAE17 /* ReaderPresenter.swift */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -85,6 +86,7 @@
 		54338DFC1B1AF552009EAE17 /* about1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about1.png; sourceTree = "<group>"; };
 		54338DFE1B1AF6B6009EAE17 /* about2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about2.png; sourceTree = "<group>"; };
 		54338E001B1B18DE009EAE17 /* settings20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings20.png; sourceTree = "<group>"; };
+		54338E031B1B3D81009EAE17 /* ReaderPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderPresenter.swift; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,33 +118,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54B1DD041B192CE900BF74E4 = {
+		54338E021B1B3D68009EAE17 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				54B1DD0F1B192CEA00BF74E4 /* BahaiReadings */,
-				54B1DD251B192CEA00BF74E4 /* BahaiReadingsTests */,
-				54B1DD0E1B192CEA00BF74E4 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		54B1DD0E1B192CEA00BF74E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */,
-				54B1DD221B192CEA00BF74E4 /* BahaiReadingsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		54B1DD0F1B192CEA00BF74E4 /* BahaiReadings */ = {
-			isa = PBXGroup;
-			children = (
-				54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */,
-				54B1DD141B192CEA00BF74E4 /* ViewController.swift */,
-				54B1DD161B192CEA00BF74E4 /* Main.storyboard */,
-				54B1DD321B1A427800BF74E4 /* ReaderView.swift */,
-				54B1DD191B192CEA00BF74E4 /* Images.xcassets */,
-				54B1DD1B1B192CEA00BF74E4 /* LaunchScreen.xib */,
 				54338DC81B1A4FA7009EAE17 /* world94.png */,
 				54338DC91B1A4FA7009EAE17 /* document161.png */,
 				54338DCA1B1A4FA7009EAE17 /* email83.png */,
@@ -172,6 +150,39 @@
 				54338DDA1B1AED4F009EAE17 /* bahaireadings160.png */,
 				54338DE61B1AED71009EAE17 /* bahaireadings180.png */,
 				54338DDB1B1AED4F009EAE17 /* bahaireadings700.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		54B1DD041B192CE900BF74E4 = {
+			isa = PBXGroup;
+			children = (
+				54B1DD0F1B192CEA00BF74E4 /* BahaiReadings */,
+				54B1DD251B192CEA00BF74E4 /* BahaiReadingsTests */,
+				54B1DD0E1B192CEA00BF74E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54B1DD0E1B192CEA00BF74E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */,
+				54B1DD221B192CEA00BF74E4 /* BahaiReadingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54B1DD0F1B192CEA00BF74E4 /* BahaiReadings */ = {
+			isa = PBXGroup;
+			children = (
+				54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */,
+				54B1DD141B192CEA00BF74E4 /* ViewController.swift */,
+				54B1DD161B192CEA00BF74E4 /* Main.storyboard */,
+				54B1DD321B1A427800BF74E4 /* ReaderView.swift */,
+				54338E031B1B3D81009EAE17 /* ReaderPresenter.swift */,
+				54B1DD191B192CEA00BF74E4 /* Images.xcassets */,
+				54B1DD1B1B192CEA00BF74E4 /* LaunchScreen.xib */,
+				54338E021B1B3D68009EAE17 /* Images */,
 				54B1DD101B192CEA00BF74E4 /* Supporting Files */,
 			);
 			path = BahaiReadings;
@@ -334,6 +345,7 @@
 				54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */,
 				54B1DD331B1A427800BF74E4 /* ReaderView.swift in Sources */,
 				54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */,
+				54338E041B1B3D81009EAE17 /* ReaderPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

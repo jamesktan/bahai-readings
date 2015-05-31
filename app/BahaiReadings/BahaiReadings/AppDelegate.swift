@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    
     // Override point for customization after application launch.
+    var readerView : ReaderView = ReaderView.shared
+    var readerPresent : ReaderPresenter = ReaderPresenter()
+    readerPresent.vc = readerView
+    ReaderView.frame.presenter = readerPresent
+    
+    
     return true
   }
 
