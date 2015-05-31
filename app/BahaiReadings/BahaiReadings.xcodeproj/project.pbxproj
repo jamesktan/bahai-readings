@@ -35,6 +35,7 @@
 		54338DFB1B1AF4C5009EAE17 /* notification1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338DFA1B1AF4C5009EAE17 /* notification1.png */; };
 		54338DFD1B1AF552009EAE17 /* about1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338DFC1B1AF552009EAE17 /* about1.png */; };
 		54338DFF1B1AF6B6009EAE17 /* about2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338DFE1B1AF6B6009EAE17 /* about2.png */; };
+		54338E011B1B18DE009EAE17 /* settings20.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E001B1B18DE009EAE17 /* settings20.png */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -83,6 +84,7 @@
 		54338DFA1B1AF4C5009EAE17 /* notification1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification1.png; sourceTree = "<group>"; };
 		54338DFC1B1AF552009EAE17 /* about1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about1.png; sourceTree = "<group>"; };
 		54338DFE1B1AF6B6009EAE17 /* about2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about2.png; sourceTree = "<group>"; };
+		54338E001B1B18DE009EAE17 /* settings20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings20.png; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				54338DF61B1AF449009EAE17 /* library1.png */,
 				54338DF81B1AF49E009EAE17 /* gallery1.png */,
 				54338DFC1B1AF552009EAE17 /* about1.png */,
+				54338E001B1B18DE009EAE17 /* settings20.png */,
 				54338DFE1B1AF6B6009EAE17 /* about2.png */,
 				54338DFA1B1AF4C5009EAE17 /* notification1.png */,
 				54338DE81B1AEE30009EAE17 /* bahaiReadingsSplash.png */,
@@ -299,6 +302,7 @@
 				54338DF91B1AF49E009EAE17 /* gallery1.png in Resources */,
 				54338DE71B1AED71009EAE17 /* bahaireadings180.png in Resources */,
 				54338DCE1B1A4FA7009EAE17 /* document161.png in Resources */,
+				54338E011B1B18DE009EAE17 /* settings20.png in Resources */,
 				54338DFB1B1AF4C5009EAE17 /* notification1.png in Resources */,
 				54338DE01B1AED4F009EAE17 /* bahaireadings76.png in Resources */,
 				54338DF01B1AF01A009EAE17 /* store2.png in Resources */,
