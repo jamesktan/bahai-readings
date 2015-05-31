@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BahaiReadings/ReaderView.swift"
-            timestampString = "454762815.675869"
+            timestampString = "454771734.653624"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "showOrHideSettings()"
             landmarkType = "5">
          </BreakpointContent>
