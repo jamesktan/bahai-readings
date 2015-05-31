@@ -12,6 +12,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   
   @IBOutlet weak var readerWebView: UIWebView!
   @IBOutlet weak var settingsView: UIView!
+  @IBOutlet weak var readerSettingsView: UIView!
 
   override func viewDidLoad() {
       super.viewDidLoad()
@@ -72,6 +73,16 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+  @IBAction func showOrHideReaderSettings(sender: AnyObject) {
+    UIView.animateWithDuration(0.3, animations: {
+      if self.readerSettingsView.alpha == 0 {
+        self.readerSettingsView.alpha = 1
+      } else {
+        self.readerSettingsView.alpha = 0
+      }
+    })
+
+  }
 
   func showOrHideSettings() {
     UIView.animateWithDuration(0.3, animations: {
