@@ -90,6 +90,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
         self.settingsView.alpha = 1
       } else {
         self.settingsView.alpha = 0
+        self.readerSettingsView.alpha = 0
       }
     })
 
