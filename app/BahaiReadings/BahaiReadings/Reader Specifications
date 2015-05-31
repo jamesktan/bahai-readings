@@ -32,3 +32,33 @@ Font Size
 body { font-size: %@; line-height:%@ }
 h1 {font-size: %@; line-height:%@; }
 h2 {font-size: %@; line-height:%@; }
+
+#0
+body { font-size: 13px; line-height:18px }
+h1 {font-size: 21px; line-height:26px; }
+h2 {font-size: 17px; line-height:22px; }
+
+#1
+body { font-size: 15px; line-height:20px }
+h1 {font-size: 23px; line-height:28px; }
+h2 {font-size: 19px; line-height:24px; }
+
+#2
+body { font-size: 17px; line-height:21px }
+h1 {font-size: 25px; line-height:29px; }
+h2 {font-size: 21px; line-height:25px; }
+
+#3
+body { font-size: 21px; line-height:26px }
+h1 {font-size: 29px; line-height:34px; }
+h2 {font-size: 25px; line-height:30px; }
+
+#4
+body { font-size: 25px; line-height:30px }
+h1 {font-size: 33px; line-height:38px; }
+h2 {font-size: 29px; line-height:34px; }
+
+#5
+body { font-size: 29px; line-height:34px }
+h1 {font-size: 37px; line-height:42px; }
+h2 {font-size: 33px; line-height:38px; }

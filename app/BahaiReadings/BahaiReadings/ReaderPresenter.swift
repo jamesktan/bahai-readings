@@ -17,4 +17,41 @@ class ReaderPresenter: NSObject {
     return interactor!.arrayOfReaderThemes()
   }
   
+  func arrayOfReaderStyles() -> NSArray {
+    return interactor!.arrayOfReaderStyles()
+  }
+  
+  func arrayOfReaderSizes() -> NSArray {
+    return interactor!.arrayOfReaderSizes()
+  }
+  
+  func htmlForBook(bookHandle:String) -> String {
+    var contentsNoStyle : String = interactor!.htmlForBook(bookHandle)
+    var styleTag : String = interactor!.htmlForCurrentStyle()
+    var contents : String = contentsNoStyle.stringByReplacingOccurrencesOfString("<style></style>", withString: styleTag, options: nil, range: nil)
+    return contents
+  }
+  
+  func getStyle() -> String {
+    return interactor!.getCurrentStyle()
+  }
+  
+  func getTheme() -> String {
+    return interactor!.getCurrentTheme()
+  }
+  func getSize() -> String {
+    return interactor!.getCurrentSize()
+  }
+  
+  func selectStyle(key:String) {
+    interactor!.selectStyle(key)
+  }
+  
+  func selectTheme(key:String) {
+    interactor!.selectTheme(key)
+  }
+  
+  func selectSize(key:String) {
+    interactor!.selectSize(key)
+  }
 }

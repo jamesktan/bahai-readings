@@ -15,4 +15,52 @@ class ReaderInteractor: NSObject {
   func arrayOfReaderThemes() -> NSArray {
     return DataManager.arrayOfReaderThemes()
   }
+  
+  func arrayOfReaderStyles() -> NSArray {
+    return DataManager.arrayOfFontFamily()
+  }
+  
+  func arrayOfReaderSizes() -> NSArray {
+    return DataManager.arrayOfSizes()
+  }
+  
+  func htmlForBook(book:String)->String {
+    var urlString = "https://s3-us-west-2.amazonaws.com/bahai-reading/Epistle+To+The+Son+of+the+Wolf.html"
+    var url = NSURL(string: urlString)
+    var contents = NSString(contentsOfURL: url!, encoding: NSUTF8StringEncoding, error: nil)
+    return contents as! String
+  }
+  
+  func htmlForCurrentStyle() -> String {
+    var format = "<style>%@ %@ %@ </style>"
+    var style = DataManager.currentStyle()
+    var size = DataManager.currentSize()
+    var theme = DataManager.currentTheme()
+    var styleString = NSString(format: format, style, size, theme)
+    return styleString as! String
+  }
+  
+  func getCurrentSize() -> String {
+    return DataManager.getCurrentSizeKey()
+  }
+  
+  func getCurrentStyle() -> String {
+    return DataManager.getCurrentStyleKey()
+  }
+  
+  func getCurrentTheme() -> String {
+    return DataManager.getCurrentThemeKey()
+  }
+  
+  func selectStyle(val:String) {
+    DataManager.setCurrentKey(val, key: "family")
+  }
+  
+  func selectTheme(val:String) {
+    DataManager.setCurrentKey(val, key: "theme")
+  }
+  
+  func selectSize(val:String) {
+    DataManager.setCurrentKey(val, key: "size")
+  }
 }

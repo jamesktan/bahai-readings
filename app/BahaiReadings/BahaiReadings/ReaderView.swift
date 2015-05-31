@@ -14,6 +14,17 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   @IBOutlet weak var settingsView: UIView!
   @IBOutlet weak var readerSettingsView: UIView!
 
+  @IBOutlet weak var buttonSerif: UIButton!
+  @IBOutlet weak var buttonSans: UIButton!
+  
+  @IBOutlet weak var buttonLight: UIButton!
+  @IBOutlet weak var buttonDark: UIButton!
+  @IBOutlet weak var buttonSunset: UIButton!
+  @IBOutlet weak var buttonMidnight: UIButton!
+  
+  var themeButtons : NSArray = []
+  var styleButtons : NSArray = []
+  
   class var shared : ReaderView {
     struct Static {
       static let instance : ReaderView = ReaderView()
@@ -23,6 +34,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   
   struct frame {
     static var presenter : ReaderPresenter? = nil
+    static var currentBook : String = "Epistle+To+The+Son+of+the+Wolf"
   }
 
   
@@ -30,6 +42,8 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     super.viewDidLoad()
 
     // Do any additional setup after loading the view.
+    themeButtons = [buttonLight, buttonDark, buttonSunset, buttonMidnight]
+    styleButtons = [buttonSerif, buttonSans]
     
     var tap = UITapGestureRecognizer(target: self, action: "showOrHideSettings")
     tap.numberOfTapsRequired = 1
@@ -37,8 +51,9 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     tap.delegate = self
     self.readerWebView.addGestureRecognizer(tap)
     
-    loadWebDataForHandle()
-    
+    loadWebDataForHandle(frame.currentBook)
+    highlightStyleButton()
+    highlightThemeButton()
   }
 
   override func didReceiveMemoryWarning() {
@@ -55,24 +70,14 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     
     return true
   }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
   
-  
-  func loadWebDataForHandle() {
-    var urlString = "https://s3-us-west-2.amazonaws.com/bahai-reading/Epistle+To+The+Son+of+the+Wolf.html"
-    var url = NSURL(string: urlString)
-    var contents = NSString(contentsOfURL: url!, encoding: NSUTF8StringEncoding, error: nil)
+  func loadWebDataForHandle(currentBook : String) {
+    
+    // Get the HTML Content
+    var contents = frame.presenter!.htmlForBook(currentBook)
     readerWebView.loadHTMLString(contents as String!, baseURL: nil)
+    
   }
-  
   
   @IBAction func showOrHideReaderSettings(sender: AnyObject) {
     UIView.animateWithDuration(0.3, animations: {
@@ -101,12 +106,19 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
   }
   
   @IBAction func changeFontStyle(sender: UIButton) {
+    var styles : NSArray = frame.presenter!.arrayOfReaderStyles()
+    var selected : String = styles.objectAtIndex(sender.tag) as! String
+    frame.presenter!.selectStyle(selected)
+    loadWebDataForHandle(frame.currentBook)
+    highlightStyleButton()
   }
   
   @IBAction func changeFontTheme(sender: UIButton) {
     var themes : NSArray = frame.presenter!.arrayOfReaderThemes()
     var selected : String = themes.objectAtIndex(sender.tag) as! String
-    
+    frame.presenter!.selectTheme(selected)
+    loadWebDataForHandle(frame.currentBook)
+    highlightThemeButton()
   }
   
   @IBAction func changeReaderOrientation(sender: UIButton) {
@@ -132,7 +144,31 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
 
   }
   
+  func highlightStyleButton() {
+    // Set the Selected Buttons
+    for button in styleButtons {
+      var ub : UIButton = button as! UIButton
+      ub.selected = false
+    }
+    var currentStyle : String = frame.presenter!.getStyle()
+    var styleList : NSArray = frame.presenter!.arrayOfReaderStyles()
+    var index = styleList.indexOfObject(currentStyle)
+    var button : UIButton = styleButtons.objectAtIndex(index) as! UIButton
+    button.selected = true
+
+  }
   
+  func highlightThemeButton() {
+    for button in themeButtons {
+      var ub : UIButton = button as! UIButton
+      ub.selected = false
+    }
+    var currentTheme : String = frame.presenter!.getTheme()
+    var themeList : NSArray = frame.presenter!.arrayOfReaderThemes()
+    var index = themeList.indexOfObject(currentTheme)
+    var button : UIButton = themeButtons.objectAtIndex(index) as! UIButton
+    button.selected = true
+  }
   
   override func prefersStatusBarHidden() -> Bool {
     return true
