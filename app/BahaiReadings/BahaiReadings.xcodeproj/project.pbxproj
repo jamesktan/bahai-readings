@@ -42,6 +42,24 @@
 		54338E0C1B1B6145009EAE17 /* The Most Holy Tablet.html in Resources */ = {isa = PBXBuildFile; fileRef = 54338E071B1B6145009EAE17 /* The Most Holy Tablet.html */; };
 		54338E0D1B1B6145009EAE17 /* The Tablet of Carmel.html in Resources */ = {isa = PBXBuildFile; fileRef = 54338E081B1B6145009EAE17 /* The Tablet of Carmel.html */; };
 		54338E0E1B1B6145009EAE17 /* The Tabernacle of Unity.html in Resources */ = {isa = PBXBuildFile; fileRef = 54338E091B1B6145009EAE17 /* The Tabernacle of Unity.html */; };
+		54338E161B1B736C009EAE17 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E101B1B736C009EAE17 /* Oswald-Bold.ttf */; };
+		54338E171B1B736C009EAE17 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E111B1B736C009EAE17 /* Oswald-Light.ttf */; };
+		54338E181B1B736C009EAE17 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E121B1B736C009EAE17 /* Oswald-Regular.ttf */; };
+		54338E191B1B736C009EAE17 /* Oxygen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E131B1B736C009EAE17 /* Oxygen-Bold.ttf */; };
+		54338E1A1B1B736C009EAE17 /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E141B1B736C009EAE17 /* Oxygen-Light.ttf */; };
+		54338E1B1B1B736C009EAE17 /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E151B1B736C009EAE17 /* Oxygen-Regular.ttf */; };
+		54338E241B1B73E3009EAE17 /* Merriweather-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E1C1B1B73E3009EAE17 /* Merriweather-Black.ttf */; };
+		54338E251B1B73E3009EAE17 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E1D1B1B73E3009EAE17 /* Merriweather-Bold.ttf */; };
+		54338E261B1B73E3009EAE17 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E1E1B1B73E3009EAE17 /* Merriweather-BoldItalic.ttf */; };
+		54338E271B1B73E3009EAE17 /* Merriweather-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E1F1B1B73E3009EAE17 /* Merriweather-HeavyItalic.ttf */; };
+		54338E281B1B73E3009EAE17 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E201B1B73E3009EAE17 /* Merriweather-Italic.ttf */; };
+		54338E291B1B73E3009EAE17 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E211B1B73E3009EAE17 /* Merriweather-Light.ttf */; };
+		54338E2A1B1B73E3009EAE17 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E221B1B73E3009EAE17 /* Merriweather-LightItalic.ttf */; };
+		54338E2B1B1B73E3009EAE17 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E231B1B73E3009EAE17 /* Merriweather-Regular.ttf */; };
+		54338E301B1B73F7009EAE17 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E2C1B1B73F7009EAE17 /* RobotoSlab-Bold.ttf */; };
+		54338E311B1B73F7009EAE17 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E2D1B1B73F7009EAE17 /* RobotoSlab-Light.ttf */; };
+		54338E321B1B73F7009EAE17 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E2E1B1B73F7009EAE17 /* RobotoSlab-Regular.ttf */; };
+		54338E331B1B73F7009EAE17 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54338E2F1B1B73F7009EAE17 /* RobotoSlab-Thin.ttf */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -97,6 +115,24 @@
 		54338E071B1B6145009EAE17 /* The Most Holy Tablet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Most Holy Tablet.html"; sourceTree = "<group>"; };
 		54338E081B1B6145009EAE17 /* The Tablet of Carmel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Tablet of Carmel.html"; sourceTree = "<group>"; };
 		54338E091B1B6145009EAE17 /* The Tabernacle of Unity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Tabernacle of Unity.html"; sourceTree = "<group>"; };
+		54338E101B1B736C009EAE17 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		54338E111B1B736C009EAE17 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		54338E121B1B736C009EAE17 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		54338E131B1B736C009EAE17 /* Oxygen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Bold.ttf"; sourceTree = "<group>"; };
+		54338E141B1B736C009EAE17 /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Light.ttf"; sourceTree = "<group>"; };
+		54338E151B1B736C009EAE17 /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
+		54338E1C1B1B73E3009EAE17 /* Merriweather-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.ttf"; sourceTree = "<group>"; };
+		54338E1D1B1B73E3009EAE17 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		54338E1E1B1B73E3009EAE17 /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		54338E1F1B1B73E3009EAE17 /* Merriweather-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		54338E201B1B73E3009EAE17 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		54338E211B1B73E3009EAE17 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		54338E221B1B73E3009EAE17 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		54338E231B1B73E3009EAE17 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		54338E2C1B1B73F7009EAE17 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		54338E2D1B1B73F7009EAE17 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		54338E2E1B1B73F7009EAE17 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		54338E2F1B1B73F7009EAE17 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +212,31 @@
 			name = "Example HTML";
 			sourceTree = "<group>";
 		};
+		54338E341B1B7402009EAE17 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54338E101B1B736C009EAE17 /* Oswald-Bold.ttf */,
+				54338E111B1B736C009EAE17 /* Oswald-Light.ttf */,
+				54338E121B1B736C009EAE17 /* Oswald-Regular.ttf */,
+				54338E131B1B736C009EAE17 /* Oxygen-Bold.ttf */,
+				54338E141B1B736C009EAE17 /* Oxygen-Light.ttf */,
+				54338E151B1B736C009EAE17 /* Oxygen-Regular.ttf */,
+				54338E1C1B1B73E3009EAE17 /* Merriweather-Black.ttf */,
+				54338E1D1B1B73E3009EAE17 /* Merriweather-Bold.ttf */,
+				54338E1E1B1B73E3009EAE17 /* Merriweather-BoldItalic.ttf */,
+				54338E1F1B1B73E3009EAE17 /* Merriweather-HeavyItalic.ttf */,
+				54338E201B1B73E3009EAE17 /* Merriweather-Italic.ttf */,
+				54338E211B1B73E3009EAE17 /* Merriweather-Light.ttf */,
+				54338E221B1B73E3009EAE17 /* Merriweather-LightItalic.ttf */,
+				54338E231B1B73E3009EAE17 /* Merriweather-Regular.ttf */,
+				54338E2C1B1B73F7009EAE17 /* RobotoSlab-Bold.ttf */,
+				54338E2D1B1B73F7009EAE17 /* RobotoSlab-Light.ttf */,
+				54338E2E1B1B73F7009EAE17 /* RobotoSlab-Regular.ttf */,
+				54338E2F1B1B73F7009EAE17 /* RobotoSlab-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		54B1DD041B192CE900BF74E4 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +265,7 @@
 				54338E031B1B3D81009EAE17 /* ReaderPresenter.swift */,
 				54B1DD191B192CEA00BF74E4 /* Images.xcassets */,
 				54B1DD1B1B192CEA00BF74E4 /* LaunchScreen.xib */,
+				54338E341B1B7402009EAE17 /* Fonts */,
 				54338E021B1B3D68009EAE17 /* Images */,
 				54B1DD101B192CEA00BF74E4 /* Supporting Files */,
 			);
@@ -318,25 +380,35 @@
 			files = (
 				54338E0A1B1B6145009EAE17 /* Glad Tidings.html in Resources */,
 				54338DDC1B1AED4F009EAE17 /* bahaireadings152.png in Resources */,
+				54338E311B1B73F7009EAE17 /* RobotoSlab-Light.ttf in Resources */,
 				54338E0B1B1B6145009EAE17 /* Epistle To The Son of the Wolf.html in Resources */,
 				54338DDE1B1AED4F009EAE17 /* bahaireadings87.png in Resources */,
 				54338DE51B1AED4F009EAE17 /* bahaireadings700.png in Resources */,
+				54338E161B1B736C009EAE17 /* Oswald-Bold.ttf in Resources */,
 				54338DFD1B1AF552009EAE17 /* about1.png in Resources */,
+				54338E1A1B1B736C009EAE17 /* Oxygen-Light.ttf in Resources */,
 				54338DD01B1A4FA7009EAE17 /* copy28.png in Resources */,
 				54338DF71B1AF449009EAE17 /* library1.png in Resources */,
 				54338DEE1B1AF01A009EAE17 /* calendar47.png in Resources */,
+				54338E241B1B73E3009EAE17 /* Merriweather-Black.ttf in Resources */,
+				54338E191B1B736C009EAE17 /* Oxygen-Bold.ttf in Resources */,
 				54338DF31B1AF2A7009EAE17 /* reader2.png in Resources */,
 				54338DF51B1AF2CA009EAE17 /* reader3.png in Resources */,
+				54338E171B1B736C009EAE17 /* Oswald-Light.ttf in Resources */,
 				54338DEF1B1AF01A009EAE17 /* open79.png in Resources */,
 				54338DE31B1AED4F009EAE17 /* bahaireadings29.png in Resources */,
+				54338E181B1B736C009EAE17 /* Oswald-Regular.ttf in Resources */,
 				54338DE11B1AED4F009EAE17 /* bahaireadings58.png in Resources */,
+				54338E2A1B1B73E3009EAE17 /* Merriweather-LightItalic.ttf in Resources */,
 				54338DE21B1AED4F009EAE17 /* bahaireadings40.png in Resources */,
 				54338DE91B1AEE30009EAE17 /* bahaiReadingsSplash.png in Resources */,
 				54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */,
 				54338DE41B1AED4F009EAE17 /* bahaireadings160.png in Resources */,
 				54338E0C1B1B6145009EAE17 /* The Most Holy Tablet.html in Resources */,
 				54338DDF1B1AED4F009EAE17 /* bahaireadings80.png in Resources */,
+				54338E271B1B73E3009EAE17 /* Merriweather-HeavyItalic.ttf in Resources */,
 				54338DF91B1AF49E009EAE17 /* gallery1.png in Resources */,
+				54338E321B1B73F7009EAE17 /* RobotoSlab-Regular.ttf in Resources */,
 				54338DE71B1AED71009EAE17 /* bahaireadings180.png in Resources */,
 				54338E0D1B1B6145009EAE17 /* The Tablet of Carmel.html in Resources */,
 				54338DCE1B1A4FA7009EAE17 /* document161.png in Resources */,
@@ -344,13 +416,21 @@
 				54338DFB1B1AF4C5009EAE17 /* notification1.png in Resources */,
 				54338DE01B1AED4F009EAE17 /* bahaireadings76.png in Resources */,
 				54338DF01B1AF01A009EAE17 /* store2.png in Resources */,
+				54338E301B1B73F7009EAE17 /* RobotoSlab-Bold.ttf in Resources */,
 				54B1DD1D1B192CEA00BF74E4 /* LaunchScreen.xib in Resources */,
 				54338DF11B1AF01A009EAE17 /* book82.png in Resources */,
+				54338E331B1B73F7009EAE17 /* RobotoSlab-Thin.ttf in Resources */,
+				54338E281B1B73E3009EAE17 /* Merriweather-Italic.ttf in Resources */,
 				54B1DD1A1B192CEA00BF74E4 /* Images.xcassets in Resources */,
+				54338E1B1B1B736C009EAE17 /* Oxygen-Regular.ttf in Resources */,
 				54338DDD1B1AED4F009EAE17 /* bahaireadings120.png in Resources */,
 				54338DD11B1A4FA7009EAE17 /* grids.png in Resources */,
+				54338E2B1B1B73E3009EAE17 /* Merriweather-Regular.ttf in Resources */,
 				54338DCD1B1A4FA7009EAE17 /* world94.png in Resources */,
+				54338E291B1B73E3009EAE17 /* Merriweather-Light.ttf in Resources */,
 				54338E0E1B1B6145009EAE17 /* The Tabernacle of Unity.html in Resources */,
+				54338E261B1B73E3009EAE17 /* Merriweather-BoldItalic.ttf in Resources */,
+				54338E251B1B73E3009EAE17 /* Merriweather-Bold.ttf in Resources */,
 				54338DCF1B1A4FA7009EAE17 /* email83.png in Resources */,
 				54338DFF1B1AF6B6009EAE17 /* about2.png in Resources */,
 			);
