@@ -64,12 +64,24 @@ class ReaderPresenter: NSObject {
   // MARK: Progress
   
   func getCurrentProgress(bookHandle:String) -> Float {
-    return 0.0
+    return interactor!.getCurrentProgress(bookHandle)
   }
+  
   func getOffsetFromProgress(percentage:Float, contentSize: CGRect) -> CGPoint {
-    return CGPoint(x: 0, y: 0)
+    if contentSize.size.width > contentSize.size.height {
+      // Left To Right Orientation
+      var x = Float(contentSize.size.width) * percentage
+      var point = CGPoint(x: CGFloat(x), y: CGFloat(0))
+      return point
+    } else {
+      var y = Float(contentSize.size.height) * percentage
+      var point = CGPoint(x:CGFloat(0), y:CGFloat(y))
+      return point
+    }
   }
+  
   func readPagesFromContentOffsetAndSize(offset:Float, contentSize:CGSize)-> Int {
+    
     return 0
   }
   func totalPagesFromContentSize(webViewSize:CGSize, contentSize: CGSize) -> Int {
