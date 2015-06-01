@@ -31,16 +31,30 @@ class ReminderView: UIViewController {
   @IBOutlet weak var buttonAfternoon: UIButton!
   @IBOutlet weak var buttonMidnight: UIButton!
   
+  var onText : String = "Notifications are enabled. You will recieve a notification reminding you to read at the specified times and days."
+  var offText : String = "Notifications are disabled. You won't recieve any reminders to read."
+  
+  
+  class var shared : ReminderView {
+    struct Static {
+      static let instance : ReminderView = ReminderView()
+    }
+    return Static.instance
+  }
+  
+//  struct frame {
+//    static var presenter : ReminderPresenter? = nil
+//  }
+
   
   override func viewDidLoad() {
-      super.viewDidLoad()
-
-      // Do any additional setup after loading the view.
+    super.viewDidLoad()
+    // Do any additional setup after loading the view.
   }
 
   override func didReceiveMemoryWarning() {
-      super.didReceiveMemoryWarning()
-      // Dispose of any resources that can be recreated.
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
   }
     
   @IBAction func switchDidChange(sender: UISwitch) {
@@ -54,16 +68,4 @@ class ReminderView: UIViewController {
   @IBAction func timeSelected(sender: UIButton) {
   }
   
-  
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
