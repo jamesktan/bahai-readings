@@ -34,6 +34,20 @@
 		54338E3A1B1B7B3D009EAE17 /* ReaderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E391B1B7B3D009EAE17 /* ReaderInteractor.swift */; };
 		54338E3C1B1B7B4C009EAE17 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E3B1B1B7B4C009EAE17 /* DataManager.swift */; };
 		54338E3F1B1C1FA1009EAE17 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E3E1B1C1FA1009EAE17 /* ReminderView.swift */; };
+		54338E4C1B1C323F009EAE17 /* bahaireader87.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E401B1C323F009EAE17 /* bahaireader87.png */; };
+		54338E4D1B1C323F009EAE17 /* bahaireader180.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E411B1C323F009EAE17 /* bahaireader180.png */; };
+		54338E4E1B1C323F009EAE17 /* bahaireader160.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E421B1C323F009EAE17 /* bahaireader160.png */; };
+		54338E4F1B1C323F009EAE17 /* bahaireader76.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E431B1C323F009EAE17 /* bahaireader76.png */; };
+		54338E501B1C323F009EAE17 /* bahaireader58.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E441B1C323F009EAE17 /* bahaireader58.png */; };
+		54338E511B1C323F009EAE17 /* bahaireader29.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E451B1C323F009EAE17 /* bahaireader29.png */; };
+		54338E521B1C323F009EAE17 /* bahaireader120.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E461B1C323F009EAE17 /* bahaireader120.png */; };
+		54338E531B1C323F009EAE17 /* bahaireader80.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E471B1C323F009EAE17 /* bahaireader80.png */; };
+		54338E541B1C323F009EAE17 /* bahaireader152.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E481B1C323F009EAE17 /* bahaireader152.png */; };
+		54338E551B1C323F009EAE17 /* bahaireader40.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E491B1C323F009EAE17 /* bahaireader40.png */; };
+		54338E561B1C323F009EAE17 /* bahaireader1400.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E4A1B1C323F009EAE17 /* bahaireader1400.png */; };
+		54338E571B1C323F009EAE17 /* bahaireader700.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E4B1B1C323F009EAE17 /* bahaireader700.png */; };
+		54338E5E1B1C364E009EAE17 /* bahaireader600.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E5C1B1C364E009EAE17 /* bahaireader600.png */; };
+		54338E5F1B1C364E009EAE17 /* bahaireader1200.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E5D1B1C364E009EAE17 /* bahaireader1200.png */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -81,6 +95,22 @@
 		54338E391B1B7B3D009EAE17 /* ReaderInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderInteractor.swift; sourceTree = "<group>"; };
 		54338E3B1B1B7B4C009EAE17 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		54338E3E1B1C1FA1009EAE17 /* ReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		54338E401B1C323F009EAE17 /* bahaireader87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader87.png; sourceTree = "<group>"; };
+		54338E411B1C323F009EAE17 /* bahaireader180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader180.png; sourceTree = "<group>"; };
+		54338E421B1C323F009EAE17 /* bahaireader160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader160.png; sourceTree = "<group>"; };
+		54338E431B1C323F009EAE17 /* bahaireader76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader76.png; sourceTree = "<group>"; };
+		54338E441B1C323F009EAE17 /* bahaireader58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader58.png; sourceTree = "<group>"; };
+		54338E451B1C323F009EAE17 /* bahaireader29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader29.png; sourceTree = "<group>"; };
+		54338E461B1C323F009EAE17 /* bahaireader120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader120.png; sourceTree = "<group>"; };
+		54338E471B1C323F009EAE17 /* bahaireader80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader80.png; sourceTree = "<group>"; };
+		54338E481B1C323F009EAE17 /* bahaireader152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader152.png; sourceTree = "<group>"; };
+		54338E491B1C323F009EAE17 /* bahaireader40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader40.png; sourceTree = "<group>"; };
+		54338E4A1B1C323F009EAE17 /* bahaireader1400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader1400.png; sourceTree = "<group>"; };
+		54338E4B1B1C323F009EAE17 /* bahaireader700.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader700.png; sourceTree = "<group>"; };
+		54338E581B1C3637009EAE17 /* bahaireader700.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader700.png; sourceTree = "<group>"; };
+		54338E591B1C3637009EAE17 /* bahaireader1400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader1400.png; sourceTree = "<group>"; };
+		54338E5C1B1C364E009EAE17 /* bahaireader600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader600.png; sourceTree = "<group>"; };
+		54338E5D1B1C364E009EAE17 /* bahaireader1200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahaireader1200.png; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,8 +160,24 @@
 				54338DD81B1AED4F009EAE17 /* bahaireadings40.png */,
 				54338DD91B1AED4F009EAE17 /* bahaireadings29.png */,
 				54338DDA1B1AED4F009EAE17 /* bahaireadings160.png */,
+				54338E5C1B1C364E009EAE17 /* bahaireader600.png */,
+				54338E5D1B1C364E009EAE17 /* bahaireader1200.png */,
 				54338DE61B1AED71009EAE17 /* bahaireadings180.png */,
 				54338DDB1B1AED4F009EAE17 /* bahaireadings700.png */,
+				54338E581B1C3637009EAE17 /* bahaireader700.png */,
+				54338E591B1C3637009EAE17 /* bahaireader1400.png */,
+				54338E401B1C323F009EAE17 /* bahaireader87.png */,
+				54338E411B1C323F009EAE17 /* bahaireader180.png */,
+				54338E421B1C323F009EAE17 /* bahaireader160.png */,
+				54338E431B1C323F009EAE17 /* bahaireader76.png */,
+				54338E441B1C323F009EAE17 /* bahaireader58.png */,
+				54338E451B1C323F009EAE17 /* bahaireader29.png */,
+				54338E461B1C323F009EAE17 /* bahaireader120.png */,
+				54338E471B1C323F009EAE17 /* bahaireader80.png */,
+				54338E481B1C323F009EAE17 /* bahaireader152.png */,
+				54338E491B1C323F009EAE17 /* bahaireader40.png */,
+				54338E4A1B1C323F009EAE17 /* bahaireader1400.png */,
+				54338E4B1B1C323F009EAE17 /* bahaireader700.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -300,8 +346,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54338E4C1B1C323F009EAE17 /* bahaireader87.png in Resources */,
 				54338DDC1B1AED4F009EAE17 /* bahaireadings152.png in Resources */,
+				54338E4D1B1C323F009EAE17 /* bahaireader180.png in Resources */,
+				54338E5A1B1C3637009EAE17 /* bahaireader700.png in Resources */,
 				54338E311B1B73F7009EAE17 /* RobotoSlab-Light.ttf in Resources */,
+				54338E4E1B1C323F009EAE17 /* bahaireader160.png in Resources */,
 				54338DDE1B1AED4F009EAE17 /* bahaireadings87.png in Resources */,
 				54338DE51B1AED4F009EAE17 /* bahaireadings700.png in Resources */,
 				54338E1A1B1B736C009EAE17 /* Oxygen-Light.ttf in Resources */,
@@ -309,23 +359,35 @@
 				54338DF51B1AF2CA009EAE17 /* reader3.png in Resources */,
 				54338E171B1B736C009EAE17 /* Oswald-Light.ttf in Resources */,
 				54338DE31B1AED4F009EAE17 /* bahaireadings29.png in Resources */,
+				54338E551B1C323F009EAE17 /* bahaireader40.png in Resources */,
 				54338DE11B1AED4F009EAE17 /* bahaireadings58.png in Resources */,
 				54338DE21B1AED4F009EAE17 /* bahaireadings40.png in Resources */,
 				54338DE91B1AEE30009EAE17 /* bahaiReadingsSplash.png in Resources */,
 				54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */,
 				54338DE41B1AED4F009EAE17 /* bahaireadings160.png in Resources */,
+				54338E5B1B1C3637009EAE17 /* bahaireader1400.png in Resources */,
 				54338DDF1B1AED4F009EAE17 /* bahaireadings80.png in Resources */,
+				54338E521B1C323F009EAE17 /* bahaireader120.png in Resources */,
+				54338E501B1C323F009EAE17 /* bahaireader58.png in Resources */,
 				54338E361B1B75D4009EAE17 /* fonts.plist in Resources */,
+				54338E571B1C323F009EAE17 /* bahaireader700.png in Resources */,
 				54338DE71B1AED71009EAE17 /* bahaireadings180.png in Resources */,
 				54338E011B1B18DE009EAE17 /* settings20.png in Resources */,
+				54338E4F1B1C323F009EAE17 /* bahaireader76.png in Resources */,
+				54338E561B1C323F009EAE17 /* bahaireader1400.png in Resources */,
+				54338E511B1C323F009EAE17 /* bahaireader29.png in Resources */,
 				54338DFB1B1AF4C5009EAE17 /* notification1.png in Resources */,
 				54338DE01B1AED4F009EAE17 /* bahaireadings76.png in Resources */,
 				54B1DD1D1B192CEA00BF74E4 /* LaunchScreen.xib in Resources */,
+				54338E531B1C323F009EAE17 /* bahaireader80.png in Resources */,
 				54B1DD1A1B192CEA00BF74E4 /* Images.xcassets in Resources */,
+				54338E5E1B1C364E009EAE17 /* bahaireader600.png in Resources */,
 				54338DDD1B1AED4F009EAE17 /* bahaireadings120.png in Resources */,
+				54338E5F1B1C364E009EAE17 /* bahaireader1200.png in Resources */,
 				54338E381B1B79D3009EAE17 /* Reader Specifications in Resources */,
 				54338E291B1B73E3009EAE17 /* Merriweather-Light.ttf in Resources */,
 				54338DFF1B1AF6B6009EAE17 /* about2.png in Resources */,
+				54338E541B1C323F009EAE17 /* bahaireader152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,73 +3,73 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "bahaireadings58-1.png",
+      "filename" : "bahaireader58-1.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "bahaireadings87.png",
+      "filename" : "bahaireader87.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "bahaireadings80-1.png",
+      "filename" : "bahaireader80-1.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "bahaireadings120-1.png",
+      "filename" : "bahaireader120.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "bahaireadings120.png",
+      "filename" : "bahaireader120-1.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "bahaireadings180.png",
+      "filename" : "bahaireader180.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "bahaireadings29.png",
+      "filename" : "bahaireader29.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "bahaireadings58.png",
+      "filename" : "bahaireader58.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "bahaireadings40.png",
+      "filename" : "bahaireader40.png",
       "scale" : "1x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "bahaireadings80.png",
+      "filename" : "bahaireader80.png",
       "scale" : "2x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "bahaireadings76.png",
+      "filename" : "bahaireader76.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "bahaireadings152.png",
+      "filename" : "bahaireader152.png",
       "scale" : "2x"
     }
   ],
