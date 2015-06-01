@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ReaderView: UIViewController, UIGestureRecognizerDelegate {
+class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelegate, UIScrollViewDelegate {
   
   @IBOutlet weak var readerWebView: UIWebView!
   
@@ -63,6 +63,9 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
     tap.delegate = self
     self.readerWebView.addGestureRecognizer(tap)
     
+    self.readerWebView.delegate = self
+    self.readerWebView.scrollView.delegate = self
+    
     var tap2 = UITapGestureRecognizer(target: self, action: "showOrHideSettings")
     tap2.numberOfTapsRequired = 1
     tap2.numberOfTouchesRequired = 1
@@ -78,6 +81,17 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate {
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
+  }
+  
+  func webViewDidFinishLoad(webView: UIWebView) {
+    println("sizeOfWebView")
+    var size = webView.scrollView.contentSize
+    NSLog("%lf heightOfFrame %lf widthOfFrame", webView.frame.size.height, webView.frame.size.width)
+    NSLog("%lf height %lf width SIZE", size.height, size.width)
+  }
+  
+  func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+    NSLog("%lf contentOffsetX, %lf contentOffsetY", scrollView.contentOffset.x, scrollView.contentOffset.y)
   }
   
   func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {

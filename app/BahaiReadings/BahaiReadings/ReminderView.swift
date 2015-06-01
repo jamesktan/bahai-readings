@@ -31,6 +31,9 @@ class ReminderView: UIViewController {
   @IBOutlet weak var buttonAfternoon: UIButton!
   @IBOutlet weak var buttonMidnight: UIButton!
   
+  var days : NSArray = []
+  var times : NSArray = []
+  
   var onText : String = "Notifications are enabled. You will recieve a notification reminding you to read at the specified times and days."
   var offText : String = "Notifications are disabled. You won't recieve any reminders to read."
   
@@ -48,6 +51,9 @@ class ReminderView: UIViewController {
 
   
   override func viewDidLoad() {
+    days = [buttonMon, buttonTue, buttonWed, buttonThr, buttonSat, buttonSun, buttonEveryDay]
+    times = [buttonMorn, buttonEvening, buttonNoon, buttonAfternoon, buttonMidnight]
+    
     super.viewDidLoad()
     // Do any additional setup after loading the view.
   }
@@ -62,7 +68,6 @@ class ReminderView: UIViewController {
   }
   
   @IBAction func daySelected(sender: UIButton) {
-    
   }
   
   @IBAction func timeSelected(sender: UIButton) {
