@@ -66,8 +66,8 @@ class ReaderPresenter: NSObject {
   func getCurrentProgress(bookHandle:String) -> Float {
     return 0.0
   }
-  func getOffsetFromProgress(percentage:Float, contentSize: Float) -> Float {
-    return 0.0
+  func getOffsetFromProgress(percentage:Float, contentSize: CGRect) -> CGPoint {
+    return CGPoint(x: 0, y: 0)
   }
   func readPagesFromContentOffsetAndSize(offset:Float, contentSize:CGSize)-> Int {
     return 0
@@ -75,7 +75,7 @@ class ReaderPresenter: NSObject {
   func totalPagesFromContentSize(webViewSize:CGSize, contentSize: CGSize) -> Int {
     return 0
   }
-  func setCurrentProgress(bookHandle:String, contentOffset:Float, contentSize:Float) {
+  func setCurrentProgress(bookHandle:String, contentOffset:CGPoint, contentSize:CGSize) {
     
   }
 }

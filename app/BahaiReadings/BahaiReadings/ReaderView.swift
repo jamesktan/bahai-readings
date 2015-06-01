@@ -77,6 +77,8 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     highlightStyleButton()
     highlightThemeButton()
     highlightOrientationButton()
+    updateProgress()
+    updateProgressLabels()
   }
 
   override func didReceiveMemoryWarning() {
@@ -88,10 +90,14 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     var size = webView.scrollView.contentSize
     NSLog("%lf heightOfFrame %lf widthOfFrame", webView.frame.size.height, webView.frame.size.width)
     NSLog("%lf height %lf width SIZE", size.height, size.width)
+    updateProgress()
+    updateProgressLabels()
   }
   
   func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
     NSLog("%lf contentOffsetX, %lf contentOffsetY", scrollView.contentOffset.x, scrollView.contentOffset.y)
+    frame.presenter!.setCurrentProgress(frame.currentBook, contentOffset: scrollView.contentOffset, contentSize: scrollView.contentSize)
+    updateProgressLabels()
   }
   
   func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
@@ -225,6 +231,20 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     var sliderList : NSArray = frame.presenter!.arrayOfReaderSizes()
     var index = sliderList.indexOfObject(currentSlider)
     sizeSlider.value = Float(index)
+  }
+  
+  func updateProgress() {
+    
+    // Set the CUrrent Page
+    var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
+    var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.frame)
+    readerWebView.scrollView.contentOffset = offset
+  }
+  
+  func updateProgressLabels() {
+    var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
+    var totalPages : Int = frame.presenter!.totalPagesFromContentSize(readerWebView.frame.size, contentSize: readerWebView.scrollView.contentSize)
+    var complatedPages : Int = frame.presenter!.readPagesFromContentOffsetAndSize(currentProgress, contentSize: readerWebView.scrollView.contentSize)
   }
   
   func highlightOrientationButton() {
