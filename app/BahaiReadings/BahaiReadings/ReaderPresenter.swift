@@ -45,6 +45,7 @@ class ReaderPresenter: NSObject {
     return interactor!.getCurrentOrientation()
   }
   
+  
   func selectStyle(key:String) {
     interactor!.selectStyle(key)
   }
@@ -58,5 +59,15 @@ class ReaderPresenter: NSObject {
   }
   func selectOrientation(key:String) {
     interactor!.selectOrientation(key)
+  }
+  
+  // MARK: Progress
+  
+  func getCurrentProgress(bookHandle:String) -> Float {
+    return 0.0
+  }
+  
+  func setCurrentProgress(bookHandle:String, contentOffset:Float, contentSize:Float) {
+    
   }
 }
