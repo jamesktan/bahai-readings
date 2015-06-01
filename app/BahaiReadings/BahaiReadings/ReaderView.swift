@@ -237,14 +237,14 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     
     // Set the CUrrent Page
     var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
-    var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.frame)
+    var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.scrollView.frame)
     readerWebView.scrollView.contentOffset = offset
   }
   
   func updateProgressLabels() {
     var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
     var totalPages : Int = frame.presenter!.totalPagesFromContentSize(readerWebView.frame.size, contentSize: readerWebView.scrollView.contentSize)
-    var complatedPages : Int = frame.presenter!.readPagesFromContentOffsetAndSize(currentProgress, contentSize: readerWebView.scrollView.contentSize)
+    var complatedPages : Int = frame.presenter!.readPagesFromOffsetAndSize(currentProgress, webViewSize: readerWebView.frame.size, contentSize:readerWebView.scrollView.frame.size)
   }
   
   func highlightOrientationButton() {
