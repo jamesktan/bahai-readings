@@ -169,7 +169,7 @@
         <!--REMINDER-->
         <scene sceneID="J7K-n1-alz">
             <objects>
-                <viewController id="wHa-vf-q8Y" sceneMemberID="viewController">
+                <viewController id="wHa-vf-q8Y" customClass="ReminderView" customModule="BahaiReadings" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7yY-X6-eGF"/>
                         <viewControllerLayoutGuide type="bottom" id="kLG-EN-TAb"/>
@@ -234,6 +234,9 @@
                                         <include reference="CVg-fp-8ui"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="switchDidChange:" destination="wHa-vf-q8Y" eventType="valueChanged" id="GIf-nc-y2k"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications are enabled. You will recieve a notification reminding you to read at the specified times and days." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIi-KD-lZi">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -278,6 +281,9 @@
                                                 <include reference="fDt-ta-kN9"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="timeSelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="pva-3d-ZZI"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flm-vP-8c7">
                                         <rect key="frame" x="131" y="201" width="69" height="30"/>
@@ -298,6 +304,9 @@
                                                 <include reference="9Dm-4k-vZj"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="timeSelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="9F3-Yl-Aba"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Times" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLW-YV-WS8">
                                         <rect key="frame" x="124" y="20" width="82" height="21"/>
@@ -336,6 +345,9 @@
                                                 <include reference="zr0-jZ-xVG"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="timeSelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="tCV-Lu-Y5c"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCC-lc-39o">
                                         <rect key="frame" x="131" y="163" width="69" height="30"/>
@@ -356,26 +368,9 @@
                                                 <include reference="zEo-Rv-5sz"/>
                                             </mask>
                                         </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko6-IO-WNM">
-                                        <rect key="frame" x="131" y="315" width="69" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="69" id="Heb-oE-YqY"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="All Times">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Heb-oE-YqY"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="Heb-oE-YqY"/>
-                                            </mask>
-                                        </variation>
+                                        <connections>
+                                            <action selector="timeSelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="ayN-cB-Akv"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5D-Gk-hOQ">
                                         <rect key="frame" x="20" y="20" width="82" height="21"/>
@@ -414,6 +409,9 @@
                                                 <include reference="pdp-0x-qIv"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="timeSelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="tj2-Ne-ZHG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8m-vF-l1F">
                                         <rect key="frame" x="27" y="201" width="69" height="30"/>
@@ -434,6 +432,9 @@
                                                 <include reference="5ZB-UW-4fy"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="1TE-qF-gnd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iql-zj-cfe">
                                         <rect key="frame" x="27" y="315" width="69" height="30"/>
@@ -454,6 +455,9 @@
                                                 <include reference="fHh-G7-F6a"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="Z5V-86-aBN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfZ-jB-Sbk">
                                         <rect key="frame" x="27" y="125" width="69" height="30"/>
@@ -474,6 +478,9 @@
                                                 <include reference="dzY-68-PMy"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="Vbs-9y-g69"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYR-Ck-hIw">
                                         <rect key="frame" x="27" y="49" width="69" height="30"/>
@@ -494,6 +501,9 @@
                                                 <include reference="HdX-Xg-BP4"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="wQ8-Oc-Ilt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgu-NE-WvV">
                                         <rect key="frame" x="27" y="239" width="69" height="30"/>
@@ -514,6 +524,9 @@
                                                 <include reference="qmw-bd-URi"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="242-Rt-oHU"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUV-t2-TgA">
                                         <rect key="frame" x="27" y="277" width="69" height="30"/>
@@ -534,6 +547,9 @@
                                                 <include reference="sCF-h6-RLu"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="EH9-6W-SBi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Op-fe-OFR">
                                         <rect key="frame" x="27" y="87" width="69" height="30"/>
@@ -554,6 +570,9 @@
                                                 <include reference="fRC-PL-BK6"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="Jyl-tv-Sff"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hkq-yi-jfc">
                                         <rect key="frame" x="27" y="163" width="69" height="30"/>
@@ -574,13 +593,15 @@
                                                 <include reference="1z2-Bg-W8o"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="daySelected:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="wof-3N-7qc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="226" id="2nb-er-qc6"/>
                                     <constraint firstItem="oLW-YV-WS8" firstAttribute="leading" secondItem="A5D-Gk-hOQ" secondAttribute="trailing" constant="22" id="3KE-ri-3Ar"/>
-                                    <constraint firstItem="ko6-IO-WNM" firstAttribute="top" secondItem="flm-vP-8c7" secondAttribute="bottom" constant="84" id="8yM-vh-WYc"/>
                                     <constraint firstItem="rCC-lc-39o" firstAttribute="top" secondItem="6wL-GR-S8z" secondAttribute="bottom" constant="7" id="Cwg-rQ-1RU"/>
                                     <constraint firstItem="yUV-t2-TgA" firstAttribute="top" secondItem="pgu-NE-WvV" secondAttribute="bottom" constant="8" id="DyM-EJ-mMD"/>
                                     <constraint firstItem="ALq-D4-oKG" firstAttribute="top" secondItem="oLW-YV-WS8" secondAttribute="bottom" constant="8" id="Ff8-ht-zEc"/>
@@ -600,7 +621,6 @@
                                     <constraint firstItem="jYR-Ck-hIw" firstAttribute="top" secondItem="A5D-Gk-hOQ" secondAttribute="bottom" constant="8" id="cEb-DA-L8a"/>
                                     <constraint firstItem="oLW-YV-WS8" firstAttribute="centerX" secondItem="ALq-D4-oKG" secondAttribute="centerX" constant="-0.5" id="eBA-3c-orH"/>
                                     <constraint firstItem="v8m-vF-l1F" firstAttribute="centerX" secondItem="Hkq-yi-jfc" secondAttribute="centerX" id="erl-qi-qsu"/>
-                                    <constraint firstItem="flm-vP-8c7" firstAttribute="centerX" secondItem="ko6-IO-WNM" secondAttribute="centerX" id="f6G-Td-XY2"/>
                                     <constraint firstAttribute="height" constant="329" id="gz2-E8-7Tv"/>
                                     <constraint firstItem="Iql-zj-cfe" firstAttribute="top" secondItem="yUV-t2-TgA" secondAttribute="bottom" constant="8" id="jHK-1I-TiN"/>
                                     <constraint firstItem="3Op-fe-OFR" firstAttribute="centerX" secondItem="cfZ-jB-Sbk" secondAttribute="centerX" id="k0F-Ey-3mp"/>
@@ -647,14 +667,12 @@
                                         <exclude reference="Cwg-rQ-1RU"/>
                                         <exclude reference="t42-p2-7iv"/>
                                         <exclude reference="vEr-ZF-Q0w"/>
-                                        <exclude reference="f6G-Td-XY2"/>
                                         <exclude reference="xL6-80-vWB"/>
                                         <exclude reference="xiN-B5-BY3"/>
                                         <exclude reference="DyM-EJ-mMD"/>
                                         <exclude reference="usA-KC-zM4"/>
                                         <exclude reference="Obc-st-VPN"/>
                                         <exclude reference="jHK-1I-TiN"/>
-                                        <exclude reference="8yM-vh-WYc"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -688,14 +706,12 @@
                                         <include reference="Cwg-rQ-1RU"/>
                                         <include reference="t42-p2-7iv"/>
                                         <include reference="vEr-ZF-Q0w"/>
-                                        <include reference="f6G-Td-XY2"/>
                                         <include reference="xL6-80-vWB"/>
                                         <include reference="xiN-B5-BY3"/>
                                         <include reference="DyM-EJ-mMD"/>
                                         <include reference="usA-KC-zM4"/>
                                         <include reference="Obc-st-VPN"/>
                                         <include reference="jHK-1I-TiN"/>
-                                        <include reference="8yM-vh-WYc"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -764,6 +780,25 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="REMINDER" image="notification1.png" id="3wD-P2-cCu"/>
+                    <connections>
+                        <outlet property="buttonAfternoon" destination="rCC-lc-39o" id="2Lm-pV-dji"/>
+                        <outlet property="buttonEvening" destination="NMI-G4-pIP" id="WU5-nb-C80"/>
+                        <outlet property="buttonEveryDay" destination="Iql-zj-cfe" id="MOT-s9-g1C"/>
+                        <outlet property="buttonFri" destination="v8m-vF-l1F" id="o1a-nz-V0h"/>
+                        <outlet property="buttonMidnight" destination="flm-vP-8c7" id="amA-Wn-wex"/>
+                        <outlet property="buttonMon" destination="jYR-Ck-hIw" id="xvo-ao-qqd"/>
+                        <outlet property="buttonMorn" destination="ALq-D4-oKG" id="lba-O2-Zf9"/>
+                        <outlet property="buttonNoon" destination="6wL-GR-S8z" id="Dwd-Hp-eTQ"/>
+                        <outlet property="buttonSat" destination="pgu-NE-WvV" id="A3c-5D-GoS"/>
+                        <outlet property="buttonSun" destination="yUV-t2-TgA" id="XfY-DR-Kh5"/>
+                        <outlet property="buttonThr" destination="Hkq-yi-jfc" id="sJK-wQ-bOo"/>
+                        <outlet property="buttonTue" destination="3Op-fe-OFR" id="LSM-N7-28t"/>
+                        <outlet property="buttonWed" destination="cfZ-jB-Sbk" id="aMl-T8-Afi"/>
+                        <outlet property="notOnOffLabel" destination="c2z-zh-sHq" id="aJI-8Z-8VY"/>
+                        <outlet property="notOnOffSwitch" destination="UNB-Op-N84" id="gWp-6f-pZq"/>
+                        <outlet property="onOffDescription" destination="RIi-KD-lZi" id="DdH-2d-QbZ"/>
+                        <outlet property="optionsView" destination="ha2-KM-Waf" id="Uw3-Mc-rYV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RRt-3b-thK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
