@@ -237,7 +237,8 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     
     // Set the CUrrent Page
     var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
-    var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.scrollView.frame)
+    var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.scrollView.contentSize)
+    NSLog("%lf, %lf OFFSET", offset.x, offset.y)
     readerWebView.scrollView.contentOffset = offset
   }
   

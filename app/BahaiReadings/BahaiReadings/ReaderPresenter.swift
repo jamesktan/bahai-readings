@@ -67,15 +67,17 @@ class ReaderPresenter: NSObject {
     return Float(0.9) //interactor!.getCurrentProgress(bookHandle)
   }
   
-  func getOffsetFromProgress(percentage:Float, contentSize: CGRect) -> CGPoint {
-    if contentSize.size.width > contentSize.size.height {
+  func getOffsetFromProgress(percentage:Float, contentSize: CGSize) -> CGPoint {
+    if contentSize.width > contentSize.height {
       // Left To Right Orientation
-      var x = Float(contentSize.size.width) * percentage
+      var x = Float(contentSize.width) * percentage
       var point = CGPoint(x: CGFloat(x), y: CGFloat(0))
+      NSLog("content size: %lf %lf", contentSize.width, contentSize.height)
       return point
     } else {
-      var y = Float(contentSize.size.height) * percentage
+      var y = Float(contentSize.height) * percentage
       var point = CGPoint(x:CGFloat(0), y:CGFloat(y))
+      NSLog("content size: %lf %lf", contentSize.width, contentSize.height)
       return point
     }
   }
