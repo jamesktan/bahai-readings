@@ -91,6 +91,7 @@
 		54338E6E1B1C849C009EAE17 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
 		54338E821B1C8652009EAE17 /* bahareadersplash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahareadersplash2.png; sourceTree = "<group>"; };
 		54338E841B1E58B4009EAE17 /* closemark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closemark.png; sourceTree = "<group>"; };
+		54338E861B1E5AB8009EAE17 /* BahaiReadings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BahaiReadings.entitlements; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 		54B1DD0F1B192CEA00BF74E4 /* BahaiReadings */ = {
 			isa = PBXGroup;
 			children = (
+				54338E861B1E5AB8009EAE17 /* BahaiReadings.entitlements */,
 				54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */,
 				54B1DD141B192CEA00BF74E4 /* ViewController.swift */,
 				54B1DD161B192CEA00BF74E4 /* Main.storyboard */,
@@ -284,6 +286,12 @@
 				TargetAttributes = {
 					54B1DD0C1B192CE900BF74E4 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = CUYMUDSGA4;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					54B1DD211B192CEA00BF74E4 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -498,9 +506,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BahaiReadings/BahaiReadings.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BahaiReadings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -508,9 +520,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BahaiReadings/BahaiReadings.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BahaiReadings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
