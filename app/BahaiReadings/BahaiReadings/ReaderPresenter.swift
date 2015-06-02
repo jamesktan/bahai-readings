@@ -72,12 +72,10 @@ class ReaderPresenter: NSObject {
       // Left To Right Orientation
       var x = Float(contentSize.width) * percentage
       var point = CGPoint(x: CGFloat(x), y: CGFloat(0))
-      NSLog("content size: %lf %lf", contentSize.width, contentSize.height)
       return point
     } else {
       var y = Float(contentSize.height) * percentage
       var point = CGPoint(x:CGFloat(0), y:CGFloat(y))
-      NSLog("content size: %lf %lf", contentSize.width, contentSize.height)
       return point
     }
   }
@@ -105,6 +103,11 @@ class ReaderPresenter: NSObject {
   }
   
   func setCurrentProgress(bookHandle:String, contentOffset:CGPoint, contentSize:CGSize) {
-    
+    if contentSize.height > contentSize.width {
+      // TOp to Bottom
+      var percentage = Float(contentOffset.y / contentSize.height)
+    } else {
+      var percentage = Float(contentOffset.x / contentSize.width)
+    }
   }
 }
