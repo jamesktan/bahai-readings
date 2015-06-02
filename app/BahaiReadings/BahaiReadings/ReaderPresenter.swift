@@ -64,7 +64,7 @@ class ReaderPresenter: NSObject {
   // MARK: Progress
   
   func getCurrentProgress(bookHandle:String) -> Float {
-    return Float(0.9) //interactor!.getCurrentProgress(bookHandle)
+    return interactor!.getCurrentProgress(bookHandle)
   }
   
   func getOffsetFromProgress(percentage:Float, contentSize: CGSize) -> CGPoint {
@@ -83,10 +83,12 @@ class ReaderPresenter: NSObject {
   func readPagesFromOffsetAndSize(offset:Float, webViewSize:CGSize, contentSize:CGSize)-> Int {
     if contentSize.height > contentSize.width {
       // Top to Bottom
-      var count = Int(offset / Float(webViewSize.height))
+      var count = Int((offset * Float(contentSize.height))/Float(webViewSize.height))
+      println(count)
       return count
     } else {
-      var count = Int(offset/Float(webViewSize.width))
+      var count = Int((offset * Float(contentSize.width))/Float(webViewSize.width))
+      println(count)
       return count
     }
   }
@@ -103,11 +105,16 @@ class ReaderPresenter: NSObject {
   }
   
   func setCurrentProgress(bookHandle:String, contentOffset:CGPoint, contentSize:CGSize) {
-    if contentSize.height > contentSize.width {
-      // TOp to Bottom
-      var percentage = Float(contentOffset.y / contentSize.height)
-    } else {
-      var percentage = Float(contentOffset.x / contentSize.width)
-    }
+    var percentage : Float = 0.0
+    percentage = (contentSize.height > contentSize.width) ? Float(contentOffset.y / contentSize.height) : Float(contentOffset.x / contentSize.width)
+    interactor!.setCurrentProgress(bookHandle, progress: percentage)
+  }
+  
+  func getProgressText(bookHandle:String, readerWebView:UIWebView)->String {
+    var currentProgress : Float = getCurrentProgress(bookHandle)
+    var totalPages : Int = self.totalPagesFromContentSize(readerWebView.frame.size, contentSize: readerWebView.scrollView.contentSize)
+    var completedPages : Int = self.readPagesFromOffsetAndSize(currentProgress, webViewSize: readerWebView.frame.size, contentSize:readerWebView.scrollView.contentSize)
+    var completedString : String = String(format: "%d of %d pages completed", arguments: [completedPages, totalPages])
+    return completedString
   }
 }

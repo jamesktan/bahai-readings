@@ -1245,6 +1245,8 @@
                     </navigationItem>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
+                        <outlet property="bookPagesLabel" destination="LDa-Jz-4pE" id="Ceb-DB-Hvf"/>
+                        <outlet property="bookTitleLabel" destination="aqo-DU-W22" id="owy-8O-Pts"/>
                         <outlet property="buttonDark" destination="tqk-yq-k2O" id="9Ix-tK-lb1"/>
                         <outlet property="buttonLight" destination="kvZ-iA-vse" id="31s-iw-9tX"/>
                         <outlet property="buttonMidnight" destination="ba7-C8-1hy" id="yLx-Rj-TQi"/>

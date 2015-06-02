@@ -27,6 +27,9 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   
   @IBOutlet weak var sizeSlider: UISlider!
   
+  @IBOutlet weak var bookTitleLabel: UILabel!
+  @IBOutlet weak var bookPagesLabel: UILabel!
+  
   var shadowView : UIView = UIView()
   
   var themeButtons : NSArray = []
@@ -243,9 +246,8 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   }
   
   func updateProgressLabels() {
-    var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
-    var totalPages : Int = frame.presenter!.totalPagesFromContentSize(readerWebView.frame.size, contentSize: readerWebView.scrollView.contentSize)
-    var complatedPages : Int = frame.presenter!.readPagesFromOffsetAndSize(currentProgress, webViewSize: readerWebView.frame.size, contentSize:readerWebView.scrollView.frame.size)
+    var completedText : String = frame.presenter!.getProgressText(frame.currentBook, readerWebView:readerWebView)
+    bookPagesLabel.text = completedText
   }
   
   func highlightOrientationButton() {

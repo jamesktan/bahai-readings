@@ -55,6 +55,9 @@ class ReaderInteractor: NSObject {
     return DataManager.getCurrentOrientationKey()
   }
   
+  func getCurrentProgress(bookHandle:String)->Float {
+    return Float(0.9)
+  }
   
   func selectStyle(val:String) {
     DataManager.setCurrentKey(val, key: "family")
@@ -70,5 +73,9 @@ class ReaderInteractor: NSObject {
   
   func selectOrientation(val:String) {
     DataManager.setCurrentKey(val, key: "orientation")
+  }
+  
+  func setCurrentProgress(bookHandle:String, progress:Float) {
+    
   }
 }
