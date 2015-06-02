@@ -1042,6 +1042,20 @@
                                             <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyi-Mn-RpQ"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWM-jE-35t">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Vertical">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="Horizontal"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="20" y="303" width="110" height="30"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="changeReaderOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uTH-iq-VTd"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvZ-iA-vse">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
@@ -1107,18 +1121,17 @@
                                             <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ub4-0H-vuX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWM-jE-35t">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cm1-Ig-w5z">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Vertical">
+                                        <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                                        <state key="normal" image="closemark.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="selected" title="Horizontal"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="303" width="110" height="30"/>
+                                            <rect key="frame" x="224" y="1" width="45" height="45"/>
                                         </variation>
                                         <connections>
-                                            <action selector="changeReaderOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uTH-iq-VTd"/>
+                                            <action selector="showOrHideReaderSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8dx-ye-EtG"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1136,12 +1149,13 @@
                                         <exclude reference="J99-ZX-7wz"/>
                                         <exclude reference="lG1-ao-1bn"/>
                                         <exclude reference="rYm-mZ-5ef"/>
+                                        <exclude reference="TWM-jE-35t"/>
                                         <exclude reference="kvZ-iA-vse"/>
                                         <exclude reference="tqk-yq-k2O"/>
                                         <exclude reference="KaC-ts-wpY"/>
                                         <exclude reference="ba7-C8-1hy"/>
                                         <exclude reference="hUC-Rg-Lmg"/>
-                                        <exclude reference="TWM-jE-35t"/>
+                                        <exclude reference="cm1-Ig-w5z"/>
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="Phg-wQ-mhB"/>
@@ -1157,12 +1171,13 @@
                                         <include reference="J99-ZX-7wz"/>
                                         <include reference="lG1-ao-1bn"/>
                                         <include reference="rYm-mZ-5ef"/>
+                                        <include reference="TWM-jE-35t"/>
                                         <include reference="kvZ-iA-vse"/>
                                         <include reference="tqk-yq-k2O"/>
                                         <include reference="KaC-ts-wpY"/>
                                         <include reference="ba7-C8-1hy"/>
                                         <include reference="hUC-Rg-Lmg"/>
-                                        <include reference="TWM-jE-35t"/>
+                                        <include reference="cm1-Ig-w5z"/>
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="Phg-wQ-mhB"/>
@@ -1288,6 +1303,7 @@
     </scenes>
     <resources>
         <image name="about2.png" width="20" height="20"/>
+        <image name="closemark.png" width="128" height="128"/>
         <image name="library1.png" width="20" height="20"/>
         <image name="notification1.png" width="20" height="20"/>
         <image name="reader3.png" width="20" height="20"/>

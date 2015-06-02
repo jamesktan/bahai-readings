@@ -82,6 +82,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     highlightOrientationButton()
     updateProgress()
     updateProgressLabels()
+    updateTitleLabel()
   }
 
   override func didReceiveMemoryWarning() {
@@ -202,6 +203,8 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     }
     loadOrientation()
     highlightOrientationButton()
+    updateProgress()
+    updateProgressLabels()
   }
   
   func highlightStyleButton() {
@@ -236,8 +239,13 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     sizeSlider.value = Float(index)
   }
   
+  func updateTitleLabel() {
+    var handle : String = frame.currentBook
+    var title : String = frame.presenter!.getCurrentBookTitle(frame.currentBook)
+    bookTitleLabel.text = title
+  }
+  
   func updateProgress() {
-    
     // Set the CUrrent Page
     var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
     var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.scrollView.contentSize)

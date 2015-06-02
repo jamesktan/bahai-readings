@@ -38,6 +38,7 @@
 		54338E7C1B1C849C009EAE17 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E6D1B1C849C009EAE17 /* Icon-Small-50.png */; };
 		54338E7D1B1C849C009EAE17 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E6E1B1C849C009EAE17 /* Icon-Small-50@2x.png */; };
 		54338E831B1C8652009EAE17 /* bahareadersplash2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E821B1C8652009EAE17 /* bahareadersplash2.png */; };
+		54338E851B1E58B4009EAE17 /* closemark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E841B1E58B4009EAE17 /* closemark.png */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -89,6 +90,7 @@
 		54338E6D1B1C849C009EAE17 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		54338E6E1B1C849C009EAE17 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
 		54338E821B1C8652009EAE17 /* bahareadersplash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahareadersplash2.png; sourceTree = "<group>"; };
+		54338E841B1E58B4009EAE17 /* closemark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closemark.png; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				54338E6D1B1C849C009EAE17 /* Icon-Small-50.png */,
 				54338E6E1B1C849C009EAE17 /* Icon-Small-50@2x.png */,
 				54338DF41B1AF2CA009EAE17 /* reader3.png */,
+				54338E841B1E58B4009EAE17 /* closemark.png */,
 				54338DF61B1AF449009EAE17 /* library1.png */,
 				54338E001B1B18DE009EAE17 /* settings20.png */,
 				54338DFE1B1AF6B6009EAE17 /* about2.png */,
@@ -320,6 +323,7 @@
 				54338E1A1B1B736C009EAE17 /* Oxygen-Light.ttf in Resources */,
 				54338E751B1C849C009EAE17 /* Icon-76@2x.png in Resources */,
 				54338DF71B1AF449009EAE17 /* library1.png in Resources */,
+				54338E851B1E58B4009EAE17 /* closemark.png in Resources */,
 				54338E761B1C849C009EAE17 /* Icon-Small.png in Resources */,
 				54338DF51B1AF2CA009EAE17 /* reader3.png in Resources */,
 				54338E731B1C849C009EAE17 /* Icon-60@3x.png in Resources */,

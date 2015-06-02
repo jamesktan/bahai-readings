@@ -59,6 +59,10 @@ class ReaderInteractor: NSObject {
     return Float(0.9)
   }
   
+  func getCurrentBookTitle(handle:String)->String {
+    return "Wize Up Epistle"
+  }
+  
   func selectStyle(val:String) {
     DataManager.setCurrentKey(val, key: "family")
   }

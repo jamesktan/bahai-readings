@@ -44,7 +44,9 @@ class ReaderPresenter: NSObject {
   func getOrientation()->String{
     return interactor!.getCurrentOrientation()
   }
-  
+  func getCurrentBookTitle(bookHandle:String)->String {
+    return interactor!.getCurrentBookTitle(bookHandle)
+  }
   
   func selectStyle(key:String) {
     interactor!.selectStyle(key)
