@@ -55,7 +55,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     
     shadowView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
     shadowView.backgroundColor = UIColor.blackColor()
-    shadowView.alpha = 0.5
+    shadowView.alpha = 0.0
     
     themeButtons = [buttonLight, buttonDark, buttonSunset, buttonMidnight]
     styleButtons = [buttonSerif, buttonSans]
@@ -139,11 +139,17 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
       if self.settingsView.alpha == 0 {
         self.settingsView.alpha = 1
         self.view.insertSubview(self.shadowView, aboveSubview: self.readerWebView)
+        self.shadowView.alpha = 0.5
       } else {
         self.settingsView.alpha = 0
         self.readerSettingsView.alpha = 0
-        self.shadowView.removeFromSuperview()
+        self.shadowView.alpha = 0.0
       }
+
+      }, completion: { finished in
+        if self.shadowView.alpha == 0.0 {
+          self.shadowView.removeFromSuperview()
+        }
     })
 
   }
