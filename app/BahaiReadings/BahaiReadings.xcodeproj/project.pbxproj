@@ -41,6 +41,11 @@
 		54338E851B1E58B4009EAE17 /* closemark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54338E841B1E58B4009EAE17 /* closemark.png */; };
 		54338E881B1F21D6009EAE17 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54338E871B1F21D6009EAE17 /* CloudKit.framework */; };
 		54338E8A1B1F7A83009EAE17 /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E891B1F7A83009EAE17 /* CloudKitService.swift */; };
+		54338E901B2190E6009EAE17 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338E8B1B2190E6009EAE17 /* 1.jpg */; };
+		54338E911B2190E6009EAE17 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338E8C1B2190E6009EAE17 /* 2.jpg */; };
+		54338E921B2190E6009EAE17 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338E8D1B2190E6009EAE17 /* 3.jpg */; };
+		54338E931B2190E6009EAE17 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338E8E1B2190E6009EAE17 /* 4.jpg */; };
+		54338E941B2190E6009EAE17 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338E8F1B2190E6009EAE17 /* 5.jpg */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -96,6 +101,11 @@
 		54338E861B1E5AB8009EAE17 /* BahaiReadings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BahaiReadings.entitlements; sourceTree = "<group>"; };
 		54338E871B1F21D6009EAE17 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		54338E891B1F7A83009EAE17 /* CloudKitService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
+		54338E8B1B2190E6009EAE17 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		54338E8C1B2190E6009EAE17 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		54338E8D1B2190E6009EAE17 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		54338E8E1B2190E6009EAE17 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		54338E8F1B2190E6009EAE17 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +141,11 @@
 		54338E021B1B3D68009EAE17 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				54338E8B1B2190E6009EAE17 /* 1.jpg */,
+				54338E8C1B2190E6009EAE17 /* 2.jpg */,
+				54338E8D1B2190E6009EAE17 /* 3.jpg */,
+				54338E8E1B2190E6009EAE17 /* 4.jpg */,
+				54338E8F1B2190E6009EAE17 /* 5.jpg */,
 				54338E821B1C8652009EAE17 /* bahareadersplash2.png */,
 				54338E601B1C849C009EAE17 /* Icon-40.png */,
 				54338E611B1C849C009EAE17 /* Icon-40@2x.png */,
@@ -332,12 +347,15 @@
 			files = (
 				54338E7C1B1C849C009EAE17 /* Icon-Small-50.png in Resources */,
 				54338E791B1C849C009EAE17 /* Icon-60.png in Resources */,
+				54338E941B2190E6009EAE17 /* 5.jpg in Resources */,
 				54338E7B1B1C849C009EAE17 /* Icon-72@2x.png in Resources */,
 				54338E311B1B73F7009EAE17 /* RobotoSlab-Light.ttf in Resources */,
 				54338E711B1C849C009EAE17 /* Icon-40@3x.png in Resources */,
+				54338E911B2190E6009EAE17 /* 2.jpg in Resources */,
 				54338E1A1B1B736C009EAE17 /* Oxygen-Light.ttf in Resources */,
 				54338E751B1C849C009EAE17 /* Icon-76@2x.png in Resources */,
 				54338DF71B1AF449009EAE17 /* library1.png in Resources */,
+				54338E901B2190E6009EAE17 /* 1.jpg in Resources */,
 				54338E851B1E58B4009EAE17 /* closemark.png in Resources */,
 				54338E761B1C849C009EAE17 /* Icon-Small.png in Resources */,
 				54338DF51B1AF2CA009EAE17 /* reader3.png in Resources */,
@@ -345,9 +363,11 @@
 				54338E171B1B736C009EAE17 /* Oswald-Light.ttf in Resources */,
 				54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */,
 				54338E361B1B75D4009EAE17 /* fonts.plist in Resources */,
+				54338E931B2190E6009EAE17 /* 4.jpg in Resources */,
 				54338E011B1B18DE009EAE17 /* settings20.png in Resources */,
 				54338E741B1C849C009EAE17 /* Icon-76.png in Resources */,
 				54338E771B1C849C009EAE17 /* Icon-Small@2x.png in Resources */,
+				54338E921B2190E6009EAE17 /* 3.jpg in Resources */,
 				54338DFB1B1AF4C5009EAE17 /* notification1.png in Resources */,
 				54B1DD1D1B192CEA00BF74E4 /* LaunchScreen.xib in Resources */,
 				54B1DD1A1B192CEA00BF74E4 /* Images.xcassets in Resources */,

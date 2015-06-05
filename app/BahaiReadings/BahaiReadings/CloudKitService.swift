@@ -14,6 +14,10 @@ class CloudKitService: NSObject {
     CKRecord(recordType: "GalleryItem")
   }
   
+  class func getCategoryList() -> NSArray {
+    return []
+  }
+  
   class func getBookGalleryByCategory(category:String) -> NSArray {
     return []
   }
@@ -26,8 +30,9 @@ class CloudKitService: NSObject {
     CKContainer.defaultContainer().accountStatusWithCompletionHandler({
       status, error in
       if status == CKAccountStatus.NoAccount {
-        self.saveBookProgress(handle, progress: progress)
+        
       } else {
+        self.saveBookProgress(handle, progress: progress)
       }
     })
   }
