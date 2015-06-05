@@ -64,13 +64,53 @@ class ReminderView: UIViewController {
   }
     
   @IBAction func switchDidChange(sender: UISwitch) {
+    if !sender.on {
+      UIView.animateWithDuration(0.3, animations: {
+        self.optionsView.alpha = 0.0
+        self.onOffDescription.alpha = 0.0
+        self.notOnOffLabel.alpha = 0.0
+        }, completion: { finished in
+          self.notOnOffLabel.text = "OFF"
+          self.onOffDescription.text = self.offText
+          UIView.animateWithDuration(0.3, animations: {
+            self.onOffDescription.alpha = 1.0
+            self.notOnOffLabel.alpha = 1.0
+          })
+      })
+    } else {
+      UIView.animateWithDuration(0.3, animations: {
+        self.optionsView.alpha = 1.0
+        self.notOnOffLabel.alpha = 0.0
+        self.onOffDescription.alpha = 0.0
+        }, completion: { finished in
+          self.notOnOffLabel.text = "ON"
+          self.onOffDescription.text = self.onText
+          UIView.animateWithDuration(0.3, animations: {
+            self.onOffDescription.alpha = 1.0
+            self.notOnOffLabel.alpha = 1.0
+
+          })
+
+
+      })
+    }
     
   }
   
   @IBAction func daySelected(sender: UIButton) {
+    if sender.selected {
+      sender.selected = false
+    } else {
+      sender.selected = true
+    }
   }
   
   @IBAction func timeSelected(sender: UIButton) {
+    if sender.selected {
+      sender.selected = false
+    } else {
+      sender.selected = true
+    }
   }
   
 }

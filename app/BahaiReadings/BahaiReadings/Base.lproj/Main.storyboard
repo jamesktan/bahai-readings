@@ -235,10 +235,10 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="switchDidChange:" destination="wHa-vf-q8Y" eventType="valueChanged" id="GIf-nc-y2k"/>
+                                    <action selector="switchDidChange:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="5YT-Uv-XCb"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications are enabled. You will recieve a notification reminding you to read at the specified times and days." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIi-KD-lZi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications are disabled. You won't recieve any reminders to read." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIi-KD-lZi">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="ttK-ie-4M5">
@@ -259,7 +259,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ha2-KM-Waf">
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ha2-KM-Waf">
                                 <rect key="frame" x="87" y="131" width="226" height="365"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALq-D4-oKG">
