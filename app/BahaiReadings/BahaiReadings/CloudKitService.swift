@@ -14,6 +14,25 @@ class CloudKitService: NSObject {
     CKRecord(recordType: "GalleryItem")
   }
   
+  class func getBookGalleryByCategory(category:String) -> NSArray {
+    return []
+  }
+  
+  class func getBookGalleryByAuthor(author:String) -> NSArray {
+    return []
+  }
+  
+  class func userIsLoggedIn(handle:String, progress:Float) {
+    CKContainer.defaultContainer().accountStatusWithCompletionHandler({
+      status, error in
+      if status == CKAccountStatus.NoAccount {
+        self.saveBookProgress(handle, progress: progress)
+      } else {
+      }
+    })
+  }
+  
+  
   class func saveBookProgress(handle:String, progress:Float) {
     
     var privateDatabase : CKDatabase = CKContainer.defaultContainer().privateCloudDatabase
@@ -21,10 +40,30 @@ class CloudKitService: NSObject {
     var query : CKQuery = CKQuery(recordType: "LibraryItem", predicate: predicate)
     
     privateDatabase.performQuery(query, inZoneWithID: nil, completionHandler: { results, error in
+      
       if error != nil {
+        // If Query for Library Items Works
         
+        if results != nil {
+          // If found, then update it.
+          var resultsRec : NSArray = results
+          var record : CKRecord = resultsRec.firstObject as! CKRecord
+          record.setObject(NSNumber(float: progress), forKey: "bookProgress")
+          privateDatabase.saveRecord(record, completionHandler: { (record, error) in
+            NSLog("Saved to Library")
+          })
+          
+        } else {
+          // Save to the record if not found
+          var record : CKRecord = CKRecord(recordType: "LibraryItem")
+          record.setObject(NSString(UTF8String: handle), forKey: "bookHandle")
+          record.setObject(NSNumber(float: progress), forKey: "bookProgress")
+          privateDatabase.saveRecord(record, completionHandler: { (record, error) in
+            NSLog("Saved to Library")
+          })
+        }
       } else {
-        
+        NSLog("No internet ACCESS!")
       }
       
     })

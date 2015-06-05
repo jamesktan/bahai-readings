@@ -145,7 +145,6 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
         self.readerSettingsView.alpha = 0
         self.shadowView.alpha = 0.0
       }
-
       }, completion: { finished in
         if self.shadowView.alpha == 0.0 {
           self.shadowView.removeFromSuperview()
