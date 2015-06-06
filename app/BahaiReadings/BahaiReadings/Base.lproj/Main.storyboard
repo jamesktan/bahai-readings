@@ -826,25 +826,17 @@
                                     <rect key="frame" x="16" y="0.0" width="368" height="50"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Downloaded Writings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTl-Ik-ZVO">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="62" width="368" height="21"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOW-Dt-iw6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCl-xh-Ehu">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Find More Writings">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="91" width="46" height="30"/>
+                                    <rect key="frame" x="244" y="4" width="140" height="42"/>
                                 </variation>
                                 <connections>
-                                    <action selector="testCloudkit:" destination="G3d-eC-xCl" eventType="touchUpInside" id="orY-ag-NR8"/>
+                                    <action selector="searchForBooks:" destination="G3d-eC-xCl" eventType="touchUpInside" id="G91-gm-cuw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -852,29 +844,30 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="avF-T6-p8a"/>
-                                <exclude reference="KTl-Ik-ZVO"/>
-                                <exclude reference="bOW-Dt-iw6"/>
+                                <exclude reference="dCl-xh-Ehu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="avF-T6-p8a"/>
-                                <include reference="KTl-Ik-ZVO"/>
-                                <include reference="bOW-Dt-iw6"/>
+                                <include reference="dCl-xh-Ehu"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="QDE-yq-KKw"/>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <segue destination="Kg8-fl-hr3" kind="show" identifier="showGallery" id="q4E-2G-m05"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KrG-1Q-ipp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3768" y="-307"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View-->
         <scene sceneID="4dH-fx-FQS">
             <objects>
-                <viewController id="Kg8-fl-hr3" sceneMemberID="viewController">
+                <viewController id="Kg8-fl-hr3" customClass="GalleryView" customModule="BahaiReadings" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2eP-3U-TO9"/>
                         <viewControllerLayoutGuide type="bottom" id="GJa-6j-eSS"/>
@@ -883,22 +876,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="77z-bt-9Bi">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4Y-gM-4fs">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="605"/>
+                                    <rect key="frame" x="16" y="0.0" width="368" height="50"/>
                                 </variation>
-                            </imageView>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7t-oj-Wlf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Return to Library">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="244" y="4" width="140" height="42"/>
+                                </variation>
+                                <connections>
+                                    <action selector="goToLibrary:" destination="Kg8-fl-hr3" eventType="touchUpInside" id="GJA-bR-ccv"/>
+                                    <action selector="searchForBooks:" destination="G3d-eC-xCl" eventType="touchUpInside" id="Plg-3P-Ace"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="77z-bt-9Bi"/>
+                                <exclude reference="k4Y-gM-4fs"/>
+                                <exclude reference="s7t-oj-Wlf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="77z-bt-9Bi"/>
+                                <include reference="k4Y-gM-4fs"/>
+                                <include reference="s7t-oj-Wlf"/>
                             </mask>
                         </variation>
                     </view>
@@ -1406,7 +1418,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2.jpg" width="1000" height="1294"/>
         <image name="about2.png" width="20" height="20"/>
         <image name="closemark.png" width="128" height="128"/>
         <image name="library1.png" width="20" height="20"/>

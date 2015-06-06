@@ -1,5 +1,5 @@
 //
-//  LibraryView.swift
+//  GalleryView.swift
 //  BahaiReadings
 //
 //  Created by James Tan on 6/6/15.
@@ -8,11 +8,8 @@
 
 import UIKit
 
-class LibraryView: UIViewController {
+class GalleryView: UIViewController {
 
-  @IBAction func testCloudkit(sender: AnyObject) {
-    CloudKitService.getBookGalleryByCategory("tablet")
-  }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,14 +21,13 @@ class LibraryView: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-  @IBAction func searchForBooks(sender: UIButton) {
-    performSegueWithIdentifier("showGallery", sender: self)
+  @IBAction func goToLibrary(sender: UIButton) {
+    self.navigationController?.popViewControllerAnimated(true)
   }
-  
+
   override func prefersStatusBarHidden() -> Bool {
     return true
   }
-
     /*
     // MARK: - Navigation
 

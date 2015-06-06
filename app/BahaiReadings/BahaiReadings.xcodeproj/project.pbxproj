@@ -47,6 +47,8 @@
 		54338E931B2190E6009EAE17 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338E8E1B2190E6009EAE17 /* 4.jpg */; };
 		54338E941B2190E6009EAE17 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338E8F1B2190E6009EAE17 /* 5.jpg */; };
 		54338E981B2379AD009EAE17 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E971B2379AD009EAE17 /* LibraryView.swift */; };
+		54338E9A1B237FC7009EAE17 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E991B237FC7009EAE17 /* BookService.swift */; };
+		54338E9C1B2386C2009EAE17 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338E9B1B2386C2009EAE17 /* GalleryView.swift */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -108,6 +110,8 @@
 		54338E8E1B2190E6009EAE17 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		54338E8F1B2190E6009EAE17 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		54338E971B2379AD009EAE17 /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		54338E991B237FC7009EAE17 /* BookService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		54338E9B1B2386C2009EAE17 /* GalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -222,9 +226,11 @@
 				54B1DD161B192CEA00BF74E4 /* Main.storyboard */,
 				54338E3E1B1C1FA1009EAE17 /* ReminderView.swift */,
 				54338E971B2379AD009EAE17 /* LibraryView.swift */,
-				54338E891B1F7A83009EAE17 /* CloudKitService.swift */,
+				54338E9B1B2386C2009EAE17 /* GalleryView.swift */,
 				54338E3D1B1C1F76009EAE17 /* Reader */,
 				54338E3B1B1B7B4C009EAE17 /* DataManager.swift */,
+				54338E991B237FC7009EAE17 /* BookService.swift */,
+				54338E891B1F7A83009EAE17 /* CloudKitService.swift */,
 				54B1DD191B192CEA00BF74E4 /* Images.xcassets */,
 				54B1DD1B1B192CEA00BF74E4 /* LaunchScreen.xib */,
 				54338E341B1B7402009EAE17 /* Fonts */,
@@ -407,7 +413,9 @@
 				54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */,
 				54338E981B2379AD009EAE17 /* LibraryView.swift in Sources */,
 				54338E3F1B1C1FA1009EAE17 /* ReminderView.swift in Sources */,
+				54338E9A1B237FC7009EAE17 /* BookService.swift in Sources */,
 				54B1DD331B1A427800BF74E4 /* ReaderView.swift in Sources */,
+				54338E9C1B2386C2009EAE17 /* GalleryView.swift in Sources */,
 				54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */,
 				54338E041B1B3D81009EAE17 /* ReaderPresenter.swift in Sources */,
 			);
