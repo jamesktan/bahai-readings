@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--ABOUT-->
+        <!--About View-->
         <scene sceneID="jIl-D2-o3g">
             <objects>
-                <viewController id="x3Y-Ba-uw6" sceneMemberID="viewController">
+                <viewController id="x3Y-Ba-uw6" customClass="AboutView" customModule="BahaiReadings" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OKs-Ck-Y1O"/>
                         <viewControllerLayoutGuide type="bottom" id="xn2-R3-kB8"/>
@@ -59,6 +59,9 @@
                                         <include reference="Djo-Xa-veM"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="createFeedback:" destination="x3Y-Ba-uw6" eventType="touchUpInside" id="7Xj-BW-tUl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmA-5r-XrU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -82,6 +85,9 @@
                                         <include reference="d4O-L6-QfC"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="showAcknowledgements:" destination="x3Y-Ba-uw6" eventType="touchUpInside" id="bua-Sa-OT0"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tQ-P5-J30">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -110,7 +116,9 @@
                             <constraint firstItem="xn2-R3-kB8" firstAttribute="top" secondItem="WmA-5r-XrU" secondAttribute="bottom" constant="8" id="40K-I9-7DN"/>
                             <constraint firstItem="3fD-jw-SLk" firstAttribute="leading" secondItem="Gcj-2E-pN7" secondAttribute="leadingMargin" id="64P-WH-CMa"/>
                             <constraint firstItem="8tQ-P5-J30" firstAttribute="top" secondItem="3fD-jw-SLk" secondAttribute="bottom" constant="8" id="LdZ-bv-1lW"/>
-                            <constraint firstItem="3fD-jw-SLk" firstAttribute="top" secondItem="OKs-Ck-Y1O" secondAttribute="bottom" id="TBc-6Y-92X"/>
+                            <constraint firstItem="3fD-jw-SLk" firstAttribute="top" secondItem="OKs-Ck-Y1O" secondAttribute="bottom" id="TBc-6Y-92X">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="8tQ-P5-J30" secondAttribute="trailing" constant="-7" id="XsJ-cD-8bK"/>
                             <constraint firstItem="8tQ-P5-J30" firstAttribute="leading" secondItem="Gcj-2E-pN7" secondAttribute="leadingMargin" constant="-6" id="b87-SE-mPy"/>
                             <constraint firstItem="WmA-5r-XrU" firstAttribute="leading" secondItem="TCR-gf-c6w" secondAttribute="leading" id="dTX-bj-ZYf"/>
@@ -161,11 +169,145 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ABOUT" image="about2.png" id="iAH-wD-HaQ"/>
+                    <navigationItem key="navigationItem" id="eot-vk-zLz"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <segue destination="ctg-aQ-upg" kind="show" identifier="showThanks" id="vbf-aU-VE0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Pv-Cv-8Sw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3058.5" y="1094"/>
+            <point key="canvasLocation" x="3768" y="1094"/>
+        </scene>
+        <!--Thanks View-->
+        <scene sceneID="zO6-Uv-RPp">
+            <objects>
+                <viewController id="ctg-aQ-upg" customClass="ThanksView" customModule="BahaiReadings" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="igQ-IA-hl3"/>
+                        <viewControllerLayoutGuide type="bottom" id="ujB-hs-h04"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JJ1-VO-94y">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special Thanks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDq-Db-rU9">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XLt-sS-tOu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="XLt-sS-tOu"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="XLt-sS-tOu"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="iCarousel :  Baha'i Reference Library: FlatIcons: Dollar Photo Club:" translatesAutoresizingMaskIntoConstraints="NO" id="Fed-vU-vMG">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="485" id="vc9-dW-mpQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="vc9-dW-mpQ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="vc9-dW-mpQ"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp1-3A-9rQ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="AG9-Wt-qjQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AG9-Wt-qjQ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="AG9-Wt-qjQ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="dismissThanksVC:" destination="ctg-aQ-upg" eventType="touchUpInside" id="ZEj-fW-6Wn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fed-vU-vMG" firstAttribute="leading" secondItem="JJ1-VO-94y" secondAttribute="leadingMargin" constant="-2" id="1eC-hv-Bew"/>
+                            <constraint firstItem="YDq-Db-rU9" firstAttribute="top" secondItem="igQ-IA-hl3" secondAttribute="bottom" id="2dK-yH-z0o"/>
+                            <constraint firstItem="Lp1-3A-9rQ" firstAttribute="trailing" secondItem="JJ1-VO-94y" secondAttribute="trailingMargin" id="3QM-bB-PEY"/>
+                            <constraint firstItem="YDq-Db-rU9" firstAttribute="trailing" secondItem="JJ1-VO-94y" secondAttribute="trailingMargin" id="Flt-ad-b9g"/>
+                            <constraint firstItem="Lp1-3A-9rQ" firstAttribute="top" secondItem="igQ-IA-hl3" secondAttribute="bottom" constant="10" id="P4p-Ln-S39"/>
+                            <constraint firstItem="Fed-vU-vMG" firstAttribute="top" secondItem="YDq-Db-rU9" secondAttribute="bottom" constant="8" id="Yfy-c7-l6S"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fed-vU-vMG" secondAttribute="trailing" constant="-2" id="chI-B3-9Kb"/>
+                            <constraint firstItem="Lp1-3A-9rQ" firstAttribute="trailing" secondItem="JJ1-VO-94y" secondAttribute="trailingMargin" id="ckA-jm-rqm"/>
+                            <constraint firstItem="YDq-Db-rU9" firstAttribute="leading" secondItem="JJ1-VO-94y" secondAttribute="leadingMargin" id="pZB-Ef-eaz"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="YDq-Db-rU9"/>
+                                <exclude reference="Fed-vU-vMG"/>
+                                <exclude reference="Lp1-3A-9rQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2dK-yH-z0o"/>
+                                <exclude reference="Flt-ad-b9g"/>
+                                <exclude reference="pZB-Ef-eaz"/>
+                                <exclude reference="1eC-hv-Bew"/>
+                                <exclude reference="Yfy-c7-l6S"/>
+                                <exclude reference="chI-B3-9Kb"/>
+                                <exclude reference="3QM-bB-PEY"/>
+                                <exclude reference="P4p-Ln-S39"/>
+                                <exclude reference="ckA-jm-rqm"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="YDq-Db-rU9"/>
+                                <include reference="Fed-vU-vMG"/>
+                                <include reference="Lp1-3A-9rQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2dK-yH-z0o"/>
+                                <include reference="Flt-ad-b9g"/>
+                                <include reference="pZB-Ef-eaz"/>
+                                <include reference="1eC-hv-Bew"/>
+                                <include reference="Yfy-c7-l6S"/>
+                                <include reference="chI-B3-9Kb"/>
+                                <include reference="3QM-bB-PEY"/>
+                                <include reference="P4p-Ln-S39"/>
+                                <include reference="ckA-jm-rqm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="text" destination="Fed-vU-vMG" id="Qpr-Hu-gUA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OCo-Aw-1fc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4467" y="1094"/>
         </scene>
         <!--REMINDER-->
         <scene sceneID="J7K-n1-alz">
@@ -819,7 +961,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Library" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avF-T6-p8a">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -887,7 +1029,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4Y-gM-4fs">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -1124,7 +1266,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reader Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0h-vb-QYf">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
@@ -1442,7 +1584,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="s4I-He-2f4"/>
                         <segue destination="jYt-hO-6dH" kind="relationship" relationship="viewControllers" id="G7R-FQ-X0k"/>
                         <segue destination="wHa-vf-q8Y" kind="relationship" relationship="viewControllers" id="ONO-d5-zJX"/>
-                        <segue destination="x3Y-Ba-uw6" kind="relationship" relationship="viewControllers" id="Eth-e3-erx"/>
+                        <segue destination="imn-fX-TzL" kind="relationship" relationship="viewControllers" id="Eth-e3-erx"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yjD-RN-CHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1468,6 +1610,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3YW-iG-7x1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3058.5" y="-307"/>
+        </scene>
+        <!--ABOUT-->
+        <scene sceneID="frB-fI-DAF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="imn-fX-TzL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ABOUT" image="about2.png" id="iAH-wD-HaQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JlK-76-2oW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="x3Y-Ba-uw6" kind="relationship" relationship="rootViewController" id="rSS-Kr-uWN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6wG-Qe-iCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3058.5" y="1094"/>
         </scene>
     </scenes>
     <resources>
