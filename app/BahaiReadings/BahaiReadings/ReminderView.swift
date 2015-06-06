@@ -112,5 +112,9 @@ class ReminderView: UIViewController {
       sender.selected = true
     }
   }
+  
+  override func prefersStatusBarHidden() -> Bool {
+    return true
+  }
     
 }

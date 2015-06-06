@@ -214,6 +214,15 @@
 			name = Reader;
 			sourceTree = "<group>";
 		};
+		54338EA91B23958C009EAE17 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				54338EA31B238C96009EAE17 /* AboutView.swift */,
+				54338EA71B23905E009EAE17 /* ThanksView.swift */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
 		54B1DD041B192CE900BF74E4 = {
 			isa = PBXGroup;
 			children = (
@@ -241,8 +250,7 @@
 				54338E3E1B1C1FA1009EAE17 /* ReminderView.swift */,
 				54338E971B2379AD009EAE17 /* LibraryView.swift */,
 				54338E9B1B2386C2009EAE17 /* GalleryView.swift */,
-				54338EA31B238C96009EAE17 /* AboutView.swift */,
-				54338EA71B23905E009EAE17 /* ThanksView.swift */,
+				54338EA91B23958C009EAE17 /* About */,
 				54338E3D1B1C1F76009EAE17 /* Reader */,
 				54338E3B1B1B7B4C009EAE17 /* DataManager.swift */,
 				54338E991B237FC7009EAE17 /* BookService.swift */,

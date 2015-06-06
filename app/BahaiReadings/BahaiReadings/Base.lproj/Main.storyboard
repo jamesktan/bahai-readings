@@ -343,44 +343,6 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFF" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2z-zh-sHq">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="52" id="Na1-i6-a6B"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Na1-i6-a6B"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="Na1-i6-a6B"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UNB-Op-N84">
-                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="CVg-fp-8ui"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="CVg-fp-8ui"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="CVg-fp-8ui"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="switchDidChange:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="5YT-Uv-XCb"/>
-                                </connections>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications are disabled. You won't recieve any reminders to read." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIi-KD-lZi">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
@@ -858,13 +820,57 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFF" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2z-zh-sHq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="Na1-i6-a6B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Na1-i6-a6B"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Na1-i6-a6B"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UNB-Op-N84">
+                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="CVg-fp-8ui"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="CVg-fp-8ui"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="CVg-fp-8ui"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="switchDidChange:" destination="wHa-vf-q8Y" eventType="touchUpInside" id="5YT-Uv-XCb"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="RIi-KD-lZi" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="3Xu-8q-VNC"/>
-                            <constraint firstItem="UNB-Op-N84" firstAttribute="top" secondItem="7yY-X6-eGF" secondAttribute="bottom" constant="17" id="9zk-ch-9Zt"/>
-                            <constraint firstItem="KmZ-s0-yej" firstAttribute="top" secondItem="7yY-X6-eGF" secondAttribute="bottom" constant="8" id="ByH-Fu-u4F"/>
-                            <constraint firstItem="c2z-zh-sHq" firstAttribute="top" secondItem="7yY-X6-eGF" secondAttribute="bottom" constant="22" id="Lk3-XO-lZf"/>
+                            <constraint firstItem="UNB-Op-N84" firstAttribute="top" secondItem="7yY-X6-eGF" secondAttribute="bottom" constant="17" id="9zk-ch-9Zt">
+                                <variation key="widthClass=compact" constant="9"/>
+                            </constraint>
+                            <constraint firstItem="KmZ-s0-yej" firstAttribute="top" secondItem="7yY-X6-eGF" secondAttribute="bottom" constant="8" id="ByH-Fu-u4F">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="c2z-zh-sHq" firstAttribute="top" secondItem="7yY-X6-eGF" secondAttribute="bottom" constant="22" id="Lk3-XO-lZf">
+                                <variation key="widthClass=compact" constant="14"/>
+                            </constraint>
                             <constraint firstAttribute="centerX" secondItem="ha2-KM-Waf" secondAttribute="centerX" id="OYB-EF-WYH"/>
                             <constraint firstItem="RIi-KD-lZi" firstAttribute="top" secondItem="KmZ-s0-yej" secondAttribute="bottom" constant="8" id="SM2-MJ-nB9"/>
                             <constraint firstItem="UNB-Op-N84" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="Xc8-Yr-wr9"/>
@@ -878,9 +884,9 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="KmZ-s0-yej"/>
+                                <exclude reference="RIi-KD-lZi"/>
                                 <exclude reference="c2z-zh-sHq"/>
                                 <exclude reference="UNB-Op-N84"/>
-                                <exclude reference="RIi-KD-lZi"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="ByH-Fu-u4F"/>
@@ -901,9 +907,9 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="KmZ-s0-yej"/>
+                                <include reference="RIi-KD-lZi"/>
                                 <include reference="c2z-zh-sHq"/>
                                 <include reference="UNB-Op-N84"/>
-                                <include reference="RIi-KD-lZi"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="ByH-Fu-u4F"/>
@@ -923,6 +929,7 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="REMINDER" image="notification1.png" id="3wD-P2-cCu"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="buttonAfternoon" destination="rCC-lc-39o" id="2Lm-pV-dji"/>
                         <outlet property="buttonEvening" destination="NMI-G4-pIP" id="WU5-nb-C80"/>
