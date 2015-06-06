@@ -44,12 +44,7 @@ class ReminderView: UIViewController {
     }
     return Static.instance
   }
-  
-//  struct frame {
-//    static var presenter : ReminderPresenter? = nil
-//  }
-
-  
+    
   override func viewDidLoad() {
     days = [buttonMon, buttonTue, buttonWed, buttonThr, buttonSat, buttonSun, buttonEveryDay]
     times = [buttonMorn, buttonEvening, buttonNoon, buttonAfternoon, buttonMidnight]

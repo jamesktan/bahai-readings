@@ -11,27 +11,13 @@ import MessageUI
 
 class AboutView: UIViewController, MFMailComposeViewControllerDelegate {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+  }
 
   @IBAction func createFeedback(sender: UIButton) {
     var title : String = "Baha'i Readings"
@@ -42,9 +28,7 @@ class AboutView: UIViewController, MFMailComposeViewControllerDelegate {
     mfc.setToRecipients(recipient as [AnyObject])
     mfc.setSubject(title)
     mfc.setMessageBody(body, isHTML: true)
-    presentViewController(mfc, animated: true, completion: {
-      
-    })
+    presentViewController(mfc, animated: true, completion:nil)
     
   }
   
@@ -58,6 +42,7 @@ class AboutView: UIViewController, MFMailComposeViewControllerDelegate {
   @IBAction func showAcknowledgements(sender: UIButton) {
     performSegueWithIdentifier("showThanks", sender: self)
   }
+  
   override func prefersStatusBarHidden() -> Bool {
     return true
   }
