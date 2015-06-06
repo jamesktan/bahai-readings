@@ -15,15 +15,40 @@ class CloudKitService: NSObject {
   }
   
   class func getCategoryList() -> NSArray {
-    return []
+    return ["tablet"]
   }
   
-  class func getBookGalleryByCategory(category:String) -> NSArray {
-    return []
+  class func getBookGalleryByCategory(category:String) { // tablet
+    var publicDB : CKDatabase = CKContainer.defaultContainer().publicCloudDatabase
+    var predicate : NSPredicate = NSPredicate(format: "bookCategory = %@", category)
+    var query : CKQuery = CKQuery(recordType: "GalleryItem", predicate: predicate)
+    publicDB.performQuery(query, inZoneWithID: nil, completionHandler: { results, error in
+      if error != nil {
+        println(error)
+      }
+      if error == nil && results != nil {
+        NSLog("Category Found!")
+        var resArray : NSArray = results as NSArray
+        for item in resArray {
+          var itemDict : CKRecord = item as! CKRecord
+          var handle : String = itemDict.objectForKey("bookHandle") as! String
+          println(handle)
+          
+        }
+        
+      }
+    })
   }
   
-  class func getBookGalleryByAuthor(author:String) -> NSArray {
-    return []
+  class func getBookGalleryByAuthor(author:String) {
+    var publicDB : CKDatabase = CKContainer.defaultContainer().publicCloudDatabase
+    var predicate : NSPredicate = NSPredicate(format: "author = %@", author)
+    var query : CKQuery = CKQuery(recordType: "GalleryItem", predicate: predicate)
+    publicDB.performQuery(query, inZoneWithID: nil, completionHandler: { results, error in
+      if error != nil && results != nil {
+        NSLog("Author Found!")
+      }
+    })
   }
   
   class func userIsLoggedIn(handle:String, progress:Float) {
