@@ -12,5 +12,11 @@ class GalleryCollectionViewCell: UICollectionViewCell {
   
   @IBOutlet weak var bookCover: UIImageView!
   @IBOutlet weak var bookTitle: UILabel!
+  @IBOutlet weak var bookAuthor: UILabel!
+  @IBOutlet weak var bookDescription: UILabel!
+  
+  @IBAction func downloadAndRead(sender: UIButton) {
+    
+  }
     
 }

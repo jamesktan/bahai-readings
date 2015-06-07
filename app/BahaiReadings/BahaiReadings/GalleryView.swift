@@ -33,16 +33,15 @@ class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewD
   // MARK: UICollectionView Delegate Methods
   
   func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-    return 0
+    return 1
   }
   
   func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return 0
+    return 20
   }
   
   func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("BookCell", forIndexPath: indexPath) as! UICollectionViewCell
-    cell.backgroundColor = UIColor.blackColor()
+    let cell : GalleryCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("BookCell", forIndexPath: indexPath) as! GalleryCollectionViewCell    
     // Configure the cell
     return cell
   }
