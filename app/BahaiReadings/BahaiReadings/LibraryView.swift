@@ -39,5 +39,8 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
     return UIView()
   }
   
+  func carousel(carousel: iCarousel!, didSelectItemAtIndex index: Int) {
+    
+  }
 
 }
