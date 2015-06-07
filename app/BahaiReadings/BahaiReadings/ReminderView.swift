@@ -38,8 +38,13 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   
   override func viewDidLoad() {
     scheduleDetails = [sched0, sched1, sched2, sched4, sched7]
-
     super.viewDidLoad()
+    
+    // Setup
+    highlightSelectedSchedule(getSelectedSchedule())
+    var vals = getCounterValues()
+    setCounterValues(vals.0, val2: vals.1, val3: vals.2)
+
 
   }
   
@@ -85,6 +90,8 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
     // 1 - Confirm
     if buttonIndex == 1 {
       //do something here to reset
+      resetCounterValues()
+      setCounterValues("0", val2: "0", val3: "0")
     }
   }
 
@@ -178,7 +185,35 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
     }
   }
   
-  func highlightSelectedSchedule() {
+  func highlightSelectedSchedule(key:String) {
+    if key == "never" {
+      reminderSegment.selectedSegmentIndex = 0
+      reminderDescription.text = sched0
+    }
+    if key == "1week" {
+      reminderSegment.selectedSegmentIndex = 1
+      reminderDescription.text = sched1
+    }
+    if key == "2week" {
+      reminderSegment.selectedSegmentIndex = 2
+      reminderDescription.text = sched2
+
+    }
+    if key == "4week" {
+      reminderSegment.selectedSegmentIndex = 3
+      reminderDescription.text = sched4
+
+    }
+    if key == "everyday" {
+      reminderSegment.selectedSegmentIndex = 4
+      reminderDescription.text = sched7
+    }
+  }
+  
+  func setCounterValues(val1:String,val2:String,val3:String) {
+    readCount0.text = val1
+    readCount1.text = val2
+    readCount2.text = val3
   }
   
   func getSelectedSchedule()->String{
@@ -187,7 +222,17 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   }
   
   func getCounterValues()->(String,String,String) {
-    return ("","","")
+    //@jtan: TODO, refactor this
+    var k1 = DataManager.getCounterKey("counter1")
+    var k2 = DataManager.getCounterKey("counter2")
+    var k3 = DataManager.getCounterKey("counter3")
+    return (k1,k2,k3)
+  }
+  
+  func resetCounterValues() {
+    DataManager.setCurrentKey("0", key: "counter1")
+    DataManager.setCurrentKey("0", key: "counter2")
+    DataManager.setCurrentKey("0", key: "counter3")
   }
   
   func saveSelectedSchedule(state:String) {

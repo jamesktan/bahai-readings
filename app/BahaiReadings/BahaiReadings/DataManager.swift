@@ -106,5 +106,15 @@ class DataManager: NSObject {
 
   }
   
+  class func getCounterKey(key:String)->String {
+    var val : AnyObject? = NSUserDefaults.standardUserDefaults().objectForKey(key)
+    if val != nil {
+      return val as! String
+    } else {
+      setCurrentKey("0", key: key)
+      return "0"
+    }
+  }
+  
 
 }
