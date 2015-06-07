@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CloudKit
 
 class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
@@ -37,12 +38,26 @@ class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewD
   }
   
   func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return 20
+    if CloudKitService.container.galleryDownloaded == true {
+      return CloudKitService.container.galleryList.count
+    }
+    return 0
   }
   
   func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell : GalleryCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("BookCell", forIndexPath: indexPath) as! GalleryCollectionViewCell    
+    let cell : GalleryCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("BookCell", forIndexPath: indexPath) as! GalleryCollectionViewCell
+    
     // Configure the cell
+    if CloudKitService.container.galleryDownloaded == true {
+      var tempList : NSArray = CloudKitService.container.galleryList as NSArray
+      var book : CKRecord = tempList.objectAtIndex(indexPath.row) as! CKRecord
+      cell.bookTitle.text = (book.objectForKey("bookTitle") as! String)
+      cell.bookAuthor.text = "by: " + (book.objectForKey("bookAuthor") as! String)
+      cell.bookDescription.text = (book.objectForKey("bookNotes") as! String)
+      cell.bookCover.image = UIImage(named: (book.objectForKey("bookCoverURL") as! String) + ".jpg" )
+    }
+    
+    
     return cell
   }
 

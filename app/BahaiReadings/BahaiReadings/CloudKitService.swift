@@ -10,6 +10,18 @@ import UIKit
 import CloudKit
 
 class CloudKitService: NSObject {
+  
+  struct container {
+    static var galleryList : NSArray = []
+    static var galleryDownloaded : Bool = false
+  }
+  
+  class func setupCloudService() {
+    // Download everything we need from the Gallery and set to memory
+    getBookGalleryByCategory("tablet")
+    
+  }
+  
   class func getBooks() {
     CKRecord(recordType: "GalleryItem")
   }
@@ -29,12 +41,9 @@ class CloudKitService: NSObject {
       if error == nil && results != nil {
         NSLog("Category Found!")
         var resArray : NSArray = results as NSArray
-        for item in resArray {
-          var itemDict : CKRecord = item as! CKRecord
-          var handle : String = itemDict.objectForKey("bookHandle") as! String
-          println(handle)
-        }
-        
+        self.container.galleryList = resArray
+        self.container.galleryDownloaded = true
+        NSNotificationCenter.defaultCenter().postNotificationName("finishedDownloadingGallery", object: nil)        
       }
     })
   }
