@@ -19,9 +19,9 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   @IBOutlet weak var resetCounter: UIButton!
   
   let sched0 : String = "You will not recieve any reminder to read."
-  let sched1 : String = "You will recieve 1 reminder per week."
-  let sched2 : String = "You will recieve 2 reminders per week."
-  let sched4 : String = "You will recieve 4 reminders per week."
+  let sched1 : String = "You will be reminded every Monday."
+  let sched2 : String = "You will be reminded every Monday and Wednesday."
+  let sched4 : String = "You will be reminded every Monday, Wednesday, Friday, and Saturday"
   let sched7 : String = "You will recieve a reminder every day."
   
   let resetTitle : String = "Confirm Reset"
@@ -38,9 +38,14 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   
   override func viewDidLoad() {
     scheduleDetails = [sched0, sched1, sched2, sched4, sched7]
-    
+
     super.viewDidLoad()
 
+  }
+  
+  override func viewWillAppear(animated: Bool) {
+    UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound |
+      UIUserNotificationType.Alert | UIUserNotificationType.Badge, categories: nil))
   }
 
   override func didReceiveMemoryWarning() {
@@ -63,6 +68,10 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
       self.reminderDescription.alpha = 0.0
       }, completion: {
         finished in
+        
+        // Business Logic
+        self.clearAndSetReminderForSchedule(index)
+        
         self.reminderDescription.text = (self.scheduleDetails.objectAtIndex(index) as! String)
         UIView.animateWithDuration(0.3, animations: {
           self.reminderDescription.alpha = 1.0
@@ -79,4 +88,105 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
     }
   }
 
+  func clearAndSetReminderForSchedule(index:Int) {
+    
+    UIApplication.sharedApplication().cancelAllLocalNotifications()
+    var notifs : NSArray = []
+    var fireDates : NSArray = []
+    var state : String = "never"
+    
+    if index == 1 { // Monday
+      fireDates = [getDateOfSpecificDay(2)]
+      notifs = createLocalNotifications(1)
+      state = "1week"
+    }
+    if index == 2 {
+      var monday : NSDate = getDateOfSpecificDay(2)
+      var wednesday : NSDate = getDateOfSpecificDay(4)
+      fireDates = [monday, wednesday]
+      notifs = createLocalNotifications(2)
+      state = "2Week"
+
+    }
+    if index == 3 {
+      var monday : NSDate = getDateOfSpecificDay(2)
+      var wednesday : NSDate = getDateOfSpecificDay(4)
+      var friday : NSDate = getDateOfSpecificDay(6)
+      var saturday : NSDate = getDateOfSpecificDay(7)
+      fireDates = [monday, wednesday, friday, saturday]
+      notifs = createLocalNotifications(2)
+      state = "4Week"
+
+    }
+    if index == 4 {
+      var sunday : NSDate = getDateOfSpecificDay(1)
+      var monday : NSDate = getDateOfSpecificDay(2)
+      var tuesday : NSDate = getDateOfSpecificDay(3)
+      var wednesday : NSDate = getDateOfSpecificDay(4)
+      var thursday : NSDate = getDateOfSpecificDay(5)
+      var friday : NSDate = getDateOfSpecificDay(6)
+      var saturday : NSDate = getDateOfSpecificDay(7)
+      fireDates = [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
+      notifs = createLocalNotifications(7)
+      state = "everyday"
+
+
+    }
+    saveSelectedSchedule(state)
+    scheduleNotificationsWithFireDates(notifs, dates: fireDates)
+    
+  }
+  
+  func createLocalNotifications(numberOfDays:Int) -> NSArray {
+    var arrayOfReminders : NSMutableArray = []
+    for (var a = 0; a < numberOfDays; ++a) {
+      var notif = UILocalNotification()
+      notif.alertBody = "It's time to read!"
+      notif.alertTitle = "Notification from Baha'i Readings"
+      notif.repeatInterval = NSCalendarUnit.CalendarUnitWeekday
+      arrayOfReminders.addObject(notif)
+    }
+    return arrayOfReminders
+  }
+  
+  func getDateOfSpecificDay(day:Int) -> NSDate { // 1 = Sunday
+    
+    var desiredWeekday = day
+    var weekDateRange : NSRange = NSCalendar.currentCalendar().maximumRangeOfUnit(.CalendarUnitWeekday)
+    var daysInWeek : NSInteger = weekDateRange.length - weekDateRange.location + 1
+    
+    var dateComponents : NSDateComponents = NSCalendar.currentCalendar().components(.CalendarUnitWeekday, fromDate: NSDate())
+    var currentWeekday : NSInteger = dateComponents.weekday
+    var differenceDays : NSInteger = (desiredWeekday - currentWeekday + daysInWeek) % daysInWeek
+    var daysComponents : NSDateComponents = NSDateComponents()
+    
+    daysComponents.day = differenceDays
+    
+    var resultDate : NSDate = NSCalendar.currentCalendar().dateByAddingComponents(daysComponents, toDate: NSDate(), options: nil)!
+    
+    return resultDate
+  }
+  
+  func scheduleNotificationsWithFireDates(notifs:NSArray, dates:NSArray)
+  {
+    for (var a = 0; a < notifs.count ; a++)
+    {
+      var notif : UILocalNotification = notifs.objectAtIndex(a) as! UILocalNotification
+      var date : NSDate = dates.objectAtIndex(a) as! NSDate
+      notif.fireDate = date
+      UIApplication.sharedApplication().scheduleLocalNotification(notif)
+    }
+  }
+  
+  func highlightSelectedSchedule() {
+  }
+  
+  func getSelectedSchedule()->String{
+    return ""
+  }
+  
+  func saveSelectedSchedule(state:String) {
+    
+  }
+  
 }
