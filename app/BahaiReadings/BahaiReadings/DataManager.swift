@@ -117,5 +117,53 @@ class DataManager: NSObject {
     }
   }
   
+  // Downloading and Gallery
+  
+  class func getDownloadPath() -> NSString {
+    let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! NSString
+    let pathDownloads = paths.stringByAppendingPathComponent("Downloads") as NSString
+    return pathDownloads
+  }
+
+  class func loadOrCreatePath()-> NSString {
+    // Get or Create the Path
+    var path = getDownloadPath() //Documents/Download/
+    var exists = NSFileManager.defaultManager().fileExistsAtPath(path as String)
+    if !exists {
+      NSFileManager.defaultManager().createDirectoryAtPath(path as String, withIntermediateDirectories: true, attributes: nil, error: nil)
+    }
+    NSLog("path at: %@", path)
+    return path as NSString
+    
+  }
+  
+  class func downloadFileToPlist(url: NSString, handle:String, author:String, cover:String) -> NSString {
+    //Get the Download Folder
+    var path = loadOrCreatePath()
+    
+    // Download the COntents at the URL
+    var urlObj : NSURL = NSURL(string: url as String)!
+    var urlData : NSData = NSData(contentsOfURL: urlObj)!
+    var urlDataToString = NSString(data: urlData, encoding: NSUTF8StringEncoding)
+    
+    // Create the PLIST
+    var dictionary : NSMutableDictionary = NSMutableDictionary()
+    dictionary.setObject(handle, forKey: "bookHandle")
+    dictionary.setObject(author, forKey: "bookAuthor")
+    dictionary.setObject(cover, forKey: "bookCover")
+    dictionary.setObject(urlDataToString!, forKey: "bookData")
+    
+    // Save it to File
+    var filePath = path.stringByAppendingPathComponent(handle+".plist")
+    urlData.writeToFile(filePath, atomically: true)
+    println(filePath)
+    return filePath
+  }
+
+  
+  class func downloadFromURL(handle:String, url:String) {
+    
+  }
+  
 
 }

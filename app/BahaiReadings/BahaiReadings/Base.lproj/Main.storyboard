@@ -1005,6 +1005,12 @@
                                                         <action selector="downloadAndRead:" destination="OQR-jZ-SIY" eventType="touchUpInside" id="JsE-F8-TRw"/>
                                                     </connections>
                                                 </button>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="DMZ-je-JlQ">
+                                                    <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="8" y="170" width="20" height="20"/>
+                                                    </variation>
+                                                </activityIndicatorView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
@@ -1016,6 +1022,7 @@
                                                 <exclude reference="MlW-8S-AV3"/>
                                                 <exclude reference="846-bt-jUB"/>
                                                 <exclude reference="6JB-Ex-jsM"/>
+                                                <exclude reference="DMZ-je-JlQ"/>
                                             </mask>
                                         </variation>
                                         <variation key="widthClass=compact">
@@ -1025,9 +1032,11 @@
                                                 <include reference="MlW-8S-AV3"/>
                                                 <include reference="846-bt-jUB"/>
                                                 <include reference="6JB-Ex-jsM"/>
+                                                <include reference="DMZ-je-JlQ"/>
                                             </mask>
                                         </variation>
                                         <connections>
+                                            <outlet property="activityMonitor" destination="DMZ-je-JlQ" id="6TZ-Zw-vKw"/>
                                             <outlet property="bookAuthor" destination="MlW-8S-AV3" id="H6g-bE-o5Y"/>
                                             <outlet property="bookCover" destination="4qJ-IH-OyL" id="QPM-dh-Ahu"/>
                                             <outlet property="bookDescription" destination="846-bt-jUB" id="CaZ-j8-MU9"/>

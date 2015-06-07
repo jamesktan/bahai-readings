@@ -14,9 +14,22 @@ class GalleryCollectionViewCell: UICollectionViewCell {
   @IBOutlet weak var bookTitle: UILabel!
   @IBOutlet weak var bookAuthor: UILabel!
   @IBOutlet weak var bookDescription: UILabel!
+  @IBOutlet weak var activityMonitor: UIActivityIndicatorView!
+  
+  var hiddenBookURL : String!
+  var hiddenBookHandle : String!
+  var hiddenCoverURL : String!
   
   @IBAction func downloadAndRead(sender: UIButton) {
-    
+    activityMonitor.startAnimating()
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
+      DataManager.downloadFileToPlist(self.hiddenBookURL, handle: self.hiddenBookHandle, author: self.bookAuthor.text!, cover: self.hiddenCoverURL)
+      dispatch_async(dispatch_get_main_queue(), { () -> Void in
+        self.activityMonitor.stopAnimating()
+      })
+
+    })
   }
-    
+  
+  
 }
