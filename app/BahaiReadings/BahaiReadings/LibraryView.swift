@@ -8,12 +8,15 @@
 
 import UIKit
 
-class LibraryView: UIViewController {
+class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
 
   @IBOutlet weak var libraryCarousel: iCarousel!
     
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    libraryCarousel.delegate = self
+    libraryCarousel.dataSource = self
   }
 
   override func didReceiveMemoryWarning() {
@@ -27,5 +30,14 @@ class LibraryView: UIViewController {
   override func prefersStatusBarHidden() -> Bool {
     return true
   }
+  
+  func numberOfItemsInCarousel(carousel: iCarousel!) -> Int {
+    return 0
+  }
+  
+  func carousel(carousel: iCarousel!, viewForItemAtIndex index: Int, reusingView view: UIView!) -> UIView! {
+    return UIView()
+  }
+  
 
 }
