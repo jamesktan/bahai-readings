@@ -93,5 +93,18 @@ class DataManager: NSObject {
     NSUserDefaults.standardUserDefaults().setValue(value, forKey: key)
     NSUserDefaults.standardUserDefaults().synchronize()
   }
+  
+  // Reminder Keys
+  class func getReminderKey()->String {
+    var val : AnyObject? = NSUserDefaults.standardUserDefaults().objectForKey("schedule")
+    if val != nil {
+      return val as! String
+    } else {
+      setCurrentKey("never", key: "schedule")
+      return "never"
+    }
+
+  }
+  
 
 }

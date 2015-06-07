@@ -182,11 +182,17 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   }
   
   func getSelectedSchedule()->String{
-    return ""
+    //@jtan: TODO, refactor this
+    return DataManager.getReminderKey()
+  }
+  
+  func getCounterValues()->(String,String,String) {
+    return ("","","")
   }
   
   func saveSelectedSchedule(state:String) {
-    
+    //@jtan: TODO, refactor this
+    DataManager.setCurrentKey(state, key: "schedule")
   }
   
 }
