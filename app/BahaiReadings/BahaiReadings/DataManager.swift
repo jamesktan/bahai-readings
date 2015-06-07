@@ -151,6 +151,7 @@ class DataManager: NSObject {
     dictionary.setObject(handle, forKey: "bookHandle")
     dictionary.setObject(author, forKey: "bookAuthor")
     dictionary.setObject(cover, forKey: "bookCover")
+    dictionary.setObject("0", forKey: "bookProgress")
     dictionary.setObject(urlDataToString!, forKey: "bookData")
     
     // Save it to File
