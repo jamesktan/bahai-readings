@@ -95,6 +95,7 @@ class DataManager: NSObject {
   }
   
   // Reminder Keys
+  
   class func getReminderKey()->String {
     var val : AnyObject? = NSUserDefaults.standardUserDefaults().objectForKey("schedule")
     if val != nil {

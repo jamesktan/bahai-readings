@@ -33,7 +33,6 @@ class CloudKitService: NSObject {
           var itemDict : CKRecord = item as! CKRecord
           var handle : String = itemDict.objectForKey("bookHandle") as! String
           println(handle)
-          
         }
         
       }

@@ -54,6 +54,8 @@
 		54338EA41B238C96009EAE17 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338EA31B238C96009EAE17 /* AboutView.swift */; };
 		54338EA61B238FE4009EAE17 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54338EA51B238FE4009EAE17 /* MessageUI.framework */; };
 		54338EA81B23905E009EAE17 /* ThanksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338EA71B23905E009EAE17 /* ThanksView.swift */; };
+		54338EAB1B2471C9009EAE17 /* GalleryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338EAA1B2471C9009EAE17 /* GalleryPresenter.swift */; };
+		54338EAD1B24773E009EAE17 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54338EAC1B24773E009EAE17 /* GalleryCollectionViewCell.swift */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -124,6 +126,8 @@
 		54338EA31B238C96009EAE17 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		54338EA51B238FE4009EAE17 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		54338EA71B23905E009EAE17 /* ThanksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksView.swift; sourceTree = "<group>"; };
+		54338EAA1B2471C9009EAE17 /* GalleryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryPresenter.swift; sourceTree = "<group>"; };
+		54338EAC1B24773E009EAE17 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -250,6 +254,8 @@
 				54338E3E1B1C1FA1009EAE17 /* ReminderView.swift */,
 				54338E971B2379AD009EAE17 /* LibraryView.swift */,
 				54338E9B1B2386C2009EAE17 /* GalleryView.swift */,
+				54338EAA1B2471C9009EAE17 /* GalleryPresenter.swift */,
+				54338EAC1B24773E009EAE17 /* GalleryCollectionViewCell.swift */,
 				54338EA91B23958C009EAE17 /* About */,
 				54338E3D1B1C1F76009EAE17 /* Reader */,
 				54338E3B1B1B7B4C009EAE17 /* DataManager.swift */,
@@ -437,6 +443,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54338E8A1B1F7A83009EAE17 /* CloudKitService.swift in Sources */,
+				54338EAD1B24773E009EAE17 /* GalleryCollectionViewCell.swift in Sources */,
+				54338EAB1B2471C9009EAE17 /* GalleryPresenter.swift in Sources */,
 				54338E3A1B1B7B3D009EAE17 /* ReaderInteractor.swift in Sources */,
 				54338E3C1B1B7B4C009EAE17 /* DataManager.swift in Sources */,
 				54338EA81B23905E009EAE17 /* ThanksView.swift in Sources */,

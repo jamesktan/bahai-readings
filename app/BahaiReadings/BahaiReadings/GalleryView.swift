@@ -8,10 +8,14 @@
 
 import UIKit
 
-class GalleryView: UIViewController {
+class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
+  @IBOutlet weak var galleryCollection: UICollectionView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    galleryCollection.delegate = self
+    galleryCollection.dataSource = self
   }
   
   override func didReceiveMemoryWarning() {
@@ -26,4 +30,26 @@ class GalleryView: UIViewController {
     return true
   }
 
+  // MARK: UICollectionView Delegate Methods
+  
+  func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    return 0
+  }
+  
+  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    return 0
+  }
+  
+  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("BookCell", forIndexPath: indexPath) as! UICollectionViewCell
+    cell.backgroundColor = UIColor.blackColor()
+    // Configure the cell
+    return cell
+  }
+
+
+
+  func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+  }
+  
 }
