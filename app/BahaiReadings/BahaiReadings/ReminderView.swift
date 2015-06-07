@@ -44,8 +44,7 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
     highlightSelectedSchedule(getSelectedSchedule())
     var vals = getCounterValues()
     setCounterValues(vals.0, val2: vals.1, val3: vals.2)
-
-
+    
   }
   
   override func viewWillAppear(animated: Bool) {
@@ -211,9 +210,9 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   }
   
   func setCounterValues(val1:String,val2:String,val3:String) {
-    readCount0.text = val1
-    readCount1.text = val2
-    readCount2.text = val3
+    self.readCount0.text = val1
+    self.readCount1.text = val2
+    self.readCount2.text = val3
   }
   
   func getSelectedSchedule()->String{

@@ -10,6 +10,8 @@ import UIKit
 
 class LibraryView: UIViewController {
 
+  @IBOutlet weak var libraryCarousel: iCarousel!
+  
   @IBAction func testCloudkit(sender: AnyObject) {
     CloudKitService.getBookGalleryByCategory("tablet")
   }

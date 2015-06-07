@@ -748,6 +748,7 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="readCount0" destination="M25-N9-E5C" id="VeJ-rw-9DW"/>
+                        <outlet property="readCount1" destination="w9o-nm-SgS" id="VCH-g4-Ehk"/>
                         <outlet property="readCount2" destination="s1E-mq-cPb" id="u8P-Lc-ovW"/>
                         <outlet property="reminderDescription" destination="rQT-3E-NvP" id="ixc-ql-Ddb"/>
                         <outlet property="reminderSegment" destination="k5K-UV-7uT" id="vPW-S8-Yu3"/>
@@ -872,6 +873,7 @@
                     <navigationItem key="navigationItem" id="QDE-yq-KKw"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
+                        <outlet property="libraryCarousel" destination="jPc-Vd-K1s" id="l4v-8z-Jm9"/>
                         <segue destination="Kg8-fl-hr3" kind="show" identifier="showGallery" id="q4E-2G-m05"/>
                     </connections>
                 </viewController>
