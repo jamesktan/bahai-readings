@@ -8,35 +8,26 @@
 
 import UIKit
 
-class ReminderView: UIViewController {
+class ReminderView: UIViewController, UIAlertViewDelegate {
 
-  @IBOutlet weak var optionsView: UIView!
   
-  @IBOutlet weak var notOnOffLabel: UILabel!
-  @IBOutlet weak var onOffDescription: UILabel!
-  @IBOutlet weak var notOnOffSwitch: UISwitch!
+  @IBOutlet weak var reminderSegment: UISegmentedControl!
+  @IBOutlet weak var reminderDescription: UILabel!
+  @IBOutlet weak var readCount0: UILabel!
+  @IBOutlet weak var readCount1: UILabel!
+  @IBOutlet weak var readCount2: UILabel!
+  @IBOutlet weak var resetCounter: UIButton!
   
-  @IBOutlet weak var buttonMon: UIButton!
-  @IBOutlet weak var buttonTue: UIButton!
-  @IBOutlet weak var buttonWed: UIButton!
-  @IBOutlet weak var buttonThr: UIButton!
-  @IBOutlet weak var buttonFri: UIButton!
-  @IBOutlet weak var buttonSat: UIButton!
-  @IBOutlet weak var buttonSun: UIButton!
-  @IBOutlet weak var buttonEveryDay: UIButton!
+  let sched0 : String = "You will not recieve any reminder to read."
+  let sched1 : String = "You will recieve 1 reminder per week."
+  let sched2 : String = "You will recieve 2 reminders per week."
+  let sched4 : String = "You will recieve 4 reminders per week."
+  let sched7 : String = "You will recieve a reminder every day."
   
-  @IBOutlet weak var buttonMorn: UIButton!
-  @IBOutlet weak var buttonEvening: UIButton!
-  @IBOutlet weak var buttonNoon: UIButton!
-  @IBOutlet weak var buttonAfternoon: UIButton!
-  @IBOutlet weak var buttonMidnight: UIButton!
+  let resetTitle : String = "Confirm Reset"
+  let resetBody : String = "Are you sure? This action cannot be undone."
   
-  var days : NSArray = []
-  var times : NSArray = []
-  
-  var onText : String = "Notifications are enabled. You will recieve a notification reminding you to read at the specified times and days."
-  var offText : String = "Notifications are disabled. You won't recieve any reminders to read."
-  
+  var scheduleDetails : NSArray = []
   
   class var shared : ReminderView {
     struct Static {
@@ -44,72 +35,48 @@ class ReminderView: UIViewController {
     }
     return Static.instance
   }
-    
+  
   override func viewDidLoad() {
-    days = [buttonMon, buttonTue, buttonWed, buttonThr, buttonSat, buttonSun, buttonEveryDay]
-    times = [buttonMorn, buttonEvening, buttonNoon, buttonAfternoon, buttonMidnight]
+    scheduleDetails = [sched0, sched1, sched2, sched4, sched7]
     
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
-    
-  @IBAction func switchDidChange(sender: UISwitch) {
-    if !sender.on {
-      UIView.animateWithDuration(0.3, animations: {
-        self.optionsView.alpha = 0.0
-        self.onOffDescription.alpha = 0.0
-        self.notOnOffLabel.alpha = 0.0
-        }, completion: { finished in
-          self.notOnOffLabel.text = "OFF"
-          self.onOffDescription.text = self.offText
-          UIView.animateWithDuration(0.3, animations: {
-            self.onOffDescription.alpha = 1.0
-            self.notOnOffLabel.alpha = 1.0
-          })
-      })
-    } else {
-      UIView.animateWithDuration(0.3, animations: {
-        self.optionsView.alpha = 1.0
-        self.notOnOffLabel.alpha = 0.0
-        self.onOffDescription.alpha = 0.0
-        }, completion: { finished in
-          self.notOnOffLabel.text = "ON"
-          self.onOffDescription.text = self.onText
-          UIView.animateWithDuration(0.3, animations: {
-            self.onOffDescription.alpha = 1.0
-            self.notOnOffLabel.alpha = 1.0
-
-          })
-
-
-      })
-    }
-    
-  }
-  
-  @IBAction func daySelected(sender: UIButton) {
-    if sender.selected {
-      sender.selected = false
-    } else {
-      sender.selected = true
-    }
-  }
-  
-  @IBAction func timeSelected(sender: UIButton) {
-    if sender.selected {
-      sender.selected = false
-    } else {
-      sender.selected = true
-    }
-  }
   
   override func prefersStatusBarHidden() -> Bool {
     return true
   }
-    
+  
+  @IBAction func resetReadCounter(sender: UIButton) {
+    UIAlertView(title: resetTitle, message: resetBody, delegate: self, cancelButtonTitle: "Cancel", otherButtonTitles: "Reset").show()
+  }
+  
+  @IBAction func reminderSegmentChanged(sender: UISegmentedControl) {
+    var index = sender.selectedSegmentIndex
+    println(index)
+    UIView.animateWithDuration(0.3, animations: {
+      self.reminderDescription.alpha = 0.0
+      }, completion: {
+        finished in
+        self.reminderDescription.text = (self.scheduleDetails.objectAtIndex(index) as! String)
+        UIView.animateWithDuration(0.3, animations: {
+          self.reminderDescription.alpha = 1.0
+        })
+
+    })
+  }
+  
+  func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+    println(buttonIndex)
+    // 1 - Confirm
+    if buttonIndex == 1 {
+      //do something here to reset
+    }
+  }
+
 }
