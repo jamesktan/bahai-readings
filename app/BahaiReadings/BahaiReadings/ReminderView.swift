@@ -230,6 +230,7 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   }
   
   func resetCounterValues() {
+    //@jtan: TODO, refactor this
     DataManager.setCurrentKey("0", key: "counter1")
     DataManager.setCurrentKey("0", key: "counter2")
     DataManager.setCurrentKey("0", key: "counter3")
