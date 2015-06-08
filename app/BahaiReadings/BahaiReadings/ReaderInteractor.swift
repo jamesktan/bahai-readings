@@ -24,11 +24,17 @@ class ReaderInteractor: NSObject {
     return DataManager.arrayOfSizes()
   }
   
-  func htmlForBook(book:String)->String {
-    var urlString = "https://s3-us-west-2.amazonaws.com/bahai-reading/Epistle+To+The+Son+of+the+Wolf.html"
-    var url = NSURL(string: urlString)
-    var contents = NSString(contentsOfURL: url!, encoding: NSUTF8StringEncoding, error: nil)
-    return contents as! String
+  func htmlForBook(book:String?)->String {
+//    var urlString = "https://s3-us-west-2.amazonaws.com/bahai-reading/Epistle+To+The+Son+of+the+Wolf.html"
+//    var url = NSURL(string: urlString)
+//    var contents = NSString(contentsOfURL: url!, encoding: NSUTF8StringEncoding, error: nil)
+    if book == nil {
+      var contents = "<html><head><style></style></head><body style='text-align:center'><br><br><h1>No Writing Selected</h1> <BR><hr><BR> <h2>Go to the Library and select or download a writing.</h2></body></html>"
+      return contents as String
+    } else {
+      var contents = BookService.htmlForBookHandle(book!)
+      return contents
+    }
   }
   
   func htmlForCurrentStyle() -> String {
@@ -55,12 +61,22 @@ class ReaderInteractor: NSObject {
     return DataManager.getCurrentOrientationKey()
   }
   
-  func getCurrentProgress(bookHandle:String)->Float {
-    return Float(0.9)
+  func getCurrentProgress(bookHandle:String?)->Float {
+    if bookHandle == nil {
+      return Float(0.0)
+    } else {
+      var progressString : NSString = BookService.progressForBookHandle(bookHandle!) as NSString
+      var progressVal : Float = progressString.floatValue
+      return progressVal
+    }
   }
   
-  func getCurrentBookTitle(handle:String)->String {
-    return "Wize Up Epistle"
+  func getCurrentBookTitle(handle:String?)->String {
+    if handle == nil {
+      return "None"
+    } else {
+      return BookService.titleForBookHandle(handle!)
+    }
   }
   
   func selectStyle(val:String) {
@@ -79,7 +95,7 @@ class ReaderInteractor: NSObject {
     DataManager.setCurrentKey(val, key: "orientation")
   }
   
-  func setCurrentProgress(bookHandle:String, progress:Float) {
+  func setCurrentProgress(bookHandle:String?, progress:Float) {
     
   }
 }

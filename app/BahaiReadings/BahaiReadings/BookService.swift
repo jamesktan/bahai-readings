@@ -35,6 +35,33 @@ class BookService: NSObject {
     
   }
   
+  class func htmlForBookHandle(handle:String) -> String {
+    var plistName = handle
+    var dictionary : NSDictionary = getBookFromFile(plistName) as NSDictionary
+    var data : String = dictionary.objectForKey("bookData") as! String
+    return data
+  }
   
+  class func titleForBookHandle(handle:String) -> String {
+    var plistName = handle
+    var dictionary : NSDictionary = getBookFromFile(plistName) as NSDictionary
+    var data : String = dictionary.objectForKey("bookTitle") as! String
+    return data
+  }
+
+  class func authorForBookHandle(handle:String) -> String {
+    var plistName = handle
+    var dictionary : NSDictionary = getBookFromFile(plistName) as NSDictionary
+    var data : String = dictionary.objectForKey("bookAuthor") as! String
+    return data
+  }
+
+  class func progressForBookHandle(handle:String) -> String {
+    var plistName = handle
+    var dictionary : NSDictionary = getBookFromFile(plistName) as NSDictionary
+    var data : String = dictionary.objectForKey("bookProgress") as! String
+    return data
+  }
+
   
 }

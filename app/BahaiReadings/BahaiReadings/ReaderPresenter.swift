@@ -25,7 +25,7 @@ class ReaderPresenter: NSObject {
     return interactor!.arrayOfReaderSizes()
   }
   
-  func htmlForBook(bookHandle:String) -> String {
+  func htmlForBook(bookHandle:String?) -> String {
     var contentsNoStyle : String = interactor!.htmlForBook(bookHandle)
     var styleTag : String = interactor!.htmlForCurrentStyle()
     var contents : String = contentsNoStyle.stringByReplacingOccurrencesOfString("<style></style>", withString: styleTag, options: nil, range: nil)
@@ -44,7 +44,7 @@ class ReaderPresenter: NSObject {
   func getOrientation()->String{
     return interactor!.getCurrentOrientation()
   }
-  func getCurrentBookTitle(bookHandle:String)->String {
+  func getCurrentBookTitle(bookHandle:String?)->String {
     return interactor!.getCurrentBookTitle(bookHandle)
   }
   
@@ -65,7 +65,7 @@ class ReaderPresenter: NSObject {
   
   // MARK: Progress
   
-  func getCurrentProgress(bookHandle:String) -> Float {
+  func getCurrentProgress(bookHandle:String?) -> Float {
     return interactor!.getCurrentProgress(bookHandle)
   }
   
@@ -106,13 +106,13 @@ class ReaderPresenter: NSObject {
     }
   }
   
-  func setCurrentProgress(bookHandle:String, contentOffset:CGPoint, contentSize:CGSize) {
+  func setCurrentProgress(bookHandle:String?, contentOffset:CGPoint, contentSize:CGSize) {
     var percentage : Float = 0.0
     percentage = (contentSize.height > contentSize.width) ? Float(contentOffset.y / contentSize.height) : Float(contentOffset.x / contentSize.width)
     interactor!.setCurrentProgress(bookHandle, progress: percentage)
   }
   
-  func getProgressText(bookHandle:String, readerWebView:UIWebView)->String {
+  func getProgressText(bookHandle:String?, readerWebView:UIWebView)->String {
     var currentProgress : Float = getCurrentProgress(bookHandle)
     var totalPages : Int = self.totalPagesFromContentSize(readerWebView.frame.size, contentSize: readerWebView.scrollView.contentSize)
     var completedPages : Int = self.readPagesFromOffsetAndSize(currentProgress, webViewSize: readerWebView.frame.size, contentSize:readerWebView.scrollView.contentSize)

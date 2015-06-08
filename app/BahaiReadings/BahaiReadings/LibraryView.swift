@@ -90,7 +90,12 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
   }
   
   func carousel(carousel: iCarousel!, didSelectItemAtIndex index: Int) {
+    var array : NSArray = BookService.container.libraryFiles as NSArray
+    var key : String = array.objectAtIndex(index) as! String
+
+    ReaderView.frame.currentBook = key
     
+    self.tabBarController?.selectedIndex = 0
   }
 
   func carousel(carousel: iCarousel!, valueForOption option: iCarouselOption, withDefault value: CGFloat) -> CGFloat {

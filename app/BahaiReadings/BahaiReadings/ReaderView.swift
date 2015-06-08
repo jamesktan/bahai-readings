@@ -44,7 +44,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   
   struct frame {
     static var presenter : ReaderPresenter? = nil
-    static var currentBook : String = "Epistle+To+The+Son+of+the+Wolf"
+    static var currentBook : String? = nil
   }
 
   
@@ -74,7 +74,9 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     tap2.numberOfTouchesRequired = 1
     tap2.delegate = self
     self.shadowView.addGestureRecognizer(tap2)
-    
+  }
+
+  override func viewWillAppear(animated: Bool) {
     loadOrientation()
     loadWebDataForHandle(frame.currentBook)
     highlightStyleButton()
@@ -83,8 +85,9 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     updateProgress()
     updateProgressLabels()
     updateTitleLabel()
-  }
 
+  }
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
@@ -115,7 +118,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     return true
   }
   
-  func loadWebDataForHandle(currentBook : String) {
+  func loadWebDataForHandle(currentBook : String?) {
     
     // Get the HTML Content
     var contents = frame.presenter!.htmlForBook(currentBook)
@@ -245,7 +248,6 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   }
   
   func updateTitleLabel() {
-    var handle : String = frame.currentBook
     var title : String = frame.presenter!.getCurrentBookTitle(frame.currentBook)
     bookTitleLabel.text = title
   }
