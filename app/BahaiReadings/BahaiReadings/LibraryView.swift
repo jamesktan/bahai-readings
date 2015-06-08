@@ -24,7 +24,7 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
     
     libraryCarousel.delegate = self
     libraryCarousel.dataSource = self
-    libraryCarousel.type = iCarouselType.InvertedTimeMachine
+    libraryCarousel.type = iCarouselType.Cylinder
   }
 
   override func viewWillAppear(animated: Bool) {
