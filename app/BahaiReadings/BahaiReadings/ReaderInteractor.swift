@@ -96,6 +96,8 @@ class ReaderInteractor: NSObject {
   }
   
   func setCurrentProgress(bookHandle:String?, progress:Float) {
-    
+    if bookHandle != nil {
+      BookService.saveProgress(bookHandle!, progress: progress)
+    }
   }
 }

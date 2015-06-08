@@ -63,5 +63,16 @@ class BookService: NSObject {
     return data
   }
 
+  class func saveProgress(handle:String, progress:Float) {
+    var plistName = handle
+    var dictionary : NSMutableDictionary = getBookFromFile(plistName) as! NSMutableDictionary
+    var stringFromProgress : String = String(format: "%lf", progress)
+    dictionary.setObject(stringFromProgress, forKey: "bookProgress")
+    
+    // create the path for the new dictionary
+    var path : String = DataManager.loadOrCreatePath() as String
+    var complete : String = path.stringByAppendingPathComponent(plistName)
+    dictionary.writeToFile(complete, atomically: true)
+  }
   
 }
