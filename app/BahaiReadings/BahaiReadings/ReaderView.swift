@@ -103,7 +103,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   
   func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
     NSLog("%lf contentOffsetX, %lf contentOffsetY", scrollView.contentOffset.x, scrollView.contentOffset.y)
-    frame.presenter!.setCurrentProgress(frame.currentBook, contentOffset: scrollView.contentOffset, contentSize: scrollView.contentSize)
+    frame.presenter!.setCurrentProgress(frame.currentBook, contentOffset: scrollView.contentOffset, contentSize: scrollView.contentSize, webViewSize:readerWebView.frame.size)
     updateProgressLabels()
   }
   
@@ -255,7 +255,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   func updateProgress() {
     // Set the CUrrent Page
     var currentProgress : Float = frame.presenter!.getCurrentProgress(frame.currentBook)
-    var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.scrollView.contentSize)
+    var offset = frame.presenter!.getOffsetFromProgress(currentProgress, contentSize: readerWebView.scrollView.contentSize, webViewSize:readerWebView.frame.size)
     NSLog("%lf, %lf OFFSET", offset.x, offset.y)
     readerWebView.scrollView.contentOffset = offset
   }

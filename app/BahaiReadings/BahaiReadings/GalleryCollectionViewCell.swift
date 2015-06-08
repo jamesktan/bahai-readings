@@ -19,11 +19,12 @@ class GalleryCollectionViewCell: UICollectionViewCell {
   var hiddenBookURL : String!
   var hiddenBookHandle : String!
   var hiddenCoverURL : String!
+  var hiddenBookAuthor : String!
   
   @IBAction func downloadAndRead(sender: UIButton) {
     activityMonitor.startAnimating()
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
-      DataManager.downloadFileToPlist(self.hiddenBookURL, title: self.bookTitle.text!, handle: self.hiddenBookHandle, author: self.bookAuthor.text!, cover: self.hiddenCoverURL)
+      DataManager.downloadFileToPlist(self.hiddenBookURL, title: self.bookTitle.text!, handle: self.hiddenBookHandle, author: self.hiddenBookAuthor, cover: self.hiddenCoverURL)
       dispatch_async(dispatch_get_main_queue(), { () -> Void in
         self.activityMonitor.stopAnimating()
       })

@@ -69,14 +69,16 @@ class ReaderPresenter: NSObject {
     return interactor!.getCurrentProgress(bookHandle)
   }
   
-  func getOffsetFromProgress(percentage:Float, contentSize: CGSize) -> CGPoint {
+  func getOffsetFromProgress(percentage:Float, contentSize: CGSize, webViewSize:CGSize) -> CGPoint {
     if contentSize.width > contentSize.height {
       // Left To Right Orientation
-      var x = Float(contentSize.width) * percentage
+      var x = (Float(contentSize.width) * percentage) - Float(webViewSize.width)
+      if x < 0 { x = 0 }
       var point = CGPoint(x: CGFloat(x), y: CGFloat(0))
       return point
     } else {
-      var y = Float(contentSize.height) * percentage
+      var y = (Float(contentSize.height) * percentage) - Float(webViewSize.height)
+      if y < 0 { y = 0 }
       var point = CGPoint(x:CGFloat(0), y:CGFloat(y))
       return point
     }
@@ -85,12 +87,14 @@ class ReaderPresenter: NSObject {
   func readPagesFromOffsetAndSize(offset:Float, webViewSize:CGSize, contentSize:CGSize)-> Int {
     if contentSize.height > contentSize.width {
       // Top to Bottom
-      var count = Int((offset * Float(contentSize.height))/Float(webViewSize.height))
+      var count = Int((offset * Float(contentSize.height+webViewSize.height))/Float(webViewSize.height))
       println(count)
+      count = count + 1
       return count
     } else {
-      var count = Int((offset * Float(contentSize.width))/Float(webViewSize.width))
+      var count = Int((offset * Float(contentSize.width+webViewSize.width))/Float(webViewSize.width))
       println(count)
+      count = count + 1
       return count
     }
   }
@@ -106,11 +110,12 @@ class ReaderPresenter: NSObject {
     }
   }
   
-  func setCurrentProgress(bookHandle:String?, contentOffset:CGPoint, contentSize:CGSize) {
+  func setCurrentProgress(bookHandle:String?, contentOffset:CGPoint, contentSize:CGSize, webViewSize:CGSize) {
     var percentage : Float = 0.0
-    percentage = (contentSize.height > contentSize.width) ? Float(contentOffset.y / contentSize.height) : Float(contentOffset.x / contentSize.width)
+    percentage = (contentSize.height > contentSize.width) ? Float((contentOffset.y+webViewSize.height ) / contentSize.height) : Float((contentOffset.x + webViewSize.width ) / contentSize.width)
     interactor!.setCurrentProgress(bookHandle, progress: percentage)
   }
+  
   
   func getProgressText(bookHandle:String?, readerWebView:UIWebView)->String {
     var currentProgress : Float = getCurrentProgress(bookHandle)

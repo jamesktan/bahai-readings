@@ -78,7 +78,11 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
     
     var labelProgress : UILabel = UILabel(frame: CGRect(x: 136, y: 31, width: 96, height: 21))
     labelProgress.font = completed.font
-    labelProgress.text = progressVal + "% completed"
+    
+    // process progress
+    var progressString : NSString = progressVal as NSString
+    var progressFloat : Float = progressString.floatValue * 100
+    labelProgress.text = String(format:"%.1lf%% completed",progressFloat)
 
     labelView.addSubview(labelTitle)
     labelView.addSubview(labelBody)

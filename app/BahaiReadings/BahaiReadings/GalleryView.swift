@@ -59,6 +59,8 @@ class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewD
       cell.hiddenBookHandle = (book.objectForKey("bookHandle") as! String)
       cell.hiddenBookURL = (book.objectForKey("bookURL") as! String)
       cell.hiddenCoverURL = (book.objectForKey("bookCoverURL") as! String) + ".jpg"
+      cell.hiddenBookAuthor = (book.objectForKey("bookAuthor") as! String)
+
     }
     
     
