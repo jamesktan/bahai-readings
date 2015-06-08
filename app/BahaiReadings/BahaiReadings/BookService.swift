@@ -10,11 +10,28 @@ import UIKit
 
 class BookService: NSObject {
   
-  class func saveBookToFile() {
-    
+  struct container {
+    static var libraryFiles : NSArray = []
   }
   
-  class func getBookFromFile() {
+  class func findLocalBooks() {
+    var path : String = DataManager.loadOrCreatePath() as String
+    var files : NSArray = NSFileManager.defaultManager().contentsOfDirectoryAtPath(path, error: nil)!
+    var array : NSMutableArray = NSMutableArray()
+    for file in files {
+      var handle : String = file.lastPathComponent
+      array.addObject(handle)
+    }
+    println(files)
+    self.container.libraryFiles = NSArray(array: array)
+  }
+  
+  class func getBookFromFile(handle:String)->NSDictionary {
+    var plistName = handle
+    var folder = DataManager.getDownloadPath()
+    var path = folder.stringByAppendingPathComponent(plistName)
+    var dict : NSDictionary = NSDictionary(contentsOfFile: path)!
+    return dict
     
   }
   

@@ -137,7 +137,7 @@ class DataManager: NSObject {
     
   }
   
-  class func downloadFileToPlist(url: NSString, handle:String, author:String, cover:String) -> NSString {
+  class func downloadFileToPlist(url: NSString, title: String, handle:String, author:String, cover:String) -> NSString {
     //Get the Download Folder
     var path = loadOrCreatePath()
     
@@ -148,6 +148,7 @@ class DataManager: NSObject {
     
     // Create the PLIST
     var dictionary : NSMutableDictionary = NSMutableDictionary()
+    dictionary.setObject(title, forKey: "bookTitle")
     dictionary.setObject(handle, forKey: "bookHandle")
     dictionary.setObject(author, forKey: "bookAuthor")
     dictionary.setObject(cover, forKey: "bookCover")
@@ -156,7 +157,7 @@ class DataManager: NSObject {
     
     // Save it to File
     var filePath = path.stringByAppendingPathComponent(handle+".plist")
-    urlData.writeToFile(filePath, atomically: true)
+    dictionary.writeToFile(filePath, atomically: true)
     println(filePath)
     return filePath
   }
