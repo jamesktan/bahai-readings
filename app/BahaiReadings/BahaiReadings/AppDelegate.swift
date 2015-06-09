@@ -27,6 +27,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     readerInteract.presenter = readerPresent
     ReaderView.frame.presenter = readerPresent
     
+    var notification = application.applicationIconBadgeNumber
+    var counterSameDay : NSString = DataManager.getCounterKey("counter1") as NSString
+    var newVal = counterSameDay.integerValue + 1
+    DataManager.setCurrentKey(String(format: "%d", newVal), key: "counter1")
+    application.applicationIconBadgeNumber = 0
+    
     return true
   }
 
@@ -52,6 +58,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
   }
 
+  func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+    
+//    var fireDate : NSDate = notification.fireDate!
+//    var distance : NSTimeInterval = fireDate.timeIntervalSinceNow
+//    var hours : NSInteger = Int(Float(distance) / Float(3600.0))
+//    if hours > -24 {
+//      var counterSameDay : NSString = DataManager.getCounterKey("counter2") as NSString
+//      var newVal = counterSameDay.integerValue + 1
+//      DataManager.setCurrentKey(String(format: "%d", newVal), key: "counter2")
+//      application.applicationIconBadgeNumber = 0
+//      return
+//
+//    }
+//    if hours > -48 {
+//      var counterSameDay : NSString = DataManager.getCounterKey("counter3") as NSString
+//      var newVal = counterSameDay.integerValue + 1
+//      DataManager.setCurrentKey(String(format: "%d", newVal), key: "counter3")
+//      application.applicationIconBadgeNumber = 0
+//      return
+//      
+//    }
+//    if hours > -72 {
+//      application.applicationIconBadgeNumber = 0
+//      return
+//    }
+
+    var counterSameDay : NSString = DataManager.getCounterKey("counter1") as NSString
+    var newVal = counterSameDay.integerValue + 1
+    DataManager.setCurrentKey(String(format: "%d", newVal), key: "counter1")
+    application.applicationIconBadgeNumber = 0
+  }
 
 }
 

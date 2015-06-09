@@ -14,8 +14,6 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   @IBOutlet weak var reminderSegment: UISegmentedControl!
   @IBOutlet weak var reminderDescription: UILabel!
   @IBOutlet weak var readCount0: UILabel!
-  @IBOutlet weak var readCount1: UILabel!
-  @IBOutlet weak var readCount2: UILabel!
   @IBOutlet weak var resetCounter: UIButton!
   
   let sched0 : String = "You will not recieve any reminder to read."
@@ -42,14 +40,15 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
     
     // Setup
     highlightSelectedSchedule(getSelectedSchedule())
-    var vals = getCounterValues()
-    setCounterValues(vals.0, val2: vals.1, val3: vals.2)
-    
   }
+  
   
   override func viewWillAppear(animated: Bool) {
     UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound |
       UIUserNotificationType.Alert | UIUserNotificationType.Badge, categories: nil))
+    var vals = getCounterValues()
+    setCounterValues(vals.0, val2: vals.1, val3: vals.2)
+
   }
 
   override func didReceiveMemoryWarning() {
@@ -180,6 +179,7 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
       var notif : UILocalNotification = notifs.objectAtIndex(a) as! UILocalNotification
       var date : NSDate = dates.objectAtIndex(a) as! NSDate
       notif.fireDate = date
+      notif.applicationIconBadgeNumber++
       UIApplication.sharedApplication().scheduleLocalNotification(notif)
     }
   }
@@ -211,8 +211,6 @@ class ReminderView: UIViewController, UIAlertViewDelegate {
   
   func setCounterValues(val1:String,val2:String,val3:String) {
     self.readCount0.text = val1
-    self.readCount1.text = val2
-    self.readCount2.text = val3
   }
   
   func getSelectedSchedule()->String{
