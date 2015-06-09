@@ -27,6 +27,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     readerInteract.presenter = readerPresent
     ReaderView.frame.presenter = readerPresent
     
+    var currentRead : String = DataManager.getCurrentlyReading()
+    if currentRead != "nothing" {
+      ReaderView.frame.currentBook = currentRead
+    }
+    
     var notification = application.applicationIconBadgeNumber
     var counterSameDay : NSString = DataManager.getCounterKey("counter1") as NSString
     var newVal = counterSameDay.integerValue + 1

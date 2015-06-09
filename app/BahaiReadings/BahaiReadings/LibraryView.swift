@@ -99,6 +99,8 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
 
     ReaderView.frame.currentBook = key
     
+    DataManager.setCurrentKey(key, key: "currentlyReading")
+    
     self.tabBarController?.selectedIndex = 0
   }
 

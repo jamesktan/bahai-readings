@@ -117,6 +117,18 @@ class DataManager: NSObject {
     }
   }
   
+  // Reader
+  class func getCurrentlyReading()->String {
+    var val : AnyObject? = NSUserDefaults.standardUserDefaults().objectForKey("currentlyReading")
+    if val != nil {
+      return val as! String
+    } else {
+      setCurrentKey("nothing", key: "currentlyReading")
+      return "nothing"
+    }
+    
+  }
+
   // Downloading and Gallery
   
   class func getDownloadPath() -> NSString {
