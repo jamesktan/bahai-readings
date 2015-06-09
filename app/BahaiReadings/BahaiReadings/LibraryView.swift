@@ -18,6 +18,7 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
   @IBOutlet weak var author: UILabel!
   @IBOutlet weak var completed: UILabel!
   
+  @IBOutlet weak var emptyLibView: UIView!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -28,6 +29,7 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
   }
 
   override func viewWillAppear(animated: Bool) {
+    
     self.libraryCarousel.reloadData()
   }
   override func didReceiveMemoryWarning() {
@@ -45,6 +47,12 @@ class LibraryView: UIViewController, iCarouselDataSource, iCarouselDelegate {
   func numberOfItemsInCarousel(carousel: iCarousel!) -> Int {
     BookService.findLocalBooks()
     var count = BookService.container.libraryFiles.count
+    if count == 0 {
+      self.emptyLibView.alpha = 1.0
+    } else {
+      self.emptyLibView.alpha = 0.0
+    }
+    
     return count
   }
   

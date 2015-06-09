@@ -697,7 +697,76 @@
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPc-Vd-K1s" customClass="iCarousel">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vsf-Uv-I1T">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click &quot;Find More Writings&quot; to download some works." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrX-1X-eei">
+                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="VrX-1X-eei" firstAttribute="leading" secondItem="Vsf-Uv-I1T" secondAttribute="leading" constant="8" id="PnP-dF-miS"/>
+                                            <constraint firstAttribute="bottom" secondItem="VrX-1X-eei" secondAttribute="bottom" id="egk-yQ-ROe"/>
+                                            <constraint firstAttribute="trailing" secondItem="VrX-1X-eei" secondAttribute="trailing" id="hM8-2x-DYu"/>
+                                            <constraint firstItem="VrX-1X-eei" firstAttribute="top" secondItem="Vsf-Uv-I1T" secondAttribute="top" constant="8" id="qCM-AJ-qjz"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="VrX-1X-eei"/>
+                                            </mask>
+                                            <mask key="constraints">
+                                                <exclude reference="PnP-dF-miS"/>
+                                                <exclude reference="egk-yQ-ROe"/>
+                                                <exclude reference="hM8-2x-DYu"/>
+                                                <exclude reference="qCM-AJ-qjz"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=compact">
+                                            <mask key="subviews">
+                                                <include reference="VrX-1X-eei"/>
+                                            </mask>
+                                            <mask key="constraints">
+                                                <include reference="PnP-dF-miS"/>
+                                                <include reference="egk-yQ-ROe"/>
+                                                <include reference="hM8-2x-DYu"/>
+                                                <include reference="qCM-AJ-qjz"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstItem="Vsf-Uv-I1T" firstAttribute="top" secondItem="jPc-Vd-K1s" secondAttribute="top" constant="171" id="Jts-9Q-0Qr"/>
+                                    <constraint firstAttribute="bottom" secondItem="Vsf-Uv-I1T" secondAttribute="bottom" constant="196" id="PLC-xB-qIJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vsf-Uv-I1T" secondAttribute="trailing" constant="22" id="XJd-Kh-K5A"/>
+                                    <constraint firstItem="Vsf-Uv-I1T" firstAttribute="leading" secondItem="jPc-Vd-K1s" secondAttribute="leading" constant="22" id="z7Y-W8-f00"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Vsf-Uv-I1T"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="Jts-9Q-0Qr"/>
+                                        <exclude reference="PLC-xB-qIJ"/>
+                                        <exclude reference="XJd-Kh-K5A"/>
+                                        <exclude reference="z7Y-W8-f00"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="Vsf-Uv-I1T"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="Jts-9Q-0Qr"/>
+                                        <include reference="PLC-xB-qIJ"/>
+                                        <include reference="XJd-Kh-K5A"/>
+                                        <include reference="z7Y-W8-f00"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -757,6 +826,7 @@
                         <outlet property="bookView" destination="6ET-1d-6VB" id="I14-Km-ZN1"/>
                         <outlet property="completed" destination="L7o-7O-ftz" id="F9j-Pq-lcf"/>
                         <outlet property="cover" destination="WiU-cP-cri" id="8NI-3B-GCX"/>
+                        <outlet property="emptyLibView" destination="Vsf-Uv-I1T" id="wV1-JP-JtR"/>
                         <outlet property="libraryCarousel" destination="jPc-Vd-K1s" id="l4v-8z-Jm9"/>
                         <segue destination="Kg8-fl-hr3" kind="show" identifier="showGallery" id="q4E-2G-m05"/>
                     </connections>
