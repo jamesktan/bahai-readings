@@ -200,7 +200,6 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
       self.readerWebView.scrollView.pagingEnabled = true;
       self.readerWebView.scrollView.bounces = true;
       self.readerWebView.scrollView.alwaysBounceVertical = false;
-
     }
   }
   @IBAction func changeReaderOrientation(sender: UIButton) {
@@ -210,6 +209,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
       frame.presenter?.selectOrientation("horizontal")
     }
     loadOrientation()
+    loadWebDataForHandle(frame.currentBook)
     highlightOrientationButton()
     updateProgress()
     updateProgressLabels()

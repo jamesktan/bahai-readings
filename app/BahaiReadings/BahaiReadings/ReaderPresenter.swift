@@ -105,7 +105,7 @@ class ReaderPresenter: NSObject {
       var count = Int(contentSize.height / webViewSize.height)
       return count
     } else {
-      var count = Int(contentSize.width / webViewSize.height)
+      var count = Int(contentSize.width / webViewSize.width)
       return count
     }
   }
