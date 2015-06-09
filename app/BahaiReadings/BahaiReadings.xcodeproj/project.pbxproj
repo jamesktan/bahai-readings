@@ -62,6 +62,10 @@
 		54338EBB1B262E33009EAE17 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338EB51B262E32009EAE17 /* 9.jpg */; };
 		54338EBC1B262E33009EAE17 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338EB61B262E32009EAE17 /* 10.jpg */; };
 		54338EBD1B262E33009EAE17 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54338EB71B262E32009EAE17 /* 11.jpg */; };
+		543B34841B26B8070043C589 /* tab2a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 543B34801B26B8070043C589 /* tab2a@2x.png */; };
+		543B34851B26B8070043C589 /* tab3a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 543B34811B26B8070043C589 /* tab3a@2x.png */; };
+		543B34861B26B8070043C589 /* tab1a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 543B34821B26B8070043C589 /* tab1a@2x.png */; };
+		543B34871B26B8070043C589 /* tab0a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 543B34831B26B8070043C589 /* tab0a@2x.png */; };
 		54B1DD131B192CEA00BF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */; };
 		54B1DD151B192CEA00BF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1DD141B192CEA00BF74E4 /* ViewController.swift */; };
 		54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1DD161B192CEA00BF74E4 /* Main.storyboard */; };
@@ -140,6 +144,10 @@
 		54338EB51B262E32009EAE17 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		54338EB61B262E32009EAE17 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		54338EB71B262E32009EAE17 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		543B34801B26B8070043C589 /* tab2a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab2a@2x.png"; sourceTree = "<group>"; };
+		543B34811B26B8070043C589 /* tab3a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab3a@2x.png"; sourceTree = "<group>"; };
+		543B34821B26B8070043C589 /* tab1a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab1a@2x.png"; sourceTree = "<group>"; };
+		543B34831B26B8070043C589 /* tab0a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab0a@2x.png"; sourceTree = "<group>"; };
 		54B1DD0D1B192CEA00BF74E4 /* BahaiReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahaiReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B1DD111B192CEA00BF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B1DD121B192CEA00BF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +218,10 @@
 				54338E001B1B18DE009EAE17 /* settings20.png */,
 				54338DFE1B1AF6B6009EAE17 /* about2.png */,
 				54338DFA1B1AF4C5009EAE17 /* notification1.png */,
+				543B34801B26B8070043C589 /* tab2a@2x.png */,
+				543B34811B26B8070043C589 /* tab3a@2x.png */,
+				543B34821B26B8070043C589 /* tab1a@2x.png */,
+				543B34831B26B8070043C589 /* tab0a@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -414,6 +426,7 @@
 				54338E941B2190E6009EAE17 /* 5.jpg in Resources */,
 				54338E7B1B1C849C009EAE17 /* Icon-72@2x.png in Resources */,
 				54338E311B1B73F7009EAE17 /* RobotoSlab-Light.ttf in Resources */,
+				543B34861B26B8070043C589 /* tab1a@2x.png in Resources */,
 				54338E711B1C849C009EAE17 /* Icon-40@3x.png in Resources */,
 				54338E911B2190E6009EAE17 /* 2.jpg in Resources */,
 				54338E1A1B1B736C009EAE17 /* Oxygen-Light.ttf in Resources */,
@@ -424,9 +437,11 @@
 				54338E851B1E58B4009EAE17 /* closemark.png in Resources */,
 				54338E761B1C849C009EAE17 /* Icon-Small.png in Resources */,
 				54338DF51B1AF2CA009EAE17 /* reader3.png in Resources */,
+				543B34841B26B8070043C589 /* tab2a@2x.png in Resources */,
 				54338E731B1C849C009EAE17 /* Icon-60@3x.png in Resources */,
 				54338E171B1B736C009EAE17 /* Oswald-Light.ttf in Resources */,
 				54B1DD181B192CEA00BF74E4 /* Main.storyboard in Resources */,
+				543B34851B26B8070043C589 /* tab3a@2x.png in Resources */,
 				54338E361B1B75D4009EAE17 /* fonts.plist in Resources */,
 				54338E931B2190E6009EAE17 /* 4.jpg in Resources */,
 				54338EBA1B262E33009EAE17 /* 8.jpg in Resources */,
@@ -434,6 +449,7 @@
 				54338E011B1B18DE009EAE17 /* settings20.png in Resources */,
 				54338E741B1C849C009EAE17 /* Icon-76.png in Resources */,
 				54338EB81B262E33009EAE17 /* 6.jpg in Resources */,
+				543B34871B26B8070043C589 /* tab0a@2x.png in Resources */,
 				54338E771B1C849C009EAE17 /* Icon-Small@2x.png in Resources */,
 				54338E921B2190E6009EAE17 /* 3.jpg in Resources */,
 				54338DFB1B1AF4C5009EAE17 /* notification1.png in Resources */,
