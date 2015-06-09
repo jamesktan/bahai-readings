@@ -89,13 +89,13 @@ class ReaderPresenter: NSObject {
       // Top to Bottom
       var count = Int((offset * Float(contentSize.height+webViewSize.height))/Float(webViewSize.height))
       println(count)
-      count = count + 1
-      return count
+      if count == 0 { count = 1 }
+      return count - 1
     } else {
       var count = Int((offset * Float(contentSize.width+webViewSize.width))/Float(webViewSize.width))
       println(count)
-      count = count + 1
-      return count
+      if count == 0 { count = 1 }
+      return count - 1
     }
   }
   

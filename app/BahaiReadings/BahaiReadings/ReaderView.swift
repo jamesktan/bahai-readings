@@ -190,7 +190,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
       self.readerWebView.paginationMode = UIWebPaginationMode.TopToBottom;
       self.readerWebView.paginationBreakingMode = UIWebPaginationBreakingMode.Page;
       self.readerWebView.gapBetweenPages = 0;
-      self.readerWebView.scrollView.pagingEnabled = true;
+      self.readerWebView.scrollView.pagingEnabled = false;
       self.readerWebView.scrollView.bounces = true;
       self.readerWebView.scrollView.alwaysBounceVertical = false;
     } else {
