@@ -33,10 +33,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     var notification = application.applicationIconBadgeNumber
-    var counterSameDay : NSString = DataManager.getCounterKey("counter1") as NSString
-    var newVal = counterSameDay.integerValue + 1
-    DataManager.setCurrentKey(String(format: "%d", newVal), key: "counter1")
-    application.applicationIconBadgeNumber = 0
+    if notification != 0 {
+      var counterSameDay : NSString = DataManager.getCounterKey("counter1") as NSString
+      var newVal = counterSameDay.integerValue + 1
+      DataManager.setCurrentKey(String(format: "%d", newVal), key: "counter1")
+      application.applicationIconBadgeNumber = 0
+    }
     
     return true
   }

@@ -210,12 +210,18 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="iCarousel :  Baha'i Reference Library: FlatIcons: Dollar Photo Club:" translatesAutoresizingMaskIntoConstraints="NO" id="Fed-vU-vMG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fed-vU-vMG">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="485" id="vc9-dW-mpQ"/>
                                 </constraints>
+                                <mutableString key="text">Baha'i Reference Library
+Many thanks to the people behind the Baha'i Reference Library for generously making the writings open and available for distribution.
+Copyright © Bahá'í International Community
+ FlatIcons &amp; Freepik
+Icons created by Freepik and distributed through FlatIcons. 
+Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Centre Thank you for being a warm and loving inspiration to create this application and to share it with the world.  </mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="default">
@@ -224,6 +230,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                     <mask key="constraints">
                                         <include reference="vc9-dW-mpQ"/>
                                     </mask>
