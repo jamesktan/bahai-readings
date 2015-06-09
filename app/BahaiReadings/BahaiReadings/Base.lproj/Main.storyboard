@@ -216,12 +216,12 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="485" id="vc9-dW-mpQ"/>
                                 </constraints>
-                                <mutableString key="text">Baha'i Reference Library
+                                <string key="text">Baha'i Reference Library
 Many thanks to the people behind the Baha'i Reference Library for generously making the writings open and available for distribution.
 Copyright © Bahá'í International Community
  FlatIcons &amp; Freepik
 Icons created by Freepik and distributed through FlatIcons. 
-Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Centre Thank you for being a warm and loving inspiration to create this application and to share it with the world.  </mutableString>
+Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Centre Thank you for being a warm and loving inspiration to create this application and to share it with the world.  </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="default">
@@ -1075,6 +1075,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                             <outlet property="bookCover" destination="4qJ-IH-OyL" id="QPM-dh-Ahu"/>
                                             <outlet property="bookDescription" destination="846-bt-jUB" id="CaZ-j8-MU9"/>
                                             <outlet property="bookTitle" destination="7GM-lh-doX" id="lAt-xV-H11"/>
+                                            <outlet property="buttonDownload" destination="6JB-Ex-jsM" id="Tiu-qD-1DP"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -1526,13 +1527,6 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <exclude reference="XkW-li-KMp"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Ss0-U9-j4s"/>
-                                <exclude reference="Z2v-ih-RgY"/>
-                                <exclude reference="idl-sZ-vjk"/>
-                                <exclude reference="u0k-Ce-zJd"/>
-                                <exclude reference="99K-jj-GSi"/>
-                                <exclude reference="Srw-dE-FI8"/>
-                                <exclude reference="hhz-9p-gt6"/>
                                 <exclude reference="Lts-8G-hgM"/>
                                 <exclude reference="diZ-z0-VU1"/>
                                 <exclude reference="eft-zt-xup"/>
@@ -1540,6 +1534,13 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <exclude reference="hyt-gh-vLP"/>
                                 <exclude reference="lVY-Wn-eQX"/>
                                 <exclude reference="mYw-ST-T97"/>
+                                <exclude reference="Ss0-U9-j4s"/>
+                                <exclude reference="Z2v-ih-RgY"/>
+                                <exclude reference="idl-sZ-vjk"/>
+                                <exclude reference="u0k-Ce-zJd"/>
+                                <exclude reference="99K-jj-GSi"/>
+                                <exclude reference="Srw-dE-FI8"/>
+                                <exclude reference="hhz-9p-gt6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1548,13 +1549,6 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <include reference="XkW-li-KMp"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Ss0-U9-j4s"/>
-                                <exclude reference="Z2v-ih-RgY"/>
-                                <include reference="idl-sZ-vjk"/>
-                                <exclude reference="u0k-Ce-zJd"/>
-                                <include reference="99K-jj-GSi"/>
-                                <exclude reference="Srw-dE-FI8"/>
-                                <include reference="hhz-9p-gt6"/>
                                 <include reference="Lts-8G-hgM"/>
                                 <include reference="diZ-z0-VU1"/>
                                 <include reference="eft-zt-xup"/>
@@ -1562,6 +1556,13 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <exclude reference="hyt-gh-vLP"/>
                                 <include reference="lVY-Wn-eQX"/>
                                 <include reference="mYw-ST-T97"/>
+                                <include reference="Ss0-U9-j4s"/>
+                                <exclude reference="Z2v-ih-RgY"/>
+                                <include reference="idl-sZ-vjk"/>
+                                <exclude reference="u0k-Ce-zJd"/>
+                                <include reference="99K-jj-GSi"/>
+                                <exclude reference="Srw-dE-FI8"/>
+                                <include reference="hhz-9p-gt6"/>
                             </mask>
                         </variation>
                     </view>

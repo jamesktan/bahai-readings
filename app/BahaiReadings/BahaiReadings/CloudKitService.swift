@@ -93,6 +93,7 @@ class CloudKitService: NSObject {
 
   }
   
+  
   class func userIsLoggedIn(handle:String, progress:Float) {
     CKContainer.defaultContainer().accountStatusWithCompletionHandler({
       status, error in

@@ -15,6 +15,7 @@ class GalleryCollectionViewCell: UICollectionViewCell {
   @IBOutlet weak var bookAuthor: UILabel!
   @IBOutlet weak var bookDescription: UILabel!
   @IBOutlet weak var activityMonitor: UIActivityIndicatorView!
+  @IBOutlet weak var buttonDownload: UIButton!
   
   var hiddenBookURL : String!
   var hiddenBookHandle : String!

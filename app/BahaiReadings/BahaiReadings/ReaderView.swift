@@ -123,7 +123,7 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     // Get the HTML Content
     var contents = frame.presenter!.htmlForBook(currentBook)
     readerWebView.loadHTMLString(contents as String!, baseURL: nil)
-    
+    readerWebView.backgroundColor = frame.presenter!.getBackgroundColorForTheme()
   }
   
   @IBAction func showOrHideReaderSettings(sender: AnyObject) {

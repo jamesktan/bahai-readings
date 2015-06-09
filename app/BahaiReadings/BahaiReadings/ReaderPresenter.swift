@@ -38,6 +38,15 @@ class ReaderPresenter: NSObject {
   func getTheme() -> String {
     return interactor!.getCurrentTheme()
   }
+  func getBackgroundColorForTheme() -> UIColor {
+    var colorString : NSString = interactor!.getBackgroundForTheme() as NSString
+    var array : NSArray = colorString.componentsSeparatedByString(",")
+    var r : CGFloat = CGFloat((array.objectAtIndex(0) as! NSString).floatValue / 255.0)
+    var g : CGFloat = CGFloat((array.objectAtIndex(1) as! NSString).floatValue / 255.0)
+    var b : CGFloat = CGFloat((array.objectAtIndex(2) as! NSString).floatValue / 255.0)
+    var color : UIColor = UIColor(red: r, green: g, blue: b, alpha: CGFloat(1.0))
+    return color
+  }
   func getSize() -> String {
     return interactor!.getCurrentSize()
   }

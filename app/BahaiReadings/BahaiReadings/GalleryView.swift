@@ -13,6 +13,13 @@ class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewD
 
   @IBOutlet weak var galleryCollection: UICollectionView!
   
+  override func viewWillAppear(animated: Bool) {
+    if CloudKitService.container.galleryDownloaded == false {
+      CloudKitService.setupCloudService()
+    }
+    galleryCollection.reloadData()
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     galleryCollection.delegate = self
@@ -40,8 +47,9 @@ class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewD
   func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     if CloudKitService.container.galleryDownloaded == true {
       return CloudKitService.container.galleryList.count
+    } else {
+      return 1
     }
-    return 0
   }
   
   func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -61,6 +69,13 @@ class GalleryView: UIViewController, UICollectionViewDelegate, UICollectionViewD
       cell.hiddenCoverURL = (book.objectForKey("bookCoverURL") as! String) + ".jpg"
       cell.hiddenBookAuthor = (book.objectForKey("bookAuthor") as! String)
 
+    } else {
+      cell.bookDescription.text = "You are seeing this because you did not activate iCloud. Go to your Settings App and login to iCloud to continue."
+      cell.bookAuthor.hidden = true
+      cell.bookTitle.hidden = true
+      cell.bookCover.hidden = true
+      cell.buttonDownload.hidden = true
+      
     }
     
     

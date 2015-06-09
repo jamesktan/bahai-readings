@@ -57,6 +57,27 @@ class ReaderInteractor: NSObject {
   func getCurrentTheme() -> String {
     return DataManager.getCurrentThemeKey()
   }
+  
+  func getBackgroundForTheme()-> String {
+    var key = DataManager.getCurrentThemeKey()
+    var returnVal : String = ""
+    if key == "theme_light" {
+      returnVal = "255,255,255"
+    }
+    if key == "theme_dark" {
+      returnVal = "47,48,49"
+    }
+
+    if key == "theme_sunset" {
+      returnVal = "253,246,219"
+    }
+
+    if key == "theme_midnight" {
+      returnVal = "0,33,41"
+    }
+    return returnVal
+    
+  }
   func getCurrentOrientation()->String {
     return DataManager.getCurrentOrientationKey()
   }
