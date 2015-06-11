@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="-1" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Baha'i Readings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fD-jw-SLk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Bahá'í Readings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fD-jw-SLk">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4HF-QO-aVV"/>
@@ -95,7 +95,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="311" id="8FY-1i-RaC"/>
                                 </constraints>
-                                <string key="text">Baha'i Readings was created specifically to provide a resource for people to access the writings in a straightforward an unencumbered way, regardless of having regular internet access or not.  This project is ongoing, with many improvements and additions still needing to be made.   If you're interested in contributing, helping, or just have a general suggestion,  please do not hesitate to reach out using the feedback link below.  Warmly, james   </string>
+                                <mutableString key="text">Bahá'í Readings was created specifically to provide a resource for people to access the writings in a straightforward an unencumbered way, regardless of having regular internet access or not.  This project is ongoing, with many improvements and additions still needing to be made.   If you're interested in contributing, helping, or just have a general suggestion,  please do not hesitate to reach out using the feedback link below.  Warmly, james   </mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="default">
@@ -418,6 +418,20 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                     <action selector="reminderSegmentChanged:" destination="wHa-vf-q8Y" eventType="valueChanged" id="qx0-uh-o7C"/>
                                 </connections>
                             </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pm2-6A-dc2">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <segments>
+                                    <segment title="6AM"/>
+                                    <segment title="9AM"/>
+                                    <segment title="12PM"/>
+                                    <segment title="3PM"/>
+                                    <segment title="6PM"/>
+                                    <segment title="9PM"/>
+                                </segments>
+                                <connections>
+                                    <action selector="timeSegmentChanged:" destination="wHa-vf-q8Y" eventType="valueChanged" id="7m5-CR-vsH"/>
+                                </connections>
+                            </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will not recieve any reminder to read." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQT-3E-NvP">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
@@ -504,6 +518,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="99" id="2HI-cs-w8y"/>
+                                    <constraint firstAttribute="width" constant="99" id="K3Y-VZ-Q5e"/>
                                     <constraint firstAttribute="height" constant="30" id="iJu-7u-7sH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
@@ -513,13 +528,15 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="2HI-cs-w8y"/>
+                                        <exclude reference="K3Y-VZ-Q5e"/>
                                         <exclude reference="iJu-7u-7sH"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="2HI-cs-w8y"/>
-                                        <include reference="iJu-7u-7sH"/>
+                                        <exclude reference="2HI-cs-w8y"/>
+                                        <include reference="K3Y-VZ-Q5e"/>
+                                        <exclude reference="iJu-7u-7sH"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -533,6 +550,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                             <constraint firstItem="rQT-3E-NvP" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="0uz-9q-Ho4"/>
                             <constraint firstItem="25Z-VO-mwD" firstAttribute="top" secondItem="kgP-5K-2pl" secondAttribute="bottom" constant="8" id="3uO-sG-aTD"/>
                             <constraint firstItem="kgP-5K-2pl" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="4ua-dP-Bsb"/>
+                            <constraint firstItem="pm2-6A-dc2" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="5Mk-NK-m4u"/>
                             <constraint firstItem="k5K-UV-7uT" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="9rA-sX-T0F"/>
                             <constraint firstItem="25Z-VO-mwD" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="AzB-MX-hSp"/>
                             <constraint firstItem="KmZ-s0-yej" firstAttribute="top" secondItem="7yY-X6-eGF" secondAttribute="bottom" constant="8" id="ByH-Fu-u4F">
@@ -545,14 +563,18 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                             <constraint firstItem="u1r-An-hmb" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="KQN-2T-3ji"/>
                             <constraint firstItem="xi9-sG-U8M" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="Md6-KQ-Btd"/>
                             <constraint firstItem="xi9-sG-U8M" firstAttribute="top" secondItem="u1r-An-hmb" secondAttribute="bottom" constant="8" id="Qy2-5r-f4Z"/>
+                            <constraint firstItem="rQT-3E-NvP" firstAttribute="top" secondItem="pm2-6A-dc2" secondAttribute="bottom" constant="8" id="SAS-eu-53d"/>
+                            <constraint firstItem="dEL-Eg-jfG" firstAttribute="top" secondItem="rQT-3E-NvP" secondAttribute="bottom" constant="16" id="UEo-FA-L5U"/>
                             <constraint firstItem="u1r-An-hmb" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="bFT-Es-hZH"/>
                             <constraint firstItem="M25-N9-E5C" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="eyJ-cj-bdI"/>
                             <constraint firstAttribute="centerX" secondItem="dEL-Eg-jfG" secondAttribute="centerX" constant="-0.5" id="gRU-WB-OTv"/>
-                            <constraint firstItem="rQT-3E-NvP" firstAttribute="top" secondItem="k5K-UV-7uT" secondAttribute="bottom" constant="16" id="hwb-Nh-Kh7"/>
+                            <constraint firstItem="pm2-6A-dc2" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="iKW-i4-g8i"/>
                             <constraint firstItem="u1r-An-hmb" firstAttribute="top" secondItem="rQT-3E-NvP" secondAttribute="bottom" constant="8" id="lE7-jk-g33"/>
                             <constraint firstItem="25Z-VO-mwD" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="mQF-N2-aah"/>
                             <constraint firstItem="KmZ-s0-yej" firstAttribute="leading" secondItem="UgS-LA-iAb" secondAttribute="leadingMargin" id="mQu-Tm-TAs"/>
+                            <constraint firstItem="pm2-6A-dc2" firstAttribute="top" secondItem="k5K-UV-7uT" secondAttribute="bottom" constant="16" id="mUW-vg-Obv"/>
                             <constraint firstItem="xi9-sG-U8M" firstAttribute="centerY" secondItem="M25-N9-E5C" secondAttribute="centerY" id="wwe-4G-BPn"/>
+                            <constraint firstItem="dEL-Eg-jfG" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="y8A-vb-5hM"/>
                             <constraint firstItem="k5K-UV-7uT" firstAttribute="top" secondItem="25Z-VO-mwD" secondAttribute="bottom" constant="8" id="yJS-4b-OaR"/>
                         </constraints>
                         <variation key="default">
@@ -561,6 +583,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <exclude reference="kgP-5K-2pl"/>
                                 <exclude reference="25Z-VO-mwD"/>
                                 <exclude reference="k5K-UV-7uT"/>
+                                <exclude reference="pm2-6A-dc2"/>
                                 <exclude reference="rQT-3E-NvP"/>
                                 <exclude reference="u1r-An-hmb"/>
                                 <exclude reference="xi9-sG-U8M"/>
@@ -568,29 +591,34 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <exclude reference="dEL-Eg-jfG"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3uO-sG-aTD"/>
-                                <exclude reference="AzB-MX-hSp"/>
-                                <exclude reference="mQF-N2-aah"/>
                                 <exclude reference="ByH-Fu-u4F"/>
                                 <exclude reference="mQu-Tm-TAs"/>
-                                <exclude reference="eyJ-cj-bdI"/>
-                                <exclude reference="Fo2-OC-hwb"/>
                                 <exclude reference="4ua-dP-Bsb"/>
                                 <exclude reference="FoM-Gh-kpD"/>
                                 <exclude reference="I41-CX-E6O"/>
+                                <exclude reference="3uO-sG-aTD"/>
+                                <exclude reference="AzB-MX-hSp"/>
+                                <exclude reference="mQF-N2-aah"/>
+                                <exclude reference="0TV-zK-qa6"/>
+                                <exclude reference="9rA-sX-T0F"/>
+                                <exclude reference="yJS-4b-OaR"/>
+                                <exclude reference="5Mk-NK-m4u"/>
+                                <exclude reference="iKW-i4-g8i"/>
+                                <exclude reference="mUW-vg-Obv"/>
                                 <exclude reference="0uz-9q-Ho4"/>
                                 <exclude reference="CC0-7D-JRA"/>
-                                <exclude reference="hwb-Nh-Kh7"/>
+                                <exclude reference="SAS-eu-53d"/>
                                 <exclude reference="KQN-2T-3ji"/>
                                 <exclude reference="bFT-Es-hZH"/>
                                 <exclude reference="lE7-jk-g33"/>
                                 <exclude reference="Md6-KQ-Btd"/>
                                 <exclude reference="Qy2-5r-f4Z"/>
                                 <exclude reference="wwe-4G-BPn"/>
+                                <exclude reference="UEo-FA-L5U"/>
                                 <exclude reference="gRU-WB-OTv"/>
-                                <exclude reference="0TV-zK-qa6"/>
-                                <exclude reference="9rA-sX-T0F"/>
-                                <exclude reference="yJS-4b-OaR"/>
+                                <exclude reference="y8A-vb-5hM"/>
+                                <exclude reference="eyJ-cj-bdI"/>
+                                <exclude reference="Fo2-OC-hwb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -599,6 +627,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <include reference="kgP-5K-2pl"/>
                                 <include reference="25Z-VO-mwD"/>
                                 <include reference="k5K-UV-7uT"/>
+                                <include reference="pm2-6A-dc2"/>
                                 <include reference="rQT-3E-NvP"/>
                                 <include reference="u1r-An-hmb"/>
                                 <include reference="xi9-sG-U8M"/>
@@ -606,29 +635,34 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <include reference="dEL-Eg-jfG"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3uO-sG-aTD"/>
-                                <include reference="AzB-MX-hSp"/>
-                                <include reference="mQF-N2-aah"/>
                                 <include reference="ByH-Fu-u4F"/>
                                 <include reference="mQu-Tm-TAs"/>
-                                <include reference="eyJ-cj-bdI"/>
-                                <include reference="Fo2-OC-hwb"/>
                                 <include reference="4ua-dP-Bsb"/>
                                 <include reference="FoM-Gh-kpD"/>
                                 <include reference="I41-CX-E6O"/>
+                                <include reference="3uO-sG-aTD"/>
+                                <include reference="AzB-MX-hSp"/>
+                                <include reference="mQF-N2-aah"/>
+                                <include reference="0TV-zK-qa6"/>
+                                <include reference="9rA-sX-T0F"/>
+                                <include reference="yJS-4b-OaR"/>
+                                <include reference="5Mk-NK-m4u"/>
+                                <include reference="iKW-i4-g8i"/>
+                                <include reference="mUW-vg-Obv"/>
                                 <include reference="0uz-9q-Ho4"/>
                                 <include reference="CC0-7D-JRA"/>
-                                <include reference="hwb-Nh-Kh7"/>
+                                <include reference="SAS-eu-53d"/>
                                 <include reference="KQN-2T-3ji"/>
                                 <include reference="bFT-Es-hZH"/>
                                 <include reference="lE7-jk-g33"/>
                                 <include reference="Md6-KQ-Btd"/>
                                 <include reference="Qy2-5r-f4Z"/>
                                 <include reference="wwe-4G-BPn"/>
-                                <include reference="gRU-WB-OTv"/>
-                                <include reference="0TV-zK-qa6"/>
-                                <include reference="9rA-sX-T0F"/>
-                                <include reference="yJS-4b-OaR"/>
+                                <include reference="UEo-FA-L5U"/>
+                                <exclude reference="gRU-WB-OTv"/>
+                                <include reference="y8A-vb-5hM"/>
+                                <include reference="eyJ-cj-bdI"/>
+                                <exclude reference="Fo2-OC-hwb"/>
                             </mask>
                         </variation>
                     </view>
@@ -639,6 +673,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                         <outlet property="reminderDescription" destination="rQT-3E-NvP" id="ixc-ql-Ddb"/>
                         <outlet property="reminderSegment" destination="k5K-UV-7uT" id="vPW-S8-Yu3"/>
                         <outlet property="resetCounter" destination="dEL-Eg-jfG" id="dOW-YB-ffK"/>
+                        <outlet property="timeSegment" destination="pm2-6A-dc2" id="jzN-WG-2h5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RRt-3b-thK" userLabel="First Responder" sceneMemberID="firstResponder"/>

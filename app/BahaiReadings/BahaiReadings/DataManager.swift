@@ -107,6 +107,18 @@ class DataManager: NSObject {
 
   }
   
+  class func getReminderTimeKey()->String {
+    var val : AnyObject? = NSUserDefaults.standardUserDefaults().objectForKey("schedule")
+    if val != nil {
+      return val as! String
+    } else {
+      setCurrentKey("0", key: "scheduleTime")
+      return "0"
+    }
+    
+  }
+
+  
   class func getCounterKey(key:String)->String {
     var val : AnyObject? = NSUserDefaults.standardUserDefaults().objectForKey(key)
     if val != nil {
