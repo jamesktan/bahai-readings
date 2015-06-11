@@ -18,6 +18,26 @@
                         <rect key="frame" x="0.0" y="-1" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tQ-P5-J30">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="311" id="8FY-1i-RaC"/>
+                                </constraints>
+                                <mutableString key="text">Bahá'í Readings was created to do one thing - present the writings in a clean, elegant, and straightforward manner. All of this done in the hopes that we can spend more time reading, and less time fussing about ePubs.    This project is ongoing, with many improvements and additions still needing to be made.   If you're interested in contributing, helping, or just have a general suggestion,  please do not hesitate to reach out using the feedback link below.  Warmly, james   </mutableString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8FY-1i-RaC"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="8FY-1i-RaC"/>
+                                    </mask>
+                                </variation>
+                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Bahá'í Readings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fD-jw-SLk">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
@@ -89,26 +109,6 @@
                                     <action selector="showAcknowledgements:" destination="x3Y-Ba-uw6" eventType="touchUpInside" id="bua-Sa-OT0"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tQ-P5-J30">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="311" id="8FY-1i-RaC"/>
-                                </constraints>
-                                <mutableString key="text">Bahá'í Readings was created specifically to provide a resource for people to access the writings in a straightforward an unencumbered way, regardless of having regular internet access or not.  This project is ongoing, with many improvements and additions still needing to be made.   If you're interested in contributing, helping, or just have a general suggestion,  please do not hesitate to reach out using the feedback link below.  Warmly, james   </mutableString>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="8FY-1i-RaC"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="8FY-1i-RaC"/>
-                                    </mask>
-                                </variation>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -128,10 +128,10 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="8tQ-P5-J30"/>
                                 <exclude reference="3fD-jw-SLk"/>
                                 <exclude reference="TCR-gf-c6w"/>
                                 <exclude reference="WmA-5r-XrU"/>
-                                <exclude reference="8tQ-P5-J30"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="64P-WH-CMa"/>
@@ -149,10 +149,10 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
+                                <include reference="8tQ-P5-J30"/>
                                 <include reference="3fD-jw-SLk"/>
                                 <include reference="TCR-gf-c6w"/>
                                 <include reference="WmA-5r-XrU"/>
-                                <include reference="8tQ-P5-J30"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="64P-WH-CMa"/>
@@ -591,20 +591,16 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <exclude reference="dEL-Eg-jfG"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ByH-Fu-u4F"/>
-                                <exclude reference="mQu-Tm-TAs"/>
-                                <exclude reference="4ua-dP-Bsb"/>
-                                <exclude reference="FoM-Gh-kpD"/>
-                                <exclude reference="I41-CX-E6O"/>
                                 <exclude reference="3uO-sG-aTD"/>
                                 <exclude reference="AzB-MX-hSp"/>
                                 <exclude reference="mQF-N2-aah"/>
-                                <exclude reference="0TV-zK-qa6"/>
-                                <exclude reference="9rA-sX-T0F"/>
-                                <exclude reference="yJS-4b-OaR"/>
-                                <exclude reference="5Mk-NK-m4u"/>
-                                <exclude reference="iKW-i4-g8i"/>
-                                <exclude reference="mUW-vg-Obv"/>
+                                <exclude reference="ByH-Fu-u4F"/>
+                                <exclude reference="mQu-Tm-TAs"/>
+                                <exclude reference="eyJ-cj-bdI"/>
+                                <exclude reference="Fo2-OC-hwb"/>
+                                <exclude reference="4ua-dP-Bsb"/>
+                                <exclude reference="FoM-Gh-kpD"/>
+                                <exclude reference="I41-CX-E6O"/>
                                 <exclude reference="0uz-9q-Ho4"/>
                                 <exclude reference="CC0-7D-JRA"/>
                                 <exclude reference="SAS-eu-53d"/>
@@ -617,8 +613,12 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <exclude reference="UEo-FA-L5U"/>
                                 <exclude reference="gRU-WB-OTv"/>
                                 <exclude reference="y8A-vb-5hM"/>
-                                <exclude reference="eyJ-cj-bdI"/>
-                                <exclude reference="Fo2-OC-hwb"/>
+                                <exclude reference="0TV-zK-qa6"/>
+                                <exclude reference="9rA-sX-T0F"/>
+                                <exclude reference="yJS-4b-OaR"/>
+                                <exclude reference="5Mk-NK-m4u"/>
+                                <exclude reference="iKW-i4-g8i"/>
+                                <exclude reference="mUW-vg-Obv"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -635,20 +635,16 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <include reference="dEL-Eg-jfG"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ByH-Fu-u4F"/>
-                                <include reference="mQu-Tm-TAs"/>
-                                <include reference="4ua-dP-Bsb"/>
-                                <include reference="FoM-Gh-kpD"/>
-                                <include reference="I41-CX-E6O"/>
                                 <include reference="3uO-sG-aTD"/>
                                 <include reference="AzB-MX-hSp"/>
                                 <include reference="mQF-N2-aah"/>
-                                <include reference="0TV-zK-qa6"/>
-                                <include reference="9rA-sX-T0F"/>
-                                <include reference="yJS-4b-OaR"/>
-                                <include reference="5Mk-NK-m4u"/>
-                                <include reference="iKW-i4-g8i"/>
-                                <include reference="mUW-vg-Obv"/>
+                                <include reference="ByH-Fu-u4F"/>
+                                <include reference="mQu-Tm-TAs"/>
+                                <include reference="eyJ-cj-bdI"/>
+                                <exclude reference="Fo2-OC-hwb"/>
+                                <include reference="4ua-dP-Bsb"/>
+                                <include reference="FoM-Gh-kpD"/>
+                                <include reference="I41-CX-E6O"/>
                                 <include reference="0uz-9q-Ho4"/>
                                 <include reference="CC0-7D-JRA"/>
                                 <include reference="SAS-eu-53d"/>
@@ -661,8 +657,12 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 <include reference="UEo-FA-L5U"/>
                                 <exclude reference="gRU-WB-OTv"/>
                                 <include reference="y8A-vb-5hM"/>
-                                <include reference="eyJ-cj-bdI"/>
-                                <exclude reference="Fo2-OC-hwb"/>
+                                <include reference="0TV-zK-qa6"/>
+                                <include reference="9rA-sX-T0F"/>
+                                <include reference="yJS-4b-OaR"/>
+                                <include reference="5Mk-NK-m4u"/>
+                                <include reference="iKW-i4-g8i"/>
+                                <include reference="mUW-vg-Obv"/>
                             </mask>
                         </variation>
                     </view>
