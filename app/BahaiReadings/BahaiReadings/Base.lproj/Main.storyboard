@@ -1322,55 +1322,37 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XkW-li-KMp" userLabel="Settings">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reader Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0h-vb-QYf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Style" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1y-fz-Mn7">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="8" width="228" height="31"/>
+                                            <rect key="frame" x="8" y="128" width="136" height="20"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Style" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hL-2d-J0z">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgp-tR-yi3">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="151" width="110" height="21"/>
+                                            <rect key="frame" x="8" y="198" width="228" height="20"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direction" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5x-qK-Pub">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direction" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1O-eK-mGw">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="269" width="110" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hp-xc-rXY">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="54" width="228" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J99-ZX-7wz">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="138" y="151" width="110" height="21"/>
+                                            <rect key="frame" x="156" y="128" width="136" height="20"/>
                                         </variation>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="lG1-ao-1bn">
                                         <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="18" y="83" width="232" height="31"/>
+                                            <rect key="frame" x="6" y="77" width="288" height="31"/>
                                         </variation>
                                         <connections>
                                             <action selector="sliderDidEnd:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="TC0-uA-EQx"/>
@@ -1378,98 +1360,65 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                             <action selector="sliderDidMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="MpX-3L-WSh"/>
                                         </connections>
                                     </slider>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYm-mZ-5ef">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Serif">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="grK-c3-hey">
+                                        <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                        <segments>
+                                            <segment title="Serif"/>
+                                            <segment title="Sans-Serif"/>
+                                        </segments>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="189" width="32" height="30"/>
+                                            <rect key="frame" x="8" y="154" width="136" height="29"/>
                                         </variation>
                                         <connections>
-                                            <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyi-Mn-RpQ"/>
+                                            <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="valueChanged" id="RXM-bx-RMF"/>
                                         </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWM-jE-35t">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Vertical">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="selected" title="Horizontal"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mbn-EZ-LMt">
+                                        <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                        <segments>
+                                            <segment title="Vertical"/>
+                                            <segment title="Horizontal"/>
+                                        </segments>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="303" width="110" height="30"/>
+                                            <rect key="frame" x="156" y="154" width="136" height="29"/>
                                         </variation>
                                         <connections>
-                                            <action selector="changeReaderOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uTH-iq-VTd"/>
+                                            <action selector="changeReaderOrientation:" destination="BYZ-38-t0r" eventType="valueChanged" id="K8b-DS-1Fx"/>
                                         </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvZ-iA-vse">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Light">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OyF-TF-dUv">
+                                        <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                        <segments>
+                                            <segment title="Light"/>
+                                            <segment title="Dark"/>
+                                            <segment title="Sunset"/>
+                                            <segment title="Midnight"/>
+                                        </segments>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="138" y="189" width="35" height="30"/>
+                                            <rect key="frame" x="8" y="226" width="284" height="29"/>
                                         </variation>
                                         <connections>
-                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rac-Rt-705"/>
+                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="valueChanged" id="4vu-kH-Odh"/>
                                         </connections>
-                                    </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqk-yq-k2O">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hp-xc-rXY">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Dark">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="138" y="227" width="32" height="30"/>
+                                            <rect key="frame" x="8" y="49" width="284" height="20"/>
                                         </variation>
-                                        <connections>
-                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4Z-De-jQO"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaC-ts-wpY">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Sunset">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reader Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZm-di-GTD">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="138" y="265" width="56" height="30"/>
+                                            <rect key="frame" x="8" y="1" width="292" height="40"/>
                                         </variation>
-                                        <connections>
-                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zel-VS-j8c"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba7-C8-1hy">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Midnight">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="138" y="303" width="60" height="30"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gmg-PW-Wro"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUC-Rg-Lmg">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Sans-serif">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="227" width="70" height="30"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ub4-0H-vuX"/>
-                                        </connections>
-                                    </button>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cm1-Ig-w5z">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                         <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
@@ -1477,7 +1426,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="224" y="1" width="45" height="45"/>
+                                            <rect key="frame" x="255" y="-2" width="45" height="45"/>
                                         </variation>
                                         <connections>
                                             <action selector="showOrHideReaderSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8dx-ye-EtG"/>
@@ -1486,24 +1435,24 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="269" id="Phg-wQ-mhB"/>
-                                    <constraint firstAttribute="height" constant="352" id="aBI-bY-8jI"/>
+                                    <constraint firstAttribute="width" constant="269" id="Phg-wQ-mhB">
+                                        <variation key="widthClass=compact" constant="300"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="352" id="aBI-bY-8jI">
+                                        <variation key="widthClass=compact" constant="270"/>
+                                    </constraint>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="subviews">
-                                        <exclude reference="g0h-vb-QYf"/>
-                                        <exclude reference="3hL-2d-J0z"/>
-                                        <exclude reference="L5x-qK-Pub"/>
-                                        <exclude reference="7hp-xc-rXY"/>
-                                        <exclude reference="J99-ZX-7wz"/>
+                                        <exclude reference="S1y-fz-Mn7"/>
+                                        <exclude reference="mgp-tR-yi3"/>
+                                        <exclude reference="V1O-eK-mGw"/>
                                         <exclude reference="lG1-ao-1bn"/>
-                                        <exclude reference="rYm-mZ-5ef"/>
-                                        <exclude reference="TWM-jE-35t"/>
-                                        <exclude reference="kvZ-iA-vse"/>
-                                        <exclude reference="tqk-yq-k2O"/>
-                                        <exclude reference="KaC-ts-wpY"/>
-                                        <exclude reference="ba7-C8-1hy"/>
-                                        <exclude reference="hUC-Rg-Lmg"/>
+                                        <exclude reference="grK-c3-hey"/>
+                                        <exclude reference="Mbn-EZ-LMt"/>
+                                        <exclude reference="OyF-TF-dUv"/>
+                                        <exclude reference="7hp-xc-rXY"/>
+                                        <exclude reference="NZm-di-GTD"/>
                                         <exclude reference="cm1-Ig-w5z"/>
                                     </mask>
                                     <mask key="constraints">
@@ -1513,19 +1462,15 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="subviews">
-                                        <include reference="g0h-vb-QYf"/>
-                                        <include reference="3hL-2d-J0z"/>
-                                        <include reference="L5x-qK-Pub"/>
-                                        <include reference="7hp-xc-rXY"/>
-                                        <include reference="J99-ZX-7wz"/>
+                                        <include reference="S1y-fz-Mn7"/>
+                                        <include reference="mgp-tR-yi3"/>
+                                        <include reference="V1O-eK-mGw"/>
                                         <include reference="lG1-ao-1bn"/>
-                                        <include reference="rYm-mZ-5ef"/>
-                                        <include reference="TWM-jE-35t"/>
-                                        <include reference="kvZ-iA-vse"/>
-                                        <include reference="tqk-yq-k2O"/>
-                                        <include reference="KaC-ts-wpY"/>
-                                        <include reference="ba7-C8-1hy"/>
-                                        <include reference="hUC-Rg-Lmg"/>
+                                        <include reference="grK-c3-hey"/>
+                                        <include reference="Mbn-EZ-LMt"/>
+                                        <include reference="OyF-TF-dUv"/>
+                                        <include reference="7hp-xc-rXY"/>
+                                        <include reference="NZm-di-GTD"/>
                                         <include reference="cm1-Ig-w5z"/>
                                     </mask>
                                     <mask key="constraints">
@@ -1611,17 +1556,13 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                     <connections>
                         <outlet property="bookPagesLabel" destination="LDa-Jz-4pE" id="Ceb-DB-Hvf"/>
                         <outlet property="bookTitleLabel" destination="aqo-DU-W22" id="owy-8O-Pts"/>
-                        <outlet property="buttonDark" destination="tqk-yq-k2O" id="9Ix-tK-lb1"/>
-                        <outlet property="buttonLight" destination="kvZ-iA-vse" id="31s-iw-9tX"/>
-                        <outlet property="buttonMidnight" destination="ba7-C8-1hy" id="yLx-Rj-TQi"/>
-                        <outlet property="buttonOrientation" destination="TWM-jE-35t" id="A6x-g6-e0H"/>
-                        <outlet property="buttonSans" destination="hUC-Rg-Lmg" id="gnc-G3-rKh"/>
-                        <outlet property="buttonSerif" destination="rYm-mZ-5ef" id="CFq-Wi-PPo"/>
-                        <outlet property="buttonSunset" destination="KaC-ts-wpY" id="zYv-Ko-7vD"/>
+                        <outlet property="directionSegment" destination="Mbn-EZ-LMt" id="Awv-4F-YIT"/>
                         <outlet property="readerSettingsView" destination="XkW-li-KMp" id="qYi-yN-dOD"/>
                         <outlet property="readerWebView" destination="fGl-uE-Pha" id="fUh-TV-V9u"/>
                         <outlet property="settingsView" destination="79w-M6-HbZ" id="cBb-cq-Wa7"/>
                         <outlet property="sizeSlider" destination="lG1-ao-1bn" id="lTF-HD-tlc"/>
+                        <outlet property="styleSegment" destination="grK-c3-hey" id="h6o-ig-UDv"/>
+                        <outlet property="themeSegment" destination="OyF-TF-dUv" id="BZa-Qb-Vdw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

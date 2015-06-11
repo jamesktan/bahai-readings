@@ -15,15 +15,11 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   @IBOutlet weak var settingsView: UIView!
   @IBOutlet weak var readerSettingsView: UIView!
 
-  @IBOutlet weak var buttonSerif: UIButton!
-  @IBOutlet weak var buttonSans: UIButton!
+  @IBOutlet weak var styleSegment: UISegmentedControl!
   
-  @IBOutlet weak var buttonLight: UIButton!
-  @IBOutlet weak var buttonDark: UIButton!
-  @IBOutlet weak var buttonSunset: UIButton!
-  @IBOutlet weak var buttonMidnight: UIButton!
+  @IBOutlet weak var themeSegment: UISegmentedControl!
   
-  @IBOutlet weak var buttonOrientation: UIButton!
+  @IBOutlet weak var directionSegment: UISegmentedControl!
   
   @IBOutlet weak var sizeSlider: UISlider!
   
@@ -31,9 +27,6 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   @IBOutlet weak var bookPagesLabel: UILabel!
   
   var shadowView : UIView = UIView()
-  
-  var themeButtons : NSArray = []
-  var styleButtons : NSArray = []
   
   class var shared : ReaderView {
     struct Static {
@@ -56,9 +49,6 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     shadowView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
     shadowView.backgroundColor = UIColor.blackColor()
     shadowView.alpha = 0.0
-    
-    themeButtons = [buttonLight, buttonDark, buttonSunset, buttonMidnight]
-    styleButtons = [buttonSerif, buttonSans]
     
     var tap = UITapGestureRecognizer(target: self, action: "showOrHideSettings")
     tap.numberOfTapsRequired = 1
@@ -168,17 +158,17 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
     loadWebDataForHandle(frame.currentBook)
   }
   
-  @IBAction func changeFontStyle(sender: UIButton) {
+  @IBAction func changeFontStyle(sender: UISegmentedControl) {
     var styles : NSArray = frame.presenter!.arrayOfReaderStyles()
-    var selected : String = styles.objectAtIndex(sender.tag) as! String
+    var selected : String = styles.objectAtIndex(sender.selectedSegmentIndex) as! String
     frame.presenter!.selectStyle(selected)
     loadWebDataForHandle(frame.currentBook)
     highlightStyleButton()
   }
   
-  @IBAction func changeFontTheme(sender: UIButton) {
+  @IBAction func changeFontTheme(sender: UISegmentedControl) {
     var themes : NSArray = frame.presenter!.arrayOfReaderThemes()
-    var selected : String = themes.objectAtIndex(sender.tag) as! String
+    var selected : String = themes.objectAtIndex(sender.selectedSegmentIndex) as! String
     frame.presenter!.selectTheme(selected)
     loadWebDataForHandle(frame.currentBook)
     highlightThemeButton()
@@ -202,11 +192,13 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
       self.readerWebView.scrollView.alwaysBounceVertical = false;
     }
   }
-  @IBAction func changeReaderOrientation(sender: UIButton) {
+  @IBAction func changeReaderOrientation(sender: UISegmentedControl) {
     if frame.presenter!.getOrientation() == "horizontal" {
       frame.presenter?.selectOrientation("vertical")
+      sender.selectedSegmentIndex = 0
     } else {
       frame.presenter?.selectOrientation("horizontal")
+      sender.selectedSegmentIndex = 1
     }
     loadOrientation()
     loadWebDataForHandle(frame.currentBook)
@@ -217,27 +209,17 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   
   func highlightStyleButton() {
     // Set the Selected Buttons
-    for button in styleButtons {
-      var ub : UIButton = button as! UIButton
-      ub.selected = false
-    }
     var currentStyle : String = frame.presenter!.getStyle()
     var styleList : NSArray = frame.presenter!.arrayOfReaderStyles()
     var index = styleList.indexOfObject(currentStyle)
-    var button : UIButton = styleButtons.objectAtIndex(index) as! UIButton
-    button.selected = true
+    styleSegment.selectedSegmentIndex = index
   }
   
   func highlightThemeButton() {
-    for button in themeButtons {
-      var ub : UIButton = button as! UIButton
-      ub.selected = false
-    }
     var currentTheme : String = frame.presenter!.getTheme()
     var themeList : NSArray = frame.presenter!.arrayOfReaderThemes()
     var index = themeList.indexOfObject(currentTheme)
-    var button : UIButton = themeButtons.objectAtIndex(index) as! UIButton
-    button.selected = true
+    themeSegment.selectedSegmentIndex = index
   }
   
   func updateSlider() {
@@ -268,9 +250,9 @@ class ReaderView: UIViewController, UIGestureRecognizerDelegate, UIWebViewDelega
   func highlightOrientationButton() {
     var orientation : String = frame.presenter!.getOrientation()
     if orientation == "vertical" {
-      buttonOrientation.selected = false
+      directionSegment.selectedSegmentIndex = 0
     } else {
-      buttonOrientation.selected = true
+       directionSegment.selectedSegmentIndex = 1
     }
   }
   override func prefersStatusBarHidden() -> Bool {
