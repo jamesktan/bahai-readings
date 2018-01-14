@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA737EF4D6992EECDAD3BB91A4362E47"
-               BuildableName = "Pods_readings2.framework"
-               BlueprintName = "Pods-readings2"
+               BlueprintIdentifier = "965699190112DDBD9B7864D091660DBC"
+               BuildableName = "ActionSheetPicker_3_0.framework"
+               BlueprintName = "ActionSheetPicker-3.0"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA737EF4D6992EECDAD3BB91A4362E47"
-            BuildableName = "Pods_readings2.framework"
-            BlueprintName = "Pods-readings2"
+            BlueprintIdentifier = "965699190112DDBD9B7864D091660DBC"
+            BuildableName = "ActionSheetPicker_3_0.framework"
+            BlueprintName = "ActionSheetPicker-3.0"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

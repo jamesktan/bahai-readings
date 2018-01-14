@@ -26,7 +26,14 @@ struct Page {
 }
 
 struct TableOfContents {
+  var title : String = ""
+  var author : String = ""
   var contents : [String] = []
+  var combined : String {
+    get {
+      return "\(title) - \(author)"
+    }
+  }
 }
 
 class WritingCell : UITableViewCell {
@@ -51,9 +58,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   var navigation : UINavigationController!
   var pageController : PagesController!
   @IBOutlet weak var writingTableView : UITableView!
-  override var prefersStatusBarHidden: Bool {
-    return true
-  }
+
   var paths : [String] = []
   
   override func viewDidLoad() {
@@ -96,7 +101,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     if let template = try? String(contentsOfFile:templatePath)
     {
       let result : (TableOfContents?, [Page]?) = createPages(pathToResource: path)
-      let viewControllers = createViewsForPages(pages: result.1!, template:template)
+      let viewControllers = createViewsForPages(table: result.0!, pages: result.1!, template:template)
       pageController = PagesControllerHidden(viewControllers)
       
       pageController.enableSwipe = true
@@ -145,14 +150,15 @@ func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
       
       // Parse for the Table of Contents
       if row.contains("*") && tableOfContents == nil {
-        cachedTableOfContents.append(row)
+        cachedTableOfContents.append(row.replacingOccurrences(of: "*", with: ""))
       }
         
-        // On HR, If first then create a Table of Contents
-        // On HR, if NOT, create a new Page
+      // On HR, If first then create a Table of Contents
+      // On HR, if NOT, create a new Page
       else if row.contains("---") {
         if tableOfContents == nil {
-          tableOfContents = TableOfContents(contents:cachedTableOfContents)
+          let result = pathToResource.fileNameComponent
+          tableOfContents = TableOfContents(title:result.0, author:result.1, contents:cachedTableOfContents)
           page = Page()
         } else {
           if page != nil {
@@ -185,15 +191,29 @@ func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
   return(nil,nil)
 }
 
-func createViewsForPages(pages:[Page], template:String) -> [UIViewController] {
+func createViewsForPages(table: TableOfContents, pages:[Page], template:String) -> [UIViewController] {
   var viewControllers : [UIViewController] = []
   for page in pages {
     let rendered = template.replacingOccurrences(of: "{{content}}", with: page.contentsConverted!)
     
     let view = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PageView") as! PageView
     view.contents = rendered
+    view.tableOfContents = table
+    
     viewControllers.append(view)
   }
   return viewControllers
+}
+
+extension String {
+  var fileNameComponent : (String, String) {
+    get {
+      let name = NSString(string:self)
+      let file = name.lastPathComponent
+      let parts = file.components(separatedBy: ".") // Trim the extension
+      let components = parts.first!.components(separatedBy: " - ") // Get Book / Author
+      return (components.first!, components.last!)
+    }
+  }
 }
 

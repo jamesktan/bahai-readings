@@ -8,12 +8,14 @@
 
 import UIKit
 import WebKit
+import ActionSheetPicker_3_0
 
 class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UIGestureRecognizerDelegate {
   
   @IBOutlet weak var readView: WKWebView!
   @IBOutlet weak var toolbar: UIToolbar!
-  
+
+  var tableOfContents : TableOfContents? = nil
   var contents : String = ""
   var indicator : UIActivityIndicatorView!
   var tapGesture : UITapGestureRecognizer!
@@ -30,10 +32,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     
     toolbar.alpha = 0.0
     
-  }
-  
-  @IBAction func closeReader() {
-    parent?.navigationController?.dismiss(animated: true, completion: nil)
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -70,6 +68,30 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       self.indicator.removeFromSuperview()
       self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
     })
+  }
+  
+  @IBAction func closeReader() {
+    parent?.navigationController?.dismiss(animated: true, completion: nil)
+  }
+  
+  @IBAction func favoriteWriting () {
+    
+  }
+  
+  @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
+    ActionSheetMultipleStringPicker.show(withTitle: self.tableOfContents!.combined, rows: [
+      self.tableOfContents!.contents,
+      ], initialSelection: [0], doneBlock: {
+        picker, indexes, values in
+        if let points = indexes as? [Int] {
+          let goTo = points.first!
+          (self.parent as? PagesControllerHidden)?.goTo(goTo)
+        }
+        
+        
+        return
+    }, cancel: { ActionMultipleStringCancelBlock in return }, origin: sender)
+
   }
   
   override func didReceiveMemoryWarning() {
