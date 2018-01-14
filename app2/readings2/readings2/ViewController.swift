@@ -25,6 +25,10 @@ struct Page {
   }
 }
 
+struct Constants {
+  static var StarredKey : String = "StarredWritingsKey"
+  static var ProgressKey : String = "ProgressDictionaryKey"
+}
 struct TableOfContents {
   var title : String = ""
   var author : String = ""
@@ -147,6 +151,48 @@ class PagesControllerHidden : PagesController {
 
 
 // Global Functions
+
+
+// Starred Writings with User Defaults
+func saveStarredWriting(fileName:String) {
+  if let starred = UserDefaults.standard.array(forKey: Constants.StarredKey) as? [String] {
+    var new = starred
+    new.append(fileName)
+    UserDefaults.standard.set(new, forKey: Constants.StarredKey)
+  } else {
+    let new = [fileName]
+    UserDefaults.standard.set(new, forKey: Constants.StarredKey)
+  }
+}
+
+func getStarredWritings() -> [String] {
+  if let starred = UserDefaults.standard.array(forKey: Constants.StarredKey) as? [String] {
+    return starred
+  }
+  return []
+}
+
+func removeStarredWriting(fileName:String) -> Bool? {
+  if let starred = UserDefaults.standard.array(forKey: Constants.StarredKey) as? [String] {
+    var new : NSMutableArray = NSMutableArray(array:starred)
+    new.remove(fileName)
+    var save = new as! [String]
+    UserDefaults.standard.set(save, forKey: Constants.StarredKey)
+    return true
+  } else {
+    return nil
+  }
+}
+
+// Progress Writings with User Defaults
+
+func storeWritingProgress(fileName:String, page:Int, position:Float) {
+  
+}
+func getWritingProgress(fileName:String) -> (page:Int, position:Float) {
+  
+}
+
 
 func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
   if let contents = try? String(contentsOfFile: pathToResource) {
