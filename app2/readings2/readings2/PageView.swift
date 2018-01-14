@@ -20,28 +20,28 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.readView.navigationDelegate = self
-    self.readView.alpha = 0.0
+    readView.navigationDelegate = self
+    readView.alpha = 0.0
     
     tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap))
     tapGesture.numberOfTapsRequired = 1
     tapGesture.delegate = self
-    self.view.addGestureRecognizer(tapGesture)
+    view.addGestureRecognizer(tapGesture)
     
-    self.toolbar.alpha = 0.0
+    toolbar.alpha = 0.0
     
   }
   
   @IBAction func closeReader() {
-    
+    parent?.navigationController?.dismiss(animated: true, completion: nil)
   }
   
   override func viewWillAppear(_ animated: Bool) {
-    self.readView.loadHTMLString(contents, baseURL: nil )
+    readView.loadHTMLString(contents, baseURL: nil )
     indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
     indicator.center = self.view.center
     indicator.startAnimating()
-    self.view.addSubview(indicator)
+    view.addSubview(indicator)
   }
   
   override func viewWillDisappear(_ animated: Bool) {
@@ -53,9 +53,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   
   var isToolBarHidden : Bool = true
   @objc func didTap() {
-    if isToolBarHidden { self.toolbar.setAlpha(alpha: 1.0) }
-    else { self.toolbar.setAlpha(alpha:0.0) }
-    self.isToolBarHidden = !isToolBarHidden
+    if isToolBarHidden { toolbar.setAlpha(alpha: 1.0) }
+    else { toolbar.setAlpha(alpha:0.0) }
+    isToolBarHidden = !isToolBarHidden
   }
   
   
@@ -66,7 +66,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
 
   func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
     indicator.stopAnimating()
-    self.indicator.setAlpha(alpha: 0.0, duration: 0.3, completion: {
+    indicator.setAlpha(alpha: 0.0, duration: 0.3, completion: {
       self.indicator.removeFromSuperview()
       self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
     })
