@@ -30,6 +30,7 @@ struct Constants {
   static var ProgressKey : String = "ProgressDictionaryKey"
 }
 struct TableOfContents {
+  var fileName : String = ""
   var title : String = ""
   var author : String = ""
   var contents : [String] = []
@@ -246,7 +247,7 @@ func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
       else if row.contains("---") {
         if tableOfContents == nil {
           let result = pathToResource.fileNameComponent
-          tableOfContents = TableOfContents(title:result.0, author:result.1, contents:cachedTableOfContents)
+          tableOfContents = TableOfContents(fileName: result.2, title:result.0, author:result.1, contents:cachedTableOfContents)
           page = Page()
         } else {
           if page != nil {
@@ -294,13 +295,13 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
 }
 
 extension String {
-  var fileNameComponent : (String, String) {
+  var fileNameComponent : (String, String, String) {
     get {
       let name = NSString(string:self)
       let file = name.lastPathComponent
       let parts = file.components(separatedBy: ".") // Trim the extension
       let components = parts.first!.components(separatedBy: " - ") // Get Book / Author
-      return (components.first!, components.last!)
+      return (components.first!, components.last!, file)
     }
   }
 }

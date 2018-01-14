@@ -73,7 +73,13 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   @IBAction func favoriteWriting () {
-    
+    let list = getStarredWritings()
+    if list.contains(tableOfContents!.fileName) {
+      let result = removeStarredWriting(fileName: tableOfContents!.fileName)
+      print("Removal Result: \(result)")
+    } else {
+      saveStarredWriting(fileName: tableOfContents!.fileName)
+    }
   }
   
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
