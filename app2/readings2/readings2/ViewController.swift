@@ -39,7 +39,9 @@ struct TableOfContents {
 enum OrganizeWritingsState : String {
   case All = "All Writings"
   case Starred = "Starred Writings"
-  case Author = "Author"
+  case Author = "Grouped by Author"
+  case None = "None"
+  case Recent = "Recently Opened"
 }
 
 
@@ -101,11 +103,9 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   }
   
   @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
-    let alert = UIAlertController(title: "Sort Options", message: "Select a sorting option", preferredStyle: .actionSheet)
-    let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
-      alert.dismiss(animated: true, completion: nil)
+    let alert = UIAlertController.createWritingsSelection(completion: { state in
+      
     })
-    alert.addAction(cancel)
     self.present(alert, animated: true, completion: nil)
   }
   
@@ -232,4 +232,33 @@ extension String {
     }
   }
 }
+
+extension UIAlertController {
+  static func createWritingsSelection(completion:@escaping (_ selected:OrganizeWritingsState)->()) -> UIAlertController {
+    
+    let alert = UIAlertController(title: "Organize Writings", message: "Select a method to sort writings.", preferredStyle: .actionSheet)
+    let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
+      completion(.None)
+    })
+    let all = UIAlertAction(title: OrganizeWritingsState.All.rawValue, style: .default, handler: { action in
+      completion(OrganizeWritingsState.All)
+    })
+    let starred = UIAlertAction(title: OrganizeWritingsState.Starred.rawValue, style: .default, handler: { action in
+      completion(OrganizeWritingsState.Starred)
+    })
+    let author = UIAlertAction(title: OrganizeWritingsState.Author.rawValue, style: .default, handler: { action in
+      completion(OrganizeWritingsState.Author)
+    })
+    let recent = UIAlertAction(title: OrganizeWritingsState.Recent.rawValue, style: .default, handler: { action in
+      completion(OrganizeWritingsState.Recent)
+    })
+    alert.addAction(all)
+    alert.addAction(starred)
+    alert.addAction(author)
+    alert.addAction(recent)
+    alert.addAction(cancel)
+    return alert
+  }
+}
+
 

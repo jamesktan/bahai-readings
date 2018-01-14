@@ -19,7 +19,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   var contents : String = ""
   var indicator : UIActivityIndicatorView!
   var tapGesture : UITapGestureRecognizer!
-  
+  var isToolBarHidden : Bool = true
+
   override func viewDidLoad() {
     super.viewDidLoad()
     readView.navigationDelegate = self
@@ -49,15 +50,12 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     }
   }
   
-  var isToolBarHidden : Bool = true
   @objc func didTap() {
     if isToolBarHidden { toolbar.setAlpha(alpha: 1.0) }
     else { toolbar.setAlpha(alpha:0.0) }
     isToolBarHidden = !isToolBarHidden
   }
-  
-  
-  
+
   func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
     return true
   }
@@ -87,8 +85,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
           let goTo = points.first!
           (self.parent as? PagesControllerHidden)?.goTo(goTo)
         }
-        
-        
         return
     }, cancel: { ActionMultipleStringCancelBlock in return }, origin: sender)
 
