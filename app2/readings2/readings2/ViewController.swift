@@ -29,19 +29,63 @@ struct TableOfContents {
   var contents : [String] = []
 }
 
+class WritingCell : UITableViewCell {
+  @IBOutlet weak var writingTitle: UILabel!
+  @IBOutlet weak var writingAuthor: UILabel!
+  @IBOutlet weak var writingComplete: UILabel!
+  var path : String!
+  
+  func load(path:String) {
+    self.path = path
+    let filename = NSString(string: path).lastPathComponent.replacingOccurrences(of: ".md", with: "")
+    self.writingComplete.alpha = 0.0
+    
+    let components = String(filename).components(separatedBy: " - ")
+    self.writingTitle.text = components[0]
+    self.writingAuthor.text = components[1]
+  }
+}
 
-class WritingsView: UIViewController {
+class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
   var navigation : UINavigationController!
   var pageController : PagesController!
+  @IBOutlet weak var writingTableView : UITableView!
+  override var prefersStatusBarHidden: Bool {
+    return true
+  }
+  var paths : [String] = []
   
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    writingTableView.delegate = self
+    writingTableView.dataSource = self
+    
     // Paths
     guard let path = Bundle.main.path(forResource: "God Passes By - Shoghi Effendi", ofType: "md") else {
       return
     }
+    paths.append(path)
+    
+  }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    tableView.deselectRow(at: indexPath, animated: true)
+    let cell = tableView.cellForRow(at: indexPath) as! WritingCell
+    let path = cell.path
+    launchReader(path: path!)
+  }
+  
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return paths.count
+  }
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 70.5
+  }
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "WritingCell") as! WritingCell
+    cell.load(path: paths[indexPath.row])
+    return cell
   }
   
   func launchReader(path:String) {
