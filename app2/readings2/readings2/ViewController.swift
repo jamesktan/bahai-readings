@@ -175,6 +175,9 @@ func getStarredWritings() -> [String] {
 func removeStarredWriting(fileName:String) -> Bool? {
   if let starred = UserDefaults.standard.array(forKey: Constants.StarredKey) as? [String] {
     var new : NSMutableArray = NSMutableArray(array:starred)
+    if !new.contains(fileName) {
+      return false
+    }
     new.remove(fileName)
     var save = new as! [String]
     UserDefaults.standard.set(save, forKey: Constants.StarredKey)
@@ -187,10 +190,33 @@ func removeStarredWriting(fileName:String) -> Bool? {
 // Progress Writings with User Defaults
 
 func storeWritingProgress(fileName:String, page:Int, position:Float) {
-  
+  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:(Int, Float)] {
+    var copy = progress
+    copy[fileName] = (page, position)
+    UserDefaults.standard.set(copy, forKey: Constants.ProgressKey)
+  } else {
+    let new : [String:(Int, Float)] = [filename:(page,position)]
+    UserDefaults.standard.set(new, forKey: Constants.ProgressKey)
+  }
 }
-func getWritingProgress(fileName:String) -> (page:Int, position:Float) {
-  
+func getWritingProgressKeys() -> [String] {
+  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:(Int, Float)] {
+    return progress.keys as! [String]
+  } else {
+    return []
+  }
+}
+
+func getWritingProgress(fileName:String) -> (page:Int, position:Float)? {
+  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:(Int, Float)] {
+    if progress.keys.contains(fileName) {
+      return progress[fileName]
+    } else {
+      return nil
+    }
+  } else {
+    return nil
+  }
 }
 
 
