@@ -15,6 +15,11 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   @IBOutlet weak var readView: WKWebView!
   @IBOutlet weak var toolbar: UIToolbar!
 
+  var castedParent : PagesControllerHidden? {
+    get {
+      return self.parent as? PagesControllerHidden
+    }
+  }
   var tableOfContents : TableOfContents? = nil
   var contents : String = ""
   var indicator : UIActivityIndicatorView!
@@ -25,6 +30,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     super.viewDidLoad()
     readView.navigationDelegate = self
     readView.alpha = 0.0
+    readView.scrollView.delegate = self
     
     tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap))
     tapGesture.numberOfTapsRequired = 1
@@ -68,6 +74,15 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     })
   }
   
+  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    let page = self.castedParent?.currentIndex
+    let position = scrollView.contentOffset.y
+    let height = scrollView.contentSize.height - scrollView.frame.height
+    let completed = position / height
+    storeWritingProgress(fileName: tableOfContents!.fileName, page: page!, position: Float(completed))
+  }
+  
+  
   @IBAction func closeReader() {
     parent?.navigationController?.dismiss(animated: true, completion: nil)
   }
@@ -85,11 +100,11 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
     ActionSheetMultipleStringPicker.show(withTitle: self.tableOfContents!.combined, rows: [
       self.tableOfContents!.contents,
-      ], initialSelection: [(self.parent as? PagesControllerHidden)!.currentIndex], doneBlock: {
+      ], initialSelection: [self.castedParent!.currentIndex], doneBlock: {
         picker, indexes, values in
         if let points = indexes as? [Int] {
           let goTo = points.first!
-          (self.parent as? PagesControllerHidden)?.goTo(goTo)
+          self.castedParent?.goTo(goTo)
         }
         return
     }, cancel: { ActionMultipleStringCancelBlock in return }, origin: sender)
