@@ -97,16 +97,3 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   
   
 }
-
-
-// Extension to Programmatically Configure Alpha Values
-extension UIView {
-  func setAlpha(alpha:CGFloat, duration:TimeInterval=0.3, completion:(()->())?=nil) {
-    UIView.animate(withDuration: duration, animations: {
-      self.alpha = alpha
-      }, completion: { finished in
-        completion?()
-    })
-  }
-}
-

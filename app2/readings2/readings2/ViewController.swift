@@ -261,4 +261,14 @@ extension UIAlertController {
   }
 }
 
+extension UIView {
+  func setAlpha(alpha:CGFloat, duration:TimeInterval=0.3, completion:(()->())?=nil) {
+    UIView.animate(withDuration: duration, animations: {
+      self.alpha = alpha
+    }, completion: { finished in
+      completion?()
+    })
+  }
+}
+
 
