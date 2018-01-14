@@ -9,18 +9,33 @@
 import UIKit
 import WebKit
 
-class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate {
+class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UIGestureRecognizerDelegate {
   
   @IBOutlet weak var readView: WKWebView!
+  @IBOutlet weak var toolbar: UIToolbar!
   
   var contents : String = ""
   var indicator : UIActivityIndicatorView!
+  var tapGesture : UITapGestureRecognizer!
   
   override func viewDidLoad() {
     super.viewDidLoad()
     self.readView.navigationDelegate = self
     self.readView.alpha = 0.0
+    
+    tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap))
+    tapGesture.numberOfTapsRequired = 1
+    tapGesture.delegate = self
+    self.view.addGestureRecognizer(tapGesture)
+    
+    self.toolbar.alpha = 0.0
+    
   }
+  
+  @IBAction func closeReader() {
+    
+  }
+  
   override func viewWillAppear(_ animated: Bool) {
     self.readView.loadHTMLString(contents, baseURL: nil )
     indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
@@ -29,18 +44,34 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate {
     self.view.addSubview(indicator)
   }
   
+  override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+    if !isToolBarHidden {
+      didTap()
+    }
+  }
+  
+  var isToolBarHidden : Bool = true
+  @objc func didTap() {
+    if isToolBarHidden { self.toolbar.setAlpha(alpha: 1.0) }
+    else { self.toolbar.setAlpha(alpha:0.0) }
+    self.isToolBarHidden = !isToolBarHidden
+  }
+  
+  
+  
+  func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    return true
+  }
+
   func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
     indicator.stopAnimating()
-    UIView.animate(withDuration: 0.3, animations: {
-      self.indicator.alpha = 0.0
-    }, completion: { finished in
+    self.indicator.setAlpha(alpha: 0.0, duration: 0.3, completion: {
       self.indicator.removeFromSuperview()
-      UIView.animate(withDuration: 0.3, animations: {
-        self.readView.alpha = 1.0
-      })
-      
+      self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
     })
   }
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
@@ -57,5 +88,17 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate {
    }
    */
   
+}
+
+
+// Extension to Programmatically Configure Alpha Values
+extension UIView {
+  func setAlpha(alpha:CGFloat, duration:TimeInterval=0.3, completion:(()->())?=nil) {
+    UIView.animate(withDuration: duration, animations: {
+      self.alpha = alpha
+      }, completion: { finished in
+        completion?()
+    })
+  }
 }
 

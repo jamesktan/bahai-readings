@@ -32,6 +32,9 @@ struct TableOfContents {
 
 class ViewController: UIViewController {
   
+  var navigation : UINavigationController!
+  var pageController : PagesController!
+
   func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
     if let contents = try? String(contentsOfFile: pathToResource) {
       // Convert to Array
@@ -118,7 +121,7 @@ class ViewController: UIViewController {
     {
       let result : (TableOfContents?, [Page]?) = createPages(pathToResource: path)
       let viewControllers = createViewsForPages(pages: result.1!, template:template)
-      pageController = PagesController(viewControllers)
+      pageController = PagesControllerHidden(viewControllers)
 
       pageController.enableSwipe = true
       pageController.showBottomLine = true
@@ -132,14 +135,47 @@ class ViewController: UIViewController {
   override func viewDidAppear(_ animated: Bool) {
     self.present(navigation, animated: true, completion: nil)
   }
-  var navigation : UINavigationController!
-  var pageController : PagesController!
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
+}
 
+class PagesControllerHidden : PagesController {
+  override var prefersStatusBarHidden: Bool {
+    return true
+  }
+  
+  var items = [UIBarButtonItem]()
 
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+//    self.navigationController?.isToolbarHidden = false
+//    items.append(
+//      UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+//    )
+//    items.append(
+//      UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(closeReader))
+//    )
+////    self.navigationController?.toolbar.items = items
+//    self.navigationController?.toolbar.setItems(items, animated: false)
+//
+//    var items : [UIBarButtonItem] = []
+//    items.append( UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil) )
+//    let button2 = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(closeReader))
+//    items.append( button2 )
+//    self.navigationController?.toolbarItems = items
+//    self.navigationController?.setToolbarItems(items, animated: true  )
+
+  }
+  
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+  }
+  @objc func closeReader() {
+    
+  }
 }
 

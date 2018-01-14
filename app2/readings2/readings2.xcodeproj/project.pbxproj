@@ -15,6 +15,8 @@
 		540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */; };
 		547E92361FECD24700BEB909 /* ReaderTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplate.html */; };
 		5499ADDC200B616C001E9E1B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499ADDB200B616C001E9E1B /* PageView.swift */; };
+		5499ADDE200BE4FF001E9E1B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADDD200BE4FE001E9E1B /* menu.png */; };
+		5499ADE0200BE5FB001E9E1B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADDF200BE5FB001E9E1B /* settings.png */; };
 		5E49BB86FD920F1632DDDB44 /* Pods_readings2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "God Passes By - Shoghi Effendi.md"; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplate.html; sourceTree = "<group>"; };
 		5499ADDB200B616C001E9E1B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		5499ADDD200BE4FE001E9E1B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		5499ADDF200BE5FB001E9E1B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		C191B8BEFAD85AA2E0465E61 /* Pods-readings2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.release.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.release.xcconfig"; sourceTree = "<group>"; };
 		D13B673D33C01B8201281003 /* Pods-readings2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,8 @@
 				540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */,
 				547E92351FECD24700BEB909 /* ReaderTemplate.html */,
 				540BD7E01FECCC9A00315366 /* Assets.xcassets */,
+				5499ADDD200BE4FE001E9E1B /* menu.png */,
+				5499ADDF200BE5FB001E9E1B /* settings.png */,
 				540BD7E21FECCC9A00315366 /* LaunchScreen.storyboard */,
 				540BD7E51FECCC9A00315366 /* Info.plist */,
 			);
@@ -160,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */,
+				5499ADE0200BE5FB001E9E1B /* settings.png in Resources */,
 				547E92361FECD24700BEB909 /* ReaderTemplate.html in Resources */,
+				5499ADDE200BE4FF001E9E1B /* menu.png in Resources */,
 				540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */,
 				540BD7E11FECCC9A00315366 /* Assets.xcassets in Resources */,
 				540BD7DF1FECCC9A00315366 /* Main.storyboard in Resources */,
