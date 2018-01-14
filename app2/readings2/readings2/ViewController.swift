@@ -36,6 +36,13 @@ struct TableOfContents {
   }
 }
 
+enum OrganizeWritingsState : String {
+  case All = "All Writings"
+  case Starred = "Starred Writings"
+  case Author = "Author"
+}
+
+
 class WritingCell : UITableViewCell {
   @IBOutlet weak var writingTitle: UILabel!
   @IBOutlet weak var writingAuthor: UILabel!
@@ -91,6 +98,15 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     let cell = tableView.dequeueReusableCell(withIdentifier: "WritingCell") as! WritingCell
     cell.load(path: paths[indexPath.row])
     return cell
+  }
+  
+  @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
+    let alert = UIAlertController(title: "Sort Options", message: "Select a sorting option", preferredStyle: .actionSheet)
+    let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
+      alert.dismiss(animated: true, completion: nil)
+    })
+    alert.addAction(cancel)
+    self.present(alert, animated: true, completion: nil)
   }
   
   func launchReader(path:String) {

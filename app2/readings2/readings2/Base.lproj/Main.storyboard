@@ -83,7 +83,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="All Writings" id="9B8-ml-nez">
-                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="p34-NN-7uX"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="p34-NN-7uX">
+                            <connections>
+                                <action selector="showSortOptions:" destination="BYZ-38-t0r" id="A2J-4w-SKP"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="writingTableView" destination="bGZ-OZ-JJM" id="kNY-xm-gTd"/>
