@@ -39,6 +39,7 @@ class NotesView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "NotesCell")
     cell.textLabel?.text = notes[indexPath.row].writing
     cell.detailTextLabel?.text = notes[indexPath.row].text
+    cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
     return cell
   }
   

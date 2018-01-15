@@ -128,11 +128,27 @@
                     </navigationItem>
                     <connections>
                         <outlet property="notesTable" destination="tfE-T9-aXE" id="y8u-Q8-XU6"/>
+                        <segue destination="Qpb-5D-9sS" kind="show" identifier="showNote" id="wB1-MQ-cja"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZlH-kr-rjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="348" y="1083.5082458770617"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FWm-4X-Qmo">
+            <objects>
+                <viewController id="Qpb-5D-9sS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1ni-ev-ObF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aJi-BW-eeJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gtd-Um-hnb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086" y="1084"/>
         </scene>
         <!--Language & Settings-->
         <scene sceneID="wF2-Xz-c8w">
@@ -290,7 +306,7 @@
         <image name="file.png" width="25" height="25"/>
         <image name="layers.png" width="25" height="25"/>
         <image name="menu.png" width="28" height="28"/>
-        <image name="star.png" width="25" height="25"/>
+        <image name="star.png" width="28" height="28"/>
         <image name="worldwide.png" width="25" height="25"/>
     </resources>
 </document>

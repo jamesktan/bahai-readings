@@ -15,8 +15,13 @@
 		540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */; };
 		547E92361FECD24700BEB909 /* ReaderTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplate.html */; };
 		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
+		54860115200C6AA5004BFF08 /* layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860114200C6AA4004BFF08 /* layers@2x.png */; };
+		54860117200C6AE2004BFF08 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860116200C6AE1004BFF08 /* file@2x.png */; };
+		54860119200C6B01004BFF08 /* worldwide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860118200C6B01004BFF08 /* worldwide@2x.png */; };
+		5486011D200C6BAC004BFF08 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5486011C200C6BAC004BFF08 /* menu.png */; };
+		5486011F200C6BB4004BFF08 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5486011E200C6BB4004BFF08 /* menu@2x.png */; };
+		54860121200C6BCE004BFF08 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860120200C6BCE004BFF08 /* star@2x.png */; };
 		5499ADDC200B616C001E9E1B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499ADDB200B616C001E9E1B /* PageView.swift */; };
-		5499ADDE200BE4FF001E9E1B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADDD200BE4FE001E9E1B /* menu.png */; };
 		5499ADE0200BE5FB001E9E1B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADDF200BE5FB001E9E1B /* settings.png */; };
 		5499ADE2200BED5E001E9E1B /* layers.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE1200BED5E001E9E1B /* layers.png */; };
 		5499ADE4200BEF1A001E9E1B /* worldwide.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE3200BEF19001E9E1B /* worldwide.png */; };
@@ -38,8 +43,13 @@
 		540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "God Passes By - Shoghi Effendi.md"; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplate.html; sourceTree = "<group>"; };
 		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		54860114200C6AA4004BFF08 /* layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layers@2x.png"; sourceTree = "<group>"; };
+		54860116200C6AE1004BFF08 /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
+		54860118200C6B01004BFF08 /* worldwide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "worldwide@2x.png"; sourceTree = "<group>"; };
+		5486011C200C6BAC004BFF08 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		5486011E200C6BB4004BFF08 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		54860120200C6BCE004BFF08 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
 		5499ADDB200B616C001E9E1B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
-		5499ADDD200BE4FE001E9E1B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		5499ADDF200BE5FB001E9E1B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		5499ADE1200BED5E001E9E1B /* layers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layers.png; sourceTree = "<group>"; };
 		5499ADE3200BEF19001E9E1B /* worldwide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldwide.png; sourceTree = "<group>"; };
@@ -100,11 +110,16 @@
 				540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */,
 				547E92351FECD24700BEB909 /* ReaderTemplate.html */,
 				540BD7E01FECCC9A00315366 /* Assets.xcassets */,
-				5499ADDD200BE4FE001E9E1B /* menu.png */,
+				5486011E200C6BB4004BFF08 /* menu@2x.png */,
+				5486011C200C6BAC004BFF08 /* menu.png */,
+				54860114200C6AA4004BFF08 /* layers@2x.png */,
 				5499ADE1200BED5E001E9E1B /* layers.png */,
 				5499ADDF200BE5FB001E9E1B /* settings.png */,
+				54860118200C6B01004BFF08 /* worldwide@2x.png */,
 				5499ADE3200BEF19001E9E1B /* worldwide.png */,
+				54860120200C6BCE004BFF08 /* star@2x.png */,
 				5499ADE7200BF33D001E9E1B /* star.png */,
+				54860116200C6AE1004BFF08 /* file@2x.png */,
 				5499ADE5200BEF24001E9E1B /* file.png */,
 				540BD7E21FECCC9A00315366 /* LaunchScreen.storyboard */,
 				540BD7E51FECCC9A00315366 /* Info.plist */,
@@ -185,14 +200,19 @@
 			files = (
 				5499ADE4200BEF1A001E9E1B /* worldwide.png in Resources */,
 				5499ADE6200BEF24001E9E1B /* file.png in Resources */,
+				54860121200C6BCE004BFF08 /* star@2x.png in Resources */,
 				540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */,
 				5499ADE0200BE5FB001E9E1B /* settings.png in Resources */,
+				5486011D200C6BAC004BFF08 /* menu.png in Resources */,
 				547E92361FECD24700BEB909 /* ReaderTemplate.html in Resources */,
-				5499ADDE200BE4FF001E9E1B /* menu.png in Resources */,
 				540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */,
+				5486011F200C6BB4004BFF08 /* menu@2x.png in Resources */,
 				5499ADE2200BED5E001E9E1B /* layers.png in Resources */,
+				54860119200C6B01004BFF08 /* worldwide@2x.png in Resources */,
 				540BD7E11FECCC9A00315366 /* Assets.xcassets in Resources */,
+				54860117200C6AE2004BFF08 /* file@2x.png in Resources */,
 				5499ADE8200BF33D001E9E1B /* star.png in Resources */,
+				54860115200C6AA5004BFF08 /* layers@2x.png in Resources */,
 				540BD7DF1FECCC9A00315366 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
