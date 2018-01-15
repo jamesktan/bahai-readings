@@ -167,7 +167,7 @@ func saveReaderTheme(theme:Int) {
   UserDefaults.standard.set(theme, forKey: Constants.ThemeKey)
 }
 func getReaderTheme() -> Int {
-  if let value = UserDefaults.standard.integer(forKey: Constants.ThemeKey) as Int {
+  if let value = UserDefaults.standard.value(forKey: Constants.ThemeKey) as? Int {
     return value
   }
   return 0
@@ -176,7 +176,7 @@ func saveReaderFontSize(size:Float) {
   UserDefaults.standard.set(size, forKey: Constants.FontSizeKey)
 }
 func getReaderFontSize() -> Float {
-  if let value = UserDefaults.standard.float(forKey: Constants.FontSizeKey) as Float {
+  if let value = UserDefaults.standard.value(forKey: Constants.FontSizeKey) as? Float {
     return value
   }
   return 0.5
