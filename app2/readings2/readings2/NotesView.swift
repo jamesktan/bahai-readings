@@ -29,6 +29,7 @@ class NotesView: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
+    self.performSegue(withIdentifier: "showNote", sender: self)
   }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -51,5 +52,12 @@ class NotesView: UIViewController, UITableViewDelegate, UITableViewDataSource {
   @IBAction func sortNotes(_ sender: Any) {
   }
   
+}
+
+class NoteView : UIViewController {
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
 }
 
