@@ -83,11 +83,32 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     writingTableView.dataSource = self
     
     // Paths
-    guard let path = Bundle.main.path(forResource: "God Passes By - Shoghi Effendi", ofType: "md") else {
-      return
+    paths = getPath(state: OrganizeWritingsState.All)
+  }
+  
+  func getPath(state:OrganizeWritingsState) -> [String] {
+    if state == .All {
+      let path = Bundle.main.path(forResource: "God Passes By - Shoghi Effendi", ofType: "md")
+      return [path!]
     }
-    paths.append(path)
-    
+    if state == .Starred {
+      let path = Bundle.main.path(forResource: "God Passes By - Shoghi Effendi", ofType: "md")
+      let allPaths = [path!]
+      let starred = getStarredWritings()
+
+      // Parse the Paths
+      var parsedPaths : [String] = []
+      for path in allPaths {
+        let results = path.fileNameComponent
+        let filename = results.2
+        if starred.contains(filename) {
+          parsedPaths.append(path)
+        }
+      }
+      return parsedPaths
+      
+    }
+    return []
   }
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -112,7 +133,9 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   
   @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
     let alert = UIAlertController.createWritingsSelection(completion: { state in
-      
+      self.paths = self.getPath(state: state)
+      self.writingTableView.reloadData()
+      self.title = state.rawValue
     })
     self.present(alert, animated: true, completion: nil)
   }
