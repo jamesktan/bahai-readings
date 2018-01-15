@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "readings2/PageView.swift"
-            timestampString = "537667606.88061"
+            timestampString = "537672044.703053"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "webView(_:didFinish:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "readings2/PageView.swift"
-            timestampString = "537667606.881263"
+            timestampString = "537672044.703822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
             landmarkName = "showTableOfContents(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "readings2/ViewController.swift"
-            timestampString = "537667606.88157"
+            timestampString = "537672044.704419"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
             landmarkName = "storeWritingProgress(fileName:page:position:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -58,61 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "readings2/ViewController.swift"
-            timestampString = "537667606.881974"
+            timestampString = "537672044.704569"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "storeWritingProgress(fileName:page:position:)"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "readings2/PageView.swift"
-            timestampString = "537667606.88225"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "webView(_:didFinish:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "readings2.PageView.webView(__ObjC.WKWebView, didFinish: Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.WKNavigation&gt;) -&gt; ()"
-                  moduleName = "readings2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jamestan/Documents/bahai-readings/app2/readings2/readings2/PageView.swift"
-                  timestampString = "537667591.593516"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "91"
-                  endingLineNumber = "91"
-                  offsetFromSymbolStart = "981">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (__ObjC.Timer) -&gt; () in readings2.PageView.webView(__ObjC.WKWebView, didFinish: Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.WKNavigation&gt;) -&gt; ()"
-                  moduleName = "readings2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jamestan/Documents/bahai-readings/app2/readings2/readings2/PageView.swift"
-                  timestampString = "537667591.596141"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "92"
-                  endingLineNumber = "92"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "readings2/ViewController.swift"
-            timestampString = "537667606.882553"
+            timestampString = "537672044.7047679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "storeWritingProgress(fileName:page:position:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -134,16 +86,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "readings2/PageView.swift"
-            timestampString = "537667606.882983"
+            timestampString = "537672044.704875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
-            landmarkName = "webView(_:didFinish:)"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "viewWillDisappear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

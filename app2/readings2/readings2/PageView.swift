@@ -43,15 +43,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   
   override func viewWillAppear(_ animated: Bool) {
     
-    // Go to the Next View if Necessary
-    let progressPage = getWritingProgress(fileName: tableOfContents!.fileName)?.page
-    if castedParent?.currentIndex != progressPage {
-      if progressPage != nil {
-        castedParent?.goTo(progressPage!)
-        return
-      }
-    }
-    
     // Continue Loading the Web Page
     readView.loadHTMLString(contents, baseURL: nil )
     indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
@@ -79,36 +70,39 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
 
   func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
     indicator.stopAnimating()
-    indicator.setAlpha(alpha: 0.0, duration: 0.5, completion: {
+    indicator.setAlpha(alpha: 0.0, duration: 0.3, completion: {
       self.indicator.removeFromSuperview()
-      self.readView.setAlpha(alpha: 1.0, duration: 0.5, completion: nil)
+      self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
     })
     
-    
     if let progress = getWritingProgress(fileName: tableOfContents!.fileName) {
-      let progress = progress.position
-      
-      Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
-        let position = CGFloat(progress) * (webView.scrollView.contentSize.height - webView.scrollView.frame.height)
-        webView.scrollView.contentOffset = CGPoint(x: 0, y: position)
-      })
-      
-      
-//      CGRect frame = webView.frame;
-//      NSString *heightStrig = [webView stringByEvaluatingJavaScriptFromString:@"(document.height !== undefined) ? document.height : document.body.offsetHeight;"];
-//      float height = heightStrig.floatValue + 10.0;
-//      frame.size.height = height;
+
+      if castedParent?.currentIndex == progress.page {
+        let position = progress.position
+        Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
+          let positionY = CGFloat(position) * (webView.scrollView.contentSize.height - webView.scrollView.frame.height)
+          webView.scrollView.contentOffset = CGPoint(x: 0, y: positionY)
+        })
+      }
     }
   }
   
   func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    storePosition(scrollView: scrollView)
+  }
+  
+  func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    storePosition(scrollView: scrollView)
+  }
+  
+  func storePosition(scrollView:UIScrollView) {
     let page = self.castedParent?.currentIndex
     let position = scrollView.contentOffset.y
     let height = scrollView.contentSize.height - scrollView.frame.height
     let completed = position / height
     storeWritingProgress(fileName: tableOfContents!.fileName, page: page!, position: Float(completed))
+
   }
-  
   
   @IBAction func closeReader() {
     parent?.navigationController?.dismiss(animated: true, completion: nil)

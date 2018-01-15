@@ -107,6 +107,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     return cell
   }
   
+  
   @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
     let alert = UIAlertController.createWritingsSelection(completion: { state in
       
@@ -124,6 +125,11 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
       let result : (TableOfContents?, [Page]?) = createPages(pathToResource: path)
       let viewControllers = createViewsForPages(table: result.0!, pages: result.1!, template:template)
       pageController = PagesControllerHidden(viewControllers)
+      
+      Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
+        let page = getWritingProgress(fileName: result.0!.fileName)?.page
+        self.pageController.goTo(page!)
+      })
       
       pageController.enableSwipe = true
       pageController.showBottomLine = true
