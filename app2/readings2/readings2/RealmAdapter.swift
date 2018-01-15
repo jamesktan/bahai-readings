@@ -25,12 +25,45 @@ class RealmAdapter: NSObject {
 
   static func createNote(creationDate:Date, page:Int, startIndex:Int, text:String,  writing:String, note:String) {
     DispatchQueue.main.async {
-      let note = Note()
+      let noteObj = Note()
+      noteObj.creationDate = creationDate
+      noteObj.page = page
+      noteObj.startIndex = startIndex
+      noteObj.text = text
+      noteObj.writing = writing
+      noteObj.note = note
 
       try! realm.write {
-        realm.add(note)
+        realm.add(noteObj)
       }
-
     }
+  }
+  
+  static func deleteNote(text:String) {
+    DispatchQueue.main.async {
+      if let note = realm.objects(Note.self).filter("text == '\(text)'").first {
+        realm.delete(note)
+      }
+    }
+  }
+  
+  static func getNotes( completion:@escaping ((_ notes:[Note])->())) {
+    DispatchQueue.main.async {
+      let notes = realm.objects(Note.self).toArray(ofType: Note.self)
+      completion(notes)
+    }
+  }
+}
+
+extension Results {
+  
+  func toArray<T>(ofType: T.Type) -> [T] {
+    var array = [T]()
+    for result in self {
+      if let result = result as? T {
+        array.append(result)
+      }
+    }
+    return array
   }
 }

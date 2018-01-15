@@ -51,8 +51,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     readView.evaluateJavaScript("window.getSelection().toString();") { (text, error) in
       self.readView.evaluateJavaScript("window.getSelection().getRangeAt(0).startOffset;", completionHandler: { (startIndex, error2) in
         
-        print(text)
-        print(startIndex)
+        RealmAdapter.createNote(creationDate: Date(), page: self.castedParent!.currentIndex, startIndex: startIndex as! Int, text: text as! String, writing: self.tableOfContents!.fileName, note: "")
+        
         
       })
     }
