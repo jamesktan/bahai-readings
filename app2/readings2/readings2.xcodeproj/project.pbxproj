@@ -13,7 +13,7 @@
 		540BD7E11FECCC9A00315366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7E01FECCC9A00315366 /* Assets.xcassets */; };
 		540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7E21FECCC9A00315366 /* LaunchScreen.storyboard */; };
 		540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */; };
-		547E92361FECD24700BEB909 /* ReaderTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplate.html */; };
+		547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplateLight.html */; };
 		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
 		54860115200C6AA5004BFF08 /* layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860114200C6AA4004BFF08 /* layers@2x.png */; };
 		54860117200C6AE2004BFF08 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860116200C6AE1004BFF08 /* file@2x.png */; };
@@ -29,6 +29,8 @@
 		5499ADE8200BF33D001E9E1B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE7200BF33D001E9E1B /* star.png */; };
 		5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */; };
 		54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA1E59200C7F8E000FE090 /* SettingsView.swift */; };
+		54EA1E5C200C93FD000FE090 /* ReaderTemplateDark.html in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */; };
+		54EA1E5E200C9416000FE090 /* ReaderTemplateSepia.html in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E5D200C9416000FE090 /* ReaderTemplateSepia.html */; };
 		5E49BB86FD920F1632DDDB44 /* Pods_readings2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +44,7 @@
 		540BD7E31FECCC9A00315366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540BD7E51FECCC9A00315366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "God Passes By - Shoghi Effendi.md"; sourceTree = "<group>"; };
-		547E92351FECD24700BEB909 /* ReaderTemplate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplate.html; sourceTree = "<group>"; };
+		547E92351FECD24700BEB909 /* ReaderTemplateLight.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateLight.html; sourceTree = "<group>"; };
 		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		54860114200C6AA4004BFF08 /* layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layers@2x.png"; sourceTree = "<group>"; };
 		54860116200C6AE1004BFF08 /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
@@ -58,6 +60,8 @@
 		5499ADE7200BF33D001E9E1B /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAdapter.swift; sourceTree = "<group>"; };
 		54EA1E59200C7F8E000FE090 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateDark.html; sourceTree = "<group>"; };
+		54EA1E5D200C9416000FE090 /* ReaderTemplateSepia.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateSepia.html; sourceTree = "<group>"; };
 		C191B8BEFAD85AA2E0465E61 /* Pods-readings2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.release.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.release.xcconfig"; sourceTree = "<group>"; };
 		D13B673D33C01B8201281003 /* Pods-readings2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +115,9 @@
 				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
 				5499ADDB200B616C001E9E1B /* PageView.swift */,
 				540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */,
-				547E92351FECD24700BEB909 /* ReaderTemplate.html */,
+				547E92351FECD24700BEB909 /* ReaderTemplateLight.html */,
+				54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */,
+				54EA1E5D200C9416000FE090 /* ReaderTemplateSepia.html */,
 				540BD7E01FECCC9A00315366 /* Assets.xcassets */,
 				5486011E200C6BB4004BFF08 /* menu@2x.png */,
 				5486011C200C6BAC004BFF08 /* menu.png */,
@@ -207,7 +213,7 @@
 				540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */,
 				5499ADE0200BE5FB001E9E1B /* settings.png in Resources */,
 				5486011D200C6BAC004BFF08 /* menu.png in Resources */,
-				547E92361FECD24700BEB909 /* ReaderTemplate.html in Resources */,
+				547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */,
 				540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */,
 				5486011F200C6BB4004BFF08 /* menu@2x.png in Resources */,
 				5499ADE2200BED5E001E9E1B /* layers.png in Resources */,
@@ -216,6 +222,8 @@
 				54860117200C6AE2004BFF08 /* file@2x.png in Resources */,
 				5499ADE8200BF33D001E9E1B /* star.png in Resources */,
 				54860115200C6AA5004BFF08 /* layers@2x.png in Resources */,
+				54EA1E5C200C93FD000FE090 /* ReaderTemplateDark.html in Resources */,
+				54EA1E5E200C9416000FE090 /* ReaderTemplateSepia.html in Resources */,
 				540BD7DF1FECCC9A00315366 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

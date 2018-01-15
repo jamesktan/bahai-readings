@@ -118,7 +118,12 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   }
   
   func launchReader(path:String) {
-    guard let templatePath = Bundle.main.path(forResource: "ReaderTemplate", ofType: "html") else {
+    let templateTheme = getReaderTheme()
+    var name : String!
+    if templateTheme == 0 { name = "ReaderTemplateLight" }
+    if templateTheme == 1 { name = "ReaderTemplateDark" }
+    if templateTheme == 2 { name = "ReaderTemplateSepia" }
+    guard let templatePath = Bundle.main.path(forResource: name, ofType: "html") else {
       return
     }
     
