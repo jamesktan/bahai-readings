@@ -179,7 +179,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
-    ActionSheetMultipleStringPicker.show(withTitle: self.tableOfContents!.combined, rows: [
+    ActionSheetMultipleStringPicker.show(withTitle: self.tableOfContents!.title, rows: [
       self.tableOfContents!.contents,
       ], initialSelection: [self.castedParent!.currentIndex], doneBlock: {
         picker, indexes, values in

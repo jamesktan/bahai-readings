@@ -88,12 +88,11 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   
   func getPath(state:OrganizeWritingsState) -> [String] {
     if state == .All {
-      let path = Bundle.main.path(forResource: "God Passes By - Shoghi Effendi", ofType: "md")
-      return [path!]
+      let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
+      return allPaths
     }
     if state == .Starred {
-      let path = Bundle.main.path(forResource: "God Passes By - Shoghi Effendi", ofType: "md")
-      let allPaths = [path!]
+      let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
       let starred = getStarredWritings()
 
       // Parse the Paths
