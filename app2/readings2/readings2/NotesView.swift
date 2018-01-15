@@ -16,13 +16,15 @@ class NotesView: UIViewController, UITableViewDelegate, UITableViewDataSource {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    notesTable.delegate = self
+    notesTable.dataSource = self
+  }
+ 
+  override func viewWillAppear(_ animated: Bool) {
     RealmAdapter.getNotes(completion: { (notes) in
       self.notes = notes
       self.notesTable.reloadData()
     })
-    notesTable.delegate = self
-    notesTable.dataSource = self
-    // Do any additional setup after loading the view.
   }
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
