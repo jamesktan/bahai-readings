@@ -39,6 +39,11 @@
 		54EA1E6C200CA061000FE090 /* The Advent of Divine Justice - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E66200CA05F000FE090 /* The Advent of Divine Justice - Shoghi Effendi.md */; };
 		54EA1E6D200CA061000FE090 /* Dawn of a New Day - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E67200CA060000FE090 /* Dawn of a New Day - Shoghi Effendi.md */; };
 		54EA1E6E200CA061000FE090 /* The World Order of Bahá’u’lláh - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E68200CA060000FE090 /* The World Order of Bahá’u’lláh - Shoghi Effendi.md */; };
+		54EA1E9B200CA89D000FE090 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E97200CA89B000FE090 /* AppIcon.appiconset */; };
+		54EA1E9C200CA89D000FE090 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E98200CA89C000FE090 /* iTunesArtwork@3x.png */; };
+		54EA1E9D200CA89D000FE090 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E99200CA89C000FE090 /* iTunesArtwork@2x.png */; };
+		54EA1E9E200CA89D000FE090 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E9A200CA89D000FE090 /* iTunesArtwork@1x.png */; };
+		54EA1EA0200CA8B4000FE090 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E9F200CA8B4000FE090 /* Splash.png */; };
 		5E49BB86FD920F1632DDDB44 /* Pods_readings2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +83,11 @@
 		54EA1E66200CA05F000FE090 /* The Advent of Divine Justice - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The Advent of Divine Justice - Shoghi Effendi.md"; sourceTree = "<group>"; };
 		54EA1E67200CA060000FE090 /* Dawn of a New Day - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Dawn of a New Day - Shoghi Effendi.md"; sourceTree = "<group>"; };
 		54EA1E68200CA060000FE090 /* The World Order of Bahá’u’lláh - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The World Order of Bahá’u’lláh - Shoghi Effendi.md"; sourceTree = "<group>"; };
+		54EA1E97200CA89B000FE090 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		54EA1E98200CA89C000FE090 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		54EA1E99200CA89C000FE090 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		54EA1E9A200CA89D000FE090 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		54EA1E9F200CA8B4000FE090 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		C191B8BEFAD85AA2E0465E61 /* Pods-readings2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.release.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.release.xcconfig"; sourceTree = "<group>"; };
 		D13B673D33C01B8201281003 /* Pods-readings2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +164,11 @@
 				5499ADE7200BF33D001E9E1B /* star.png */,
 				54860116200C6AE1004BFF08 /* file@2x.png */,
 				5499ADE5200BEF24001E9E1B /* file.png */,
+				54EA1E9F200CA8B4000FE090 /* Splash.png */,
+				54EA1E97200CA89B000FE090 /* AppIcon.appiconset */,
+				54EA1E9A200CA89D000FE090 /* iTunesArtwork@1x.png */,
+				54EA1E99200CA89C000FE090 /* iTunesArtwork@2x.png */,
+				54EA1E98200CA89C000FE090 /* iTunesArtwork@3x.png */,
 				540BD7E21FECCC9A00315366 /* LaunchScreen.storyboard */,
 				540BD7E51FECCC9A00315366 /* Info.plist */,
 			);
@@ -239,20 +254,25 @@
 				54EA1E69200CA061000FE090 /* The Light of Divine Guidance (Volume 1) - Shoghi Effendi.md in Resources */,
 				54EA1E6C200CA061000FE090 /* The Advent of Divine Justice - Shoghi Effendi.md in Resources */,
 				5499ADE0200BE5FB001E9E1B /* settings.png in Resources */,
+				54EA1E9C200CA89D000FE090 /* iTunesArtwork@3x.png in Resources */,
 				54EA1E6A200CA061000FE090 /* Citadel of Faith - Shoghi Effendi.md in Resources */,
 				5486011D200C6BAC004BFF08 /* menu.png in Resources */,
 				547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */,
 				540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */,
 				54EA1E6B200CA061000FE090 /* Arouhanui - Shoghi Effendi.md in Resources */,
+				54EA1E9B200CA89D000FE090 /* AppIcon.appiconset in Resources */,
 				54EA1E62200C9B74000FE090 /* star_filled@2x.png in Resources */,
+				54EA1E9E200CA89D000FE090 /* iTunesArtwork@1x.png in Resources */,
 				5486011F200C6BB4004BFF08 /* menu@2x.png in Resources */,
 				54EA1E61200C9B74000FE090 /* star_filled.png in Resources */,
 				5499ADE2200BED5E001E9E1B /* layers.png in Resources */,
+				54EA1E9D200CA89D000FE090 /* iTunesArtwork@2x.png in Resources */,
 				54EA1E6E200CA061000FE090 /* The World Order of Bahá’u’lláh - Shoghi Effendi.md in Resources */,
 				54860119200C6B01004BFF08 /* worldwide@2x.png in Resources */,
 				540BD7E11FECCC9A00315366 /* Assets.xcassets in Resources */,
 				54860117200C6AE2004BFF08 /* file@2x.png in Resources */,
 				5499ADE8200BF33D001E9E1B /* star.png in Resources */,
+				54EA1EA0200CA8B4000FE090 /* Splash.png in Resources */,
 				54860115200C6AA5004BFF08 /* layers@2x.png in Resources */,
 				54EA1E5C200C93FD000FE090 /* ReaderTemplateDark.html in Resources */,
 				54EA1E5E200C9416000FE090 /* ReaderTemplateSepia.html in Resources */,
@@ -476,7 +496,7 @@
 				DEVELOPMENT_TEAM = CUYMUDSGA4;
 				INFOPLIST_FILE = readings2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jtan.axon.readings2;
+				PRODUCT_BUNDLE_IDENTIFIER = KW.BahaiReadings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,7 +512,7 @@
 				DEVELOPMENT_TEAM = CUYMUDSGA4;
 				INFOPLIST_FILE = readings2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jtan.axon.readings2;
+				PRODUCT_BUNDLE_IDENTIFIER = KW.BahaiReadings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
