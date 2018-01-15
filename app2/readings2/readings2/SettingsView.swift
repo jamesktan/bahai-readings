@@ -18,6 +18,15 @@ class SettingsView: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    // Populate with Defaults
+    let value = getReaderTheme()
+    if value == 0 { lightThemeSwitch.setOn(true, animated: false)}
+    if value == 1 { darkThemeSwitch.setOn(true, animated: false)}
+    if value == 2 { SepiaThemeSwitch.setOn(true, animated: false)}
+
+    // Populate the Font Size
+    let size = getReaderFontSize()
+    fontSizeSlider.value = size
   }
   
   override func didReceiveMemoryWarning() {
@@ -33,7 +42,6 @@ class SettingsView: UITableViewController {
       }
       if cell.tag == 200 {
         // Contact Triggered
-        
       }
     }
     tableView.deselectRow(at: indexPath, animated: false)
@@ -48,12 +56,17 @@ class SettingsView: UITableViewController {
     
     if !sender.isOn {
       sender.setOn(true, animated: true)
+      if sender == lightThemeSwitch { saveReaderTheme(theme: 0) }
+      if sender == darkThemeSwitch { saveReaderTheme(theme: 1) }
+      if sender == SepiaThemeSwitch { saveReaderTheme(theme: 2) }
     }
     
   
   }
   
   @IBAction func sliderChanged(_ sender: UISlider) {
+    let value = sender.value
+    saveReaderFontSize(size: value)
   }
   
 }
