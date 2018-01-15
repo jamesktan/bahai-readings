@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="348" y="1083.5082458770617"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Note View-->
         <scene sceneID="1vd-UA-VBv">
             <objects>
-                <tableViewController id="SqR-nD-ow6" sceneMemberID="viewController">
+                <tableViewController id="SqR-nD-ow6" customClass="NoteView" customModule="readings2" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ei8-kF-7dX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,27 +266,28 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Options" id="d6I-m4-IUu">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="108" id="9sX-86-G9K">
-                                        <rect key="frame" x="0.0" y="760.5" width="375" height="108"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="56" id="9sX-86-G9K">
+                                        <rect key="frame" x="0.0" y="760.5" width="375" height="56"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9sX-86-G9K" id="r0N-sp-v0D">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="107.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lw-4n-Z9v">
-                                                    <rect key="frame" x="16" y="49" width="40" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Edit"/>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92k-Eu-daj">
-                                                    <rect key="frame" x="16" y="11" width="40" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Share"/>
-                                                </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fm1-vD-e33">
                                                     <rect key="frame" x="314" y="11" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Delete"/>
+                                                    <connections>
+                                                        <action selector="deleteAction:" destination="SqR-nD-ow6" eventType="touchUpInside" id="GHS-cA-lVs"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lw-4n-Z9v">
+                                                    <rect key="frame" x="16" y="11" width="40" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Edit"/>
+                                                    <connections>
+                                                        <action selector="editSaveAction:" destination="SqR-nD-ow6" eventType="touchUpInside" id="Iez-ZE-pmH"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -299,6 +300,14 @@
                             <outlet property="delegate" destination="SqR-nD-ow6" id="D3o-DW-RvE"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="authorLabel" destination="OTK-ts-50I" id="KTS-Vu-Vri"/>
+                        <outlet property="commentTextView" destination="KpT-YJ-Mvm" id="b75-5e-bw4"/>
+                        <outlet property="creationDateLabel" destination="FpS-A6-DrA" id="Yla-MK-u9w"/>
+                        <outlet property="editSaveButton" destination="3Lw-4n-Z9v" id="HKm-hl-fxB"/>
+                        <outlet property="noteTextView" destination="TQE-32-i5f" id="mEB-u8-5El"/>
+                        <outlet property="wiritngLabel" destination="na2-Re-d4w" id="naU-Ei-Fka"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MoH-nf-V72" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

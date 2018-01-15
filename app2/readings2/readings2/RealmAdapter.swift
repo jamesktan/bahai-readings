@@ -39,13 +39,24 @@ class RealmAdapter: NSObject {
     }
   }
   
-  static func deleteNote(text:String) {
+  static func updateNote(note:Note, newComment:String) {
     DispatchQueue.main.async {
-      if let note = realm.objects(Note.self).filter("text == '\(text)'").first {
-        realm.delete(note)
+      try! realm.write {
+        note.note = newComment
       }
     }
   }
+  static func deleteNote(text:String) {
+    DispatchQueue.main.async {
+      if let note = realm.objects(Note.self).filter("text == '\(text)'").first {
+        try! realm.write {
+          realm.delete(note)
+        }
+      }
+    }
+  }
+  
+  
   
   static func getNotes( completion:@escaping ((_ notes:[Note])->())) {
     DispatchQueue.main.async {
