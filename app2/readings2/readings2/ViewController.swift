@@ -328,16 +328,16 @@ extension UIAlertController {
     let starred = UIAlertAction(title: OrganizeWritingsState.Starred.rawValue, style: .default, handler: { action in
       completion(OrganizeWritingsState.Starred)
     })
-    let author = UIAlertAction(title: OrganizeWritingsState.Author.rawValue, style: .default, handler: { action in
-      completion(OrganizeWritingsState.Author)
-    })
-    let recent = UIAlertAction(title: OrganizeWritingsState.Recent.rawValue, style: .default, handler: { action in
-      completion(OrganizeWritingsState.Recent)
-    })
+//    let author = UIAlertAction(title: OrganizeWritingsState.Author.rawValue, style: .default, handler: { action in
+//      completion(OrganizeWritingsState.Author)
+//    })
+//    let recent = UIAlertAction(title: OrganizeWritingsState.Recent.rawValue, style: .default, handler: { action in
+//      completion(OrganizeWritingsState.Recent)
+//    })
     alert.addAction(all)
     alert.addAction(starred)
-    alert.addAction(author)
-    alert.addAction(recent)
+//    alert.addAction(author)
+//    alert.addAction(recent)
     alert.addAction(cancel)
     return alert
   }
