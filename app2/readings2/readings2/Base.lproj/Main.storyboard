@@ -100,20 +100,39 @@
         <!--All Notes-->
         <scene sceneID="DDh-vm-YgE">
             <objects>
-                <viewController id="Odm-Ec-iNS" sceneMemberID="viewController">
+                <viewController id="Odm-Ec-iNS" customClass="NotesView" customModule="readings2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KQr-ci-MIV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tfE-T9-aXE">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tfE-T9-aXE" firstAttribute="bottom" secondItem="fvt-w5-LCl" secondAttribute="bottom" id="Hq6-is-a2o"/>
+                            <constraint firstItem="tfE-T9-aXE" firstAttribute="leading" secondItem="fvt-w5-LCl" secondAttribute="leading" id="Qfc-fL-uSX"/>
+                            <constraint firstItem="tfE-T9-aXE" firstAttribute="trailing" secondItem="fvt-w5-LCl" secondAttribute="trailing" id="XVg-XJ-yEg"/>
+                            <constraint firstItem="tfE-T9-aXE" firstAttribute="top" secondItem="fvt-w5-LCl" secondAttribute="top" id="uy3-Bl-2RW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fvt-w5-LCl"/>
                     </view>
                     <navigationItem key="navigationItem" title="All Notes" id="tSf-Gm-3ca">
-                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="0Wm-Zd-x5b"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="0Wm-Zd-x5b">
+                            <connections>
+                                <action selector="sortNotes:" destination="Odm-Ec-iNS" id="ZSU-dm-ZNr"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="notesTable" destination="tfE-T9-aXE" id="y8u-Q8-XU6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZlH-kr-rjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="1084"/>
+            <point key="canvasLocation" x="348" y="1083.5082458770617"/>
         </scene>
         <!--Language & Settings-->
         <scene sceneID="wF2-Xz-c8w">
@@ -195,6 +214,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="45x-Uy-7QK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lIn-Tn-8nf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

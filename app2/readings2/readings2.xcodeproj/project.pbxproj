@@ -14,6 +14,7 @@
 		540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7E21FECCC9A00315366 /* LaunchScreen.storyboard */; };
 		540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */; };
 		547E92361FECD24700BEB909 /* ReaderTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplate.html */; };
+		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
 		5499ADDC200B616C001E9E1B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499ADDB200B616C001E9E1B /* PageView.swift */; };
 		5499ADDE200BE4FF001E9E1B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADDD200BE4FE001E9E1B /* menu.png */; };
 		5499ADE0200BE5FB001E9E1B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADDF200BE5FB001E9E1B /* settings.png */; };
@@ -36,6 +37,7 @@
 		540BD7E51FECCC9A00315366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "God Passes By - Shoghi Effendi.md"; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplate.html; sourceTree = "<group>"; };
+		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		5499ADDB200B616C001E9E1B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		5499ADDD200BE4FE001E9E1B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		5499ADDF200BE5FB001E9E1B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */,
 				540BD7D91FECCC9900315366 /* AppDelegate.swift */,
 				540BD7DB1FECCC9A00315366 /* ViewController.swift */,
+				54860112200C4EC9004BFF08 /* NotesView.swift */,
 				540BD7DD1FECCC9A00315366 /* Main.storyboard */,
 				5499ADDB200B616C001E9E1B /* PageView.swift */,
 				540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */,
@@ -265,6 +268,7 @@
 			files = (
 				540BD7DC1FECCC9A00315366 /* ViewController.swift in Sources */,
 				5499ADDC200B616C001E9E1B /* PageView.swift in Sources */,
+				54860113200C4EC9004BFF08 /* NotesView.swift in Sources */,
 				540BD7DA1FECCC9900315366 /* AppDelegate.swift in Sources */,
 				5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */,
 			);

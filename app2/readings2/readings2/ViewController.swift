@@ -127,8 +127,9 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
       pageController = PagesControllerHidden(viewControllers)
       
       Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
-        let page = getWritingProgress(fileName: result.0!.fileName)?.page
-        self.pageController.goTo(page!)
+        if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
+          self.pageController.goTo(page)
+        }
       })
       
       pageController.enableSwipe = true
