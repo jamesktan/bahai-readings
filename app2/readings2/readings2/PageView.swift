@@ -14,7 +14,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   
   @IBOutlet weak var readView: WKWebView!
   @IBOutlet weak var toolbar: UIToolbar!
-
+  @IBOutlet weak var starButton: UIBarButtonItem!
+  
   var castedParent : PagesControllerHidden? {
     get {
       return self.parent as? PagesControllerHidden
@@ -80,9 +81,18 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     indicator.startAnimating()
     view.addSubview(indicator)
     
+    // Check the Color
     let theme = getReaderTheme()
     if theme == 1 {
       indicator.color = UIColor.white
+    }
+    
+    // Check the Starred
+    if getStarredWritings().contains(tableOfContents!.fileName) {
+      starButton.image = UIImage(named: "star_filled.png")
+    } else {
+      starButton.image = UIImage(named: "star.png")
+
     }
   }
   
@@ -144,6 +154,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   @IBAction func favoriteWriting () {
+    // Store the Data
     let list = getStarredWritings()
     if list.contains(tableOfContents!.fileName) {
       let result = removeStarredWriting(fileName: tableOfContents!.fileName)
@@ -151,6 +162,15 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     } else {
       saveStarredWriting(fileName: tableOfContents!.fileName)
     }
+    
+    // Update the Image
+    if getStarredWritings().contains(tableOfContents!.fileName) {
+      starButton.image = UIImage(named: "star_filled.png")
+    } else {
+      starButton.image = UIImage(named: "star.png")
+      
+    }
+
   }
   
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {

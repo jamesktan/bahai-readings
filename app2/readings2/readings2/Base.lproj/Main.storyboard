@@ -360,6 +360,7 @@
                     </view>
                     <connections>
                         <outlet property="readView" destination="5Ox-iA-hqf" id="g8i-dr-waS"/>
+                        <outlet property="starButton" destination="ZRM-lI-EzX" id="XYK-Dr-P2x"/>
                         <outlet property="toolbar" destination="Jct-yY-yWz" id="Q36-dn-p8M"/>
                     </connections>
                 </viewController>

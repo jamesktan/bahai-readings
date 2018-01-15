@@ -317,7 +317,23 @@ func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
 func createViewsForPages(table: TableOfContents, pages:[Page], template:String) -> [UIViewController] {
   var viewControllers : [UIViewController] = []
   for page in pages {
-    let rendered = template.replacingOccurrences(of: "{{content}}", with: page.contentsConverted!)
+    var rendered = template.replacingOccurrences(of: "{{content}}", with: page.contentsConverted!)
+    
+    // Apply the Font Size Calculation
+    let size = getReaderFontSize()
+    if size < 0.3 { // Make Smaller
+      rendered = rendered.replacingOccurrences(of: "font-size: 6em;", with: "font-size: 4.5em;")
+      rendered = rendered.replacingOccurrences(of: "font-size: 5em;", with: "font-size: 3.5em;")
+      rendered = rendered.replacingOccurrences(of: "font-size: 4em;", with: "font-size: 2.6em;")
+      rendered = rendered.replacingOccurrences(of: "font-size: 2.5em;", with: "font-size: 2.0em;")
+    } else if size > 0.3 && size < 0.6 {
+      // Do Nothing, Keep the Same Size
+    } else { // Make Larger
+      rendered = rendered.replacingOccurrences(of: "font-size: 6em;", with: "font-size: 9em;")
+      rendered = rendered.replacingOccurrences(of: "font-size: 5em;", with: "font-size: 8em;")
+      rendered = rendered.replacingOccurrences(of: "font-size: 4em;", with: "font-size: 7em;")
+      rendered = rendered.replacingOccurrences(of: "font-size: 2.5em;", with: "font-size: 4.5em;")
+    }
     
     let view = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PageView") as! PageView
     view.contents = rendered
