@@ -39,8 +39,25 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     
     toolbar.alpha = 0.0
     
+    
+    let lookup = UIMenuItem(title: "Save", action: #selector(runGrok))
+    UIMenuController.shared.menuItems = [lookup]
+
+    
   }
   
+  var highlightedText : [String] = []
+  @objc func runGrok() {
+    readView.evaluateJavaScript("window.getSelection().toString();") { (text, error) in
+      self.readView.evaluateJavaScript("window.getSelection().getRangeAt(0).startOffset;", completionHandler: { (startIndex, error2) in
+        
+        print(text)
+        print(startIndex)
+        
+      })
+    }
+  }
+
   override func viewWillAppear(_ animated: Bool) {
     
     // Continue Loading the Web Page
