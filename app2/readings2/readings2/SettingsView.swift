@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class SettingsView: UITableViewController {
+class SettingsView: UITableViewController, MFMailComposeViewControllerDelegate {
   
   @IBOutlet weak var lightThemeSwitch: UISwitch!
   @IBOutlet weak var darkThemeSwitch: UISwitch!
@@ -39,9 +40,13 @@ class SettingsView: UITableViewController {
     if let cell = tableView.cellForRow(at: indexPath) {
       if cell.tag == 100 {
         // About Triggered
+        if let url = URL(string: "https://www.bahaireadings.com") {
+          UIApplication.shared.open(url, options: [:])
+        }
       }
       if cell.tag == 200 {
         // Contact Triggered
+        sendEmail()
       }
     }
     tableView.deselectRow(at: indexPath, animated: false)
@@ -69,5 +74,41 @@ class SettingsView: UITableViewController {
     saveReaderFontSize(size: value)
   }
   
+  func sendEmail() {
+    if MFMailComposeViewController.canSendMail() {
+      let mail = MFMailComposeViewController()
+      mail.mailComposeDelegate = self
+      mail.setToRecipients(["jamesktan@gmail.com"])
+      mail.setMessageBody("", isHTML: true)
+      present(mail, animated: true)
+    } else {
+      let alert = UIAlertController.alertWith(title: "Email Not Configured", text: "Your email is not configured so we cannot automatically send an email.", completion: {
+        print("Done")
+      })
+      self.present(alert, animated: true, completion: nil )
+    }
+  }
+  
+  func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+    if result == .sent {
+      let alert = UIAlertController.alertWith(title: "Feedback Sent!", text: "Your feedback is on it's way. Thank You!", completion: {
+        print("Done")
+      })
+      self.present(alert, animated: true, completion: nil)
+    } else {
+      controller.dismiss(animated: true)
+    }
+  }
+  
 }
 
+extension UIAlertController {
+  static func alertWith(title:String, text:String, completion:@escaping (()->())) -> UIAlertController {
+    let alert = UIAlertController(title: title, message: text, preferredStyle: .alert)
+    let ok = UIAlertAction(title: "OK", style: .default, handler: { action in
+      completion()
+    })
+    alert.addAction(ok)
+    return alert
+  }
+}
