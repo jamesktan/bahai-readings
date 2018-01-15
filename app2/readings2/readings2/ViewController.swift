@@ -191,17 +191,17 @@ func removeStarredWriting(fileName:String) -> Bool? {
 // Progress Writings with User Defaults
 
 func storeWritingProgress(fileName:String, page:Int, position:Float) {
-  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:(Int, Float)] {
+  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:[Any]] {
     var copy = progress
-    copy[fileName] = (page, position)
+    copy[fileName] = [page, position]
     UserDefaults.standard.set(copy, forKey: Constants.ProgressKey)
   } else {
-    let new : [String:(Int, Float)] = [fileName:(page,position)]
+    let new : NSDictionary = NSDictionary(dictionary:[fileName:[page, position]])
     UserDefaults.standard.set(new, forKey: Constants.ProgressKey)
   }
 }
 func getWritingProgressKeys() -> [String] {
-  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:(Int, Float)] {
+  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:[Any]] {
     return Array(progress.keys) as [String]
   } else {
     return []
@@ -209,9 +209,10 @@ func getWritingProgressKeys() -> [String] {
 }
 
 func getWritingProgress(fileName:String) -> (page:Int, position:Float)? {
-  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:(Int, Float)] {
+  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:[Any]] {
     if progress.keys.contains(fileName) {
-      return progress[fileName]
+      let data = progress[fileName]!
+      return (data[0], data[1]) as! (Int, Float)
     } else {
       return nil
     }
