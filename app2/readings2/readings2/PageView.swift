@@ -28,6 +28,19 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    // Handle the Color Themes
+    let theme = getReaderTheme()
+    if theme == 0 {
+      view.backgroundColor = UIColor(red: 251.0/255.0, green: 251.0/255.0, blue: 251.0/255.0, alpha: 1.0)
+    }
+    if theme == 1 {
+      view.backgroundColor = UIColor(red: 51.0/255.0, green: 51.0/255.0, blue: 51.0/255.0, alpha: 1.0)
+    }
+    if theme == 2 {
+      view.backgroundColor = UIColor(red: 247.0/255.0, green: 241.0/255.0, blue: 227.0/255.0, alpha: 1.0)
+    }
+    
     readView.navigationDelegate = self
     readView.alpha = 0.0
     readView.scrollView.delegate = self
@@ -66,6 +79,11 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     indicator.center = self.view.center
     indicator.startAnimating()
     view.addSubview(indicator)
+    
+    let theme = getReaderTheme()
+    if theme == 1 {
+      indicator.color = UIColor.white
+    }
   }
   
   override func viewWillDisappear(_ animated: Bool) {
