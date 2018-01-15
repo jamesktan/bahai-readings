@@ -66,7 +66,12 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       self.readView.evaluateJavaScript("window.getSelection().getRangeAt(0).startOffset;", completionHandler: { (startIndex, error2) in
         
         RealmAdapter.createNote(creationDate: Date(), page: self.castedParent!.currentIndex, startIndex: startIndex as! Int, text: text as! String, writing: self.tableOfContents!.combined, note: "")
-        
+        let alert = UIAlertController.alertWith(title: "Text Added to Notes", text: "You may add a comment to your note in the Notes tab of the application", completion: {
+          print("Done")
+        })
+        DispatchQueue.main.async {
+          self.present(alert, animated: true, completion: nil)
+        }
         
       })
     }
