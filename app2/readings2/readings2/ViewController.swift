@@ -28,6 +28,8 @@ struct Page {
 struct Constants {
   static var StarredKey : String = "StarredWritingsKey"
   static var ProgressKey : String = "ProgressDictionaryKey"
+  static var ThemeKey : String = "ReaderThemeKey"
+  static var FontSizeKey : String = "ReaderFontSizeKey"
 }
 struct TableOfContents {
   var fileName : String = ""
@@ -159,7 +161,6 @@ class PagesControllerHidden : PagesController {
 
 
 // Global Functions
-
 
 // Starred Writings with User Defaults
 func saveStarredWriting(fileName:String) {

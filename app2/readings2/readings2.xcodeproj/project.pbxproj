@@ -28,6 +28,7 @@
 		5499ADE6200BEF24001E9E1B /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE5200BEF24001E9E1B /* file.png */; };
 		5499ADE8200BF33D001E9E1B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE7200BF33D001E9E1B /* star.png */; };
 		5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */; };
+		54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA1E59200C7F8E000FE090 /* SettingsView.swift */; };
 		5E49BB86FD920F1632DDDB44 /* Pods_readings2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		5499ADE5200BEF24001E9E1B /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
 		5499ADE7200BF33D001E9E1B /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAdapter.swift; sourceTree = "<group>"; };
+		54EA1E59200C7F8E000FE090 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C191B8BEFAD85AA2E0465E61 /* Pods-readings2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.release.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.release.xcconfig"; sourceTree = "<group>"; };
 		D13B673D33C01B8201281003 /* Pods-readings2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 				540BD7DB1FECCC9A00315366 /* ViewController.swift */,
 				54860112200C4EC9004BFF08 /* NotesView.swift */,
 				540BD7DD1FECCC9A00315366 /* Main.storyboard */,
+				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
 				5499ADDB200B616C001E9E1B /* PageView.swift */,
 				540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */,
 				547E92351FECD24700BEB909 /* ReaderTemplate.html */,
@@ -289,6 +292,7 @@
 				540BD7DC1FECCC9A00315366 /* ViewController.swift in Sources */,
 				5499ADDC200B616C001E9E1B /* PageView.swift in Sources */,
 				54860113200C4EC9004BFF08 /* NotesView.swift in Sources */,
+				54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */,
 				540BD7DA1FECCC9900315366 /* AppDelegate.swift in Sources */,
 				5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */,
 			);
