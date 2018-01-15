@@ -50,10 +50,7 @@ class NotesView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
-  
-  @IBAction func sortNotes(_ sender: Any) {
-  }
-  
+    
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "showNote" {
       if let destination = segue.destination as? NoteView {
@@ -123,7 +120,7 @@ class NoteView : UITableViewController {
     let text = note.writing.components(separatedBy: " - ")
     authorLabel.text = text[1]
     wiritngLabel.text = text[0]
-    creationDateLabel.text = "\(note.creationDate)"
+    creationDateLabel.text = "\(note.creationDate.readableString)"
     
     // Add a Tap GEsture
     tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap))
@@ -137,6 +134,16 @@ class NoteView : UITableViewController {
     commentTextView.resignFirstResponder()
     editSaveButton.setTitle("Edit", for: .normal)
     RealmAdapter.updateNote(note: self.note, newComment: commentTextView.text)
+  }
+}
+
+extension Date {
+  var readableString : String {
+    get {
+      let formatter = DateFormatter()
+      formatter.dateFormat = "MMM/dd/yy - H:m:s"
+      return formatter.string(from: self)
+    }
   }
 }
 
