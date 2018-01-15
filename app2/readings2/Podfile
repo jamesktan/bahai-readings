@@ -5,7 +5,9 @@ target 'readings2' do
 	pod 'Down'
 	pod 'Pages'
   
-  source 'https://github.com/CocoaPods/Specs.git'
-  pod 'ActionSheetPicker-3.0'
+	source 'https://github.com/CocoaPods/Specs.git'
+	pod 'ActionSheetPicker-3.0'
+	
+	pod 'RealmSwift'
 
 end

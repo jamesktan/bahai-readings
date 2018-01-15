@@ -21,6 +21,7 @@
 		5499ADE4200BEF1A001E9E1B /* worldwide.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE3200BEF19001E9E1B /* worldwide.png */; };
 		5499ADE6200BEF24001E9E1B /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE5200BEF24001E9E1B /* file.png */; };
 		5499ADE8200BF33D001E9E1B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5499ADE7200BF33D001E9E1B /* star.png */; };
+		5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */; };
 		5E49BB86FD920F1632DDDB44 /* Pods_readings2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		5499ADE3200BEF19001E9E1B /* worldwide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldwide.png; sourceTree = "<group>"; };
 		5499ADE5200BEF24001E9E1B /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
 		5499ADE7200BF33D001E9E1B /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAdapter.swift; sourceTree = "<group>"; };
 		C191B8BEFAD85AA2E0465E61 /* Pods-readings2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.release.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.release.xcconfig"; sourceTree = "<group>"; };
 		D13B673D33C01B8201281003 /* Pods-readings2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 		540BD7D81FECCC9900315366 /* readings2 */ = {
 			isa = PBXGroup;
 			children = (
+				5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */,
 				540BD7D91FECCC9900315366 /* AppDelegate.swift */,
 				540BD7DB1FECCC9A00315366 /* ViewController.swift */,
 				540BD7DD1FECCC9A00315366 /* Main.storyboard */,
@@ -237,12 +240,16 @@
 				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/Down/Down.framework",
 				"${BUILT_PRODUCTS_DIR}/Pages/Pages.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -259,6 +266,7 @@
 				540BD7DC1FECCC9A00315366 /* ViewController.swift in Sources */,
 				5499ADDC200B616C001E9E1B /* PageView.swift in Sources */,
 				540BD7DA1FECCC9900315366 /* AppDelegate.swift in Sources */,
+				5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
