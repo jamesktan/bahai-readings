@@ -162,7 +162,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
       })
       
       pageController.enableSwipe = true
-      pageController.showBottomLine = true
+      pageController.showBottomLine = false
       pageController.showPageControl = false
       
       navigation = UINavigationController(rootViewController: pageController)
