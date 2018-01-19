@@ -135,6 +135,7 @@ class NoteView : UITableViewController {
     editSaveButton.setTitle("Edit", for: .normal)
     RealmAdapter.updateNote(note: self.note, newComment: commentTextView.text)
   }
+  
 }
 
 extension Date {

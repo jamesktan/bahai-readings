@@ -1,10 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aNk-ox-H5z">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aNk-ox-H5z">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--About View-->
         <scene sceneID="jIl-D2-o3g">
@@ -15,16 +25,16 @@
                         <viewControllerLayoutGuide type="bottom" id="xn2-R3-kB8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gcj-2E-pN7">
-                        <rect key="frame" x="0.0" y="-1" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tQ-P5-J30">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="10" y="78" width="356" height="311"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="311" id="8FY-1i-RaC"/>
                                 </constraints>
-                                <mutableString key="text">Bahá'í Readings was created to do one thing - present the writings in a clean, elegant, and straightforward manner. All of this done in the hopes that we can spend more time reading, and less time fussing about ePubs.    This project is ongoing, with many improvements and additions still needing to be made.   If you're interested in contributing, helping, or just have a general suggestion,  please do not hesitate to reach out using the feedback link below.  Warmly, james   </mutableString>
+                                <string key="text">Bahá'í Readings was created to do one thing - present the writings in a clean, elegant, and straightforward manner. All of this done in the hopes that we can spend more time reading, and less time fussing about ePubs.    This project is ongoing, with many improvements and additions still needing to be made.   If you're interested in contributing, helping, or just have a general suggestion,  please do not hesitate to reach out using the feedback link below.  Warmly, james   </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="default">
@@ -39,7 +49,7 @@
                                 </variation>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Bahá'í Readings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fD-jw-SLk">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="20" width="368" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4HF-QO-aVV"/>
                                     <constraint firstAttribute="width" constant="368" id="tyL-wu-tg7"/>
@@ -61,13 +71,13 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCR-gf-c6w">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="16" y="542" width="192" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="192" id="Djo-Xa-veM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Give Feedback">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -84,14 +94,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmA-5r-XrU">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="16" y="580" width="192" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="RFy-Qw-fNh"/>
                                     <constraint firstAttribute="width" constant="192" id="d4O-L6-QfC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Tools and Resources Used">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -110,7 +120,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WmA-5r-XrU" firstAttribute="leading" secondItem="Gcj-2E-pN7" secondAttribute="leadingMargin" id="1qw-N3-90b"/>
                             <constraint firstItem="xn2-R3-kB8" firstAttribute="top" secondItem="WmA-5r-XrU" secondAttribute="bottom" constant="8" id="40K-I9-7DN"/>
@@ -188,11 +198,11 @@
                         <viewControllerLayoutGuide type="bottom" id="ujB-hs-h04"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JJ1-VO-94y">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special Thanks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDq-Db-rU9">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="20" width="343" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="XLt-sS-tOu"/>
                                 </constraints>
@@ -211,8 +221,8 @@
                                 </variation>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fed-vU-vMG">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="14" y="78" width="347" height="485"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="485" id="vc9-dW-mpQ"/>
                                 </constraints>
@@ -237,13 +247,13 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp1-3A-9rQ">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="248" y="30" width="111" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="111" id="AG9-Wt-qjQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Close">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -260,7 +270,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Fed-vU-vMG" firstAttribute="leading" secondItem="JJ1-VO-94y" secondAttribute="leadingMargin" constant="-2" id="1eC-hv-Bew"/>
                             <constraint firstItem="YDq-Db-rU9" firstAttribute="top" secondItem="igQ-IA-hl3" secondAttribute="bottom" id="2dK-yH-z0o"/>
@@ -326,11 +336,11 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                         <viewControllerLayoutGuide type="bottom" id="kLG-EN-TAb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UgS-LA-iAb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Reminders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmZ-s0-yej">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="20" width="277" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="YOp-Sy-NqH"/>
                                     <constraint firstAttribute="width" constant="277" id="iXQ-16-DT6"/>
@@ -352,7 +362,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kgP-5K-2pl">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="78" width="343" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="kYi-fe-4ue">
                                         <variation key="widthClass=compact" constant="68"/>
@@ -374,7 +384,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schedule" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25Z-VO-mwD">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="154" width="343" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="b6x-ud-FOY"/>
                                 </constraints>
@@ -393,7 +403,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="k5K-UV-7uT">
-                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <rect key="frame" x="16" y="207" width="343" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="YKG-fQ-XcU"/>
                                 </constraints>
@@ -419,7 +429,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pm2-6A-dc2">
-                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <rect key="frame" x="16" y="251" width="343" height="29"/>
                                 <segments>
                                     <segment title="6AM"/>
                                     <segment title="9AM"/>
@@ -433,7 +443,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will not recieve any reminder to read." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQT-3E-NvP">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="287" width="343" height="77"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="77" id="Ipr-zD-xyP"/>
                                 </constraints>
@@ -452,7 +462,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1r-An-hmb">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="372" width="343" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="EB5-Lw-aca"/>
                                 </constraints>
@@ -471,7 +481,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reminders opened:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xi9-sG-U8M">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="425" width="230" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="IEu-Mh-plI"/>
                                     <constraint firstAttribute="height" constant="21" id="QZ4-TS-Oq9"/>
@@ -493,7 +503,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M25-N9-E5C">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="283" y="425" width="76" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="FYJ-cC-ouH"/>
                                     <constraint firstAttribute="width" constant="76" id="pF5-iR-UBP"/>
@@ -515,7 +525,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEL-Eg-jfG">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="260" y="380" width="99" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="99" id="2HI-cs-w8y"/>
                                     <constraint firstAttribute="width" constant="99" id="K3Y-VZ-Q5e"/>
@@ -523,7 +533,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Reset Counter">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -544,7 +554,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="k5K-UV-7uT" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="0TV-zK-qa6"/>
                             <constraint firstItem="rQT-3E-NvP" firstAttribute="trailing" secondItem="UgS-LA-iAb" secondAttribute="trailingMargin" id="0uz-9q-Ho4"/>
@@ -689,11 +699,11 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                         <viewControllerLayoutGuide type="bottom" id="fHa-Ei-wJo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="S0K-dt-8JJ">
-                        <rect key="frame" x="1" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Library" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avF-T6-p8a">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="20" width="343" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="v3y-o0-hRl"/>
                                 </constraints>
@@ -712,14 +722,14 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCl-xh-Ehu">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="219" y="24" width="140" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="2fz-hU-t2m"/>
                                     <constraint firstAttribute="width" constant="140" id="BEh-m9-U2c"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Find More Writings">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -738,13 +748,13 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPc-Vd-K1s" customClass="iCarousel">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="78" width="375" height="540"/>
                                 <subviews>
                                     <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vsf-Uv-I1T">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <rect key="frame" x="22" y="171" width="331" height="173"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click &quot;Find More Writings&quot; to download some works." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrX-1X-eei">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                <rect key="frame" x="8" y="8" width="323" height="165"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -780,7 +790,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                         </variation>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="Vsf-Uv-I1T" firstAttribute="top" secondItem="jPc-Vd-K1s" secondAttribute="top" constant="171" id="Jts-9Q-0Qr"/>
                                     <constraint firstAttribute="bottom" secondItem="Vsf-Uv-I1T" secondAttribute="bottom" constant="196" id="PLC-xB-qIJ"/>
@@ -811,7 +821,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="jPc-Vd-K1s" secondAttribute="trailing" constant="-16" id="5vM-po-gPL"/>
                             <constraint firstItem="dCl-xh-Ehu" firstAttribute="trailing" secondItem="S0K-dt-8JJ" secondAttribute="trailingMargin" id="7db-VX-qge"/>
@@ -878,44 +888,37 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WiU-cP-cri">
-                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                            <variation key="widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="0.0" width="256" height="386"/>
-                            </variation>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WiU-cP-cri">
+                            <rect key="frame" x="0.0" y="0.0" width="256" height="386"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGL-Io-1tX">
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGL-Io-1tX">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Epistle of the Son of the Wolf" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qKF-yu-KaQ">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Epistle of the Son of the Wolf" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qKF-yu-KaQ">
                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
-                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                        <rect key="frame" x="8" y="8" width="224" height="21"/>
-                                    </variation>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by: Bahaullah" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U1G-2a-4TF">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="by: Bahaullah" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U1G-2a-4TF">
                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="11"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
-                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                        <rect key="frame" x="8" y="31" width="224" height="21"/>
-                                    </variation>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40% Completed" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L7o-7O-ftz">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="40% Completed" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L7o-7O-ftz">
                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="11"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
-                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                        <rect key="frame" x="136" y="31" width="96" height="21"/>
-                                    </variation>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <variation key="default">
                                 <mask key="subviews">
                                     <exclude reference="qKF-yu-KaQ"/>
@@ -923,8 +926,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                     <exclude reference="L7o-7O-ftz"/>
                                 </mask>
                             </variation>
-                            <variation key="widthClass=compact" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="304" width="240" height="57"/>
+                            <variation key="widthClass=compact">
                                 <mask key="subviews">
                                     <include reference="qKF-yu-KaQ"/>
                                     <include reference="U1G-2a-4TF"/>
@@ -933,7 +935,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                             </variation>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <variation key="default">
                         <mask key="subviews">
                             <exclude reference="WiU-cP-cri"/>
@@ -959,11 +961,11 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                         <viewControllerLayoutGuide type="bottom" id="GJa-6j-eSS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kNN-eP-N7E">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4Y-gM-4fs">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="16" y="20" width="343" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="qwY-oa-lUT"/>
                                 </constraints>
@@ -982,14 +984,14 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7t-oj-Wlf">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="219" y="24" width="140" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Kx5-e9-BZT"/>
                                     <constraint firstAttribute="width" constant="140" id="cVA-1u-8mG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Return to Library">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -1009,8 +1011,8 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KFz-Qj-EHL">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <rect key="frame" x="0.0" y="74" width="375" height="549"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="y9j-wI-1KZ">
                                     <size key="itemSize" width="320" height="198"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -1019,69 +1021,56 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BookCell" id="OQR-jZ-SIY" customClass="GalleryCollectionViewCell" customModule="BahaiReadings" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="27.5" y="0.0" width="320" height="198"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="198"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.19999999999999968" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4qJ-IH-OyL">
-                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="198"/>
-                                                    </variation>
+                                                <imageView userInteractionEnabled="NO" alpha="0.19999999999999968" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4qJ-IH-OyL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="198"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Epistle of the Son and the Wolf" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GM-lh-doX">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Epistle of the Son and the Wolf" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GM-lh-doX">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="8" y="8" width="304" height="21"/>
-                                                    </variation>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by: Bahaullah" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlW-8S-AV3">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="by: Bahaullah" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlW-8S-AV3">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="8" y="28" width="304" height="21"/>
-                                                    </variation>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="846-bt-jUB">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="846-bt-jUB">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <string key="text">A Tablet addressed to Shaykh Muhammad-Taqiy-i-Najafi, a prominent Muslim cleric who had persecuted the Bahá’ís. It was revealed around 1891 at the Mansion of Bahjí and translated by Shoghi Effendi.
 
 </string>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="8" y="54" width="304" height="89"/>
-                                                    </variation>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6JB-Ex-jsM">
-                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6JB-Ex-jsM">
+                                                    <rect key="frame" x="168" y="160" width="144" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                                     <state key="normal" title="Download &amp; Read">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="168" y="160" width="144" height="30"/>
-                                                    </variation>
                                                     <connections>
                                                         <action selector="downloadAndRead:" destination="OQR-jZ-SIY" eventType="touchUpInside" id="JsE-F8-TRw"/>
                                                     </connections>
                                                 </button>
-                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="DMZ-je-JlQ">
-                                                    <rect key="frame" x="-10" y="-10" width="20" height="20"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="8" y="170" width="20" height="20"/>
-                                                    </variation>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="DMZ-je-JlQ">
+                                                    <rect key="frame" x="8" y="170" width="20" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </activityIndicatorView>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <size key="customSize" width="320" height="198"/>
                                         <variation key="default">
@@ -1116,7 +1105,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="s7t-oj-Wlf" firstAttribute="trailing" secondItem="kNN-eP-N7E" secondAttribute="trailingMargin" id="9B3-sK-G3n"/>
                             <constraint firstItem="k4Y-gM-4fs" firstAttribute="leading" secondItem="kNN-eP-N7E" secondAttribute="leadingMargin" id="9nk-X7-bha"/>
@@ -1182,17 +1171,18 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fGl-uE-Pha">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGl-uE-Pha">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="79w-M6-HbZ" userLabel="Details">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="527" width="375" height="91"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Epistle to the Son of the Wolf" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqo-DU-W22">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <rect key="frame" x="8" y="0.0" width="313" height="49"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="Wfk-Bl-PU4"/>
                                         </constraints>
@@ -1211,7 +1201,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 of 40 pages completed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDa-Jz-4pE">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <rect key="frame" x="8" y="44" width="313" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="27" id="tjq-dq-0NO"/>
                                         </constraints>
@@ -1230,14 +1220,14 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                         </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpX-Mp-vEu">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <rect key="frame" x="337" y="10" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="kMh-Jh-wal"/>
                                             <constraint firstAttribute="height" constant="30" id="lF5-kC-6ki"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
                                         <state key="normal" title="Button" image="settings20.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -1256,7 +1246,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="fpX-Mp-vEu" firstAttribute="leading" secondItem="aqo-DU-W22" secondAttribute="trailing" constant="16" id="16V-tN-RBy"/>
                                     <constraint firstItem="fpX-Mp-vEu" firstAttribute="leading" secondItem="LDa-Jz-4pE" secondAttribute="trailing" constant="16" id="Bxq-xS-BC6"/>
@@ -1320,120 +1310,100 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </view>
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XkW-li-KMp" userLabel="Settings">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="38" y="46" width="300" height="270"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Style" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1y-fz-Mn7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Style" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1y-fz-Mn7">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="128" width="136" height="20"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgp-tR-yi3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Theme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgp-tR-yi3">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="198" width="228" height="20"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direction" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1O-eK-mGw">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Direction" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1O-eK-mGw">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="156" y="128" width="136" height="20"/>
-                                        </variation>
                                     </label>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="lG1-ao-1bn">
-                                        <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="6" y="77" width="288" height="31"/>
-                                        </variation>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="lG1-ao-1bn">
+                                        <rect key="frame" x="6" y="77" width="288" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="sliderDidEnd:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="TC0-uA-EQx"/>
                                             <action selector="sliderDidEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9g-LK-Uw1"/>
                                             <action selector="sliderDidMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="MpX-3L-WSh"/>
                                         </connections>
                                     </slider>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="grK-c3-hey">
-                                        <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="grK-c3-hey">
+                                        <rect key="frame" x="8" y="154" width="136" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <segments>
                                             <segment title="Serif"/>
                                             <segment title="Sans-Serif"/>
                                         </segments>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="154" width="136" height="29"/>
-                                        </variation>
                                         <connections>
                                             <action selector="changeFontStyle:" destination="BYZ-38-t0r" eventType="valueChanged" id="RXM-bx-RMF"/>
                                         </connections>
                                     </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mbn-EZ-LMt">
-                                        <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mbn-EZ-LMt">
+                                        <rect key="frame" x="156" y="154" width="136" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <segments>
                                             <segment title="Vertical"/>
                                             <segment title="Horizontal"/>
                                         </segments>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="156" y="154" width="136" height="29"/>
-                                        </variation>
                                         <connections>
                                             <action selector="changeReaderOrientation:" destination="BYZ-38-t0r" eventType="valueChanged" id="K8b-DS-1Fx"/>
                                         </connections>
                                     </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OyF-TF-dUv">
-                                        <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OyF-TF-dUv">
+                                        <rect key="frame" x="8" y="226" width="284" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <segments>
                                             <segment title="Light"/>
                                             <segment title="Dark"/>
                                             <segment title="Sunset"/>
                                             <segment title="Midnight"/>
                                         </segments>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="226" width="284" height="29"/>
-                                        </variation>
                                         <connections>
                                             <action selector="changeFontTheme:" destination="BYZ-38-t0r" eventType="valueChanged" id="4vu-kH-Odh"/>
                                         </connections>
                                     </segmentedControl>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hp-xc-rXY">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hp-xc-rXY">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="49" width="284" height="20"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reader Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZm-di-GTD">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reader Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZm-di-GTD">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="1" width="292" height="40"/>
-                                        </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cm1-Ig-w5z">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cm1-Ig-w5z">
+                                        <rect key="frame" x="255" y="-2" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                         <state key="normal" image="closemark.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="255" y="-2" width="45" height="45"/>
-                                        </variation>
                                         <connections>
                                             <action selector="showOrHideReaderSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8dx-ye-EtG"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="269" id="Phg-wQ-mhB">
                                         <variation key="widthClass=compact" constant="300"/>
@@ -1480,7 +1450,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XkW-li-KMp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="99K-jj-GSi"/>
                             <constraint firstItem="fGl-uE-Pha" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Lts-8G-hgM">
@@ -1577,7 +1547,7 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="unV-1i-eXm">
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="s4I-He-2f4"/>
@@ -1598,7 +1568,6 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ueZ-AL-lbl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1617,7 +1586,6 @@ Licensed under Creative Commons BY 3.0  The Friends at the Baha'i World Cent
                     <tabBarItem key="tabBarItem" title="ABOUT" image="tab3a.png" id="iAH-wD-HaQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JlK-76-2oW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

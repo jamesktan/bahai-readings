@@ -105,7 +105,6 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
         }
       }
       return parsedPaths
-      
     }
     return []
   }
@@ -132,9 +131,11 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   
   @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
     let alert = UIAlertController.createWritingsSelection(completion: { state in
-      self.paths = self.getPath(state: state)
-      self.writingTableView.reloadData()
-      self.title = state.rawValue
+      if state != .None {
+        self.paths = self.getPath(state: state)
+        self.writingTableView.reloadData()
+        self.title = state.rawValue
+      }
     })
     self.present(alert, animated: true, completion: nil)
   }

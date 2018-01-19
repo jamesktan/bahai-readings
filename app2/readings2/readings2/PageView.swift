@@ -137,6 +137,10 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     }
   }
   
+//  func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+//    return nil
+//  }
+
   func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
     storePosition(scrollView: scrollView)
   }

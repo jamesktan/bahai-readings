@@ -352,9 +352,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="5Ox-iA-hqf" firstAttribute="leading" secondItem="RC9-Rp-dt7" secondAttribute="leading" id="JuJ-yl-UPm"/>
-                            <constraint firstItem="5Ox-iA-hqf" firstAttribute="bottom" secondItem="RC9-Rp-dt7" secondAttribute="bottom" id="KJx-d4-XJH"/>
                             <constraint firstItem="5Ox-iA-hqf" firstAttribute="top" secondItem="sjA-sN-EcB" secondAttribute="top" id="R7Q-Db-t87"/>
                             <constraint firstItem="5Ox-iA-hqf" firstAttribute="trailing" secondItem="RC9-Rp-dt7" secondAttribute="trailing" id="kZY-px-Iwd"/>
+                            <constraint firstItem="RC9-Rp-dt7" firstAttribute="bottom" secondItem="5Ox-iA-hqf" secondAttribute="bottom" id="l5s-Cm-vGE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RC9-Rp-dt7"/>
                     </view>
