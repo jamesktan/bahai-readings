@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--All Writings-->
+        <!--Writings-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="WritingsView" customModule="readings2" customModuleProvider="target" sceneMemberID="viewController">
@@ -82,7 +82,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="All Writings" id="9B8-ml-nez">
+                    <navigationItem key="navigationItem" title="Writings" id="9B8-ml-nez">
                         <barButtonItem key="rightBarButtonItem" systemItem="organize" id="p34-NN-7uX">
                             <connections>
                                 <action selector="showSortOptions:" destination="BYZ-38-t0r" id="A2J-4w-SKP"/>

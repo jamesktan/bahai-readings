@@ -230,13 +230,13 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
 }
 
 extension String {
-  var fileNameComponent : (String, String, String) {
+  var fileNameComponent : (book:String, author:String, filename: String) {
     get {
       let name = NSString(string:self)
       let file = name.lastPathComponent
       let parts = file.components(separatedBy: ".") // Trim the extension
       let components = parts.first!.components(separatedBy: " - ") // Get Book / Author
-      return (components.first!, components.last!, file)
+      return (book:components.first!, author:components.last!, filename: file)
     }
   }
 }
@@ -254,15 +254,15 @@ extension UIAlertController {
     let starred = UIAlertAction(title: OrganizeWritingsState.Starred.rawValue, style: .default, handler: { action in
       completion(OrganizeWritingsState.Starred)
     })
-    //    let author = UIAlertAction(title: OrganizeWritingsState.Author.rawValue, style: .default, handler: { action in
-    //      completion(OrganizeWritingsState.Author)
-    //    })
+    let author = UIAlertAction(title: OrganizeWritingsState.Author.rawValue, style: .default, handler: { action in
+      completion(OrganizeWritingsState.Author)
+    })
     //    let recent = UIAlertAction(title: OrganizeWritingsState.Recent.rawValue, style: .default, handler: { action in
     //      completion(OrganizeWritingsState.Recent)
     //    })
     alert.addAction(all)
     alert.addAction(starred)
-    //    alert.addAction(author)
+        alert.addAction(author)
     //    alert.addAction(recent)
     alert.addAction(cancel)
     return alert

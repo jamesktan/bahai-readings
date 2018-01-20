@@ -34,7 +34,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   var pageController : PagesController!
   @IBOutlet weak var writingTableView : UITableView!
 
-  var paths : [String] = []
+  var paths : [Any] = []
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -45,7 +45,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     paths = getPath(state: OrganizeWritingsState.All)
   }
   
-  func getPath(state:OrganizeWritingsState) -> [String] {
+  func getPath(state:OrganizeWritingsState) -> [Any] {
     
     if state == .All {
       let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
@@ -66,6 +66,31 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
       }
       return parsedPaths
     }
+    if state == .Author {
+      let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
+      
+      var authors : [String] = []
+      var pathDictionary : [String:[String]] = [:]
+      for path in allPaths {
+        let result = path.fileNameComponent
+        let author = result.author
+        if !authors.contains(author) { // Doesn't exist? Add to the list and Add to the dictionary Mapping
+          authors.append(author)
+          pathDictionary[author] = [path]
+        } else { // Exists? Add to the dictionary mapping.
+          var authorPaths = pathDictionary[author]!
+          authorPaths.append(path)
+          pathDictionary[author] = authorPaths
+        }
+      }
+      var finalStructure : [[String]] = []
+      for author in authors {
+        let array = pathDictionary[author]!
+        finalStructure.append(array)
+      }
+      return finalStructure
+    }
+    
     return []
   }
   
@@ -76,25 +101,53 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     launchReader(path: path!)
   }
   
+  func numberOfSections(in tableView: UITableView) -> Int {
+    if sortOption == .Author {
+      return paths.count
+    }
+    return 1
+  }
+  
+  func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    if sortOption == .Author {
+      let author = (paths[section] as! [String]).first!.fileNameComponent.author
+      return author
+    }
+    return sortOption.rawValue
+  }
+  
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    if sortOption == .Author {
+      return (paths[section] as! [String]).count
+    }
     return paths.count
   }
+  
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 70.5
   }
+  
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    if sortOption == .Author {
+      let cell = tableView.dequeueReusableCell(withIdentifier: "WritingCell") as! WritingCell
+      cell.load(path: (paths[indexPath.section] as! [String])[indexPath.row] as! String)
+      return cell
+    }
+    
     let cell = tableView.dequeueReusableCell(withIdentifier: "WritingCell") as! WritingCell
-    cell.load(path: paths[indexPath.row])
+    cell.load(path: paths[indexPath.row] as! String)
     return cell
   }
   
   
+  var sortOption : OrganizeWritingsState = OrganizeWritingsState.All
+  
   @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
     let alert = UIAlertController.createWritingsSelection(completion: { state in
+      self.sortOption = state
       if state != .None {
         self.paths = self.getPath(state: state)
         self.writingTableView.reloadData()
-        self.title = state.rawValue
       }
     })
     self.present(alert, animated: true, completion: nil)

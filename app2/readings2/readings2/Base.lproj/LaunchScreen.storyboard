@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="D1H-EU-S7e">
-                                <rect key="frame" x="73" y="189" width="229" height="309"/>
+                                <rect key="frame" x="73" y="129" width="229" height="309"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="D1H-EU-S7e" secondAttribute="height" multiplier="229:309" id="1Vb-ND-Png"/>
                                     <constraint firstAttribute="width" constant="229" id="7Gm-M0-g1o"/>
@@ -30,7 +30,7 @@
                         <color key="backgroundColor" red="0.35959154367446899" green="0.55767416954040527" blue="0.86277955770492554" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.35959154367446899" green="0.55767416954040527" blue="0.86277955770492554" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="D1H-EU-S7e" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="2nh-RR-PiF"/>
+                            <constraint firstItem="D1H-EU-S7e" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-60" id="2nh-RR-PiF"/>
                             <constraint firstItem="D1H-EU-S7e" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qzh-RV-Qbr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

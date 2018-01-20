@@ -57,7 +57,7 @@
 		54DB98CD2013DA3C00272A21 /* One Common Faith  - Baha'i International Community.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98C92013DA3A00272A21 /* One Common Faith  - Baha'i International Community.md */; };
 		54DB98CE2013DA3C00272A21 /* Century of Light - Baha'i International Community.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98CA2013DA3B00272A21 /* Century of Light - Baha'i International Community.md */; };
 		54DB98CF2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98CB2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md */; };
-		54DB98D12013DA4600272A21 /* Selections From the Writings of the Báb  - the Báb.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - the Báb.md */; };
+		54DB98D12013DA4600272A21 /* Selections From the Writings of the Báb  - The Báb.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - The Báb.md */; };
 		54DB98D62013DC5800272A21 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DB98D52013DC5800272A21 /* Extensions.swift */; };
 		54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA1E59200C7F8E000FE090 /* SettingsView.swift */; };
 		54EA1E5C200C93FD000FE090 /* ReaderTemplateDark.html in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */; };
@@ -147,7 +147,7 @@
 		54DB98C92013DA3A00272A21 /* One Common Faith  - Baha'i International Community.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "One Common Faith  - Baha'i International Community.md"; sourceTree = "<group>"; };
 		54DB98CA2013DA3B00272A21 /* Century of Light - Baha'i International Community.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Century of Light - Baha'i International Community.md"; sourceTree = "<group>"; };
 		54DB98CB2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Statement on Bahá’u’lláh  - Baha'i International Community.md"; sourceTree = "<group>"; };
-		54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - the Báb.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Selections From the Writings of the Báb  - the Báb.md"; sourceTree = "<group>"; };
+		54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - The Báb.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Selections From the Writings of the Báb  - The Báb.md"; sourceTree = "<group>"; };
 		54DB98D52013DC5800272A21 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		54EA1E59200C7F8E000FE090 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateDark.html; sourceTree = "<group>"; };
@@ -265,7 +265,7 @@
 		54DB98D42013DAC200272A21 /* Writings */ = {
 			isa = PBXGroup;
 			children = (
-				54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - the Báb.md */,
+				54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - The Báb.md */,
 				54DB98CA2013DA3B00272A21 /* Century of Light - Baha'i International Community.md */,
 				54DB98C92013DA3A00272A21 /* One Common Faith  - Baha'i International Community.md */,
 				54DB98CB2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md */,
@@ -407,7 +407,7 @@
 				54DB98A12013A9C300272A21 /* Compilation on Peace  - Research Department of the Universal House of Justice.md in Resources */,
 				54EA1EB72011E931000FE090 /* Baha’i Prayers -  `Abdu'l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md in Resources */,
 				54DB98C22013DA3000272A21 /* The Kitáb-i-Íqán  - Bahá’u’lláh.md in Resources */,
-				54DB98D12013DA4600272A21 /* Selections From the Writings of the Báb  - the Báb.md in Resources */,
+				54DB98D12013DA4600272A21 /* Selections From the Writings of the Báb  - The Báb.md in Resources */,
 				54EA1EB22011E931000FE090 /* The Secret of Divine Civilization - `Abdu'l-Bahá.md in Resources */,
 				54860121200C6BCE004BFF08 /* star@2x.png in Resources */,
 				54EA1EB42011E931000FE090 /* The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md in Resources */,
