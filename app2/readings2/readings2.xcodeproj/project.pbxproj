@@ -75,14 +75,14 @@
 		54EA1E9D200CA89D000FE090 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E99200CA89C000FE090 /* iTunesArtwork@2x.png */; };
 		54EA1E9E200CA89D000FE090 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E9A200CA89D000FE090 /* iTunesArtwork@1x.png */; };
 		54EA1EA0200CA8B4000FE090 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E9F200CA8B4000FE090 /* Splash.png */; };
-		54EA1EB02011E931000FE090 /* Some Answered Questions - `Abdu'l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA12011E928000FE090 /* Some Answered Questions - `Abdu'l-Bahá.md */; };
+		54EA1EB02011E931000FE090 /* Some Answered Questions - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA12011E928000FE090 /* Some Answered Questions - ‘Abdu’l-Bahá.md */; };
 		54EA1EB12011E931000FE090 /* Bahá’í World Faith - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA22011E929000FE090 /* Bahá’í World Faith - ‘Abdu’l-Bahá.md */; };
-		54EA1EB22011E931000FE090 /* The Secret of Divine Civilization - `Abdu'l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA32011E92A000FE090 /* The Secret of Divine Civilization - `Abdu'l-Bahá.md */; };
+		54EA1EB22011E931000FE090 /* The Secret of Divine Civilization - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA32011E92A000FE090 /* The Secret of Divine Civilization - ‘Abdu’l-Bahá.md */; };
 		54EA1EB32011E931000FE090 /* Foundations of World Unity  - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA42011E92A000FE090 /* Foundations of World Unity  - ‘Abdu’l-Bahá.md */; };
 		54EA1EB42011E931000FE090 /* The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA52011E92B000FE090 /* The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md */; };
 		54EA1EB52011E931000FE090 /* Tablet to August Forel  - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA62011E92B000FE090 /* Tablet to August Forel  - ‘Abdu’l-Bahá.md */; };
-		54EA1EB62011E931000FE090 /* Selections from the Writings of `Abdu'l-Bahá - `Abdu'l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA72011E92C000FE090 /* Selections from the Writings of `Abdu'l-Bahá - `Abdu'l-Bahá.md */; };
-		54EA1EB72011E931000FE090 /* Baha’i Prayers -  `Abdu'l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA82011E92D000FE090 /* Baha’i Prayers -  `Abdu'l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md */; };
+		54EA1EB62011E931000FE090 /* Selections from the Writings of ‘Abdu’l-Bahá - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA72011E92C000FE090 /* Selections from the Writings of ‘Abdu’l-Bahá - ‘Abdu’l-Bahá.md */; };
+		54EA1EB72011E931000FE090 /* Baha’i Prayers -  ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA82011E92D000FE090 /* Baha’i Prayers -  ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md */; };
 		54EA1EB82011E931000FE090 /* The Promulgation of Universal Peace  - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EA92011E92D000FE090 /* The Promulgation of Universal Peace  - ‘Abdu’l-Bahá.md */; };
 		54EA1EB92011E931000FE090 /* Paris Talks  - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EAA2011E92E000FE090 /* Paris Talks  - ‘Abdu’l-Bahá.md */; };
 		54EA1EBA2011E931000FE090 /* ‘Abdu’l-Bahá in London  - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EAB2011E92E000FE090 /* ‘Abdu’l-Bahá in London  - ‘Abdu’l-Bahá.md */; };
@@ -165,14 +165,14 @@
 		54EA1E99200CA89C000FE090 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		54EA1E9A200CA89D000FE090 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
 		54EA1E9F200CA8B4000FE090 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
-		54EA1EA12011E928000FE090 /* Some Answered Questions - `Abdu'l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Some Answered Questions - `Abdu'l-Bahá.md"; sourceTree = "<group>"; };
+		54EA1EA12011E928000FE090 /* Some Answered Questions - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Some Answered Questions - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EA22011E929000FE090 /* Bahá’í World Faith - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Bahá’í World Faith - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
-		54EA1EA32011E92A000FE090 /* The Secret of Divine Civilization - `Abdu'l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The Secret of Divine Civilization - `Abdu'l-Bahá.md"; sourceTree = "<group>"; };
+		54EA1EA32011E92A000FE090 /* The Secret of Divine Civilization - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The Secret of Divine Civilization - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EA42011E92A000FE090 /* Foundations of World Unity  - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Foundations of World Unity  - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EA52011E92B000FE090 /* The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EA62011E92B000FE090 /* Tablet to August Forel  - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Tablet to August Forel  - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
-		54EA1EA72011E92C000FE090 /* Selections from the Writings of `Abdu'l-Bahá - `Abdu'l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Selections from the Writings of `Abdu'l-Bahá - `Abdu'l-Bahá.md"; sourceTree = "<group>"; };
-		54EA1EA82011E92D000FE090 /* Baha’i Prayers -  `Abdu'l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Baha’i Prayers -  `Abdu'l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md"; sourceTree = "<group>"; };
+		54EA1EA72011E92C000FE090 /* Selections from the Writings of ‘Abdu’l-Bahá - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Selections from the Writings of ‘Abdu’l-Bahá - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
+		54EA1EA82011E92D000FE090 /* Baha’i Prayers -  ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Baha’i Prayers -  ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md"; sourceTree = "<group>"; };
 		54EA1EA92011E92D000FE090 /* The Promulgation of Universal Peace  - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The Promulgation of Universal Peace  - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EAA2011E92E000FE090 /* Paris Talks  - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Paris Talks  - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EAB2011E92E000FE090 /* ‘Abdu’l-Bahá in London  - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "‘Abdu’l-Bahá in London  - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
@@ -304,18 +304,18 @@
 				54EA1E68200CA060000FE090 /* The World Order of Bahá’u’lláh - Shoghi Effendi.md */,
 				54EA1EAB2011E92E000FE090 /* ‘Abdu’l-Bahá in London  - ‘Abdu’l-Bahá.md */,
 				54EA1EAD2011E930000FE090 /* A Traveler's Narrative Written to Illustrate the Episode of the Báb - ‘Abdu’l-Bahá.md */,
-				54EA1EA82011E92D000FE090 /* Baha’i Prayers -  `Abdu'l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md */,
+				54EA1EA82011E92D000FE090 /* Baha’i Prayers -  ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md */,
 				54EA1EA22011E929000FE090 /* Bahá’í World Faith - ‘Abdu’l-Bahá.md */,
 				54EA1EA42011E92A000FE090 /* Foundations of World Unity  - ‘Abdu’l-Bahá.md */,
 				54EA1EAC2011E92F000FE090 /* Memorials of the Faithful - ‘Abdu’l-Bahá.md */,
 				54EA1EAA2011E92E000FE090 /* Paris Talks  - ‘Abdu’l-Bahá.md */,
-				54EA1EA72011E92C000FE090 /* Selections from the Writings of `Abdu'l-Bahá - `Abdu'l-Bahá.md */,
-				54EA1EA12011E928000FE090 /* Some Answered Questions - `Abdu'l-Bahá.md */,
+				54EA1EA72011E92C000FE090 /* Selections from the Writings of ‘Abdu’l-Bahá - ‘Abdu’l-Bahá.md */,
+				54EA1EA12011E928000FE090 /* Some Answered Questions - ‘Abdu’l-Bahá.md */,
 				54EA1EA62011E92B000FE090 /* Tablet to August Forel  - ‘Abdu’l-Bahá.md */,
 				54EA1EAE2011E930000FE090 /* Tablets of Abdul-Baha Abbas  - ‘Abdu’l-Bahá.md */,
 				54EA1EAF2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md */,
 				54EA1EA92011E92D000FE090 /* The Promulgation of Universal Peace  - ‘Abdu’l-Bahá.md */,
-				54EA1EA32011E92A000FE090 /* The Secret of Divine Civilization - `Abdu'l-Bahá.md */,
+				54EA1EA32011E92A000FE090 /* The Secret of Divine Civilization - ‘Abdu’l-Bahá.md */,
 				54EA1EA52011E92B000FE090 /* The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md */,
 			);
 			path = Writings;
@@ -405,10 +405,10 @@
 				5499ADE6200BEF24001E9E1B /* file.png in Resources */,
 				54DB98AA2013A9CF00272A21 /* Messages to America  - Shoghi Effendi.md in Resources */,
 				54DB98A12013A9C300272A21 /* Compilation on Peace  - Research Department of the Universal House of Justice.md in Resources */,
-				54EA1EB72011E931000FE090 /* Baha’i Prayers -  `Abdu'l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md in Resources */,
+				54EA1EB72011E931000FE090 /* Baha’i Prayers -  ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá'u'lláh.md in Resources */,
 				54DB98C22013DA3000272A21 /* The Kitáb-i-Íqán  - Bahá’u’lláh.md in Resources */,
 				54DB98D12013DA4600272A21 /* Selections From the Writings of the Báb  - The Báb.md in Resources */,
-				54EA1EB22011E931000FE090 /* The Secret of Divine Civilization - `Abdu'l-Bahá.md in Resources */,
+				54EA1EB22011E931000FE090 /* The Secret of Divine Civilization - ‘Abdu’l-Bahá.md in Resources */,
 				54860121200C6BCE004BFF08 /* star@2x.png in Resources */,
 				54EA1EB42011E931000FE090 /* The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md in Resources */,
 				540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */,
@@ -453,8 +453,8 @@
 				54860119200C6B01004BFF08 /* worldwide@2x.png in Resources */,
 				54EA1EB32011E931000FE090 /* Foundations of World Unity  - ‘Abdu’l-Bahá.md in Resources */,
 				54DB98B12013A9CF00272A21 /* Unfolding Destiny - Shoghi Effendi.md in Resources */,
-				54EA1EB62011E931000FE090 /* Selections from the Writings of `Abdu'l-Bahá - `Abdu'l-Bahá.md in Resources */,
-				54EA1EB02011E931000FE090 /* Some Answered Questions - `Abdu'l-Bahá.md in Resources */,
+				54EA1EB62011E931000FE090 /* Selections from the Writings of ‘Abdu’l-Bahá - ‘Abdu’l-Bahá.md in Resources */,
+				54EA1EB02011E931000FE090 /* Some Answered Questions - ‘Abdu’l-Bahá.md in Resources */,
 				540BD7E11FECCC9A00315366 /* Assets.xcassets in Resources */,
 				54EA1EBD2011E931000FE090 /* Tablets of Abdul-Baha Abbas  - ‘Abdu’l-Bahá.md in Resources */,
 				54DB98AF2013A9CF00272A21 /* Messages to Canada  - Shoghi Effendi.md in Resources */,

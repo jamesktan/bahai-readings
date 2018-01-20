@@ -33,6 +33,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   var navigation : UINavigationController!
   var pageController : PagesController!
   @IBOutlet weak var writingTableView : UITableView!
+  var sortOption : OrganizeWritingsState = OrganizeWritingsState.Author
 
   var paths : [Any] = []
   
@@ -42,7 +43,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     writingTableView.dataSource = self
     
     // Paths
-    paths = getPath(state: OrganizeWritingsState.All)
+    paths = getPath(state: sortOption)
   }
   
   func getPath(state:OrganizeWritingsState) -> [Any] {
@@ -68,7 +69,6 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     if state == .Author {
       let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
-      
       var authors : [String] = []
       var pathDictionary : [String:[String]] = [:]
       for path in allPaths {
@@ -83,6 +83,19 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
           pathDictionary[author] = authorPaths
         }
       }
+      // Order the Authors
+      authors = [
+        "The Báb",
+        "Bahá’u’lláh",
+        "‘Abdu’l-Bahá",
+        "Shoghi Effendi",
+        "Universal House of Justice",
+        "Baha\'i World Centre",
+        "Research Department of the Universal House of Justice",
+        "Baha\'i International Community",
+        " ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá\'u\'lláh"
+      ]
+      // Pull out the Array from Dictionary
       var finalStructure : [[String]] = []
       for author in authors {
         let array = pathDictionary[author]!
@@ -138,9 +151,6 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     cell.load(path: paths[indexPath.row] as! String)
     return cell
   }
-  
-  
-  var sortOption : OrganizeWritingsState = OrganizeWritingsState.All
   
   @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
     let alert = UIAlertController.createWritingsSelection(completion: { state in
