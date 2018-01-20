@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		540BD7DA1FECCC9900315366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BD7D91FECCC9900315366 /* AppDelegate.swift */; };
-		540BD7DC1FECCC9A00315366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BD7DB1FECCC9A00315366 /* ViewController.swift */; };
+		540BD7DC1FECCC9A00315366 /* WritingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BD7DB1FECCC9A00315366 /* WritingsView.swift */; };
 		540BD7DF1FECCC9A00315366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7DD1FECCC9A00315366 /* Main.storyboard */; };
 		540BD7E11FECCC9A00315366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7E01FECCC9A00315366 /* Assets.xcassets */; };
 		540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7E21FECCC9A00315366 /* LaunchScreen.storyboard */; };
@@ -58,6 +58,7 @@
 		54DB98CE2013DA3C00272A21 /* Century of Light - Baha'i International Community.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98CA2013DA3B00272A21 /* Century of Light - Baha'i International Community.md */; };
 		54DB98CF2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98CB2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md */; };
 		54DB98D12013DA4600272A21 /* Selections From the Writings of the Báb  - the Báb.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - the Báb.md */; };
+		54DB98D62013DC5800272A21 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DB98D52013DC5800272A21 /* Extensions.swift */; };
 		54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA1E59200C7F8E000FE090 /* SettingsView.swift */; };
 		54EA1E5C200C93FD000FE090 /* ReaderTemplateDark.html in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */; };
 		54EA1E5E200C9416000FE090 /* ReaderTemplateSepia.html in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1E5D200C9416000FE090 /* ReaderTemplateSepia.html */; };
@@ -96,7 +97,7 @@
 		483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_readings2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		540BD7D61FECCC9900315366 /* readings2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readings2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		540BD7D91FECCC9900315366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		540BD7DB1FECCC9A00315366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		540BD7DB1FECCC9A00315366 /* WritingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingsView.swift; sourceTree = "<group>"; };
 		540BD7DE1FECCC9A00315366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		540BD7E01FECCC9A00315366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540BD7E31FECCC9A00315366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 		54DB98CA2013DA3B00272A21 /* Century of Light - Baha'i International Community.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Century of Light - Baha'i International Community.md"; sourceTree = "<group>"; };
 		54DB98CB2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Statement on Bahá’u’lláh  - Baha'i International Community.md"; sourceTree = "<group>"; };
 		54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - the Báb.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Selections From the Writings of the Báb  - the Báb.md"; sourceTree = "<group>"; };
+		54DB98D52013DC5800272A21 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		54EA1E59200C7F8E000FE090 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateDark.html; sourceTree = "<group>"; };
 		54EA1E5D200C9416000FE090 /* ReaderTemplateSepia.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateSepia.html; sourceTree = "<group>"; };
@@ -223,9 +225,10 @@
 		540BD7D81FECCC9900315366 /* readings2 */ = {
 			isa = PBXGroup;
 			children = (
+				54DB98D52013DC5800272A21 /* Extensions.swift */,
 				5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */,
 				540BD7D91FECCC9900315366 /* AppDelegate.swift */,
-				540BD7DB1FECCC9A00315366 /* ViewController.swift */,
+				540BD7DB1FECCC9A00315366 /* WritingsView.swift */,
 				54860112200C4EC9004BFF08 /* NotesView.swift */,
 				540BD7DD1FECCC9A00315366 /* Main.storyboard */,
 				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
@@ -537,12 +540,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540BD7DC1FECCC9A00315366 /* ViewController.swift in Sources */,
+				540BD7DC1FECCC9A00315366 /* WritingsView.swift in Sources */,
 				5499ADDC200B616C001E9E1B /* PageView.swift in Sources */,
 				54860113200C4EC9004BFF08 /* NotesView.swift in Sources */,
 				54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */,
 				540BD7DA1FECCC9900315366 /* AppDelegate.swift in Sources */,
 				5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */,
+				54DB98D62013DC5800272A21 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
