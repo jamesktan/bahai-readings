@@ -40,7 +40,7 @@ class SettingsView: UITableViewController, MFMailComposeViewControllerDelegate {
     if let cell = tableView.cellForRow(at: indexPath) {
       if cell.tag == 100 {
         // About Triggered
-        if let url = URL(string: "https://www.bahaireadings.com") {
+        if let url = URL(string: "http://bahaireadings.com") {
           UIApplication.shared.open(url, options: [:])
         }
       }
