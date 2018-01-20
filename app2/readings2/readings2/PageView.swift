@@ -80,6 +80,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   override func viewWillAppear(_ animated: Bool) {
     
     // Continue Loading the Web Page
+    
+    
     readView.loadHTMLString(contents, baseURL: nil )
     indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
     indicator.center = self.view.center
@@ -137,6 +139,11 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     }
   }
   
+  func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void)
+  {
+    decisionHandler(.cancel)
+  }
+
 //  func viewForZooming(in scrollView: UIScrollView) -> UIView? {
 //    return nil
 //  }
