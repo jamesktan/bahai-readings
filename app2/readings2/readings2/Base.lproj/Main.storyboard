@@ -696,16 +696,6 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="109" id="0Bc-KL-NdN">
-                                <rect key="frame" x="0.0" y="72" width="375" height="109"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Bc-KL-NdN" id="F3q-P3-7F4">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="108.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="IvY-vb-rmu" id="2Ei-p1-rqc"/>
                             <outlet property="delegate" destination="IvY-vb-rmu" id="gnS-NJ-wpa"/>

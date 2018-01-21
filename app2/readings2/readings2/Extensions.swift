@@ -290,6 +290,43 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
   return viewControllers
 }
 
+func launchReader(presentingView:UIViewController, path:String) {
+  let templateTheme = getReaderTheme()
+  var name : String!
+  if templateTheme == 0 { name = "ReaderTemplateLight" }
+  if templateTheme == 1 { name = "ReaderTemplateDark" }
+  if templateTheme == 2 { name = "ReaderTemplateSepia" }
+  guard let templatePath = Bundle.main.path(forResource: name, ofType: "html") else {
+    return
+  }
+  
+  var pageController : PagesControllerHidden? = nil
+  var navigation : UINavigationController? = nil
+  
+  if let template = try? String(contentsOfFile:templatePath)
+  {
+    
+    let result : (TableOfContents?, [Page]?) = createPages(pathToResource: path)
+    let viewControllers = createViewsForPages(table: result.0!, pages: result.1!, template:template)
+    pageController = PagesControllerHidden(viewControllers)
+    
+    Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
+      if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
+        pageController?.goTo(page)
+      }
+    })
+    
+    pageController?.enableSwipe = true
+    pageController?.showBottomLine = false
+    pageController?.showPageControl = false
+    
+    navigation = UINavigationController(rootViewController: pageController!)
+    navigation?.navigationBar.isHidden = true
+  }
+  presentingView.present(navigation!, animated: true, completion: nil)
+}
+
+
 extension String {
   var fileNameComponent : (book:String, author:String, filename: String) {
     get {

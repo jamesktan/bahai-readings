@@ -51,7 +51,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     tableView.deselectRow(at: indexPath, animated: true)
     let cell = tableView.cellForRow(at: indexPath) as! WritingCell
     let path = cell.path
-    launchReader(path: path!)
+    launchReader(presentingView: self, path: path)
   }
   
   func numberOfSections(in tableView: UITableView) -> Int {
@@ -103,39 +103,38 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     self.present(alert, animated: true, completion: nil)
   }
   
-  func launchReader(path:String) {
-    let templateTheme = getReaderTheme()
-    var name : String!
-    if templateTheme == 0 { name = "ReaderTemplateLight" }
-    if templateTheme == 1 { name = "ReaderTemplateDark" }
-    if templateTheme == 2 { name = "ReaderTemplateSepia" }
-    guard let templatePath = Bundle.main.path(forResource: name, ofType: "html") else {
-      return
-    }
-    
-    if let template = try? String(contentsOfFile:templatePath)
-    {
-      let result : (TableOfContents?, [Page]?) = createPages(pathToResource: path)
-      let viewControllers = createViewsForPages(table: result.0!, pages: result.1!, template:template)
-      pageController = PagesControllerHidden(viewControllers)
-      
-      Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
-        if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
-          self.pageController.goTo(page)
-        }
-      })
-      
-      pageController.enableSwipe = true
-      pageController.showBottomLine = false
-      pageController.showPageControl = false
-      
-      navigation = UINavigationController(rootViewController: pageController)
-      navigation.navigationBar.isHidden = true
-    }
-    self.present(navigation, animated: true, completion: nil)
-
-  }
-  
+//  func launchReader(path:String) {
+//    let templateTheme = getReaderTheme()
+//    var name : String!
+//    if templateTheme == 0 { name = "ReaderTemplateLight" }
+//    if templateTheme == 1 { name = "ReaderTemplateDark" }
+//    if templateTheme == 2 { name = "ReaderTemplateSepia" }
+//    guard let templatePath = Bundle.main.path(forResource: name, ofType: "html") else {
+//      return
+//    }
+//
+//    if let template = try? String(contentsOfFile:templatePath)
+//    {
+//      let result : (TableOfContents?, [Page]?) = createPages(pathToResource: path)
+//      let viewControllers = createViewsForPages(table: result.0!, pages: result.1!, template:template)
+//      pageController = PagesControllerHidden(viewControllers)
+//
+//      Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
+//        if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
+//          self.pageController.goTo(page)
+//        }
+//      })
+//
+//      pageController.enableSwipe = true
+//      pageController.showBottomLine = false
+//      pageController.showPageControl = false
+//
+//      navigation = UINavigationController(rootViewController: pageController)
+//      navigation.navigationBar.isHidden = true
+//    }
+//    self.present(navigation, animated: true, completion: nil)
+//  }
+//
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
@@ -149,5 +148,3 @@ class PagesControllerHidden : PagesController {
     return true
   }
 }
-
-
