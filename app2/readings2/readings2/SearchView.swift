@@ -33,12 +33,12 @@ class SearchView: UITableViewController, UISearchBarDelegate {
   }
   
   func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-    if searchText != "" {
-      launchSearchTask(searchText: searchText)
-    } else {
-      fileParts = []
-      self.tableView.reloadData()
-    }
+//    if searchText != "" {
+//      launchSearchTask(searchText: searchText)
+//    } else {
+//      fileParts = []
+//      self.tableView.reloadData()
+//    }
     searchBar.showsCancelButton = true
   }
   
