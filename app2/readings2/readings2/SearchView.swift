@@ -82,6 +82,7 @@ class SearchView: UITableViewController, UISearchBarDelegate {
   
   
   func launchSearchTask(searchText:String) {
+    self.fileParts = []
     indicator.startAnimating()
     
     searchQueue.async {
