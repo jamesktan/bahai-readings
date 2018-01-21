@@ -224,10 +224,7 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
     view.contents = rendered
     view.tableOfContents = table
     
-    let navView = UINavigationController(rootViewController: view)
-
-//    viewControllers.append(view)
-    viewControllers.append(navView)
+    viewControllers.append(view)
 
   }
   return viewControllers
