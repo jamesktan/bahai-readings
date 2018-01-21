@@ -410,6 +410,7 @@
                     <connections>
                         <segue destination="I3k-Ub-qtn" kind="relationship" relationship="viewControllers" id="kvz-40-6Tz"/>
                         <segue destination="M2C-Iq-2n9" kind="relationship" relationship="viewControllers" id="27M-Nj-KKh"/>
+                        <segue destination="lws-rf-i7x" kind="relationship" relationship="viewControllers" id="jyD-hU-fJP"/>
                         <segue destination="5hK-hy-DQh" kind="relationship" relationship="viewControllers" id="PMN-7X-C57"/>
                     </connections>
                 </tabBarController>
@@ -421,7 +422,7 @@
         <scene sceneID="Wlw-Dx-e15">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M2C-Iq-2n9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Notes" image="file.png" id="oQU-c5-0Aw"/>
+                    <tabBarItem key="tabBarItem" title="Notes" image="idea.png" id="oQU-c5-0Aw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FL7-aX-aE8">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -682,9 +683,79 @@
             </objects>
             <point key="canvasLocation" x="348" y="1805.8470764617693"/>
         </scene>
+        <!--Search Writings-->
+        <scene sceneID="44c-Rh-R3L">
+            <objects>
+                <tableViewController id="IvY-vb-rmu" customClass="SearchView" customModule="readings2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6ox-Q9-PdZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" text="" id="OEZ-SE-jTl">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="IvY-vb-rmu" id="7xy-Ia-3Sh"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Bc-KL-NdN">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Bc-KL-NdN" id="F3q-P3-7F4">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IvY-vb-rmu" id="2Ei-p1-rqc"/>
+                            <outlet property="delegate" destination="IvY-vb-rmu" id="gnS-NJ-wpa"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Search Writings" id="YAP-ha-G7N"/>
+                    <connections>
+                        <outlet property="searchBar" destination="OEZ-SE-jTl" id="jyW-Zj-qF9"/>
+                        <outlet property="searchDisplayController" destination="E37-GC-6rK" id="dqo-cf-pV8"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HVh-gz-Lhg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="E37-GC-6rK">
+                    <connections>
+                        <outlet property="delegate" destination="IvY-vb-rmu" id="UGo-AQ-5Vu"/>
+                        <outlet property="searchBar" destination="OEZ-SE-jTl" id="heP-7z-VZ6"/>
+                        <outlet property="searchContentsController" destination="IvY-vb-rmu" id="9sq-Nc-LBc"/>
+                        <outlet property="searchResultsDataSource" destination="IvY-vb-rmu" id="UKK-jU-tis"/>
+                        <outlet property="searchResultsDelegate" destination="IvY-vb-rmu" id="h3v-8j-sHu"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="348" y="2515"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="9Uh-GA-fXp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lws-rf-i7x" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="file.png" id="WSv-SK-yk3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WbB-Az-Jgi">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IvY-vb-rmu" kind="relationship" relationship="rootViewController" id="srQ-VQ-Xwm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="soo-4f-oU7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-347.19999999999999" y="2515.1424287856075"/>
+        </scene>
     </scenes>
     <resources>
         <image name="file.png" width="25" height="25"/>
+        <image name="idea.png" width="25" height="25"/>
         <image name="layers.png" width="25" height="25"/>
         <image name="menu.png" width="28" height="28"/>
         <image name="star.png" width="28" height="28"/>

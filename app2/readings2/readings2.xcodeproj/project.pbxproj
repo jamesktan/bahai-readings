@@ -13,6 +13,9 @@
 		540BD7E11FECCC9A00315366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7E01FECCC9A00315366 /* Assets.xcassets */; };
 		540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7E21FECCC9A00315366 /* LaunchScreen.storyboard */; };
 		540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */; };
+		540F0FAD201424CC007209B2 /* idea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 540F0FAB201424CB007209B2 /* idea@2x.png */; };
+		540F0FAE201424CC007209B2 /* idea.png in Resources */ = {isa = PBXBuildFile; fileRef = 540F0FAC201424CB007209B2 /* idea.png */; };
+		540F0FB0201425BE007209B2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F0FAF201425BE007209B2 /* SearchView.swift */; };
 		547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplateLight.html */; };
 		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
 		54860115200C6AA5004BFF08 /* layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860114200C6AA4004BFF08 /* layers@2x.png */; };
@@ -103,6 +106,9 @@
 		540BD7E31FECCC9A00315366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540BD7E51FECCC9A00315366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "God Passes By - Shoghi Effendi.md"; sourceTree = "<group>"; };
+		540F0FAB201424CB007209B2 /* idea@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idea@2x.png"; sourceTree = "<group>"; };
+		540F0FAC201424CB007209B2 /* idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idea.png; sourceTree = "<group>"; };
+		540F0FAF201425BE007209B2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplateLight.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateLight.html; sourceTree = "<group>"; };
 		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		54860114200C6AA4004BFF08 /* layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layers@2x.png"; sourceTree = "<group>"; };
@@ -232,6 +238,7 @@
 				54860112200C4EC9004BFF08 /* NotesView.swift */,
 				540BD7DD1FECCC9A00315366 /* Main.storyboard */,
 				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
+				540F0FAF201425BE007209B2 /* SearchView.swift */,
 				5499ADDB200B616C001E9E1B /* PageView.swift */,
 				54DB98D42013DAC200272A21 /* Writings */,
 				547E92351FECD24700BEB909 /* ReaderTemplateLight.html */,
@@ -251,6 +258,8 @@
 				5499ADE7200BF33D001E9E1B /* star.png */,
 				54860116200C6AE1004BFF08 /* file@2x.png */,
 				5499ADE5200BEF24001E9E1B /* file.png */,
+				540F0FAC201424CB007209B2 /* idea.png */,
+				540F0FAB201424CB007209B2 /* idea@2x.png */,
 				54EA1E9F200CA8B4000FE090 /* Splash.png */,
 				54EA1E97200CA89B000FE090 /* AppIcon.appiconset */,
 				54EA1E9A200CA89D000FE090 /* iTunesArtwork@1x.png */,
@@ -418,6 +427,7 @@
 				54EA1E9C200CA89D000FE090 /* iTunesArtwork@3x.png in Resources */,
 				54DB98AC2013A9CF00272A21 /* The Light of Divine Guidance (Volume 2)  - Shoghi Effendi.md in Resources */,
 				54EA1EB82011E931000FE090 /* The Promulgation of Universal Peace  - ‘Abdu’l-Bahá.md in Resources */,
+				540F0FAE201424CC007209B2 /* idea.png in Resources */,
 				54EA1E6A200CA061000FE090 /* Citadel of Faith - Shoghi Effendi.md in Resources */,
 				54EA1EBA2011E931000FE090 /* ‘Abdu’l-Bahá in London  - ‘Abdu’l-Bahá.md in Resources */,
 				54EA1EBB2011E931000FE090 /* Memorials of the Faithful - ‘Abdu’l-Bahá.md in Resources */,
@@ -446,6 +456,7 @@
 				54EA1E61200C9B74000FE090 /* star_filled.png in Resources */,
 				54EA1EB92011E931000FE090 /* Paris Talks  - ‘Abdu’l-Bahá.md in Resources */,
 				54DB98BD2013DA3000272A21 /* Gems of Divine Mysteries  - Bahá’u’lláh.md in Resources */,
+				540F0FAD201424CC007209B2 /* idea@2x.png in Resources */,
 				5499ADE2200BED5E001E9E1B /* layers.png in Resources */,
 				54DB98AE2013A9CF00272A21 /* Directives from the Guardian  - Shoghi Effendi.md in Resources */,
 				54EA1E9D200CA89D000FE090 /* iTunesArtwork@2x.png in Resources */,
@@ -544,6 +555,7 @@
 				5499ADDC200B616C001E9E1B /* PageView.swift in Sources */,
 				54860113200C4EC9004BFF08 /* NotesView.swift in Sources */,
 				54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */,
+				540F0FB0201425BE007209B2 /* SearchView.swift in Sources */,
 				540BD7DA1FECCC9900315366 /* AppDelegate.swift in Sources */,
 				5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */,
 				54DB98D62013DC5800272A21 /* Extensions.swift in Sources */,

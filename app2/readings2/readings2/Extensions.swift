@@ -139,6 +139,66 @@ func getWritingProgress(fileName:String) -> (page:Int, position:Float)? {
   }
 }
 
+func getPath(state:OrganizeWritingsState) -> [Any] {
+  
+  if state == .All {
+    let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
+    return allPaths
+  }
+  if state == .Starred {
+    let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
+    let starred = getStarredWritings()
+    
+    // Parse the Paths
+    var parsedPaths : [String] = []
+    for path in allPaths {
+      let results = path.fileNameComponent
+      let filename = results.2
+      if starred.contains(filename) {
+        parsedPaths.append(path)
+      }
+    }
+    return parsedPaths
+  }
+  if state == .Author {
+    let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
+    var authors : [String] = []
+    var pathDictionary : [String:[String]] = [:]
+    for path in allPaths {
+      let result = path.fileNameComponent
+      let author = result.author
+      if !authors.contains(author) { // Doesn't exist? Add to the list and Add to the dictionary Mapping
+        authors.append(author)
+        pathDictionary[author] = [path]
+      } else { // Exists? Add to the dictionary mapping.
+        var authorPaths = pathDictionary[author]!
+        authorPaths.append(path)
+        pathDictionary[author] = authorPaths
+      }
+    }
+    // Order the Authors
+    authors = [
+      "The Báb",
+      "Bahá’u’lláh",
+      "‘Abdu’l-Bahá",
+      "Shoghi Effendi",
+      "Universal House of Justice",
+      "Baha\'i World Centre",
+      "Research Department of the Universal House of Justice",
+      "Baha\'i International Community",
+      " ‘Abdu’l-Bahá, `Ali Muhammad Shirazi Bab, and Bahá\'u\'lláh"
+    ]
+    // Pull out the Array from Dictionary
+    var finalStructure : [[String]] = []
+    for author in authors {
+      let array = pathDictionary[author]!
+      finalStructure.append(array)
+    }
+    return finalStructure
+  }
+  
+  return []
+}
 
 func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
   if let contents = try? String(contentsOfFile: pathToResource) {
