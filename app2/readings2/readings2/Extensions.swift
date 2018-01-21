@@ -224,7 +224,11 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
     view.contents = rendered
     view.tableOfContents = table
     
-    viewControllers.append(view)
+    let navView = UINavigationController(rootViewController: view)
+
+//    viewControllers.append(view)
+    viewControllers.append(navView)
+
   }
   return viewControllers
 }

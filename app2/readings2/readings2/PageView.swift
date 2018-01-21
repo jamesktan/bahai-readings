@@ -161,7 +161,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       let position = scrollView.contentOffset.y
       let height = scrollView.contentSize.height - scrollView.frame.height
       let completed = position / height
-      storeWritingProgress(fileName: tableOfContents!.fileName, page: page!, position: Float(completed))
+      storeWritingProgress(fileName: tableOfContents!.fileName, page: page, position: Float(completed))
     }
   }
   
