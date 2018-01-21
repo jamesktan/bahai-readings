@@ -50,8 +50,9 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
     let cell = tableView.cellForRow(at: indexPath) as! WritingCell
-    let path = cell.path
-    launchReader(presentingView: self, path: path)
+    if let path = cell.path {
+      launchReader(presentingView: self, path: path)
+    }
   }
   
   func numberOfSections(in tableView: UITableView) -> Int {
