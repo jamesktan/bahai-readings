@@ -231,12 +231,12 @@
 		540BD7D81FECCC9900315366 /* readings2 */ = {
 			isa = PBXGroup;
 			children = (
+				540BD7DD1FECCC9A00315366 /* Main.storyboard */,
 				54DB98D52013DC5800272A21 /* Extensions.swift */,
 				5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */,
 				540BD7D91FECCC9900315366 /* AppDelegate.swift */,
 				540BD7DB1FECCC9A00315366 /* WritingsView.swift */,
 				54860112200C4EC9004BFF08 /* NotesView.swift */,
-				540BD7DD1FECCC9A00315366 /* Main.storyboard */,
 				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
 				540F0FAF201425BE007209B2 /* SearchView.swift */,
 				5499ADDB200B616C001E9E1B /* PageView.swift */,

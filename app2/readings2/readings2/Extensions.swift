@@ -300,6 +300,18 @@ extension String {
       return (book:components.first!, author:components.last!, filename: file)
     }
   }
+  
+  func countInstances(of stringToFind: String) -> Int {
+    assert(!stringToFind.isEmpty)
+    var searchRange: Range<String.Index>?
+    var count = 0
+    while let foundRange = range(of: stringToFind, options: .diacriticInsensitive, range: searchRange) {
+      searchRange = Range(uncheckedBounds: (lower: foundRange.upperBound, upper: endIndex))
+      count += 1
+    }
+    return count
+  }
+
 }
 
 extension UIAlertController {
