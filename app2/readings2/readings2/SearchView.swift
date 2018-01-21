@@ -7,9 +7,13 @@
 //
 
 import UIKit
+class SearchCell : UITableViewCell {
+  
+}
 
 class SearchView: UITableViewController, UISearchBarDelegate {
   
+  @IBOutlet weak var indicator: UIActivityIndicatorView!
   @IBOutlet weak var searchBar: UISearchBar!
   var paths : [String] = []
   var searchQueue : DispatchQueue = DispatchQueue(label: "SearchQueue")
@@ -23,10 +27,15 @@ class SearchView: UITableViewController, UISearchBarDelegate {
   
   // MARK: SearchBar Delegate
 
+  func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+    searchBar.showsCancelButton = true
+  }
+  
   func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
     if searchText != "" {
       launchSearchTask(searchText: searchText)
     }
+    searchBar.showsCancelButton = true
   }
   
   func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -34,11 +43,15 @@ class SearchView: UITableViewController, UISearchBarDelegate {
     if let searchText = searchBar.text, searchText != "" {
       launchSearchTask(searchText: searchText)
     }
-    
-    
+    searchBar.resignFirstResponder()
+    searchBar.showsCancelButton = false
+
   }
+
   
   func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+    searchBar.resignFirstResponder()
+    searchBar.showsCancelButton = false
 
   }
   
@@ -64,6 +77,8 @@ class SearchView: UITableViewController, UISearchBarDelegate {
     var names : [String] = []
     var counts : [Int] = []
 
+    indicator.startAnimating()
+    
     searchQueue.async {
       for path in self.paths {
         if let contents = try? String(contentsOfFile: path) {
@@ -80,6 +95,10 @@ class SearchView: UITableViewController, UISearchBarDelegate {
           }
           print("name: \(name) count: \(count)")
         }
+      }
+      
+      DispatchQueue.main.async {
+        self.indicator.stopAnimating()
       }
     }
 
