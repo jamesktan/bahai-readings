@@ -157,12 +157,12 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   func storePosition(scrollView:UIScrollView) {
-    let page = self.castedParent?.currentIndex
-    let position = scrollView.contentOffset.y
-    let height = scrollView.contentSize.height - scrollView.frame.height
-    let completed = position / height
-    storeWritingProgress(fileName: tableOfContents!.fileName, page: page!, position: Float(completed))
-
+    if let page = self.castedParent?.currentIndex {
+      let position = scrollView.contentOffset.y
+      let height = scrollView.contentSize.height - scrollView.frame.height
+      let completed = position / height
+      storeWritingProgress(fileName: tableOfContents!.fileName, page: page!, position: Float(completed))
+    }
   }
   
   @IBAction func closeReader() {
