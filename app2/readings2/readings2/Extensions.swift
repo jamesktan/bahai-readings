@@ -340,10 +340,10 @@ extension String {
   
   func countInstances(of stringToFind: String) -> Int {
     assert(!stringToFind.isEmpty)
-    var searchRange: Range<String.Index>?
+    var stringToSearch = self
     var count = 0
-    while let foundRange = range(of: stringToFind, options: .diacriticInsensitive, range: searchRange) {
-      searchRange = Range(uncheckedBounds: (lower: foundRange.upperBound, upper: endIndex))
+    while let foundRange = stringToSearch.range(of: stringToFind, options: .diacriticInsensitive) {
+      stringToSearch = stringToSearch.replacingCharacters(in: foundRange, with: "")
       count += 1
     }
     return count
