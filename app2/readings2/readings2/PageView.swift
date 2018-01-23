@@ -8,7 +8,6 @@
 
 import UIKit
 import WebKit
-import ActionSheetPicker_3_0
 
 class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UIGestureRecognizerDelegate {
   
@@ -204,10 +203,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
 class TableOfContentsView : UITableViewController {
   
   var tableOfContents : TableOfContents!
-
-  override func viewWillDisappear(_ animated: Bool) {
-    navigation!.setNavigationBarHidden(true, animated: true)
-  }
   
   // MARK: TableViewDelegate Methods
   

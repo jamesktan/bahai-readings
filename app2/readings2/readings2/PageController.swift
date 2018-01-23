@@ -26,6 +26,16 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
     }
   }
   
+  override func viewWillAppear(_ animated: Bool) {
+    self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    super.viewWillAppear(animated)
+  }
+  
+  override func viewWillDisappear(_ animated: Bool) {
+    self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    super.viewWillDisappear(animated)
+  }
+  
   func goTo(_ page:Int) {
     let vc = self.storedViewController[page]
     self.setViewControllers([vc], direction: .forward, animated: true, completion: nil)
@@ -33,7 +43,6 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
   
   func showTableOfContents(_ content:TableOfContents) {
     if let table = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TableOfContents") as? TableOfContentsView {
-      
       table.tableOfContents = content
       self.navigationController!.pushViewController(table, animated: true )
     }

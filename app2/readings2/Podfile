@@ -2,11 +2,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target 'readings2' do
-	pod 'Down'
-  
-	source 'https://github.com/CocoaPods/Specs.git'
-	pod 'ActionSheetPicker-3.0'
-	
+	pod 'Down'  
 	pod 'RealmSwift'
 
 end
