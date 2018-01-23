@@ -365,7 +365,6 @@
                         <outlet property="readView" destination="5Ox-iA-hqf" id="g8i-dr-waS"/>
                         <outlet property="starButton" destination="ZRM-lI-EzX" id="XYK-Dr-P2x"/>
                         <outlet property="toolbar" destination="Jct-yY-yWz" id="Q36-dn-p8M"/>
-                        <segue destination="OB1-YS-XdA" kind="show" identifier="showTable" id="hWQ-Li-lSl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCF-C8-Juw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -375,7 +374,7 @@
         <!--Table Of Contents View-->
         <scene sceneID="YRH-WY-lV6">
             <objects>
-                <tableViewController id="OB1-YS-XdA" customClass="TableOfContentsView" customModule="readings2" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="TableOfContents" id="OB1-YS-XdA" customClass="TableOfContentsView" customModule="readings2" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="UBM-FE-wwH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

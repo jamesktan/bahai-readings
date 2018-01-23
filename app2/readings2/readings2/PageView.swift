@@ -191,15 +191,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
-    self.performSegue(withIdentifier: "showTable", sender: sender)
-  }
-  
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if segue.identifier == "showTable" {
-      if let destination = segue.destination as? TableOfContentsView {
-        destination.tableOfContents = self.tableOfContents!
-      }
-    }
+    self.castedParent!.showTableOfContents(self.tableOfContents!)
   }
   
   override func didReceiveMemoryWarning() {
@@ -215,6 +207,7 @@ class TableOfContentsView : UITableViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.navigationController?.setNavigationBarHidden(false, animated: true)
   }
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
@@ -231,10 +224,31 @@ class TableOfContentsView : UITableViewController {
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 3
+    if section == 0 {
+      return 2
+    } else {
+      return tableOfContents.contents.count
+    }
+  }
+  
+  override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    if section == 0 {
+      return "Writing Information"
+    } else {
+      return "Table of Contents"
+    }
   }
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
+    if indexPath.section == 0 {
+      if indexPath.row == 0 {
+        cell.textLabel?.text = "Title: \(tableOfContents.title)"
+      } else {
+        cell.textLabel?.text = "Author: \(tableOfContents.author)"
+      }
+    } else {
+      cell.textLabel?.text = tableOfContents.contents[indexPath.row]
+    }
     return cell
   }
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -299,7 +299,7 @@ func launchReader(presentingView:UIViewController, path:String) {
     return
   }
   
-//  var navigation : UINavigationController? = nil
+  var navigation : UINavigationController? = nil
   
   if let template = try? String(contentsOfFile:templatePath)
   {
@@ -319,10 +319,11 @@ func launchReader(presentingView:UIViewController, path:String) {
     }
 
     pController.setViewControllers([currentViewController!], direction: .forward, animated: true, completion: nil)
-    presentingView.present(pController, animated: true, completion: nil)
 
-//    navigation = UINavigationController(rootViewController: pController)
-//    navigation?.navigationBar.isHidden = true
+    navigation = UINavigationController(rootViewController: pController)
+    navigation?.navigationBar.isHidden = true
+    presentingView.present(navigation!, animated: true, completion: nil)
+
   }
 }
 

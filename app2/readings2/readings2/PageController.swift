@@ -30,6 +30,14 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
     
   }
   
+  func showTableOfContents(_ content:TableOfContents) {
+    if let table = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TableOfContents") as? TableOfContentsView {
+      table.tableOfContents = content
+      self.navigationController?.pushViewController(table, animated: true )
+      self.navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+  }
+  
   func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
     let index = self.storedViewController.index(of: viewController)
     let newIndex = index!.advanced(by: 1)
