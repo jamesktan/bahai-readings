@@ -360,28 +360,29 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RC9-Rp-dt7"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cWX-Jw-63h"/>
                     <connections>
                         <outlet property="readView" destination="5Ox-iA-hqf" id="g8i-dr-waS"/>
                         <outlet property="starButton" destination="ZRM-lI-EzX" id="XYK-Dr-P2x"/>
                         <outlet property="toolbar" destination="Jct-yY-yWz" id="Q36-dn-p8M"/>
-                        <segue destination="OB1-YS-XdA" kind="show" identifier="show" id="hWQ-Li-lSl"/>
+                        <segue destination="OB1-YS-XdA" kind="show" identifier="showTable" id="hWQ-Li-lSl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCF-C8-Juw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1508" y="131.78410794602701"/>
+            <point key="canvasLocation" x="1898" y="132"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table Of Contents View-->
         <scene sceneID="YRH-WY-lV6">
             <objects>
-                <tableViewController id="OB1-YS-XdA" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="UBM-FE-wwH">
+                <tableViewController id="OB1-YS-XdA" customClass="TableOfContentsView" customModule="readings2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="UBM-FE-wwH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1lY-9t-461">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1lY-9t-461" id="2Qs-zX-JKa">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -397,7 +398,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygk-ba-KAW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2271" y="132"/>
+            <point key="canvasLocation" x="2608.8000000000002" y="131.78410794602701"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="P1i-By-rxl">

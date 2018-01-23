@@ -191,23 +191,54 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
-    ActionSheetMultipleStringPicker.show(withTitle: self.tableOfContents!.title, rows: [
-      self.tableOfContents!.contents,
-      ], initialSelection: [self.castedParent!.currentIndex], doneBlock: {
-        picker, indexes, values in
-        if let points = indexes as? [Int] {
-          let goTo = points.first!
-          self.castedParent?.goTo(goTo)
-        }
-        return
-    }, cancel: { ActionMultipleStringCancelBlock in return }, origin: sender)
-
+    self.performSegue(withIdentifier: "showTable", sender: sender)
+  }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "showTable" {
+      if let destination = segue.destination as? TableOfContentsView {
+        destination.tableOfContents = self.tableOfContents!
+      }
+    }
   }
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
+}
+
+
+class TableOfContentsView : UITableViewController {
   
+  var tableOfContents : TableOfContents!
   
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    self.navigationController?.setNavigationBarHidden(false, animated: true)
+  }
+  override func viewWillDisappear(_ animated: Bool) {
+    self.navigationController?.setNavigationBarHidden(true, animated: true)
+  }
+  
+  // MARK: TableViewDelegate Methods
+  
+  override func numberOfSections(in tableView: UITableView) -> Int {
+    return 2
+  }
+
+  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 3
+  }
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
+    return cell
+  }
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    tableView.deselectRow(at: indexPath, animated: true)
+  }
+
 }
