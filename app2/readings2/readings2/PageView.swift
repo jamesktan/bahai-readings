@@ -127,16 +127,16 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
     })
     
-    if let progress = getWritingProgress(fileName: tableOfContents!.fileName) {
-
-      if castedParent?.currentIndex == progress.page {
-        let position = progress.position
-        Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
-          let positionY = CGFloat(position) * (webView.scrollView.contentSize.height - webView.scrollView.frame.height)
-          webView.scrollView.contentOffset = CGPoint(x: 0, y: positionY)
-        })
-      }
-    }
+//    if let progress = getWritingProgress(fileName: tableOfContents!.fileName) {
+//
+//      if castedParent?.currentIndex == progress.page {
+//        let position = progress.position
+//        Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
+//          let positionY = CGFloat(position) * (webView.scrollView.contentSize.height - webView.scrollView.frame.height)
+//          webView.scrollView.contentOffset = CGPoint(x: 0, y: positionY)
+//        })
+//      }
+//    }
   }
   
   func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void)
