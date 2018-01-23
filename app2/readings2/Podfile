@@ -3,7 +3,6 @@ use_frameworks!
 
 target 'readings2' do
 	pod 'Down'
-	pod 'Pages'
   
 	source 'https://github.com/CocoaPods/Specs.git'
 	pod 'ActionSheetPicker-3.0'

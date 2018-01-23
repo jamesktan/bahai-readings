@@ -93,6 +93,7 @@
 		54EA1EBC2011E931000FE090 /* A Traveler's Narrative Written to Illustrate the Episode of the Báb - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EAD2011E930000FE090 /* A Traveler's Narrative Written to Illustrate the Episode of the Báb - ‘Abdu’l-Bahá.md */; };
 		54EA1EBD2011E931000FE090 /* Tablets of Abdul-Baha Abbas  - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EAE2011E930000FE090 /* Tablets of Abdul-Baha Abbas  - ‘Abdu’l-Bahá.md */; };
 		54EA1EBE2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EAF2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md */; };
+		54FB5BDB201715BB000C9112 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB5BDA201715BB000C9112 /* PageController.swift */; };
 		5E49BB86FD920F1632DDDB44 /* Pods_readings2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */; };
 /* End PBXBuildFile section */
 
@@ -186,6 +187,7 @@
 		54EA1EAD2011E930000FE090 /* A Traveler's Narrative Written to Illustrate the Episode of the Báb - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "A Traveler's Narrative Written to Illustrate the Episode of the Báb - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EAE2011E930000FE090 /* Tablets of Abdul-Baha Abbas  - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Tablets of Abdul-Baha Abbas  - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54EA1EAF2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Tablets of the Divine Plan - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
+		54FB5BDA201715BB000C9112 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		C191B8BEFAD85AA2E0465E61 /* Pods-readings2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.release.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.release.xcconfig"; sourceTree = "<group>"; };
 		D13B673D33C01B8201281003 /* Pods-readings2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -236,6 +238,7 @@
 				5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */,
 				540BD7D91FECCC9900315366 /* AppDelegate.swift */,
 				540BD7DB1FECCC9A00315366 /* WritingsView.swift */,
+				54FB5BDA201715BB000C9112 /* PageController.swift */,
 				54860112200C4EC9004BFF08 /* NotesView.swift */,
 				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
 				540F0FAF201425BE007209B2 /* SearchView.swift */,
@@ -527,7 +530,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-readings2/Pods-readings2-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/Down/Down.framework",
-				"${BUILT_PRODUCTS_DIR}/Pages/Pages.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
@@ -535,7 +537,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pages.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -553,6 +554,7 @@
 			files = (
 				540BD7DC1FECCC9A00315366 /* WritingsView.swift in Sources */,
 				5499ADDC200B616C001E9E1B /* PageView.swift in Sources */,
+				54FB5BDB201715BB000C9112 /* PageController.swift in Sources */,
 				54860113200C4EC9004BFF08 /* NotesView.swift in Sources */,
 				54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */,
 				540F0FB0201425BE007209B2 /* SearchView.swift in Sources */,

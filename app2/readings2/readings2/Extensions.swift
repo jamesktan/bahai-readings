@@ -8,7 +8,6 @@
 
 import UIKit
 import Down
-import Pages
 
 struct Page {
   var contents : [String] = []
@@ -300,7 +299,6 @@ func launchReader(presentingView:UIViewController, path:String) {
     return
   }
   
-  var pageController : PagesControllerHidden? = nil
   var navigation : UINavigationController? = nil
   
   if let template = try? String(contentsOfFile:templatePath)
@@ -308,19 +306,20 @@ func launchReader(presentingView:UIViewController, path:String) {
     
     let result : (TableOfContents?, [Page]?) = createPages(pathToResource: path)
     let viewControllers = createViewsForPages(table: result.0!, pages: result.1!, template:template)
-    pageController = PagesControllerHidden(viewControllers)
     
-    Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
-      if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
-        pageController?.goTo(page)
-      }
-    })
-    
-    pageController?.enableSwipe = true
-    pageController?.showBottomLine = false
-    pageController?.showPageControl = false
-    
-    navigation = UINavigationController(rootViewController: pageController!)
+    let pController = PageController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+
+    pController.setup()
+    pController.storedViewController = viewControllers
+    var currentViewController : UIViewController? = nil
+    if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
+      currentViewController = (page - 1 > 0) ? viewControllers[page-1] : viewControllers[0]
+    } else {
+      currentViewController = viewControllers[0]
+    }
+
+    pController.setViewControllers([currentViewController!], direction: .forward, animated: true, completion: nil)
+    navigation = UINavigationController(rootViewController: pController)
     navigation?.navigationBar.isHidden = true
   }
   presentingView.present(navigation!, animated: true, completion: nil)
