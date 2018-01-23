@@ -16,9 +16,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   @IBOutlet weak var toolbar: UIToolbar!
   @IBOutlet weak var starButton: UIBarButtonItem!
   
-  var castedParent : PagesControllerHidden? {
+  var castedParent : PageController? {
     get {
-      return self.parent as? PagesControllerHidden
+      return self.parent as? PageController
     }
   }
   var tableOfContents : TableOfContents? = nil

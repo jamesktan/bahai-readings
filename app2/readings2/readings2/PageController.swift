@@ -14,6 +14,22 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
   func setup() {
     self.dataSource = self
   }
+  
+  var currentIndex : Int {
+    get {
+      if let presented = self.presentedViewController {
+        if let index = self.storedViewController.index(of: presented) {
+          return index.advanced(by: 0)
+        }
+      }
+      return 0
+    }
+  }
+  
+  func goTo(_ page:Int) {
+    
+  }
+  
   func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
     let index = self.storedViewController.index(of: viewController)
     let newIndex = index!.advanced(by: 1)

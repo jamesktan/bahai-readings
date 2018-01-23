@@ -30,7 +30,6 @@ class WritingCell : UITableViewCell {
 class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
   var navigation : UINavigationController!
-  var pageController : PagesController!
   @IBOutlet weak var writingTableView : UITableView!
   var sortOption : OrganizeWritingsState = OrganizeWritingsState.Author
 
