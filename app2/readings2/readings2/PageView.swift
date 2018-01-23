@@ -204,17 +204,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
 class TableOfContentsView : UITableViewController {
   
   var tableOfContents : TableOfContents!
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    self.navigationController?.setNavigationBarHidden(false, animated: true)
-  }
-  override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
-    self.navigationController?.setNavigationBarHidden(false, animated: true)
-  }
+
   override func viewWillDisappear(_ animated: Bool) {
-    self.navigationController?.setNavigationBarHidden(true, animated: true)
+    navigation!.setNavigationBarHidden(true, animated: true)
   }
   
   // MARK: TableViewDelegate Methods
@@ -253,6 +245,12 @@ class TableOfContentsView : UITableViewController {
   }
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
+    if indexPath.section == 1 {
+      if let root = self.navigationController?.viewControllers[0] as? PageController {
+        root.goTo(indexPath.row)
+      }
+      self.navigationController?.popViewController(animated: true)
+    }
   }
 
 }

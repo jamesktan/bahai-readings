@@ -27,14 +27,15 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
   }
   
   func goTo(_ page:Int) {
-    
+    let vc = self.storedViewController[page]
+    self.setViewControllers([vc], direction: .forward, animated: true, completion: nil)
   }
   
   func showTableOfContents(_ content:TableOfContents) {
     if let table = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TableOfContents") as? TableOfContentsView {
+      
       table.tableOfContents = content
-      self.navigationController?.pushViewController(table, animated: true )
-      self.navigationController?.setNavigationBarHidden(false, animated: true)
+      self.navigationController!.pushViewController(table, animated: true )
     }
   }
   
