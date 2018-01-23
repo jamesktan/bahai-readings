@@ -167,7 +167,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   @IBAction func closeReader() {
-    parent?.navigationController?.dismiss(animated: true, completion: nil)
+    parent?.dismiss(animated: true, completion: nil)
   }
   
   @IBAction func favoriteWriting () {
