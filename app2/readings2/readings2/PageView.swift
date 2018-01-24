@@ -25,7 +25,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   var indicator : UIActivityIndicatorView!
   var tapGesture : UITapGestureRecognizer!
   var isToolBarHidden : Bool = true
-
+  var passage : String? = nil
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Menu Button

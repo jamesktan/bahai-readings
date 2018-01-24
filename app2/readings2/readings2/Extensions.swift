@@ -289,12 +289,14 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
   return viewControllers
 }
 
-func launchReader(presentingView:UIViewController, path:String) {
+func launchReader(presentingView:UIViewController, path:String, page:Int?=nil, passage:String?=nil) {
+  
   let templateTheme = getReaderTheme()
   var name : String!
   if templateTheme == 0 { name = "ReaderTemplateLight" }
   if templateTheme == 1 { name = "ReaderTemplateDark" }
   if templateTheme == 2 { name = "ReaderTemplateSepia" }
+  
   guard let templatePath = Bundle.main.path(forResource: name, ofType: "html") else {
     return
   }
@@ -310,7 +312,11 @@ func launchReader(presentingView:UIViewController, path:String) {
     pController.setup()
     pController.storedViewController = viewControllers
     var currentViewController : UIViewController? = nil
-    if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
+    
+    if page != nil && passage != nil { // If a page is given and a passage exists
+      currentViewController = viewControllers[page!-1]
+      (currentViewController as? PageView)?.passage = passage
+    } else if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
       currentViewController = (page - 1 > 0) ? viewControllers[page-1] : viewControllers[0]
     } else {
       currentViewController = viewControllers[0]

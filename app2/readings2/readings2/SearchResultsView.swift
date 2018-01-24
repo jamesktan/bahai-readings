@@ -31,8 +31,9 @@ class SearchResultsView : UITableViewController {
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
+    findPageLaunchReader(row: indexPath.row)
   }
-    
+  
   override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 200.0
   }
@@ -45,5 +46,13 @@ class SearchResultsView : UITableViewController {
     let cell = tableView.dequeueReusableCell(withIdentifier: "SearchResultCell", for: indexPath) as! SearchResultCell
     cell.load(searchText: searchText, path: selectedFilePart.path, text: selectedFilePart.results[indexPath.row])
     return cell
+  }
+  
+  func findPageLaunchReader(row:Int) {
+    
+    let path = selectedFilePart.path
+    let passage = selectedFilePart.results[row]
+    
+    launchReader(presentingView: self, path: path)
   }
 }
