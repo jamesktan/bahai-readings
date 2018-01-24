@@ -22,12 +22,15 @@ class SearchResultsView : UITableViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.title = selectedFilePart.book
   }
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
   }
-  
+  override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 200.0
+  }
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return selectedFilePart.results.count
   }
