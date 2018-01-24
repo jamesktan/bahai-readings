@@ -7,9 +7,6 @@
 //
 
 import UIKit
-class SearchCell : UITableViewCell {
-  
-}
 
 class SearchView: UITableViewController, UISearchBarDelegate {
   
@@ -17,8 +14,8 @@ class SearchView: UITableViewController, UISearchBarDelegate {
   @IBOutlet weak var searchBar: UISearchBar!
   var paths : [String] = []
   var searchQueue : DispatchQueue = DispatchQueue(label: "SearchQueue")
-  var fileParts : [(book:String,author:String,filename:String,counts:Int, path:String)] = []
-  
+  var fileParts : [(book:String,author:String,filename:String,counts:Int, path:String,results:[String])] = []
+  var selectedFilePart : (book:String,author:String,filename:String,counts:Int,path:String,results:[String])? = nil
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -33,28 +30,21 @@ class SearchView: UITableViewController, UISearchBarDelegate {
   }
   
   func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//    if searchText != "" {
-//      launchSearchTask(searchText: searchText)
-//    } else {
-//      fileParts = []
-//      self.tableView.reloadData()
-//    }
     searchBar.showsCancelButton = true
   }
   
   func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-    
     if let searchText = searchBar.text, searchText != "" {
       launchSearchTask(searchText: searchText)
     }
     searchBar.resignFirstResponder()
     searchBar.showsCancelButton = false
-
   }
 
   
   func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
     searchBar.resignFirstResponder()
+    searchBar.text = ""
     searchBar.showsCancelButton = false
     fileParts = []
     self.tableView.reloadData()
@@ -68,8 +58,8 @@ class SearchView: UITableViewController, UISearchBarDelegate {
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
-    let path = fileParts[indexPath.row].path
-    launchReader(presentingView: self, path: path)
+    selectedFilePart = fileParts[indexPath.row]
+    self.performSegue(withIdentifier: "showResults", sender: self)
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -80,34 +70,52 @@ class SearchView: UITableViewController, UISearchBarDelegate {
     return cell
   }
   
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "showResults" {
+      
+      if let destination = segue.destination as? SearchResultsView {
+        destination.selectedFilePart = self.selectedFilePart
+        destination.searchText = searchBar.text!
+      }
+      
+    }
+  }
+  
+  // Hardcore Search Heavy Lifting Stuff...
   
   func launchSearchTask(searchText:String) {
     self.fileParts = []
     indicator.startAnimating()
-    
     searchQueue.async {
+      
       for path in self.paths {
+        print(path)
         if let contents = try? String(contentsOfFile: path) {
+          let arrayContents = contents.components(separatedBy: "\n")
+          var occuranceCount = 0
+          var results : [String] = []
+          for item in arrayContents {
+            if item.lowercased().range(of:searchText.lowercased()) != nil {
+              // String Exists!
+              // Count the Occurance
+              occuranceCount += 1
+              results.append(item)
+            }
+          }
           
-          // Find Occurences
-          let count = contents.countInstances(of: searchText)
-          let name = path.fileNameComponent.book
-          
-          // Append to the right container
-          if count > 0 {
+          // Map the Occuranges
+          if occuranceCount > 0 {
+            print("Count:\(occuranceCount)")
             let parts = path.fileNameComponent
-            let newTuple : (String, String, String, Int, String) = (parts.book, parts.author, parts.filename, count, path)
+            let newTuple : (String, String, String, Int, String, [String]) = (parts.book, parts.author, parts.filename, occuranceCount, path, results)
             self.fileParts.append(newTuple)
           }
-          print("name: \(name) count: \(count)")
         }
       }
       
       DispatchQueue.main.async {
-        
         // Sort the Counts
         self.fileParts = self.fileParts.sorted(by: { $0.counts > $1.counts })
-
         self.tableView.reloadData()
         self.indicator.stopAnimating()
       }

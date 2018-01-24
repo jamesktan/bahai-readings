@@ -95,6 +95,7 @@
 		54EA1EBE2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md in Resources */ = {isa = PBXBuildFile; fileRef = 54EA1EAF2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md */; };
 		54FB5BDB201715BB000C9112 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB5BDA201715BB000C9112 /* PageController.swift */; };
 		54FB5BDD20172E97000C9112 /* TableOfContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB5BDC20172E97000C9112 /* TableOfContentsView.swift */; };
+		54FB5BDF20185D0D000C9112 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB5BDE20185D0D000C9112 /* SearchResultsView.swift */; };
 		5E49BB86FD920F1632DDDB44 /* Pods_readings2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F403A7DCC477DD645B9E4 /* Pods_readings2.framework */; };
 /* End PBXBuildFile section */
 
@@ -190,6 +191,7 @@
 		54EA1EAF2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Tablets of the Divine Plan - ‘Abdu’l-Bahá.md"; sourceTree = "<group>"; };
 		54FB5BDA201715BB000C9112 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		54FB5BDC20172E97000C9112 /* TableOfContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfContentsView.swift; sourceTree = "<group>"; };
+		54FB5BDE20185D0D000C9112 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
 		C191B8BEFAD85AA2E0465E61 /* Pods-readings2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.release.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.release.xcconfig"; sourceTree = "<group>"; };
 		D13B673D33C01B8201281003 /* Pods-readings2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readings2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-readings2/Pods-readings2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,6 +248,7 @@
 				54860112200C4EC9004BFF08 /* NotesView.swift */,
 				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
 				540F0FAF201425BE007209B2 /* SearchView.swift */,
+				54FB5BDE20185D0D000C9112 /* SearchResultsView.swift */,
 				54DB98D42013DAC200272A21 /* Writings */,
 				547E92351FECD24700BEB909 /* ReaderTemplateLight.html */,
 				54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */,
@@ -560,6 +563,7 @@
 				54FB5BDD20172E97000C9112 /* TableOfContentsView.swift in Sources */,
 				54EA1E5A200C7F8E000FE090 /* SettingsView.swift in Sources */,
 				540F0FB0201425BE007209B2 /* SearchView.swift in Sources */,
+				54FB5BDF20185D0D000C9112 /* SearchResultsView.swift in Sources */,
 				540BD7DA1FECCC9900315366 /* AppDelegate.swift in Sources */,
 				5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */,
 				54DB98D62013DC5800272A21 /* Extensions.swift in Sources */,
