@@ -82,7 +82,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     
     // Continue Loading the Web Page
     
-    
+    if passage != nil {
+      contents = NSString(string:contents).replacingOccurrences(of: passage!, with: "<span id='match' style='background-color: rgba(229,133,61,0.3);'>\(passage!)</span")
+    }
     readView.loadHTMLString(contents, baseURL: nil )
     indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
     indicator.center = self.view.center
@@ -128,6 +130,19 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
     })
     
+    
+    if passage != nil {
+      Timer.scheduledTimer(withTimeInterval: 0.2, repeats: false, block: { (timer) in
+        print(self.passage!)
+        webView.evaluateJavaScript("window.scrollTo(0,$('span')[0].getBoundingClientRect().top)") { (result, error) in
+          if error != nil {
+            print(result ?? "")
+          }
+          print(error ?? "")
+        }
+      })
+    }
+
 //    if let progress = getWritingProgress(fileName: tableOfContents!.fileName) {
 //
 //      if castedParent?.currentIndex == progress.page {
