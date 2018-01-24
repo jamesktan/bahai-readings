@@ -267,9 +267,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fm1-vD-e33">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fm1-vD-e33">
                                                     <rect key="frame" x="314" y="11" width="45" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="45" id="t7P-4M-03a"/>
+                                                    </constraints>
                                                     <state key="normal" title="Delete">
                                                         <color key="titleColor" red="1" green="0.21193906770000001" blue="0.16006876589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </state>
@@ -277,15 +279,36 @@
                                                         <action selector="deleteAction:" destination="SqR-nD-ow6" eventType="touchUpInside" id="GHS-cA-lVs"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lw-4n-Z9v">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lw-4n-Z9v">
                                                     <rect key="frame" x="16" y="11" width="40" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="K2W-IM-gtB"/>
+                                                    </constraints>
                                                     <state key="normal" title="Edit"/>
                                                     <connections>
                                                         <action selector="editSaveAction:" destination="SqR-nD-ow6" eventType="touchUpInside" id="Iez-ZE-pmH"/>
                                                     </connections>
                                                 </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h31-3L-9rW">
+                                                    <rect key="frame" x="151" y="11" width="72" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="72" id="Jyp-Wo-rRt"/>
+                                                        <constraint firstAttribute="height" constant="30" id="Tge-Lg-xDt"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Share"/>
+                                                    <connections>
+                                                        <action selector="shareAction:" destination="SqR-nD-ow6" eventType="touchUpInside" id="bfI-oh-HUa"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fm1-vD-e33" firstAttribute="centerY" secondItem="r0N-sp-v0D" secondAttribute="centerY" id="1NW-w3-WfW"/>
+                                                <constraint firstItem="h31-3L-9rW" firstAttribute="centerY" secondItem="r0N-sp-v0D" secondAttribute="centerY" id="6QZ-30-s6f"/>
+                                                <constraint firstItem="3Lw-4n-Z9v" firstAttribute="centerY" secondItem="r0N-sp-v0D" secondAttribute="centerY" id="mgz-ri-dh9"/>
+                                                <constraint firstItem="h31-3L-9rW" firstAttribute="centerX" secondItem="r0N-sp-v0D" secondAttribute="centerX" id="oeU-yL-KSM"/>
+                                                <constraint firstAttribute="trailing" secondItem="fm1-vD-e33" secondAttribute="trailing" constant="16" id="szm-ui-H2g"/>
+                                                <constraint firstItem="3Lw-4n-Z9v" firstAttribute="leading" secondItem="r0N-sp-v0D" secondAttribute="leading" constant="16" id="yLx-3f-9jr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>

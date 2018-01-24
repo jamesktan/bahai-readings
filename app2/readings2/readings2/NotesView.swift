@@ -74,6 +74,12 @@ class NoteView : UITableViewController {
   
   var note : Note!
   
+  @IBAction func shareAction(_ sender: Any) {
+    let shareText = "Note: \"\(noteTextView.text ?? "")\"\n\nComment: \"\(commentTextView.text  ?? "")\"\n\nWriting: \(wiritngLabel.text!)\n\nAuthor:\(authorLabel.text!)"
+    let activity = UIActivityViewController(activityItems: [shareText], applicationActivities: nil)
+    self.present(activity, animated: true, completion: nil)
+  }
+  
   @IBAction func deleteAction(_ sender: Any) {
     let alert = UIAlertController(title: "Delete Note", message: "Are you sure you want to delete this note? You will not be able to undo this action.", preferredStyle: .alert)
     let action = UIAlertAction(title: "DELETE", style: .destructive) { (act) in
