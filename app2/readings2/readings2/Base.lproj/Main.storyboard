@@ -769,7 +769,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Urp-an-Z5m">
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urp-an-Z5m">
                                             <rect key="frame" x="16" y="11" width="343" height="178"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -778,10 +778,10 @@
                                         </textView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="trailing" secondItem="4ow-iA-bDJ" secondAttribute="trailingMargin" id="FTS-CS-jxA"/>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="leading" secondItem="4ow-iA-bDJ" secondAttribute="leadingMargin" id="Fr9-n4-nSy"/>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="bottom" secondItem="4ow-iA-bDJ" secondAttribute="bottomMargin" id="YOB-0k-B29"/>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="top" secondItem="4ow-iA-bDJ" secondAttribute="topMargin" id="wKv-jy-Hie"/>
+                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="bottom" secondItem="4ow-iA-bDJ" secondAttribute="bottomMargin" id="7FB-zZ-mcK"/>
+                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="trailing" secondItem="4ow-iA-bDJ" secondAttribute="trailingMargin" id="8jy-TC-KBz"/>
+                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="leading" secondItem="4ow-iA-bDJ" secondAttribute="leadingMargin" id="Vqb-Yq-xqd"/>
+                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="top" secondItem="4ow-iA-bDJ" secondAttribute="topMargin" id="kb8-f2-rhP"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

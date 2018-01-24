@@ -13,7 +13,10 @@ class SearchResultCell : UITableViewCell {
   
   func load(searchText:String, path:String, text:String) {
     self.textView.text = text
+//    textView.translatesAutoresizingMaskIntoConstraints = true
+//    textView.sizeToFit()
   }
+
 }
 
 class SearchResultsView : UITableViewController {
@@ -22,15 +25,18 @@ class SearchResultsView : UITableViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.title = selectedFilePart.book
+    self.title = "\(selectedFilePart.book) by \(selectedFilePart.author)"
   }
+  
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
   }
+    
   override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 200.0
   }
+
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return selectedFilePart.results.count
   }
