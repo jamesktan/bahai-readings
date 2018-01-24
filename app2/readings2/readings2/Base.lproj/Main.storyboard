@@ -762,30 +762,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchResultCell" rowHeight="200" id="k8e-ig-4R1" customClass="SearchResultCell" customModule="readings2" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="200"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchResultCell" rowHeight="150" id="k8e-ig-4R1" customClass="SearchResultCell" customModule="readings2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k8e-ig-4R1" id="4ow-iA-bDJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urp-an-Z5m">
-                                            <rect key="frame" x="16" y="11" width="343" height="178"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nB-8p-FF6">
+                                            <rect key="frame" x="16" y="11" width="343" height="128"/>
+                                            <string key="text">"Thirty goats:  goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat "]
+"Thirty goats:  goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat goat "]
+</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        </textView>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="bottom" secondItem="4ow-iA-bDJ" secondAttribute="bottomMargin" id="7FB-zZ-mcK"/>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="trailing" secondItem="4ow-iA-bDJ" secondAttribute="trailingMargin" id="8jy-TC-KBz"/>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="leading" secondItem="4ow-iA-bDJ" secondAttribute="leadingMargin" id="Vqb-Yq-xqd"/>
-                                        <constraint firstItem="Urp-an-Z5m" firstAttribute="top" secondItem="4ow-iA-bDJ" secondAttribute="topMargin" id="kb8-f2-rhP"/>
+                                        <constraint firstItem="3nB-8p-FF6" firstAttribute="top" secondItem="4ow-iA-bDJ" secondAttribute="topMargin" id="Bie-kf-8wa"/>
+                                        <constraint firstItem="3nB-8p-FF6" firstAttribute="bottom" secondItem="4ow-iA-bDJ" secondAttribute="bottomMargin" id="WVm-uY-Kra"/>
+                                        <constraint firstItem="3nB-8p-FF6" firstAttribute="leading" secondItem="4ow-iA-bDJ" secondAttribute="leadingMargin" id="Y6C-fi-xDv"/>
+                                        <constraint firstItem="3nB-8p-FF6" firstAttribute="trailing" secondItem="4ow-iA-bDJ" secondAttribute="trailingMargin" id="n9e-Pc-rzW"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="textView" destination="Urp-an-Z5m" id="mum-GT-Oqt"/>
+                                    <outlet property="textView" destination="3nB-8p-FF6" id="0Vj-Hd-rf6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

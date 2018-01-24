@@ -8,19 +8,12 @@
 
 import UIKit
 
-class SearchResultCell : UITableViewCell, UITextViewDelegate {
-  @IBOutlet weak var textView: UITextView!
+class SearchResultCell : UITableViewCell {
+  @IBOutlet weak var textView: UILabel!
   
   func load(searchText:String, path:String, text:String) {
     self.textView.text = text
-    self.textView.delegate = self
   }
-  
-  func textViewDidChange(_ textView: UITextView) {
-    textView.translatesAutoresizingMaskIntoConstraints = true
-    textView.sizeToFit()
-  }
-
 }
 
 class SearchResultsView : UITableViewController {
@@ -39,7 +32,7 @@ class SearchResultsView : UITableViewController {
   }
   
   override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    return 200.0
+    return 100.0
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

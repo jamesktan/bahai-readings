@@ -67,6 +67,7 @@ class SearchView: UITableViewController, UISearchBarDelegate {
     let part = fileParts[indexPath.row]
     cell.textLabel?.text = "\(part.book)"
     cell.detailTextLabel?.text = "Author: \(part.author) --- Occurences: \(part.counts)"
+    cell.accessoryType = .detailButton
     return cell
   }
   
