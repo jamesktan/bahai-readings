@@ -8,13 +8,17 @@
 
 import UIKit
 
-class SearchResultCell : UITableViewCell {
+class SearchResultCell : UITableViewCell, UITextViewDelegate {
   @IBOutlet weak var textView: UITextView!
   
   func load(searchText:String, path:String, text:String) {
     self.textView.text = text
-//    textView.translatesAutoresizingMaskIntoConstraints = true
-//    textView.sizeToFit()
+    self.textView.delegate = self
+  }
+  
+  func textViewDidChange(_ textView: UITextView) {
+    textView.translatesAutoresizingMaskIntoConstraints = true
+    textView.sizeToFit()
   }
 
 }
@@ -52,7 +56,20 @@ class SearchResultsView : UITableViewController {
     
     let path = selectedFilePart.path
     let passage = selectedFilePart.results[row]
+
+    // Search the Tree for the Right Page
+    var pageFound : Int? = nil
+    var pageCount : Int = 0
+    let pages = createPages(pathToResource: path)
+    while pageFound == nil {
+      let page = pages.1![pageCount]
+      if NSString(string:page.contentsConverted!).contains(passage) {
+        pageFound = pageCount
+      }
+      pageCount += 1
+    }
     
-    launchReader(presentingView: self, path: path)
+    
+    launchReader(presentingView: self, path: path, page: pageFound!+1, passage: passage)
   }
 }

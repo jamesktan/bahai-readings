@@ -98,8 +98,10 @@ class SearchView: UITableViewController, UISearchBarDelegate {
             if item.lowercased().range(of:searchText.lowercased()) != nil {
               // String Exists!
               // Count the Occurance
-              occuranceCount += 1
-              results.append(item)
+              if !item.contains("*") && !item.contains("#") {
+                occuranceCount += 1
+                results.append(item)
+              }
             }
           }
           
