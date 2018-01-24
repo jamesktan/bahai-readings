@@ -75,7 +75,7 @@ class NoteView : UITableViewController {
   var note : Note!
   
   @IBAction func shareAction(_ sender: Any) {
-    let shareText = "Note: \"\(noteTextView.text ?? "")\"\n\nComment: \"\(commentTextView.text  ?? "")\"\n\nWriting: \(wiritngLabel.text!)\n\nAuthor:\(authorLabel.text!)"
+    let shareText = "Text: \"\(noteTextView.text ?? "")\"\n\nComment: \(commentTextView.text  ?? "")\n\nWriting: \(wiritngLabel.text!)\n\nAuthor:\(authorLabel.text!)"
     let activity = UIActivityViewController(activityItems: [shareText], applicationActivities: nil)
     self.present(activity, animated: true, completion: nil)
   }
