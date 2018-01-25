@@ -35,6 +35,8 @@ Peace be upon him who followeth the Right Path!
 
 And further: The stages that mark the wayfarer’s journey from the abode of dust to the heavenly homeland are said to be seven. Some have called these Seven Valleys, and others, Seven Cities. And they say that until the wayfarer taketh leave of self, and traverseth these stages, he shall never reach to the ocean of nearness and union, nor drink of the peerless wine. The first is
 
+---
+
 ## The Valley of Search
 
 The steed of this Valley is patience; without patience the wayfarer on this journey will reach nowhere and attain no goal. Nor should he ever be downhearted; if he strive for a hundred thousand years and yet fail to behold the beauty of the Friend, he should not falter. For those who seek the Ka’bih[8](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_8) of “for Us” rejoice in the tidings: “In Our ways will We guide them.”[9](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_9) In their search, they have stoutly girded up the loins of service, and seek at every moment to journey from the plane of heedlessness into the realm of being. No bond shall hold them back, and no counsel shall deter them.
@@ -52,6 +54,8 @@ The true seeker hunteth naught but the object of his quest, and the lover hath n
 On this journey the traveler abideth in every land and dwelleth in every region. In every face, he seeketh the beauty of the Friend; in every country he looketh for the Beloved. He joineth every company, and seeketh fellowship with every soul, that haply in some mind he may uncover the secret of the Friend, or in some face he may behold the beauty of the Loved One.
 
 And if, by the help of God, he findeth on this journey a trace of the traceless Friend, and inhaleth the fragrance of the long-lost Joseph from the heavenly messenger,[13](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_13) he shall straightway step into
+
+---
 
 ## The Valley of Love
 
@@ -94,6 +98,8 @@ Kindle the fire of love and burn away all things,
 Then set thy foot into the land of the lovers.[19](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_19)
 
 And if, confirmed by the Creator, the lover escapes from the claws of the eagle of love, he will enter
+
+---
 
 ## The Valley of Knowledge
 
@@ -138,6 +144,8 @@ Attempt not flight.[30](http://www.gutenberg.org/files/16986/16986-h/16986-h.htm
 If thou be a man of communion and prayer, soar up on the wings of assistance from Holy Souls, that thou mayest behold the mysteries of the Friend and attain to the lights of the Beloved, “Verily, we are from God and to Him shall we return.”[31](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_31)
 
 After passing through the Valley of knowledge, which is the last plane of limitation, the wayfarer cometh to
+
+---
 
 ## The Valley of Unity
 
@@ -215,6 +223,8 @@ Peace be upon him who concludeth this exalted journey and followeth the True One
 
 And the wayfarer, after traversing the high planes of this supernal journey, entereth
 
+---
+
 ## The Valley of Contentment
 
 In this Valley he feeleth the winds of divine contentment blowing from the plane of the spirit. He burneth away the veils of want, and with inward and outward eye, perceiveth within and without all things the day of: “God will compensate each one out of His abundance.”[53](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_53) From sorrow he turneth to bliss, from anguish to joy. His grief and mourning yield to delight and rapture.
@@ -234,6 +244,8 @@ For my words could not reckon them and my speech would fall short.[55](http://ww
 O friend, till thou enter the garden of such mysteries, thou shalt never set lip to the undying wine of this Valley. And shouldst thou taste of it, thou wilt shield thine eyes from all things else, and drink of the wine of contentment; and thou wilt loose thyself from all things else, and bind thyself to Him, and throw thy life down in His path, and cast thy soul away. However, there is no other in this region that thou need forget: “There was God and there was naught beside Him.”[56](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_56) For on this plane the traveler witnesseth the beauty of the Friend in everything. Even in fire, he seeth the face of the Beloved. He beholdeth in illusion the secret of reality, and readeth from the attributes the riddle of the Essence. For he hath burnt away the veils with his sighing, and unwrapped the shroudings with a single glance; with piercing sight he gazeth on the new creation; with lucid heart he graspeth subtle verities. This is sufficiently attested by: “And we have made thy sight sharp in this day.”[57](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_57)
 
 After journeying through the planes of pure contentment, the traveler cometh to
+
+---
 
 ## The Valley of Wonderment
 
@@ -272,6 +284,8 @@ Then pray forgive me.[60](http://www.gutenberg.org/files/16986/16986-h/16986-h.h
 The pen groaneth and the ink sheddeth tears, and the river[61](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_61) of the heart moveth in waves of blood. “Nothing can befall us but what God hath destined for us.”[62](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_62) Peace be upon him who followeth the Right Path!
 
 After scaling the high summits of wonderment the wayfarer cometh to
+
+---
 
 ## The Valley of True Poverty and Absolute Nothingness
 
@@ -347,6 +361,8 @@ Peace be upon those who walk in the Right Path!
 
 # The Four Valleys
 
+---
+
 ## The Four Valleys
 
 He is the Strong, the Well-Beloved!
@@ -387,6 +403,8 @@ We hear that thou hast journeyed to Tabríz and Tiflis to disseminate knowledge,
 
 O My eminent friend! Those who progress in mystic wayfaring are of four kinds. I shall describe them in brief, that the grades and qualities of each kind may become plain to thee.
 
+---
+
 ## The First Valley
 
 If the travelers seek after the goal of the Intended One (maqsúd), this station appertaineth to the self—but that self which is “The Self of God standing within Him with laws.”[90](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_90)
@@ -417,6 +435,8 @@ Be nothing, then, and walk upon the waves.[97](http://www.gutenberg.org/files/16
 
 Likewise is it written, “And be ye not like those who forget God, and whom He hath therefore caused to forget their own selves. These are the wicked doers.”[98](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_98)
 
+---
+
 ## The Second Valley
 
 If the wayfarer’s goal be the dwelling of the Praiseworthy One (Maḥmúd),[99](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_99) this is the station of primal reason which is known as the Prophet and the Most Great Pillar.[100](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_100) Here reason signifieth the divine, universal mind, whose sovereignty enlighteneth all created things—nor doth it refer to every feeble brain; for it is as the wise Saná’í hath written:
@@ -440,6 +460,8 @@ This station conferreth the true standard of knowledge, and freeth man from test
 Wherefore, a man should make ready his heart that it be worthy of the descent of heavenly grace, and that the bounteous Cup-Bearer may give him to drink of the wine of bestowal from the merciful vessel. “For the like of this let the travailers travail!”[105](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_105)
 
 And now do I say, “Verily we are from God, and to Him shall we return.”[106](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_106)
+
+---
 
 ## The Third Valley
 
@@ -498,6 +520,8 @@ Grant that Thine ancient gift, this drop of wisdom,
 Merge with Thy mighty sea.[113](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_113)
 
 Thus do I say: There is no power or might save in God, the Protector, the Self-Subsistent.[114](http://www.gutenberg.org/files/16986/16986-h/16986-h.html#note_114)
+
+---
 
 ## The Fourth Valley
 
