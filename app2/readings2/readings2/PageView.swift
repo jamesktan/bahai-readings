@@ -83,7 +83,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     // Continue Loading the Web Page
     
     if passage != nil {
-      contents = NSString(string:contents).replacingOccurrences(of: passage!, with: "<span id='match' style='background-color: rgba(229,133,61,0.3);'>\(passage!)</span")
+      if contents.countInstances(of: "<span id = 'match'") == 0 {
+        contents = NSString(string:contents).replacingOccurrences(of: passage!, with: "<span id='match' style='background-color: rgba(229,133,61,0.3);'>\(passage!)</span")
+      }
     }
     readView.loadHTMLString(contents, baseURL: nil )
     indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
@@ -123,6 +125,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     return true
   }
 
+  var didEvaluateJS : Bool = false
+  
   func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
     indicator.stopAnimating()
     indicator.setAlpha(alpha: 0.0, duration: 0.3, completion: {
@@ -131,7 +135,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     })
     
     
-    if passage != nil {
+    if passage != nil && didEvaluateJS == false {
       Timer.scheduledTimer(withTimeInterval: 0.2, repeats: false, block: { (timer) in
         print(self.passage!)
         webView.evaluateJavaScript("window.scrollTo(0,$('span')[0].getBoundingClientRect().top)") { (result, error) in
@@ -139,6 +143,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
             print(result ?? "")
           }
           print(error ?? "")
+          DispatchQueue.main.async {
+            self.didEvaluateJS = true
+          }
         }
       })
     }
