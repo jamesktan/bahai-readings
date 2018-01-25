@@ -1099,6 +1099,8 @@ Praise be to God! The Sun of Reality has dawned, and its effulgences are shining
 
 # TALK ‘ABDU’L-BAHÁ DELIVERED IN PITTSBURGH
 
+---
+
 ## 7 May 1912
 Talk at Hotel Schenley
 Pittsburgh, Pennsylvania
@@ -3227,6 +3229,8 @@ In conclusion, I would say that I am greatly pleased with this meeting. I shall 
 ---
 
 # TALK ‘ABDU’L-BAHÁ DELIVERED IN CINCINNATI
+
+---
 
 ## 5 November 1912
 Talk at Grand Hotel
