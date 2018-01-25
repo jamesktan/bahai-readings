@@ -96,6 +96,8 @@ Haifa, 1967
 
 # SUMMONS TO THE KINGS AND RULERS OF THE WORLD COLLECTIVELY
 
+---
+
 ## “O KINGS of the earth! He Who is the sovereign...”
 
 O KINGS of the earth! He Who is the sovereign Lord of all is come. The Kingdom is God’s, the omnipotent Protector, the Self-Subsisting. Worship none but God, and, with radiant hearts, lift up your faces unto your Lord, the Lord of all names. This is a Revelation to which whatever ye possess can never be compared, could ye but know it. We see you rejoicing in that which ye have amassed for others, and shutting out yourselves from the worlds which naught except My Guarded Tablet can reckon. The treasures ye have laid up have drawn you far away from your ultimate objective. This ill beseemeth you, could ye but understand it. Wash your hearts from all earthly defilements, and hasten to enter the Kingdom of your Lord, the Creator of earth and heaven, Who caused the world to tremble, and all its peoples to wail, except them that have renounced all things and clung to that which the Hidden Tablet hath ordained....
@@ -109,6 +111,8 @@ By the righteousness of God! It is not Our wish to lay hands on your kingdoms. O
 How great is the blessedness that awaiteth the king who will arise to aid My Cause in My Kingdom, who will detach himself from all else but Me! Such a king is numbered with the companions of the Crimson Ark, the Ark which God hath prepared for the people of Bahá. All must glorify his name, must reverence his station, and aid him to unlock the cities with the keys of My Name, the omnipotent Protector of all that inhabit the visible and invisible kingdoms. Such a king is the very eye of mankind, the luminous ornament on the brow of creation, the fountainhead of blessings unto the whole world. Offer up, O people of Bahá, your substance, nay your very lives, for his assistance.
 
 We have asked nothing from you. For the sake of God We, verily, exhort you, and will be patient as We have been patient in that which hath befallen Us at your hands, O concourse of kings!
+
+---
 
 ## “O KINGS of the earth! Give ear unto the Voice of God,...”
 
@@ -128,6 +132,8 @@ God hath committed into your hands the reins of the government of the people, th
 
 The day is approaching when God will have exalted His Cause and magnified His testimony in the eyes of all who are in the heavens and all who are on the earth. Place, in all circumstances, Thy whole trust in Thy Lord, and fix Thy gaze upon Him, and turn away from all them that repudiate His truth. Let God, Thy Lord, be Thy sufficing Succourer and Helper. We have pledged Ourself to secure Thy triumph upon earth and to exalt Our Cause above all men, though no king be found who would turn his face towards Thee.
 
+---
+
 ## “O KINGS of the earth! We see you increasing every year...”
 
 O KINGS of the earth! We see you increasing every year your expenditures, and laying the burden thereof on your subjects. This, verily, is wholly and grossly unjust. Fear the sighs and tears of this Wronged One, and lay not excessive burdens on your peoples. Do not rob them to rear palaces for yourselves; nay rather choose for them that which ye choose for yourselves. Thus We unfold to your eyes that which profiteth you, if ye but perceive. Your people are your treasures. Beware lest your rule violate the commandments of God, and ye deliver your wards to the hands of the robber. By them ye rule, by their means ye subsist, by their aid ye conquer. Yet, how disdainfully ye look upon them! How strange, how very strange!
@@ -138,9 +144,13 @@ O Rulers of the earth! Be reconciled among yourselves, that ye may need no more 
 
 Be united, O Kings of the earth, for thereby will the tempest of discord be stilled amongst you, and your people find rest, if ye be of them that comprehend. Should any one among you take up arms against another, rise ye all against him, for this is naught but manifest justice.
 
+---
+
 ## “THE one true God, exalted be His glory, hath ever regarded,...”
 
 THE one true God, exalted be His glory, hath ever regarded, and will continue to regard, the hearts of men as His own, His exclusive possession. All else, whether pertaining to land or sea, whether riches or glory, He hath bequeathed unto the kings and rulers of the earth. From the beginning that hath no beginning the ensign proclaiming the words ‘He doeth whatsoever He willeth’ hath been unfurled in all its splendour before His Manifestation. What mankind needeth in this day is obedience unto them that are in authority, and a faithful adherence to the cord of wisdom. The instruments which are essential to the immediate protection, the security and assurance of the human race have been entrusted to the hands, and lie in the grasp, of the governors of human society. This is the wish of God and His decree.... We cherish the hope that one of the kings of the earth will, for the sake of God, arise for the triumph of this wronged, this oppressed people. Such a king will be eternally extolled and glorified. God hath prescribed unto this people the duty of aiding whosoever will aid them, of serving his best interests, and of demonstrating to him their abiding loyalty. They who follow Me must strive, under all circumstances, to promote the welfare of whosoever will arise for the triumph of My Cause, and must at all times prove their devotion and fidelity unto him. Happy is the man that hearkeneth and observeth My counsel. Woe unto him that faileth to fulfil My wish.
+
+---
 
 ## NAPOLEON III
 
@@ -168,6 +178,8 @@ Adorn the body of Thy kingdom with the raiment of My name, and arise, then, to t
 
 Regard ye the world as a man’s body, which is afflicted with divers ailments, and the recovery of which dependeth upon the harmonizing of all of its component elements. Gather ye around that which We have prescribed unto you, and walk not in the ways of such as create dissension. Meditate on the world and the state of its people. He, for Whose sake the world was called into being, hath been imprisoned in the most desolate of cities (Akká), by reason of that which the hands of the wayward have wrought. From the horizon of His prison-city He summoneth mankind unto the Dayspring of God, the Exalted, the Great. Exultest thou over the treasures thou dost possess, knowing they shall perish? Rejoicest thou in that thou rulest a span of earth, when the whole world, in the estimation of the people of Bahá, is worth as much as the black in the eye of a dead ant? Abandon it unto such as have set their affections upon it, and turn thou unto Him Who is the Desire of the world. Whither are gone the proud and their palaces? Gaze thou into their tombs, that thou mayest profit by this example, inasmuch as We made it a lesson unto every beholder. Were the breezes of Revelation to seize thee, thou wouldst flee the world, and turn unto the Kingdom, and wouldst expend all thou possessest, that thou mayest draw nigh unto this sublime Vision.
 
+---
+
 ## CZAR ALEXANDER II
 
 O CZAR of Russia! Incline thine ear unto the voice of God, the King, the Holy, and turn thou unto Paradise, the Spot wherein abideth He Who, among the Concourse on high, beareth the most excellent titles, and Who, in the kingdom of creation, is called by the name of God, the Effulgent, the All-Glorious. Beware lest thy desire deter thee from turning towards the face of thy Lord, the Compassionate, the Most Merciful. We, verily, have heard the thing for which thou didst supplicate thy Lord, whilst secretly communing with Him. Wherefore, the breeze of My loving-kindness wafted forth, and the sea of My mercy surged, and We answered thee in truth. Thy Lord, verily, is the All-Knowing, the All-Wise. Whilst I lay chained and fettered in the prison, one of thy ministers extended Me his aid. Wherefore hath God ordained for thee a station which the knowledge of none can comprehend except His knowledge. Beware lest thou barter away this sublime station... Beware lest thy sovereignty withhold thee from Him Who is the Supreme Sovereign. He, verily, is come with His Kingdom, and all the atoms cry aloud: ‘Lo! The Lord is come in His great majesty!’ He Who is the Father is come, and the Son (Jesus), in the holy vale, crieth out: ‘Here am I, here am I, O Lord, My God!’ whilst Sinai circleth round the House, and the Burning Bush calleth aloud: ‘The All-Bounteous is come mounted upon the clouds! Blessed is he that draweth nigh unto Him, and woe betide them that are far away.’
@@ -177,6 +189,8 @@ Arise thou amongst men in the name of this all-compelling Cause, and summon, the
 Again I say: Hearken unto My Voice that calleth from My prison that it may acquaint thee with the things that have befallen My Beauty, at the hands of them that are the manifestations of My glory, and that thou mayest perceive how great hath been My patience, notwithstanding My might, and how immense My forbearance, notwithstanding My power. By My Life! Couldst thou but know the things sent down by My Pen, and discover the treasures of My Cause, and the pearls of My mysteries which lie hid in the seas of My names and in the goblets of My words, thou wouldst, in thy love for My name, and in thy longing for My glorious and sublime Kingdom, lay down thy life in My path. Know thou that though My body be beneath the swords of My foes, and My limbs be beset with incalculable afflictions, yet My spirit is filled with a gladness with which all the joys of the earth can never compare.
 
 Set thine heart towards Him Who is the Point of adoration for the world, and say: O peoples of the earth! Have ye denied the One in Whose path He Who came with the truth, bearing the announcement of your Lord, the Exalted, the Great, suffered martyrdom? Say: This is an Announcement whereat the hearts of the Prophets and Messengers have rejoiced. This is the One Whom the heart of the world remembereth and is promised in the Books of God, the Mighty, the All-Wise. The hands of the Messengers were, in their desire to meet Me, upraised towards God, the Mighty, the Glorified.... Some lamented in their separation from Me, others endured hardships in My path, and still others laid down their lives for the sake of My Beauty, could ye but know it. Say: I, verily, have not sought to extol Mine Own Self, but rather God Himself were ye to judge fairly. Naught can be seen in Me except God and His Cause, could ye but perceive it. I am the One Whom the tongue of Isaiah hath extolled, the One with Whose name both the Torah and the Evangel were adorned.... Blessed be the king whose sovereignty hath withheld him not from his Sovereign, and who hath turned unto God with his heart. He, verily, is accounted of those that have attained unto that which God, the Mighty, the All-Wise hath willed. Ere long will such a one find himself numbered with the monarchs of the realms of the Kingdom. Thy Lord is, in truth, potent over all things. He giveth what He willeth to whomsoever He willeth, and withholdeth what He pleaseth from whomsoever He willeth. He, verily, is the All-Powerful, the Almighty.
+
+---
 
 ## QUEEN VICTORIA
 
@@ -188,13 +202,19 @@ We have also heard that thou hast entrusted the reins of counsel into the hands 
 
 Turn thou unto God and say: O my Sovereign Lord! I am but a vassal of Thine, and Thou art, in truth, the King of Kings. I have lifted my suppliant hands unto the heaven of Thy grace and Thy bounties. Send down, then, upon me from the clouds of Thy generosity that which will rid me of all save Thee, and draw me nigh unto Thyself. I beseech Thee, O my Lord, by Thy name, which Thou hast made the king of names, and the manifestation of Thyself to all who are in heaven and on earth, to rend asunder the veils that have intervened between me and my recognition of the Dawning-Place of Thy signs and the Day Spring of Thy Revelation. Thou art, verily, the Almighty, the All-Powerful, the All-Bounteous. Deprive me not, O my Lord, of the fragrances of the Robe of Thy mercy in Thy days, and write down for me that which Thou hast written down for thy handmaidens who have believed in Thee and in Thy signs, and have recognized Thee, and set their hearts towards the horizon of Thy Cause. Thou art truly the Lord of the worlds and of those who show mercy the Most Merciful. Assist me, then, O my God, to remember Thee amongst Thy handmaidens, and to aid Thy Cause in Thy lands. Accept, then, that which hath escaped me when the light of Thy countenance shone forth. Thou, indeed, hast power over all things. Glory be to Thee, O Thou in Whose hand is the kingdom of the heavens and of the earth.
 
+---
+
 ## KAISER WILHELM I
 
 O KING of Berlin! Give ear unto the Voice calling from this manifest Temple: Verily, there is none other God but Me, the Everlasting, the Peerless, the Ancient of Days. Take heed lest pride debar thee from recognizing the Dayspring of Divine Revelation, lest earthly desires shut thee out, as by a veil, from the Lord of the Throne above and of the earth below. Thus counselleth thee the Pen of the Most High. He, verily, is the Most Gracious, the All-Bountiful. Do thou remember the one whose power transcended thy power (Napoleon III), and whose station excelled thy station. Where is he? Whither are gone the things he possessed? Take warning, and be not of them that are fast asleep. He it was who cast the Tablet of God behind him, when We made known unto him what the hosts of tyranny had caused Us to suffer. Wherefore, disgrace assailed him from all sides, and he went down to dust in great loss. Think deeply, O King, concerning him, and concerning them who, like unto thee, have conquered cities and ruled over men. The All-Merciful brought them down from their palaces to their graves. Be warned, be of them who reflect... O banks of the Rhine! We have seen you covered with gore, inasmuch as the swords of retribution were drawn against you; and you shall have another turn. And We hear the lamentations of Berlin, though she be today in conspicuous glory.
 
+---
+
 ## EMPEROR FRANCIS JOSEPH
 
 O EMPEROR of Austria! He who is the Dayspring of God’s Light dwelt in the prison of Akká, at the time when thou didst set forth to visit the Aqsá Mosque (Jerusalem). Thou passed Him by, and inquired not about Him, by Whom every house is exalted, and every lofty gate unlocked. We, verily, made it (Jerusalem) a place whereunto the world should turn, that they might remember Me, and yet thou hast rejected Him Who is the Object of this remembrance, when He appeared with the Kingdom of God, thy Lord and the Lord of the worlds. We have been with thee at all times, and found thee clinging unto the Branch and heedless of the Root. Thy Lord, verily, is a witness unto what I say. We grieved to see thee circle round Our Name, whilst unaware of Us, though We were before thy face. Open thine eyes, that thou mayest behold this glorious Vision, and recognize Him Whom thou invokest in the daytime and in the night-season, and gaze on the Light that shineth above this luminous Horizon.
+
+---
 
 ## SULṬÁN ‘ABDU’L-‘AZÍZ
 
@@ -234,6 +254,8 @@ Have I, O King, ever disobeyed thee? Have I, at any time, transgressed any of th
 
 In the day-time and in the night season, at even and at morn, We pray to God on thy behalf, that He may graciously aid thee to be obedient unto Him and to observe His commandment, that He may shield thee from the hosts of the evil ones. Do, therefore, as it pleaseth thee, and treat Us as befitteth thy station and beseemeth thy sovereignty. Be not forgetful of the law of God in whatever thou desirest to achieve, now or in the days to come. Say: Praise be to God, the Lord of all worlds!
 
+---
+
 ## NÁṢIRI’D-DÍN SHÁH
 
 O KING! I was but a man like others, asleep upon My couch, when lo, the breezes of the All-Glorious were wafted over Me, and taught Me the knowledge of all that hath been. This thing is not from Me, but from One Who is Almighty and All-Knowing. And He bade Me lift up My voice between earth and heaven, and for this there befell Me what hath caused the tears of every man of understanding to flow. The learning current amongst men I studied not; their schools I entered not. Ask of the city wherein I dwelt, that thou mayest be well assured that I am not of them who speak falsely. This is but a leaf which the winds of the will of thy Lord, the Almighty, the All-Praised, have stirred. Can it be still when the tempestuous winds are blowing? Nay, by Him Who is the Lord of all Names and Attributes! They move it as they list. The evanescent is as nothing before Him Who is the Ever-Abiding. His all-compelling summons hath reached Me, and caused Me to speak His praise amidst all people. I was indeed as one dead when His behest was uttered. The hand of the will of thy Lord, the Compassionate, the Merciful, transformed Me. Can any one speak forth of his own accord that for which all men, both high and low, will protest against him? Nay, by Him Who taught the Pen the eternal mysteries, save him whom the grace of the Almighty, the All-Powerful, hath strengthened. The Pen of the Most High addresseth Me saying: Fear not. Relate unto His Majesty the Sháh that which befell thee. His heart, verily, is between the fingers of thy Lord, the God of Mercy, that haply the sun of justice and bounty may shine forth above the horizon of his heart. Thus hath the decree been irrevocably fixed by Him Who is the All-Wise.
@@ -248,9 +270,13 @@ O would that thou wouldst permit Me, O Sháh, to send unto thee that which would
 
 I have seen, O Sháh, in the path of God what eye hath not seen nor ear heard... How numerous the tribulations which have rained, and will soon rain, upon Me! I advance with My face set towards Him Who is the Almighty, the All-Bounteous, whilst behind Me glideth the serpent. Mine eyes have rained down tears until My bed is drenched. I sorrow not for Myself, however. By God! Mine head yearneth for the spear out of love for its Lord. I never passed a tree, but Mine heart addressed it saying: ‘O would that thou wert cut down in My name, and My body crucified upon thee, in the path of My Lord!’... By God! Though weariness lay Me low, and hunger consume Me, and the bare rock be My bed, and My fellows the beasts of the field, I will not complain, but will endure patiently as those endued with constancy and firmness have endured patiently, through the power of God, the Eternal King and Creator of the nations, and will render thanks unto God under all conditions. We pray that, out of His bounty—exalted be He—He may release, through this imprisonment, the necks of men from chains and fetters, and cause them to turn, with sincere faces, towards His Face, Who is the Mighty, the Bounteous. Ready is He to answer whosoever calleth upon Him, and nigh is He unto such as commune with Him.
 
+---
+
 ## THE RULERS OF AMERICA
 
 HEARKEN ye, O Rulers of America and the Presidents of the Republics therein, unto that which the Dove is warbling on the Branch of Eternity: There is none other God but Me, the Ever-Abiding, the Forgiving, the All-Bountiful. Adorn ye the temple of dominion with the ornament of justice and of the fear of God, and its head with the crown of the remembrance of your Lord, the Creator of the heavens. Thus counselleth you He Who is the Dayspring of Names, as bidden by Him Who is the All-Knowing, the All-Wise. The Promised One hath appeared in this glorified Station, whereat all beings, both seen and unseen, have rejoiced. Take ye advantage of the Day of God. Verily, to meet Him is better for you than all that whereon the sun shineth, could ye but know it. O concourse of rulers! Give ear unto that which hath been raised from the Dayspring of Grandeur: Verily, there is none other God but Me, the Lord of Utterance, the All-Knowing. Bind ye the broken with the hands of justice, and crush the oppressor who flourisheth with the rod of the commandments of your Lord, the Ordainer, the All-Wise.
+
+---
 
 ## THE ELECTED REPRESENTATIVES OF THE PEOPLES IN EVERY LAND
 
@@ -263,6 +289,8 @@ That which the Lord hath ordained as the sovereign remedy and mightiest instrume
 ---
 
 # SUMMONS TO THE WORLD’S RELIGIOUS LEADERS COLLECTIVELY
+
+---
 
 ## “O LEADERS of religion! Weigh not the Book of...”
 
@@ -278,17 +306,25 @@ Say: This, verily, is the heaven in which the Mother Book is treasured, could ye
 
 We have not entered any school, nor read any of your dissertations. Incline your ears to the words of this unlettered One, wherewith He summoneth you unto God, the Ever-Abiding. Better is this for you than all the treasures of the earth, could ye but comprehend it.
 
+---
+
 ## “O CONCOURSE of divines! When My verses were sent...”
 
 O CONCOURSE of divines! When My verses were sent down, and My clear tokens were revealed, We found you behind the veils. This, verily, is a strange thing.... We have rent the veils asunder. Beware lest ye shut out the people by yet another veil. Pluck asunder the chains of vain imaginings, in the name of the Lord of all men, and be not of the deceitful. Should ye turn unto God, and embrace His Cause, spread not disorder within it, and measure not the Book of God with your selfish desires. This, verily, is the counsel of God aforetime and hereafter.... Had ye believed in God, when He revealed Himself, the people would not have turned aside from Him, nor would the things ye witness today have befallen Us. Fear God, and be not of the heedless.... This is the Cause that hath caused all your superstitions and idols to tremble.... O concourse of divines! Beware lest ye be the cause of strife in the land, even as ye were the cause of the repudiation of the Faith in its early days. Gather the people around this Word that hath made the pebbles to cry out: ‘The Kingdom is God’s, the Dawning-Place of all signs!’... Tear the veils asunder in such wise that the inmates of the Kingdom will hear them being rent. This is the command of God, in days gone by, and for those to come. Blessed the man that observeth that whereunto he was bidden, and woe betide the negligent.
+
+---
 
 ## “HOW long will ye, O concourse of divines, level the...”
 
 HOW long will ye, O concourse of divines, level the spears of hatred at the face of Bahá? Rein in your pens. Lo, the Most Sublime Pen speaketh betwixt earth and heaven. Fear God, and follow not your desires which have altered the face of creation. Purify your ears that they may hearken unto the Voice of God. By God! It is even as fire that consumeth the veils, and as water that washeth the souls of all who are in the universe.
 
+---
+
 ## “O CONCOURSE of divines! Can any one of you race with...”
 
 O CONCOURSE of divines! Can any one of you race with the Divine Youth in the arena of wisdom and utterance, or soar with Him into the heaven of inner meaning and explanation? Nay, by My Lord, the God of mercy! All have swooned away in this Day from the Word of thy Lord. They are even as dead and lifeless, except him whom thy Lord, the Almighty, the Unconstrained, hath willed to exempt. Such a one is indeed of those endued with knowledge in the sight of Him Who is the All-Knowing. The inmates of Paradise, and the dwellers of the sacred Folds, bless him at eventide and at dawn. Can the one possessed of wooden legs resist him whose feet God hath made of steel? Nay, by Him Who illumineth the whole of creation!
+
+---
 
 ## “WHEN We observed carefully, We discovered that Our...”
 
@@ -296,31 +332,45 @@ WHEN We observed carefully, We discovered that Our enemies are, for the most par
 
 O concourse of divines! Fling away idle fancies and imaginings, and turn, then, towards the Horizon of Certitude. I swear by God! All that ye possess will profit you not, neither all the treasures of the earth, nor the leadership ye have usurped. Fear God, and be not of the lost ones... Say: O concourse of divines! Lay aside all your veils and coverings. Give ear unto that whereunto calleth you the Most Sublime Pen, in this wondrous Day.... The world is laden with dust, by reason of your vain imaginings, and the hearts of such as enjoy near access to God are troubled because of your cruelty. Fear God, and be of them that judge equitably.
 
+---
+
 ## “O YE the dawning-places of knowledge! Beware that ye...”
 
 O YE the dawning-places of knowledge! Beware that ye suffer not yourselves to become changed, for as ye change, most men will, likewise, change. This, verily, is an injustice unto yourselves and unto others.... Ye are even as a spring. If it be changed, so will the streams that branch out from it be changed. Fear God, and be numbered with the godly. In like manner, if the heart of man be corrupted, his limbs will also be corrupted. And similarly, if the root of a tree be corrupted, its branches, and its offshoots, and its leaves, and its fruits, will be corrupted....
 
 O concourse of divines! Be fair, I adjure you by God, and nullify not the Truth with the things ye possess. Peruse that which We have sent down with truth. It will, verily, aid you, and will draw you nigh unto God, the Mighty, the Great. Consider and call to mind how when Muḥammad, the Apostle of God, appeared, the people denied Him. They ascribed unto Him what caused the Spirit (Jesus) to lament in His Most Sublime Station, and the Faithful Spirit to cry out. Consider, moreover, the things which befell the Apostles and Messengers of God before Him, by reason of what the hands of the unjust have wrought. We make mention of you for the sake of God, and remind you of His signs, and announce unto you the things ordained for such as are nigh unto Him in the most sublime Paradise and the all-highest Heaven, and I, verily, am the Announcer, the Omniscient. He hath come for your salvation, and hath borne tribulations that ye may ascend, by the ladder of utterance, unto the summit of understanding.... Peruse, with fairness and justice, that which hath been sent down. It will, verily, exalt you through the truth, and will cause you to behold the things from which ye have been withheld, and will enable you to quaff His sparkling Wine.
 
+---
+
 ## “THOSE divines ... who are truly adorned with the ornament...”
 
 THOSE divines ... who are truly adorned with the ornament of knowledge and of a goodly character are, verily, as a head to the body of the world, and as eyes to the nations. The guidance of men hath, at all times, been and is dependent upon these blessed souls.
+
+---
 
 ## “THE divine whose conduct is upright, and the sage who...”
 
 THE divine whose conduct is upright, and the sage who is just, are as the spirit unto the body of the world. Well is it with that divine whose head is attired with the crown of justice, and whose temple is adorned with the ornament of equity.
 
+---
+
 ## “THE divine who hath seized and quaffed the most holy...”
 
 THE divine who hath seized and quaffed the most holy Wine, in the name of the sovereign Ordainer, is as an eye unto the world. Well is it with them who obey him, and call him to remembrance.
+
+---
 
 ## “GREAT is the blessedness of that divine that hath not...”
 
 GREAT is the blessedness of that divine that hath not allowed knowledge to become a veil between him and the One Who is the Object of all knowledge, and who, when the Self-Subsisting appeared, hath turned with a beaming face towards Him. He, in truth, is numbered with the learned. The inmates of Paradise seek the blessing of his breath, and his lamp sheddeth its radiance over all who are in heaven and on earth. He, verily, is numbered with the inheritors of the Prophets. He that beholdeth him hath, verily, beheld the True One, and he that turneth towards him hath, verily, turned towards God, the Almighty, the All-Wise.
 
+---
+
 ## “O CONCOURSE of divines! Ye shall not henceforth behold...”
 
 O CONCOURSE of divines! Ye shall not henceforth behold yourselves possessed of any power, inasmuch as We have seized it from you, and destined it for such as have believed in God, the One, the All-Powerful, the Almighty, the Unconstrained.
+
+---
 
 ## POPE PIUS IX
 
@@ -336,73 +386,109 @@ O Supreme Pontiff! Incline thine ear unto that which the Fashioner of mouldering
 
 # THE CLERGY AND PEOPLE OF VARIOUS FAITHS
 
+---
+
 ## “At one time We address the people of the Torah and summon...”
 
 At one time We address the people of the Torah and summon them unto Him Who is the Revealer of verses, Who hath come from Him Who layeth low the necks of men.... At another, We address the people of the Evangel and say: ‘The All-Glorious is come in this Name whereby the Breeze of God hath wafted over all regions.’... At still another, We address the people of the Qur’án saying: ‘Fear the All-Merciful, and cavil not at Him through Whom all religions were founded.’... Know thou, moreover, that We have addressed to the Magians Our Tablets, and adorned them with Our Law.... We have revealed in them the essence of all the hints and allusions contained in their Books. The Lord, verily, is the Almighty, the All-Knowing.
+
+---
 
 ## “CALL out to Zion, O Carmel, and announce the...”
 
 CALL out to Zion, O Carmel, and announce the joyful tidings: He that was hidden from mortal eyes is come! His all-conquering sovereignty is manifest; His all-encompassing splendour is revealed. Beware lest thou hesitate or halt. Hasten forth and circumambulate the City of God that hath descended from heaven, the celestial Kaaba round which have circled in adoration the favoured of God, the pure in heart, and the company of the most exalted angels. O how I long to announce unto every spot on the surface of the earth, and to carry to each one of its cities, the glad-tidings of this Revelation—a Revelation to which the heart of Sinai hath been attracted, and in whose name the Burning Bush is calling: ‘Unto God, the Lord of Lords, belong the kingdoms of earth and heaven.’ Verily this is the Day in which both land and sea rejoice at this announcement, the Day for which have been laid up those things which God, through a bounty beyond the ken of mortal mind or heart, hath destined for revelation. Ere long will God sail His Ark upon thee, and will manifest the people of Bahá who have been mentioned in the Book of Names.
 
+---
+
 ## “THE Most Great Law is come, and the Ancient Beauty...”
 
 THE Most Great Law is come, and the Ancient Beauty ruleth upon the throne of David. Thus hath My Pen spoken that which the histories of bygone ages have related. At this time, however, David crieth aloud and saith: ‘O my loving Lord! Do Thou number me with such as have stood steadfast in Thy Cause, O Thou through Whom the faces have been illumined, and the footsteps have slipped!’
+
+---
 
 ## “THE Breath hath been wafted, and the Breeze hath...”
 
 THE Breath hath been wafted, and the Breeze hath blown, and from Zion hath appeared that which was hidden, and from Jerusalem is heard the Voice of God, the One, the Incomparable, the Omniscient.
 
+---
+
 ## “LEND an ear unto the song of David. He saith: ‘Who will...”
 
 LEND an ear unto the song of David. He saith: ‘Who will bring me into the Strong City?’ The Strong City is Akká, which hath been named the Most Great Prison, and which possesseth a fortress and mighty ramparts... Peruse that which Isaiah hath spoken in His Book. He saith: ‘Get thee up into the high mountain, O Zion, that bringest good tidings; lift up thy voice with strength, O Jerusalem, that bringest good tidings. Lift it up, be not afraid; say unto the cities of Judah: “Behold your God! Behold the Lord God will come with strong hand, and His arm shall rule for Him.”’ This Day all the signs have appeared. A great City hath descended from heaven, and Zion trembleth and exulteth with joy at the Revelation of God, for it hath heard the Voice of God on every side.
+
+---
 
 ## “O CONCOURSE of Christians! We have, on a previous...”
 
 O CONCOURSE of Christians! We have, on a previous occasion, revealed Ourself unto you, and ye recognized Me not. This is yet another occasion vouchsafed unto you. This is the Day of God; turn ye unto Him... The Beloved One loveth not that ye be consumed with the fire of your desires. Were ye to be shut out as by a veil from Him, this would be for no other reason than your own waywardness and ignorance. Ye make mention of Me, and know Me not. Ye call upon Me, and are heedless of My Revelation.... O people of the Gospel! They who were not in the Kingdom have now entered it, whilst We behold you, in this day, tarrying at the gate. Rend the veils asunder by the power of your Lord, the Almighty, the All-Bounteous, and enter, then, in My name My Kingdom. Thus biddeth you He Who desireth for you everlasting life... We behold you, O children of the Kingdom, in darkness. This, verily, beseemeth you not. Are ye, in the face of the Light, fearful because of your deeds? Direct yourselves towards Him... Verily, He (Jesus) said: ‘Come ye after Me, and I will make you to become fishers of men.’ In this day, however, We say: ‘Come ye after Me, that We may make you to become quickeners of mankind.’
 
+---
+
 ## “WE, verily, have come for your sakes, and have borne...”
 
 WE, verily, have come for your sakes, and have borne the misfortunes of the world for your salvation. Flee ye the One Who hath sacrificed His life that ye may be quickened? Fear God, O followers of the Spirit (Jesus), and walk not in the footsteps of every divine that hath gone far astray... Open the doors of your hearts. He Who is the Spirit (Jesus) verily, standeth before them. Wherefore keep ye afar from Him Who hath purposed to draw you nigh unto a Resplendent Spot? Say: We, in truth, have opened unto you the gates of the Kingdom. Will ye bar the doors of your houses in My face? This indeed is naught but a grievous error.
+
+---
 
 ## “O CONCOURSE of patriarchs! He Whom ye were promised...”
 
 O CONCOURSE of patriarchs! He Whom ye were promised in the Tablets is come. Fear God, and follow not the vain imaginings of the superstitious. Lay aside the things ye possess, and take fast hold of the Tablet of God by His sovereign power. Better is this for you than all your possessions. Unto this testifieth every understanding heart, and every man of insight. Pride ye yourselves on My Name and yet shut yourselves out as by a veil from Me? This indeed is a strange thing!
 
+---
+
 ## “O CONCOURSE of archbishops! He Who is the Lord of...”
 
 O CONCOURSE of archbishops! He Who is the Lord of all men hath appeared. In the plain of guidance He calleth mankind, whilst ye are numbered with the dead! Great is the blessedness of him who is stirred by the Breeze of God, and hath arisen from amongst the dead in this perspicuous Name.
+
+---
 
 ## “O CONCOURSE of bishops! Trembling hath seized all the...”
 
 O CONCOURSE of bishops! Trembling hath seized all the kindreds of the earth, and He Who is the Everlasting Father calleth aloud between earth and heaven. Blessed the ear that hath heard, and the eye that hath seen, and the heart that hath turned unto Him Who is the Point of Adoration of all who are in the heavens and all who are on earth....
 
+---
+
 ## “O CONCOURSE of bishops! Ye are the stars of the heaven...”
 
 O CONCOURSE of bishops! Ye are the stars of the heaven of My knowledge. My mercy desireth not that ye should fall upon the earth. My justice, however, declareth: ‘This is that which the Son (Jesus) hath decreed.’ And whatsoever hath proceeded out of His blameless, His truth-speaking, trustworthy mouth, can never be altered. The bells, verily, peal out My Name, and lament over Me, but My spirit rejoiceth with evident gladness. The body of the Loved One yearneth for the cross, and His head is eager for the spear, in the path of the All-Merciful. The ascendancy of the oppressor can in no wise deter Him from His purpose... The stars of the heaven of knowledge have fallen, they that adduce the proofs they possess in order to demonstrate the truth of My Cause, and who make mention of God in My name. When I came unto them, in My majesty, however, they turned aside from Me. They, verily, are of the fallen. This is what the Spirit (Jesus) prophesied when He came with the truth, and the Jewish doctors cavilled at Him, until they committed what made the Holy Spirit to lament, and the eyes of such as enjoy near access to God to weep.
+
+---
 
 ## “O CONCOURSE of priests! Leave the bells, and come...”
 
 O CONCOURSE of priests! Leave the bells, and come forth, then, from your churches. It behoveth you, in this day, to proclaim aloud the Most Great Name among the nations. Prefer ye to be silent, whilst every stone and every tree shouteth aloud: ‘The Lord is come in His great glory!’ ...He that summoneth men in My name is, verily, of Me, and he will show forth that which is beyond the power of all that are on earth... Let the Breeze of God awaken you. Verily, it hath wafted over the world. Well is it with him that hath discovered the fragrance thereof and been accounted among the well-assured....
 
+---
+
 ## “O CONCOURSE of priests! The Day of Reckoning hath...”
 
 O CONCOURSE of priests! The Day of Reckoning hath appeared, the Day whereon He Who was in heaven hath come. He, verily, is the One Whom ye were promised in the Books of God, the Holy, the Almighty, the All-Praised. How long will ye wander in the wilderness of heedlessness and superstition? Turn with your hearts in the direction of your Lord, the Forgiving, the Generous.
+
+---
 
 ## “O CONCOURSE of monks! Seclude not yourselves in...”
 
 O CONCOURSE of monks! Seclude not yourselves in churches and cloisters. Come forth by My leave, and occupy yourselves with that which will profit your souls and the souls of men. Thus biddeth you the King of the Day of Reckoning. Seclude yourselves in the stronghold of My love. This, verily, is a befitting seclusion, were ye of them that perceive it. He that shutteth himself up in a house is indeed as one dead. It behoveth man to show forth that which will profit all created things, and he that bringeth forth no fruit is fit for fire. Thus counselleth you your Lord, and He, verily, is the Almighty, the All-Bounteous. Enter ye into wedlock, that after you someone may fill your place. We have forbidden you perfidious acts, and not that which will demonstrate fidelity. Have ye clung to the standards fixed by your own selves, and cast the standards of God behind your backs? Fear God, and be not of the foolish. But for man, who would make mention of Me on My earth, and how could My attributes and My name have been revealed? Ponder ye, and be not of them that are veiled and fast asleep. He that wedded not (Jesus) found no place wherein to dwell or lay His head, by reason of that which the hands of the treacherous had wrought. His sanctity consisteth not in that which ye believe or fancy, but rather in the things We possess. Ask, that ye may apprehend His station which hath been exalted above the imaginings of all that dwell on earth. Blessed are they who perceive it.
 
+---
+
 ## “O CONCOURSE of monks! If ye choose to follow Me, I...”
 
 O CONCOURSE of monks! If ye choose to follow Me, I will make you heirs of My Kingdom; and if ye transgress against Me, I will, in My long-suffering, endure it patiently, and I, verily, am the Ever-Forgiving, the All-Merciful... Bethlehem is astir with the Breeze of God. We hear her voice saying: ‘O most generous Lord! Where is Thy great glory established? The sweet savours of Thy presence have quickened me, after I had melted in my separation from Thee. Praised be Thou in that Thou hast raised the veils, and come with power in evident glory.’ We called unto her from behind the Tabernacle of Majesty and Grandeur: ‘O Bethlehem! This Light hath risen in the orient, and travelled towards the occident, until it reached thee in the evening of its life. Tell Me then: Do the sons recognize the Father, and acknowledge Him, or do they deny Him, even as the people aforetime denied Him (Jesus)?’ Whereupon she cried out saying: ‘Thou art, in truth, the All-Knowing, the Best-Informed.’
+
+---
 
 ## “CONSIDER, likewise, how numerous at this time are the...”
 
 CONSIDER, likewise, how numerous at this time are the monks who have secluded themselves in their churches, in My name, and who, when the appointed time came, and We unveiled to them Our beauty, failed to recognize Me, notwithstanding that they call upon Me at dawn and at eventide.
 
+---
+
 ## “READ ye the Evangel and yet refuse to acknowledge the...”
 
 READ ye the Evangel and yet refuse to acknowledge the All-Glorious Lord? This indeed beseemeth you not, O concourse of learned men!... The fragrances of the All-Merciful have wafted over all creation. Happy the man that hath forsaken his desires, and taken fast hold of guidance.
+
+---
 
 ## “PERUSED ye not the Qur’án? Read it, that haply ye may...”
 
@@ -414,6 +500,8 @@ This is the Day whereon the All-Merciful hath come down in the clouds of knowled
 
 Is there any doubt concerning God? Behold how He hath come down from the heaven of His grace, girded with power and invested with sovereignty. Is there any doubt concerning His signs? Open ye your eyes, and consider His clear evidence. Paradise is on your right hand, and hath been brought nigh unto you, while Hell hath been made to blaze. Witness its devouring flame. Haste ye to enter into Paradise, as a token of Our mercy unto you, and drink ye from the hands of the All-Merciful the Wine that is life indeed.
 
+---
+
 ## “BY Him Who is the Great Announcement! The All-Merciful...”
 
 BY Him Who is the Great Announcement! The All-Merciful is come invested with undoubted sovereignty. The Balance hath been appointed, and all them that dwell on earth have been gathered together. The Trumpet hath been blown, and lo, all eyes have stared up with terror, and the hearts of all who are in the heavens and on the earth have trembled, except them whom the breath of the verses of God hath quickened, and who have detached themselves from all things.
@@ -424,41 +512,61 @@ The earth hath been shaken, and the mountains have passed away, and the angels h
 
 Say: The heavens have been folded together, and the earth is held within His grasp, and the corrupt doers have been held by their forelock, and still they understand not. They drink of the tainted water, and know it not. Say: The shout hath been raised, and the people have come forth from their graves, and arising are gazing around them. Some have made haste to attain the court of the God of Mercy, others have fallen down on their faces in the fire of Hell, while still others are lost in bewilderment. The verses of God have been revealed, and yet they have turned away from them. His proof hath been manifested and yet they are unaware of it. And when they behold the face of the All-Merciful, their own faces are saddened, while they are disporting themselves. They hasten forward to Hell Fire, and mistake it for light. Far from God be what they fondly imagine! Say: Whether ye rejoice or whether ye burst for fury, the heavens are cleft asunder, and God hath come down, invested with radiant sovereignty. All created things are heard exclaiming: ‘The Kingdom is God’s, the Almighty, the All-Knowing, the All-Wise.’
 
+---
+
 ## “O CONCOURSE of Persian divines! In My name ye have...”
 
 O CONCOURSE of Persian divines! In My name ye have seized the reins of men, and occupy the seats of honour by reason of your relation to Me. When I revealed Myself, however, ye turned aside, and committed what hath caused the tears of such as have recognized Me to flow. Erelong will all that ye possess perish, and your glory be turned into the most wretched abasement, and ye shall behold the punishment for what ye have wrought, as decreed by God, the Ordainer, the All-Wise.
+
+---
 
 ## “O YE divines of the City! We came to you with the...”
 
 O YE divines of the City! We came to you with the truth, whilst ye were heedless of it. Methinks ye are as dead, wrapt in the coverings of your own selves. Ye sought not Our presence, when so to do would have been better for you than all your doings.... Know ye, that had your leaders, to whom ye owe allegiance, and on whom ye pride yourselves, and whom ye mention by day and by night, and from whose traces ye seek guidance—had they lived in these days, they would have circled around Me, and would not have separated themselves from Me, whether at eventide or at morn. Ye, however, did not turn your faces towards My face, for even less than a moment, and waxed proud, and were careless of this Wronged One, Who hath been so afflicted by men that they dealt with Him as they pleased. Ye failed to inquire about My condition, nor did ye inform yourselves of the things which befell Me. Thereby have ye withheld from yourselves the winds of holiness, and the breezes of bounty, that blow from this luminous and perspicuous Spot. Methinks ye have clung to outward things, and forgotten the inner things, and say that which ye do not. Ye are lovers of names, and appear to have given yourselves up to them. For this reason make ye mention of the names of your leaders. And should any one like them, or superior unto them, come unto you, ye would flee him. Through their names ye have exalted yourselves, and have secured your positions, and live and prosper. And were your leaders to reappear, ye would not renounce your leadership, nor would ye turn in their direction, nor set your faces towards them. We found you, as We found most men, worshipping names which they mention during the days of their life, and with which they occupy themselves. No sooner do the Bearers of these names appear, however, than they repudiate them, and turn upon their heels.... Know ye that God will not, in this day, accept your thoughts, nor your remembrance of Him, nor your turning towards Him, nor your devotions, nor your vigilance, unless ye be made new in the estimation of this Servant, could ye but perceive it.
 
+---
+
 ## “BECAUSE of you the Apostle (Muḥammad) lamented,...”
 
 BECAUSE of you the Apostle (Muḥammad) lamented, and the Chaste One (Fátimihs) cried out, and the countries were laid waste, and darkness fell upon all regions. O concourse of divines! Because of you the people were abased, and the banner of Islám was hauled down, and its mighty throne subverted. Every time a man of discernment hath sought to hold fast unto that which would exalt Islám, you raised a clamour, and thereby was He deterred from achieving His purpose, while the land remained fallen in clear ruin.
+
+---
 
 ## “OF all the peoples of the world, they that have suffered...”
 
 OF all the peoples of the world, they that have suffered the greatest loss have been, and are still, the people of Persia. I swear by the Day Star of Utterance which shineth upon the world in its meridian glory! The lamentations of the pulpits, in that country, are being raised continually. In the early days such lamentations were heard in the Land of Tá (Ṭihrán), for pulpits, erected for the purpose of remembering the True One—exalted be His glory—have now, in Persia, become places wherefrom blasphemies are uttered against Him Who is the Desire of the worlds.
 
+---
+
 ## “IN this day the world is redolent with the fragrances of the...”
 
 IN this day the world is redolent with the fragrances of the robe of the Revelation of the Ancient King ... and yet, they (divines) have gathered together, and established themselves upon their seats, and have spoken that which would put an animal to shame, how much more man himself! Were they to become aware of one of their acts, and perceive the mischief it hath wrought, they would, with their own hands, dispatch themselves to their final abode.
+
+---
 
 ## “O CONCOURSE of divines!... Lay aside that which ye...”
 
 O CONCOURSE of divines!... Lay aside that which ye possess, and hold your peace, and give ear, then, unto that which the Tongue of Grandeur and Majesty speaketh. How many the veiled handmaidens who turned unto Me, and believed, and how numerous the wearers of the turban who were debarred from Me, and followed in the footsteps of bygone generations!
 
+---
+
 ## “O HIGH priests! Ears have been given you that they may...”
 
 O HIGH priests! Ears have been given you that they may hearken unto the mystery of Him Who is the Self-Dependent, and eyes that they may behold Him. Wherefore flee ye? The Incomparable Friend is manifest. He speaketh that wherein lieth salvation. Were ye, O high priests, to discover the perfume of the rose-garden of understanding, ye would seek none other but Him, and would recognize, in His new vesture, the All-Wise and Peerless One, and would turn your eyes from the world and all who seek it, and would arise to help Him.
+
+---
 
 ## “WHATSOEVER hath been announced in the Books hath...”
 
 WHATSOEVER hath been announced in the Books hath been revealed and made clear. From every direction the signs have been manifested. The Omnipotent One is calling, in this Day, and announcing the appearance of the Supreme Heaven.
 
+---
+
 ## “THIS is not the day whereon the high priests can command...”
 
 THIS is not the day whereon the high priests can command and exercise their authority. In your Book it is stated that the high priests will, on that Day, lead men far astray, and will prevent them from drawing nigh unto Him. He indeed is a high priest who hath seen the light and hastened unto the way leading to the Beloved.
+
+---
 
 ## “O HIGH priests! The Hand of Omnipotence is stretched...”
 
@@ -468,9 +576,13 @@ O HIGH priests! The Hand of Omnipotence is stretched forth from behind the cloud
 
 # THE GREAT ANNOUNCEMENT TO MANKIND
 
+---
+
 ## “THE time fore-ordained unto the peoples and...”
 
 THE time fore-ordained unto the peoples and kindreds of the earth is now come. The promises of God, as recorded in the holy Scriptures, have all been fulfilled. Out of Zion hath gone forth the Law of God, and Jerusalem, and the hills and land thereof, are filled with the glory of His Revelation. Happy is the man that pondereth in his heart that which hath been revealed in the Books of God, the Help in Peril, the Self-Subsisting. Meditate upon this, O ye beloved of God, and let your ears be attentive unto His Word, so that ye may, by His grace and mercy, drink your fill from the crystal waters of constancy, and become as steadfast and immovable as the mountain in His Cause.
+
+---
 
 ## “VERILY I say, this is the Day in which mankind can behold...”
 
@@ -480,17 +592,25 @@ Great indeed is this Day! The allusions made to it in all the sacred Scriptures 
 
 O thou that hast remembered Me! The most grievous veil hath shut out the peoples of the earth from His glory, and hindered them from hearkening to His call. God grant that the light of unity may envelop the whole earth, and that the seal, ‘the Kingdom is God’s’, may be stamped upon the brow of all its peoples.
 
+---
+
 ## “O YE children of men! The fundamental purpose animating...”
 
 O YE children of men! The fundamental purpose animating the Faith of God and His Religion is to safeguard the interests and promote the unity of the human race, and to foster the spirit of love and fellowship amongst men. Suffer it not to become a source of dissension and discord, of hate and enmity. This is the straight Path, the fixed and immovable foundation. Whatsoever is raised on this foundation, the changes and chances of the world can never impair its strength, nor will the revolution of countless centuries undermine its structure. Our hope is that the world’s religious leaders and the rulers thereof will unitedly arise for the reformation of this age and the rehabilitation of its fortunes. Let them, after meditating on its needs, take counsel together and, through anxious and full deliberation, administer to a diseased and sorely-afflicted world the remedy it requires.... It is incumbent upon them who are in authority to exercise moderation in all things. Whatsoever passeth beyond the limits of moderation will cease to exert a beneficial influence. Consider for instance such things as liberty, civilization and the like. However much men of understanding may favourably regard them, they will, if carried to excess, exercise a pernicious influence upon men.... Please God, the peoples of the world may be led, as the result of the high endeavours exerted by their rulers and the wise and learned amongst men, to recognize their best interests. How long will humanity persist in its waywardness? How long will injustice continue? How long is chaos and confusion to reign amongst men? How long will discord agitate the face of society? The winds of despair are, alas, blowing from every direction, and the strife that divideth and afflicteth the human race is daily increasing. The signs of impending convulsions and chaos can now be discerned, inasmuch as the prevailing order appeareth to be lamentably defective. I beseech God, exalted be His glory, that He may graciously awaken the peoples of the earth, may grant that the end of their conduct may be profitable unto them, and aid them to accomplish that which beseemeth their station.
+
+---
 
 ## “O CONTENDING peoples and kindreds of the earth! Set...”
 
 O CONTENDING peoples and kindreds of the earth! Set your faces towards unity, and let the radiance of its light shine upon you. Gather ye together, and for the sake of God resolve to root out whatever is the source of contention amongst you. Then will the effulgence of the world’s great Luminary envelop the whole earth, and its inhabitants become the citizens of one city, and the occupants of one and the same throne. This wronged One hath, ever since the early days of His life, cherished none other desire but this, and will continue to entertain no wish except this wish. There can be no doubt whatever that the peoples of the world, of whatever race or religion, derive their inspiration from one heavenly Source, and are the subjects of one God. The difference between the ordinances under which they abide should be attributed to the varying requirements and exigencies of the age in which they were revealed. All of them, except a few which are the outcome of human perversity, were ordained of God, and are a reflection of His Will and Purpose. Arise and, armed with the power of faith, shatter to pieces the gods of your vain imaginings, the sowers of dissension amongst you. Cleave unto that which draweth you together and uniteth you. This, verily, is the most exalted Word which the Mother Book hath sent down and revealed unto you. To this beareth witness the Tongue of Grandeur from His habitation of glory.
 
+---
+
 ## “THE Great Being, wishing to reveal the prerequisites of...”
 
 THE Great Being, wishing to reveal the prerequisites of the peace and tranquillity of the world and the advancement of its peoples, hath written: The time must come when the imperative necessity for the holding of a vast, an all-embracing assemblage of men will be universally realized. The rulers and kings of the earth must needs attend it, and, participating in its deliberations, must consider such ways and means as will lay the foundations of the world’s Great Peace amongst men. Such a peace demandeth that the Great Powers should resolve, for the sake of the tranquillity of the peoples of the earth, to be fully reconciled among themselves. Should any king take up arms against another, all should unitedly arise and prevent him. If this be done, the nations of the world will no longer require any armaments, except for the purpose of preserving the security of their realms and of maintaining internal order within their territories. This will ensure the peace and composure of every people, government and nation. We fain would hope that the kings and rulers of the earth, the mirrors of the gracious and almighty name of God, may attain unto this station, and shield mankind from the onslaught of tyranny.... The day is approaching when all the peoples of the world will have adopted one universal language and one common script. When this is achieved, to whatsoever city a man may journey, it shall be as if he were entering his own home. These things are obligatory and absolutely essential. It is incumbent upon every man of insight and understanding to strive to translate that which hath been written into reality and action.... That one indeed is a man who, today, dedicateth himself to the service of the entire human race. The Great Being saith: Blessed and happy is he that ariseth to promote the best interests of the peoples and kindreds of the earth. In another passage He hath proclaimed: It is not for him to pride himself who loveth his own country, but rather for him who loveth the whole world. The earth is but one country, and mankind its citizens.
+
+---
 
 ## “THE All-Knowing Physician hath His finger on the...”
 
@@ -499,6 +619,8 @@ THE All-Knowing Physician hath His finger on the pulse of mankind. He perceiveth
 We can well perceive how the whole human race is encompassed with great, with incalculable afflictions. We see it languishing on its bed of sickness, sore-tried and disillusioned. They that are intoxicated by self-conceit have interposed themselves between it and the Divine and infallible Physician. Witness how they have entangled all men, themselves included, in the mesh of their devices. They can neither discover the cause of the disease, nor have they any knowledge of the remedy. They have conceived the straight to be crooked, and have imagined their friend an enemy.
 
 Incline your ears to the sweet melody of this Prisoner. Arise, and lift up your voices, that haply they that are fast asleep may be awakened. Say: O ye who are as dead! The Hand of Divine bounty proffereth unto you the Water of Life. Hasten and drink your fill. Whoso hath been re-born in this Day, shall never die; whoso remaineth dead, shall never live.
+
+---
 
 ## “O PEOPLES of the earth! God, the Eternal Truth, is My...”
 
@@ -510,6 +632,8 @@ Beware lest the desires of the flesh and of a corrupt inclination provoke divisi
 
 Consider the mercy of God and His gifts. He enjoineth upon you that which shall profit you, though He Himself can well dispense with all creatures. Your evil doings can never harm Us, neither can your good works profit Us. We summon you wholly for the sake of God. To this every man of understanding and insight will testify.
 
+---
+
 ## “THE world’s equilibrium hath been upset through the...”
 
 THE world’s equilibrium hath been upset through the vibrating influence of this most great, this new World Order. Mankind’s ordered life hath been revolutionized through the agency of this unique, this wondrous System—the like of which mortal eyes have never witnessed.
@@ -517,6 +641,8 @@ THE world’s equilibrium hath been upset through the vibrating influence of thi
 Immerse yourselves in the ocean of My words, that ye may unravel its secrets, and discover all the pearls of wisdom that lie hid in its depths. Take heed that ye do not vacillate in your determination to embrace the truth of this Cause—a Cause through which the potentialities of the might of God have been revealed, and His sovereignty established. With faces beaming with joy, hasten ye unto Him. This is the changeless Faith of God, eternal in the past, eternal in the future. Let him that seeketh, attain it; and as to him that hath refused to seek it—verily, God is Self-Sufficient, above any need of His creatures.
 
 Say: This is the infallible Balance which the Hand of God is holding, in which all who are in the heavens and all who are on the earth are weighed, and their fate determined, if ye be of them that believe and recognize this truth. Say: Through it the poor have been enriched, the learned enlightened, and the seekers enabled to ascend unto the presence of God. Beware, lest ye make it a cause of dissension amongst you. Be ye as firmly settled as the immovable mountain in the Cause of your Lord, the Mighty, the Loving.
+
+---
 
 ## “O YE peoples of the world! Know assuredly that My...”
 
@@ -527,6 +653,8 @@ From My laws the sweet smelling savour of My garment can be smelled, and by thei
 Think not that We have revealed unto you a mere code of laws. Nay, rather, We have unsealed the choice Wine with the fingers of might and power. To this beareth witness that which the Pen of Revelation hath revealed. Meditate upon this, O men of insight!...
 
 Whenever My laws appear like the sun in the heaven of Mine utterance, they must be faithfully obeyed by all, though My decree be such as to cause the heaven of every religion to be cleft asunder. He doth what He pleaseth. He chooseth; and none may question His choice. Whatsoever He, the Well-Beloved, ordaineth, the same is, verily, beloved. To this He Who is the Lord of all creation beareth Me witness. Whoso hath inhaled the sweet fragrance of the All-Merciful, and recognized the Source of this utterance, will welcome with his own eyes the shafts of the enemy, that he may establish the truth of the laws of God amongst men. Well is it with him that hath turned thereunto, and apprehended the meaning of His decisive decree.
+
+---
 
 ## “THIS is the Day in which God’s most excellent favours...”
 
