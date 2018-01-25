@@ -749,6 +749,8 @@ A number of Tablets revealed by Bahá’u’lláh after the Kitáb-i-Aqdas conta
 
 [pg 91]
 
+---
+
 ## The Tablet of Is̱ẖráqát
 
 ## The Eighth Is̱ẖráq
@@ -1381,11 +1383,15 @@ I. THE APPOINTMENT OF ‘ABDU’L-BAHÁ AS THE SUCCESSOR OF BAHÁ’U’LLÁH AN
 
 # Notes
 
+---
+
 ## 1\. the sweet-smelling savour of My garment [\#4](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph4)
 
 This is an allusion to the story of Joseph in the Qur’án and the Old Testament, in which Joseph’s garment, brought by his brothers to Jacob, their father, enabled Jacob to identify his beloved long-lost son. The metaphor of the fragrant "garment" is frequently used in the Bahá’í Writings to refer to the recognition of the Manifestation of God and His Revelation.
 
 Bahá’u’lláh, in one of His Tablets, describes Himself as the "Divine Joseph" Who has been "bartered away" by the heedless "for the most paltry of prices". The Báb, in the Qayyúmu’l-Asmá, identifies Bahá’u’lláh as the "true Joseph" and forecasts the ordeals that He would endure at the hands of His treacherous brother (see note 190). Likewise, Shoghi Effendi draws a parallel between the intense jealousy which the preeminence of ‘Abdu’l-Bahá had aroused in His half-brother, Mírzá Muḥammad-‘Alí, and the deadly envy "which the superior excellence of Joseph had kindled in the hearts of his brothers".
+
+---
 
 ## 2\. We have unsealed the choice Wine with the fingers of might and power. [\#5](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph5)
 
@@ -1396,6 +1402,8 @@ Reference to the use of "wine" in an allegorical sense—such as being the cause
 For example, in the Qur’án the righteous are promised that they will be given to drink of the "choice sealed wine". In His Tablets, Bahá’u’lláh identifies the "choice Wine" with His Revelation whose "musk-laden fragrance" has been wafted "upon all created things". He states that He has "unsealed" this "Wine", thereby disclosing spiritual truths that were hitherto unknown, and enabling those who quaff thereof to "discern the splendours of the light of divine unity" and to "grasp the essential purpose underlying the Scriptures of God".
 
 In one of His meditations, Bahá’u’lláh entreats God to supply the believers with "the choice Wine of Thy mercy, that it may cause them to be forgetful of any one except Thee, and to arise to serve Thy Cause, and to be steadfast in their love for Thee".
+
+---
 
 ## 3\. We have enjoined obligatory prayer upon you [\#6](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph6)
 
@@ -1409,6 +1417,8 @@ A number of the items in Questions and Answers deal with aspects of the three ne
 
 The details of the law concerning obligatory prayer are summarized in section IV.A.1.-17\. of the Synopsis and Codification.
 
+---
+
 ## 4\. nine rak’áhs [\#6](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph6)
 
 A rak’áh is the recitation of specifically revealed verses accompanied by a prescribed set of genuflections and other movements.
@@ -1419,11 +1429,15 @@ In a Tablet commenting on the presently-binding Obligatory Prayers, ‘Abdu’l-
 
 Shoghi Effendi explains that the few simple directions given by Bahá’u’lláh for the recital of certain prayers not only have a spiritual significance but that they also help the individual "to fully concentrate when praying and meditating".
 
+---
+
 ## 5\. at noon and in the morning and the evening [\#6](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph6)
 
 Regarding the definition of the words "morning", "noon" and "evening", at which times the currently binding medium Obligatory Prayer is to be recited, Bahá’u’lláh has stated that these coincide with "sunrise, noon and sunset" (Q and A 83). He specifies that the "allowable times for Obligatory Prayers are from morning till noon, from noon till sunset, and from sunset till two hours thereafter". Further, ‘Abdu’l-Bahá has stated that the morning Obligatory Prayer may be said as early as dawn.
 
 The definition of "noon" as the period "from noon till sunset" applies to the recitation of the short Obligatory Prayer as well as the medium one.
+
+---
 
 ## 6\. We have relieved you of a greater number [\#6](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph6)
 
@@ -1433,6 +1447,8 @@ In the Bayán, the Báb prescribed an Obligatory Prayer consisting of nineteen r
 
 The Muslim prayer is recited five times a day, namely, in the early morning, at midday, in the afternoon and evening, and at night. While the number of rak’áhs varies according to the time of recitation, a total of seventeen rak’áhs are offered in the course of a day.
 
+---
+
 ## 7\. When ye desire to perform this prayer, turn ye towards the Court of My Most Holy Presence, this Hallowed Spot that God hath ... decreed to be the Point of Adoration for the denizens of the Cities of Eternity [\#6](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph6)
 
 The "Point of Adoration", that is, the point to which the worshipper should turn when offering obligatory prayer, is called the Qiblih. The concept of Qiblih has existed in previous religions. Jerusalem in the past had been fixed for this purpose. Muḥammad changed the Qiblih to Mecca. The Báb’s instructions in the Arabic Bayán were:
@@ -1440,6 +1456,8 @@ The "Point of Adoration", that is, the point to which the worshipper should turn
 The Qiblih is indeed He Whom God will make manifest; whenever He moveth, it moveth, until He shall come to rest. 
 
 This passage is quoted by Bahá’u’lláh in the Kitáb-i-Aqdas (\# 137) and confirmed by Him in the above-noted verse. He has also indicated that facing in the direction of the Qiblih is a "fixed requirement for the recitation of obligatory prayer" (Q and A 14 and 67). However, for other prayers and devotions the individual may face in any direction.
+
+---
 
 ## 8\. and when the Sun of Truth and Utterance shall set, turn your faces towards the Spot that We have ordained for you [\#6](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph6)
 
@@ -1449,11 +1467,15 @@ In a letter written on his behalf, Shoghi Effendi uses the analogy of the plant 
 
 ...just as the plant stretches out to the sunlight—from which it receives life and growth—so we turn our hearts to the Manifestation of God, Bahá’u’lláh, when we pray; ... we turn our faces ... to where His dust lies on this earth as a symbol of the inner act.
 
+---
+
 ## 9\. We have set forth the details of obligatory prayer in another Tablet. [\#8](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph8)
 
 The original Obligatory Prayer had "for reasons of wisdom" been revealed by Bahá’u’lláh in a separate Tablet (Q and A 63). It was not released to the believers in His lifetime, having been superseded by the three Obligatory Prayers now in use.
 
 Shortly after the Ascension of Bahá’u’lláh, the text of this prayer, along with a number of other Tablets, was stolen by Muḥammad-‘Alí, the Arch-breaker of His Covenant.
+
+---
 
 ## 10\. the Prayer for the Dead [\#8](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph8)
 
@@ -1461,17 +1483,25 @@ The Prayer for the Dead (see Some Texts Supplementary to the Kitáb-i-Aqdas) is 
 
 Further details concerning the Prayer for the Dead are summarized in the Synopsis and Codification, section IV.A. 13.-14.
 
+---
+
 ## 11\. six specific passages have been sent down by God, the Revealer of Verses [\#8](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph8)
 
 The passages that form part of the Prayer for the Dead comprise the repetition of the greeting "Alláh-u-Abhá" (God is the All-Glorious) six times, each followed by nineteen repetitions of one of six specifically revealed verses. These verses are identical with those in the Prayer for the Dead revealed by the Báb in the Bayán. Bahá’u’lláh added a supplication to precede these passages.
+
+---
 
 ## 12\. Hair doth not invalidate your prayer, nor aught from which the spirit hath departed, such as bones and the like. Ye are free to wear the fur of the sable as ye would that of the beaver, the squirrel, and other animals [\#9](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph9)
 
 In some earlier religious Dispensations, the wearing of the hair of certain animals or having certain other objects on one’s person was held to invalidate one’s prayer. Bahá’u’lláh here confirms the Báb’s pronouncement in the Arabic Bayán that such things do not invalidate one’s prayer.
 
+---
+
 ## 13\. We have commanded you to pray and fast from the beginning of maturity [\#10](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph10)
 
 Bahá’u’lláh defines the "age of maturity with respect to religious duties" as "fifteen for both men and women" (Q and A 20). For details of the period of fasting, see note 25.
+
+---
 
 ## 14\. He hath exempted from this those who are weak from illness or age [\#10](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph10)
 
@@ -1479,9 +1509,13 @@ The exemption of those who are weak due to illness or advanced age from offering
 
 Exemption from fasting is also granted to the other specific categories of people listed in the Synopsis and Codification, section IV.B.5\. See notes 20, 30 and 31 for additional discussion.
 
+---
+
 ## 15\. God hath granted you leave to prostrate yourselves on any surface that is clean, for We have removed in this regard the limitation that had been laid down in the Book [\# 10](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph10)
 
 The requirements of prayer in previous Dispensations have often included prostration. In the Arabic Bayán the Báb called upon the believers to lay their foreheads on surfaces of crystal when prostrating. Similarly, in Islám, certain restrictions are imposed with regard to the surface on which Muslims are permitted to prostrate. Bahá’u’lláh abrogates such restrictions and simply specifies "any surface that is clean".
+
+---
 
 ## 16\. Let him that findeth no water for ablution repeat five times the words "In the Name of God, the Most Pure, the Most Pure", and then proceed to his devotions. [\#10](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph10)
 
@@ -1489,13 +1523,19 @@ Ablutions are to be performed by the believer in preparation for the offering of
 
 Antecedents in earlier Dispensations for the provision of substitute procedures to be followed when no water is available are found in the Qur’án and in the Arabic Bayán.
 
+---
+
 ## 17\. In regions where the days and nights grow long, let times of prayer be gauged by clocks and other instruments that mark the passage of the hours. [\#10](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph10)
 
 This refers to territories situated in the extreme north or south, where the duration of days and nights varies markedly (Q and A 64 and 103). This provision applies also to fasting.
 
+---
+
 ## 18\. We have absolved you from the requirement of performing the Prayer of the Signs. [\#11](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph11)
 
 The Prayer of the Signs is a special form of Muslim obligatory prayer that was ordained to be said in times of natural events, like earthquakes, eclipses, and other such phenomena, which may cause fear and are taken to be signs or acts of God. The requirement of performing this prayer has been annulled. In its place a Bahá’í may say, "Dominion is God’s, the Lord of the seen and the unseen, the Lord of creation," but this is not obligatory (Q and A 52).
+
+---
 
 ## 19\. Save in the Prayer for the Dead, the practice of congregational prayer hath been annulled. [\#12](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph12)
 
@@ -1507,6 +1547,8 @@ There is no prescribed way for the recital of the many other Bahá’í prayers,
 
 ...although the friends are thus left to follow their own inclination, ... they should take the utmost care that any manner they practise should not acquire too rigid a character, and thus develop into an institution. This is a point which the friends should always bear in mind, lest they deviate from the clear path indicated in the Teachings.
 
+---
+
 ## 20\. God hath exempted women who are in their courses from obligatory prayer and fasting. [\#13](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph13)
 
 Exemption from obligatory prayer and fasting is granted to women who are menstruating; they should, instead, perform their ablutions (see note 34) and repeat 95 times a day between one noon and the next, the verse "Glorified be God, the Lord of Splendour and Beauty". This provision has its antecedent in the Arabic Bayán, where a similar dispensation was granted.
@@ -1517,6 +1559,8 @@ The Universal House of Justice has clarified that the provisions in the Kitáb-i
 
 The prescribed exemption from obligatory prayer, originally related to the Obligatory Prayer consisting of nine rak’áhs, is now applicable to the three Obligatory Prayers which superseded it.
 
+---
+
 ## 21\. When travelling, if ye should stop and rest in some safe spot, perform ye—men and women alike—a single prostration in place of each unsaid Obligatory Prayer [\#14](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph14)
 
 Exemption from obligatory prayer is granted to those who find themselves in such a condition of insecurity that the saying of the Obligatory Prayers is not possible. The exemption applies whether one is travelling or at home, and it provides a means whereby Obligatory Prayers which have remained unsaid on account of these insecure circumstances may be compensated for.
@@ -1525,9 +1569,13 @@ Bahá’u’lláh has made it clear that obligatory prayer "is not suspended dur
 
 Numbers 21, 58, 59, 60, and 61 in Questions and Answers amplify this provision.
 
+---
+
 ## 22\. Upon completing your prostrations, seat yourselves cross-legged [\#14](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph14)
 
 The Arabic expression "haykalu’t-tawhíd", translated here as "cross-legged", means the "posture of unity". It has traditionally signified a cross-legged position.
+
+---
 
 ## 23\. Say: God hath made My hidden love the key to the Treasure [\#15](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph15)
 
@@ -1547,9 +1595,13 @@ O Son of Man! I loved thy creation, hence I created thee. Wherefore, do thou lov
 
 O wayfarer in the path of the Beloved! Know thou that the main purpose of this holy tradition is to make mention of the stages of God’s concealment and manifestation within the Embodiments of Truth, They who are the Dawning-places of His All-Glorious Being. For example, before the flame of the undying Fire is lit and manifest, it existeth by itself within itself in the hidden identity of the universal Manifestations, and this is the stage of the "Hidden Treasure". And when the blessed Tree is kindled by itself within itself, and that Divine Fire burneth by its essence within its essence, this is the stage of "I wished to be made known". And when it shineth forth from the Horizon of the universe with infinite Divine Names and Attributes upon the contingent and placeless worlds, this constituteth the emergence of a new and wondrous creation which correspondeth to the stage of "Thus I called creation into being". And when the sanctified souls rend asunder the veils of all earthly attachments and worldly conditions, and hasten to the stage of gazing on the beauty of the Divine Presence and are honoured by recognizing the Manifestation and are able to witness the splendour of God’s Most Great Sign in their hearts, then will the purpose of creation, which is the knowledge of Him Who is the Eternal Truth, become manifest.
 
+---
+
 ## 24\. O Pen of the Most High! [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
 "Pen of the Most High", "the Supreme Pen" and "the Most Exalted Pen" are references to Bahá’u’lláh, illustrating His function as Revealer of the Word of God.
+
+---
 
 ## 25\. We have enjoined upon you fasting during a brief period [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
@@ -1565,6 +1617,8 @@ A summary of the detailed provisions concerning the law of fasting and of the ex
 
 The nineteen-day period of fasting coincides with the Bahá’í month of ‘Alá, usually 2-20 March, immediately after the termination of the Intercalary Days (see notes 27 and 147), and is followed by the feast of Naw-Rúz (see note 26).
 
+---
+
 ## 26\. and at its close have designated for you Naw-Rúz as a feast [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
 The Báb introduced a new calendar, known now as the Badí or Bahá’í calendar (see notes 27 and 147). According to this calendar, a day is the period from sunset to sunset. In the Bayán, the Báb ordained the month of ‘Alá to be the month of fasting, decreed that the day of Naw-Rúz should mark the termination of that period, and designated Naw-Rúz as the Day of God. Bahá’u’lláh confirms the Badí calendar wherein Naw-Rúz is designated as a feast.
@@ -1573,9 +1627,13 @@ Naw-Rúz is the first day of the new year. It coincides with the spring equinox 
 
 Bahá’u’lláh has left the details of many laws to be filled in by the Universal House of Justice. Among these are a number of matters affecting the Bahá’í calendar. The Guardian has stated that the implementation, worldwide, of the law concerning the timing of Naw-Rúz will require the choice of a particular spot on earth which will serve as the standard for the fixing of the time of the spring equinox. He also indicated that the choice of this spot has been left to the decision of the Universal House of Justice.
 
+---
+
 ## 27\. Let the days in excess of the months be placed before the month of fasting. [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
 The Badí calendar is based on the solar year of 365 days, 5 hours, and 50 odd minutes. The year consists of 19 months of 19 days each (i.e. 361 days), with the addition of four extra days (five in a leap year). The Báb did not specifically define the place for the intercalary days in the new calendar. The Kitáb-i-Aqdas resolves this question by assigning the "excess" days a fixed position in the calendar immediately preceding the month of ‘Alá, the period of fasting. For further details see the section on the Bahá’í calendar in The Bahá’í World, volume XVIII.
+
+---
 
 ## 28\. We have ordained that these ... shall be the manifestations of the letter Há [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
@@ -1583,9 +1641,13 @@ Known as the Ayyám-i-Há (the Days of Há), the Intercalary Days have the disti
 
 The letter "Há" has been given several spiritual meanings in the Holy Writings, among which is as a symbol of the Essence of God.
 
+---
+
 ## 29\. these days of giving that precede the season of restraint [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
 Bahá’u’lláh enjoined upon His followers to devote these days to feasting, rejoicing and charity. In a letter written on Shoghi Effendi’s behalf it is explained that "the intercalary days are specially set aside for hospitality, the giving of gifts, etc.".
+
+---
 
 ## 30\. The traveller ... not bound by the Fast [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
@@ -1593,13 +1655,19 @@ The minimum duration of a journey which exempts the believer from fasting is def
 
 Shoghi Effendi has clarified that while travellers are exempt from fasting, they are free to fast if they so wish. He also indicated that the exemption applies during the whole period of one’s travel, not just the hours one is in a train or car, etc.
 
+---
+
 ## 31\. The traveller, the ailing, those who are with child or giving suck, are not bound by the Fast; they have been exempted by God as a token of His grace. [\#16](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph16)
 
 Exemption from fasting is granted to those who are ill or of advanced age (see note 14), women in their courses (see note 20), travellers (see note 30) and to women who are pregnant and those who are nursing. This exemption is also extended to people who are engaged in heavy labour, who, at the same time, are advised "to show respect to the law of God and for the exalted station of the Fast" by eating "with frugality and in private" (Q and A 76). Shoghi Effendi has indicated that the types of work which would exempt people from the Fast will be defined by the Universal House of Justice.
 
+---
+
 ## 32\. Abstain from food and drink from sunrise to sundown [\#17](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph17)
 
 This relates to the period of fasting. In one of His Tablets, ‘Abdu’l-Bahá, after stating that fasting consists of abstinence from food and drink, further indicates that smoking is a form of "drink". In Arabic the verb "drink" applies equally to smoking.
+
+---
 
 ## 33\. It hath been ordained that every believer in God ... shall, each day ... repeat "Alláh-u-Abhá" ninety-five times. [\#18](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph18)
 
@@ -1613,6 +1681,8 @@ The greeting "Alláh-u-Abhá" was adopted during the period of Bahá’u’lláh
 
 The repetition of "Alláh-u-Abhá" ninety-five times is to be preceded by the performance of ablutions (see note 34).
 
+---
+
 ## 34\. Perform ye ... ablutions for the Obligatory Prayer [\#18](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph18)
 
 Ablutions are specifically associated with certain prayers. They must precede the offering of the three Obligatory Prayers, the daily recitation of "Alláh-u-Abhá" ninety-five times, and the recital of the verse prescribed as an alternative to obligatory prayer and fasting for women in their courses (see note 20).
@@ -1625,17 +1695,25 @@ When no water is available for ablutions, a prescribed verse is to be repeated f
 
 The detailed provisions of the law concerning ablutions are set out in the Synopsis and Codification, section IV.A.10.a.-g., as well as in Questions and Answers numbers 51, 62, 66, 77 and 86.
 
+---
+
 ## 35\. Ye have been forbidden to commit murder [\#19](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph19)
 
 The prohibition against taking another’s life is repeated by Bahá’u’lláh in paragraph 73 of the Kitáb-i-Aqdas. Penalties are prescribed for premeditated murder (see note 86). In the case of manslaughter, it is necessary to pay a specified indemnity to the family of the deceased (see Kitáb-i-Aqdas, \# 188).
+
+---
 
 ## 36\. or adultery [\#19](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph19)
 
 The Arabic word "ziná", here translated as "adultery", signifies both fornication and adultery. It applies not only to sexual relations between a married person and someone who is not his or her spouse, but also to extramarital sexual intercourse in general. One form of "ziná" is rape. The only penalty prescribed by Bahá’u’lláh is for those who commit fornication (see note 77); penalties for other kinds of sexual offence are left to the Universal House of Justice to determine.
 
+---
+
 ## 37\. backbiting or calumny [\#19](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph19)
 
 Backbiting, slander and dwelling on the faults of others have been repeatedly condemned by Bahá’u’lláh. In the Hidden Words, He clearly states: "O Son of Being! How couldst thou forget thine own faults and busy thyself with the faults of others? Whoso doeth this is accursed of Me." And again: "O Son of Man! Breathe not the sins of others so long as thou art thyself a sinner. Shouldst thou transgress this command, accursed wouldst thou be, and to this I bear witness." This strong admonition is further reiterated in His last work, "the Book of My Covenant": "Verily I say, the tongue is for mentioning what is good, defile it not with unseemly talk. God hath forgiven what is past. Henceforward everyone should utter that which is meet and seemly, and should refrain from slander, abuse and whatever causeth sadness in men."
+
+---
 
 ## 38\. We have divided inheritance into seven categories [\#20](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph20)
 
@@ -1667,9 +1745,13 @@ The system of inheritance which provides for distribution of the deceased’s es
 
 Additional details of the laws of inheritance are summarized in the Synopsis and Codification, section IV.C.3.a.-o.
 
+---
+
 ## 39\. to the brothers, five parts ... to the sisters, four parts [\#20](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph20)
 
 Questions and Answers amplifies the provisions of the law as it relates to the shares of the inheritance allocated to the brothers and sisters of the deceased. If the brother or sister is from the same father as the deceased, he or she will inherit his or her full allotted share. If, however, the brother or sister is from another father he or she will inherit only two thirds of the allotted share, the remaining one third reverting to the House of Justice (Q and A 6). Further, in the case where the deceased has full brothers or full sisters among his heirs, half-brothers and half-sisters from the mother’s side do not inherit (Q and A 53). The half-brothers and half-sisters will, of course, be due to receive inheritance from their own father’s estate.
+
+---
 
 ## 40\. the teachers [\#20](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph20)
 
@@ -1677,9 +1759,13 @@ In a Tablet, ‘Abdu’l-Bahá compares teachers who are involved with the spiri
 
 Bahá’u’lláh specifies the conditions under which the teacher inherits and the share he or she receives (Q and A 33).
 
+---
+
 ## 41\. When We heard the clamour of the children as yet unborn, We doubled their share and decreased those of the rest. [\#20](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph20)
 
 In the Báb’s laws of inheritance the children of the deceased were allotted nine parts consisting of 540 shares. This allocation constituted less than a quarter of the whole estate. Bahá’u’lláh doubled their portion to 1,080 shares and reduced those allotted to the other six categories of heirs. He also outlines the precise intention of this verse and its implications for the distribution of the inheritance (Q and A 5).
+
+---
 
 ## 42\. the House of Justice [\#21](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph21)
 
@@ -1687,9 +1773,13 @@ In referring to the House of Justice in the Kitáb-i-Aqdas, Bahá’u’lláh do
 
 In a Tablet enumerating the revenues of the local treasury, ‘Abdu’l-Bahá includes those inheritances for which there are no heirs, thus indicating that the House of Justice referred to in these passages of the Aqdas relating to inheritance is the local one.
 
+---
+
 ## 43\. Should the deceased leave offspring, but none of the other categories of heirs [\#22](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph22)
 
 Bahá’u’lláh clarifies that "This ruling hath both general and specific application, which is to say that whenever any category of this latter class of heirs is absent, two thirds of their inheritance pass to the offspring and the remaining third to the House of Justice" (Q and A 7).
+
+---
 
 ## 44\. We have assigned the residence and personal clothing of the deceased to the male, not female, offspring, nor to the other heirs. [\#25](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph25)
 
@@ -1697,23 +1787,33 @@ In a Tablet, ‘Abdu’l-Bahá indicates that the residence and personal clothin
 
 Bahá’u’lláh clarifies various aspects of this part of the law of inheritance. He specifies that if there be more than one residence, the principal and most important one passes to the male offspring. The remaining residences will, together with the other possessions of the deceased, have to be divided among the heirs (Q and A 34), and He indicates that in the absence of male offspring, two thirds of the principal residence and the personal clothing of the deceased father will revert to the female issue and one third to the House of Justice (Q and A 72). Further, when the deceased is a woman, Bahá’u’lláh states that all her used clothing is to be equally divided amongst her daughters. Her unworn clothing, jewels and property must be divided among her heirs, as well as her used clothing if she leaves no daughter (Q and A 37).
 
+---
+
 ## 45\. Should the son of the deceased have passed away in the days of his father and have left children, they will inherit their father’s share [\#26](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph26)
 
 This aspect of the law applies only in the case of the son who predeceases his father or mother. If the daughter of the deceased be dead and leave issue, her share will have to be divided according to the seven categories specified in the Most Holy Book (Q and A 54).
+
+---
 
 ## 46\. If the deceased should leave children who are under age, their share of the inheritance must be entrusted to a reliable individual [\#27](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph27)
 
 The word "amín", translated in this paragraph as "reliable individual" and "trustee", conveys in Arabic a wide range of meanings connected principally with the idea of trustworthiness, but signifying also such qualities as reliability, loyalty, faithfulness, uprightness, honesty, and so forth. Used in legal parlance "amín" denotes, among other things, a trustee, guarantor, custodian, guardian, and keeper.
 
+---
+
 ## 47\. Division of the estate should take place only after the Ḥuqúqu’lláh hath been paid, any debts have been settled, the expenses of the funeral and burial defrayed [\#28](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph28)
 
 Bahá’u’lláh specifies that the order of precedence for payment of these expenses is first the funeral and burial expenses, then the debts of the deceased, then the Ḥuqúqu’lláh (see note 125) (Q and A 9). He also specifies that when applying the estate to these, payment must first be made out of the residue of the estate and then, if this is insufficient, out of the residence and personal clothing of the deceased (Q and A 80).
+
+---
 
 ## 48\. This is that hidden knowledge which shall never change, since its beginning is with nine [\#29](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph29)
 
 In the Arabic Bayán the Báb described His inheritance law as being "in accordance with a hidden knowledge in the Book of God—a knowledge that shall never change or be replaced". He also stated that the numbers by which the division of the inheritance was expressed had been invested with a significance intended to aid in the recognition of Him Whom God will make manifest.
 
 The "nine" mentioned here is represented in the Arabic text by the letter "Tá", which is its equivalent in the abjad notation (see Glossary). It is the first element of the Báb’s division of inheritance, where He designates "nine parts" as the share of the children. The significance of nine lies in its being the numerical equivalent of the Greatest Name "Bahá", alluded to in the next part of this verse as "the concealed and manifest, the inviolable and unapproachably exalted Name". (See also note 33.)
+
+---
 
 ## 49\. The Lord hath ordained that in every city a House of Justice be established [\#30](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph30)
 
@@ -1725,13 +1825,19 @@ Local and Secondary Houses of Justice are, for the present, known as Local Spiri
 
 ...as the position and aims of the Bahá’í Faith are better understood and more fully recognized, will gradually be superseded by the permanent and more appropriate designation of House of Justice. Not only will the present-day Spiritual Assemblies be styled differently in future, but they will be enabled also to add to their present functions those powers, duties, and prerogatives necessitated by the recognition of the Faith of Bahá’u’lláh, not merely as one of the recognized religious systems of the world, but as the State Religion of an independent and Sovereign Power.
 
+---
+
 ## 50\. the number of Bahá [\#30](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph30)
 
 The abjad numerical equivalent of "Bahá" is nine. The Universal House of Justice and the National and Local Spiritual Assemblies currently have nine members each, the minimum number prescribed by Bahá’u’lláh.
 
+---
+
 ## 51\. It behoveth them to be the trusted ones of the Merciful among men [\#30](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph30)
 
 The general powers and duties of the Universal House of Justice, the National Spiritual Assemblies and the Local Spiritual Assemblies and the qualifications for membership are set forth in the Writings of Bahá’u’lláh and ‘Abdu’l-Bahá, in the letters of Shoghi Effendi, and in the elucidations of the Universal House of Justice. The major functions of these institutions are outlined in the Constitution of the Universal House of Justice, and in those of the National and Local Spiritual Assemblies.
+
+---
 
 ## 52\. take counsel together [\#30](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph30)
 
@@ -1739,9 +1845,13 @@ Bahá’u’lláh has established consultation as one of the fundamental princip
 
 In Questions and Answers, number 99, Bahá’u’lláh outlines an approach to consultation and stresses the importance of achieving unanimity in decision-making, failing which the majority decision must prevail. The Universal House of Justice has clarified that this guidance concerning consultation was revealed before Spiritual Assemblies had been established and was in answer to a question about the Bahá’í teachings on consultation. The House of Justice affirms that the emergence of Spiritual Assemblies, to which the friends may always turn for assistance, in no way prohibits them from following the procedure outlined in Questions and Answers. This approach may be used by the friends, should they wish, when they desire to consult on their personal problems.
 
+---
+
 ## 53\. Build ye houses of worship throughout the lands [\#31](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph31)
 
 The Bahá’í House of Worship is dedicated to the praise of God. The House of Worship forms the central edifice of the Mas̱ẖriqu’l-Aḏẖkár (the Dawning-place of the Praise of God), a complex which, as it unfolds in the future, will comprise in addition to the House of Worship a number of dependencies dedicated to social, humanitarian, educational, and scientific pursuits. ‘Abdu’l-Bahá describes the Mas̱ẖriqu’l-Aḏẖkár as "one of the most vital institutions in the world", and Shoghi Effendi indicates that it exemplifies in tangible form the integration of "Bahá’í worship and service". Anticipating the future development of this institution, Shoghi Effendi envisages that the House of Worship and its dependencies "shall afford relief to the suffering, sustenance to the poor, shelter to the wayfarer, solace to the bereaved, and education to the ignorant". In the future, Bahá’í Houses of Worship will be constructed in every town and village.
+
+---
 
 ## 54\. The Lord hath ordained that those of you who are able shall make pilgrimage to the sacred House [\#32](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph32)
 
@@ -1749,11 +1859,15 @@ Two sacred Houses are covered by this ordinance, the House of the Báb in S̱ẖ
 
 After the passing of Bahá’u’lláh, ‘Abdu’l-Bahá designated the Shrine of Bahá’u’lláh at Bahjí as a place of pilgrimage. In a Tablet, He indicates that the "Most Holy Shrine, the Blessed House in Bag̱ẖdád and the venerated House of the Báb in S̱ẖíráz" are "consecrated to pilgrimage", and that it is "obligatory" to visit these places "if one can afford it and is able to do so, and if no obstacle stands in one’s way". No rites have been prescribed for pilgrimage to the Most Holy Shrine.
 
+---
+
 ## 55\. and from this He hath exempted women as a mercy on His part [\#32](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph32)
 
 In the Bayán, the Báb enjoined the ordinance of pilgrimage once in a lifetime upon those of His followers who were financially able to undertake the journey. He stated that the obligation was not binding on women in order to spare them the rigours of travel.
 
 Bahá’u’lláh likewise exempts women from His pilgrimage requirements. The Universal House of Justice has clarified that this exemption is not a prohibition, and that women are free to perform the pilgrimage.
+
+---
 
 ## 56\. to engage in some occupation [\#33](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph33)
 
@@ -1767,9 +1881,13 @@ In response to a question concerning whether Bahá’u’lláh’s injunction re
 
 Concerning the retirement from work for individuals who have reached a certain age, Shoghi Effendi in a letter written on his behalf stated that "this is a matter on which the International House of Justice will have to legislate as there are no provisions in the Aqdas concerning it".
 
+---
+
 ## 57\. The kissing of hands hath been forbidden in the Book. [\#34](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph34)
 
 In a number of earlier religious Dispensations and in certain cultures the kissing of the hand of a religious figure or of a prominent person was expected as a mark of reverence and deference to such persons and as a token of submission to their authority. Bahá’u’lláh prohibits the kissing of hands and, in His Tablets, He also condemns such practices as prostrating oneself before another person and other forms of behaviour that abase one individual in relation to another. (See note 58.)
+
+---
 
 ## 58\. To none is it permitted to seek absolution from another soul [\#34](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph34)
 
@@ -1781,17 +1899,25 @@ Shoghi Effendi sets the prohibition into context. His secretary has written on h
 
 The Universal House of Justice has also clarified that Bahá’u’lláh’s prohibition concerning the confession of sins does not prevent an individual from admitting transgressions in the course of consultations held under the aegis of Bahá’í institutions. Likewise, it does not preclude the possibility of seeking advice from a close friend or of a professional counsellor regarding such matters.
 
+---
+
 ## 59\. Amongst the people is he who seateth himself amid the sandals by the door whilst coveting in his heart the seat of honour. [\#36](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph36)
 
 Traditionally in the East it has been the practice to remove sandals and shoes before entering a gathering. The part of a room farthest from the entrance is regarded as the head of the room and a place of honour where the most prominent among those present are seated. Others sit in descending order towards the door, by which the shoes and sandals have been left and where the most lowly would sit.
+
+---
 
 ## 60\. And among the people is he who layeth claim to inner knowledge [\#36](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph36)
 
 This is a reference to people who claim access to esoteric knowledge and whose attachment to such knowledge veils them from the Revelation of the Manifestation of God. Elsewhere Bahá’u’lláh affirms: "They that are the worshippers of the idol which their imaginations have carved, and who call it Inner Reality, such men are in truth accounted among the heathen."
 
+---
+
 ## 61\. How many a man hath secluded himself in the climes of India, denied himself the things that God hath decreed as lawful, imposed upon himself austerities and mortifications [\#36](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph36)
 
 These verses constitute the prohibition of monasticism and asceticism. See the Synopsis and Codification, section IV.D. 1.y.iii.-iv. In the Words of Paradise Bahá’u’lláh amplifies these provisions. He states: "Living in seclusion or practising asceticism is not acceptable in the presence of God," and He calls upon those involved to "observe that which will cause joy and radiance". He instructs those who have taken up "their abodes in the caves of the mountains" or who have "repaired to graveyards at night" to abandon these practices, and He enjoins them not to deprive themselves of the "bounties" of this world which have been created by God for humankind. And in the Tablet of Bis̱ẖárát, while acknowledging the "pious deeds" of monks and priests, Bahá’u’lláh calls upon them to "give up the life of seclusion and direct their steps towards the open world and busy themselves with that which will profit themselves and others". He also grants them leave "to enter into wedlock that they may bring forth one who will make mention of God".
+
+---
 
 ## 62\. Whoso layeth claim to a Revelation direct from God, ere the expiration of a full thousand years [\#37](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph37)
 
@@ -1799,17 +1925,25 @@ The Dispensation of Bahá’u’lláh will last until the coming of the next Man
 
 The intimation of His Revelation to Bahá’u’lláh in the Síyáh-C̱ẖál of Ṭihrán, in October 1852, marks the birth of His Prophetic Mission and hence the commencement of the one thousand years or more that must elapse before the appearance of the next Manifestation of God.
 
+---
+
 ## 63\. This is that of which We gave you forewarning when We were dwelling in ‘Iráq, then later while in the Land of Mystery, and now from this Resplendent Spot. [\#37](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph37)
 
 The "Land of Mystery" refers to Adrianople, and "this Resplendent Spot" is a reference to Akká.
+
+---
 
 ## 64\. Amongst the people is he whose learning hath made him proud ... who, when he heareth the tread of sandals following behind him, waxeth greater in his own esteem [\#41](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph41)
 
 In the East, the practice has been for followers of a religious leader, out of deference, to walk a pace or two behind him.
 
+---
+
 ## 65\. Nimrod [\#41](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph41)
 
 The Nimrod referred to in this verse is, in both Jewish and Islamic traditions, a King who persecuted Abraham and whose name became symbolic of great pride.
+
+---
 
 ## 66\. Ag̱ẖsán [\#42](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph42)
 
@@ -1817,37 +1951,55 @@ The Nimrod referred to in this verse is, in both Jewish and Islamic traditions, 
 
 This passage of the Aqdas, therefore, anticipates the succession of chosen Ag̱ẖsán and thus the institution of the Guardianship and envisages the possibility of a break in their line. The passing of Shoghi Effendi in 1957 precipitated the very situation provided for in this passage, in that the line of Ag̱ẖsán ended before the Universal House of Justice had been established (see note 67).
 
+---
+
 ## 67\. revert to the people of Bahá [\#42](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph42)
 
 Bahá’u’lláh provides for the possibility that the line of Ag̱ẖsán would terminate prior to the establishment of the Universal House of Justice. He designated that in such a situation "endowments shall revert to the people of Bahá". The term "people of Bahá" is used with a number of different meanings in the Bahá’í Writings. In this instance, they are described as those "who speak not except by His leave and judge not save in accordance with what God hath decreed in this Tablet". Following the passing of Shoghi Effendi in 1957, the Hands of the Cause of God directed the affairs of the Cause until the election of the Universal House of Justice in 1963 (see note 183).
+
+---
 
 ## 68\. Shave not your heads [\#44](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph44)
 
 In some religious traditions it is considered desirable to shave one’s head. The shaving of the head is forbidden by Bahá’u’lláh, and He makes it clear that the provision contained in His Súriy-i-Hájj requiring pilgrims to the Holy House in S̱ẖíráz to shave their heads has been superseded through this verse of the Kitáb-i-Aqdas (Q and A 10).
 
+---
+
 ## 69\. it is not seemly to let the hair pass beyond the limit of the ears [\#44](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph44)
 
 Shoghi Effendi has made clear that, unlike the prohibition on shaving the head, this law forbidding the growing of the hair beyond the lobe of the ear pertains only to men. The application of this law will require clarification by the Universal House of Justice.
+
+---
 
 ## 70\. Exile and imprisonment are decreed for the thief [\#45](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph45)
 
 Bahá’u’lláh states that the determination of the degree of penalty, in accordance with the seriousness of the offence, rests with the House of Justice (Q and A 49). The punishments for theft are intended for a future condition of society, when they will be supplemented and applied by the Universal House of Justice.
 
+---
+
 ## 71\. on the third offence, place ye a mark upon his brow so that, thus identified, he may not be accepted in the cities of God and His countries [\#45](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph45)
 
 The mark to be placed on the thief’s forehead serves the purpose of warning people of his proclivities. All details concerning the nature of the mark, how the mark is to be applied, how long it must be worn, on what conditions it may be removed, as well as the seriousness of various degrees of theft have been left by Bahá’u’lláh for the Universal House of Justice to determine when the law is applied.
+
+---
 
 ## 72\. Whoso wisheth to make use of vessels of silver and gold is at liberty to do so. [\#46](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph46)
 
 In the Bayán the Báb allowed the use of gold and silver utensils, thus abrogating the Islamic condemnation of their use which stems not from an explicit injunction of the Qur’án but from Muslim traditions. Bahá’u’lláh here confirms the Báb’s ruling.
 
+---
+
 ## 73\. Take heed lest, when partaking of food, ye plunge your hands into the contents of bowls and platters. [\#46](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph46)
 
 This prohibition was defined by Shoghi Effendi as "plunging one’s hand in food". In many parts of the world it has been customary to eat with the hands from a communal bowl.
 
+---
+
 ## 74\. Adopt ye such usages as are most in keeping with refinement. [\#46](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph46)
 
 This is the first of several passages referring to the importance of refinement and cleanliness. The original Arabic word "látafah", rendered here as "refinement", has a wide range of meanings with both spiritual and physical implications, such as elegance, gracefulness, cleanliness, civility, politeness, gentleness, delicacy and graciousness, as well as being subtle, refined, sanctified and pure. In accordance with the context of the various passages where it occurs in the Kitáb-i-Aqdas, it has been translated either as "refinement" or "cleanliness".
+
+---
 
 ## 75\. He Who is the Dawning-place of God’s Cause hath no partner in the Most Great Infallibility. [\#47](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph47)
 
@@ -1855,9 +2007,13 @@ In the Tablet of Is̱ẖráqát, Bahá’u’lláh affirms that the Most Great I
 
 Chapter 45 in Some Answered Questions is devoted to an explanation by ‘Abdu’l-Bahá of this verse of the Aqdas. In this chapter He stresses, among other things, the inseparability of essential "infallibility" from the Manifestations of God, and asserts that "whatever emanates from Them is identical with the truth, and conformable to reality", that "They are not under the shadow of the former laws", and "Whatever They say is the word of God, and whatever They perform is an upright action".
 
+---
+
 ## 76\. Unto every father hath been enjoined the instruction of his son and daughter in the art of reading and writing [\#48](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph48)
 
 ‘Abdu’l-Bahá, in His Tablets, not only calls attention to the responsibility of parents to educate all their children, but He also clearly specifies that the "training and culture of daughters is more necessary than that of sons", for girls will one day be mothers, and mothers are the first educators of the new generation. If it is not possible, therefore, for a family to educate all the children, preference is to be accorded to daughters since, through educated mothers, the benefits of knowledge can be most effectively and rapidly diffused throughout society.
+
+---
 
 ## 77\. God hath imposed a fine on every adulterer and adulteress, to be paid to the House of Justice [\#49](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph49)
 
@@ -1867,11 +2023,15 @@ In one of His Tablets, ‘Abdu’l-Bahá refers to some of the spiritual and soc
 
 The House of Justice referred to in this verse is presumably the Local House of Justice, currently known as the Local Spiritual Assembly.
 
+---
+
 ## 78\. nine miṯẖqáls of gold, to be doubled if they should repeat the offence [\#49](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph49)
 
 A miṯẖqál is a unit of weight. The weight of the traditional miṯẖqál used in the Middle East is equivalent to 24 náḵẖuds. However, the miṯẖqál used by the Bahá’ís consists of 19 náḵẖuds, "in accordance with the specification of the Bayán" (Q and A 23). The weight of nine of these miṯẖqáls equals 32.775 grammes or 1.05374 troy ounces.
 
 In relation to the application of the fine, Bahá’u’lláh clearly specifies that each succeeding fine is double the preceding one (Q and A 23); thus the fine imposed increases in geometrical progression. The imposition of this fine is intended for a future condition of society, at which time the law will be supplemented and applied by the Universal House of Justice.
+
+---
 
 ## 79\. We have made it lawful for you to listen to music and singing. [\#51](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph51)
 
@@ -1879,13 +2039,19 @@ In relation to the application of the fine, Bahá’u’lláh clearly specifies 
 
 There are a number of passages in the Bahá’í Writings in praise of music. ‘Abdu’l-Bahá, for example, asserts that "music, sung or played, is spiritual food for soul and heart".
 
+---
+
 ## 80\. O ye Men of Justice! [\#52](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph52)
 
 It has been elucidated in the writings of ‘Abdu’l-Bahá and Shoghi Effendi that, while the membership of the Universal House of Justice is confined to men, both women and men are eligible for election to Secondary and Local Houses of Justice (currently designated as National and Local Spiritual Assemblies).
 
+---
+
 ## 81\. The penalties for wounding or striking a person depend upon the severity of the injury; for each degree the Lord of Judgement hath prescribed a certain indemnity. [\# 56](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph56)
 
 While Bahá’u’lláh specified that the extent of the penalty depends upon "the severity of the injury", there is no record of His having set out the details of the size of the indemnity with regard to each degree of offence. The responsibility to determine these devolves upon the Universal House of Justice.
+
+---
 
 ## 82\. Verily, it is enjoined upon you to offer a feast, once in every month [\#57](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph57)
 
@@ -1897,17 +2063,25 @@ In answer to a question as to whether this injunction is obligatory, Bahá’u�
 
 Attendance at Nineteen Day Feasts is not obligatory but very important, and every believer should consider it a duty and privilege to be present on such occasions.
 
+---
+
 ## 83\. If ye should hunt with beasts or birds of prey, invoke ye the Name of God when ye send them to pursue their quarry; for then whatever they catch shall be lawful unto you, even should ye find it to have died. [\#60](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph60)
 
 By this law, Bahá’u’lláh greatly simplifies practices and religious regulations of the past relating to hunting. He has also stated that hunting with such weapons as bows and arrows, guns, and the like, is included in this ruling, but that the consumption of game if it is found dead in a trap or a net is prohibited (Q and A 24).
+
+---
 
 ## 84\. hunt not to excess [\#60](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph60)
 
 While hunting is not forbidden by Bahá’u’lláh, He warns against excessive hunting. The Universal House of Justice will, in due course, have to consider what constitutes an excess in hunting.
 
+---
+
 ## 85\. He hath granted them no right to the property of others. [\#61](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph61)
 
 The injunction to show kindness to Bahá’u’lláh’s kindred does not give them a share in the property of others. This is in contrast to S̱ẖí’ih Muslim practice, in which lineal descendants of Muḥammad are entitled to receive a share of a certain tax.
+
+---
 
 ## 86\. Should anyone intentionally destroy a house by fire, him also shall ye burn; should anyone deliberately take another’s life, him also shall ye put to death. [\#62](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph62)
 
@@ -1923,15 +2097,21 @@ The details of the Bahá’í law of punishment for murder and arson, a law desi
 
 In relation to arson, this depends on what "house" is burned. There is obviously a tremendous difference in the degree of offence between the person who burns down an empty warehouse and one who sets fire to a school full of children.
 
+---
+
 ## 87\. Should ye condemn the arsonist and the murderer to life imprisonment, it would be permissible according to the provisions of the Book. [\#62](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph62)
 
 Shoghi Effendi, in response to a question about this verse of the Aqdas, affirmed that while capital punishment is permitted, an alternative, "life imprisonment", has been provided "whereby the rigours of such a condemnation can be seriously mitigated". He states that "Bahá’u’lláh has given us a choice and has, therefore, left us free to use our own discretion within certain limitations imposed by His law". In the absence of specific guidance concerning the application of this aspect of Bahá’í law, it remains for the Universal House of Justice to legislate on the matter in the future.
+
+---
 
 ## 88\. God hath prescribed matrimony unto you. [\#63](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph63)
 
 Bahá’u’lláh, in one of His Tablets, states that God, in establishing this law, has made marriage "a fortress for well-being and salvation".
 
 The Synopsis and Codification, section IV.C.1.a.-o., summarizes and synthesizes the provisions in the Kitáb-i-Aqdas and Questions and Answers concerning marriage and the conditions under which it is permitted (Q and A 3, 13, 46, 50, 84, and 92), the law of betrothal (Q and A 43), the payment of the dowry (Q and A 12, 26, 39, 47, 87, and 88), the procedures to be adopted in the event of the prolonged absence of a spouse (Q and A 4 and 27), and sundry other circumstances (Q and A 12 and 47). (See also notes 89-99.)
+
+---
 
 ## 89\. Beware that ye take not unto yourselves more wives than two. Whoso contenteth himself with a single partner from among the maidservants of God, both he and she shall live in tranquillity. [\#63](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph63)
 
@@ -1941,19 +2121,27 @@ Know thou that polygamy is not permitted under the law of God, for contentment w
 
 Polygamy is a very ancient practice among the majority of humanity. The introduction of monogamy has been only gradually accomplished by the Manifestations of God. Jesus, for example, did not prohibit polygamy, but abolished divorce except in the case of fornication; Muḥammad limited the number of wives to four, but making plurality of wives contingent on justice, and reintroducing permission for divorce; Bahá’u’lláh, Who was revealing His Teachings in the milieu of a Muslim society, introduced the question of monogamy gradually in accordance with the principles of wisdom and the progressive unfoldment of His purpose. The fact that He left His followers with an infallible Interpreter of His Writings enabled Him to outwardly permit two wives in the Kitáb-i-Aqdas but uphold a condition that enabled ‘Abdu’l-Bahá to elucidate later that the intention of the law was to enforce monogamy.
 
+---
+
 ## 90\. he who would take into his service a maid may do so with propriety [\#63](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph63)
 
 Bahá’u’lláh states that a man may employ a maiden for domestic service. This was not permissible under S̱ẖí’ih Muslim practice unless the employer entered into a marriage contract with her. Bahá’u’lláh emphasizes that the "service" referred to in this verse is solely "such as is performed by any other class of servants, be they young or old, in exchange for wages" (Q and A 30). An employer has no sexual rights over his maid. She is "free to choose a husband at whatever time she pleaseth", for the purchase of women is forbidden (Q and A 30).
 
+---
+
 ## 91\. This is My bidding unto you; hold fast to it as an assistance to yourselves. [\#63](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph63)
 
 While marriage is enjoined in the Kitáb-i-Aqdas, Bahá’u’lláh clarifies that it is not obligatory (Q and A 46). Shoghi Effendi, in a letter written on his behalf, also declared that "marriage is by no means an obligation", and he affirmed that "in the last resort, it is for the individual to decide whether he wishes to lead a family life or live in a state of celibacy". If a person has to wait a considerable period of time before finding a spouse, or ultimately must remain single, it does not mean that the individual is thereby unable to fulfil his or her life’s purpose, which is fundamentally spiritual.
+
+---
 
 ## 92\. We have conditioned it ... upon the permission of their parents [\#65](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph65)
 
 In a letter written on his behalf, Shoghi Effendi has commented on this provision of the law:
 
 Bahá’u’lláh has clearly stated the consent of all living parents is required for a Bahá’í marriage. This applies whether the parents are Bahá’ís or non-Bahá’ís, divorced for years or not. This great law He has laid down to strengthen the social fabric, to knit closer the ties of the home, to place a certain gratitude and respect in the hearts of the children for those who have given them life and sent their souls out on the eternal journey towards their Creator.
+
+---
 
 ## 93\. No marriage may be contracted without payment of a dowry [\#66](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph66)
 
@@ -1963,9 +2151,13 @@ The dowry is to be paid by the bridegroom to the bride. It is fixed at 19 miṯh
 
 With the Revelation of Bahá’u’lláh many familiar concepts, customs and institutions are redefined and take on new meaning. One of these is the dowry. The institution of dowry is a very ancient practice in many cultures and takes many forms. In some countries it is a payment made by the parents of the bride to the bridegroom; in others it is a payment made by the bridegroom to the parents of the bride, called a "bride-price". In both such cases the amount is often quite considerable. The law of Bahá’u’lláh abolishes all such variants and converts the dowry into a symbolic act whereby the bridegroom presents a gift of a certain limited value to the bride.
 
+---
+
 ## 94\. for city-dwellers at nineteen miṯẖqáls of pure gold, and for village-dwellers at the same amount in silver [\#66](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph66)
 
 Bahá’u’lláh specifies that the criterion for determining the dowry payment is the location of the permanent residence of the bridegroom, not of the bride (Q and A 87, 88).
+
+---
 
 ## 95\. Whoso wisheth to increase this sum, it is forbidden him to exceed the limit of ninety-five miṯẖqáls... If he content himself, however, with a payment of the lowest level, it shall be better for him according to the Book. [\#66](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph66)
 
@@ -1979,9 +2171,13 @@ City-dwellers must pay in gold and village-dwellers in silver. It dependeth on t
 
 In this same Tablet, ‘Abdu’l-Bahá encouraged the believers to refer questions concerning the application of this law to the Universal House of Justice, which has "the authority to legislate". He stressed that "it is this body which will enact laws and legislate upon secondary matters which are not explicit in the Holy Text".
 
+---
+
 ## 96\. should any one of His servants intend to travel, he must fix for his wife a time when he will return home [\#67](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph67)
 
 If the husband leaves without informing his wife of the date of his return, and no news of him reaches her and all trace of him is lost, Bahá’u’lláh has stated that, should the husband have been aware of the law prescribed in the Kitáb-i-Aqdas, the wife may remarry after waiting a full year. If, however, the husband was unaware of the law, the wife must wait until news of her husband reaches her (Q and A 4).
+
+---
 
 ## 97\. it behoveth her to wait for a period of nine months, after which there is no impediment to her taking another husband [\#67](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph67)
 
@@ -1989,13 +2185,19 @@ In the event of the husband’s failure, either to return at the end of the spec
 
 Bahá’u’lláh states that, in such circumstances, should news reach the wife of "her husband’s death or murder", she must also wait nine months, prior to remarrying (Q and A 27). ‘Abdu’l-Bahá, in a Tablet, has further clarified that the nine months’ waiting period following news of the husband’s death applies only if the husband had been away at the time of his death, and not if he dies while at home.
 
+---
+
 ## 98\. she should choose the course that is praiseworthy [\#67](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph67)
 
 Bahá’u’lláh defines "the course that is praiseworthy" as "the exercise of patience" (Q and A 4).
 
+---
+
 ## 99\. two just witnesses [\#67](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph67)
 
 Bahá’u’lláh sets out "the criterion of justness" in relation to witnesses as "a good reputation among the people". He states that it is not necessary that the witnesses should be Bahá’ís since "The testimony of all God’s servants, of whatever faith or creed, is acceptable before His Throne" (Q and A 79).
+
+---
 
 ## 100\. Should resentment or antipathy arise between husband and wife, he is not to divorce her but to bide in patience throughout the course of one whole year [\#68](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph68)
 
@@ -2005,29 +2207,43 @@ In Questions and Answers, Bahá’u’lláh elaborates a number of issues concer
 
 The detailed provisions of the Bahá’í laws on divorce are summarized in the Synopsis and Codification, section IV.C.2.a.-i.
 
+---
+
 ## 101\. The Lord hath prohibited ... the practice to which ye formerly had recourse when thrice ye had divorced a woman. [\#68](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph68)
 
 This relates to a law of Islám set out in the Qur’án which decreed that under certain conditions a man could not remarry his divorced wife unless she had married and been divorced by another man. Bahá’u’lláh affirms that this is the practice which has been prohibited in the Kitáb-i-Aqdas (Q and A 31).
+
+---
 
 ## 102\. He who hath divorced his wife may choose, upon the passing of each month, to remarry her when there is mutual affection and consent, so long as she hath not taken another husband ... unless, clearly, her circumstances change. [\#68](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph68)
 
 Shoghi Effendi states, in a letter written on his behalf, that the intention of "the passing of each month" is not to impose a limitation, and that it is possible for a divorced couple to remarry at any time after their divorce, so long as neither party is currently married to another person.
 
+---
+
 ## 103\. semen is not unclean [\# 74](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph74)
 
 In a number of religious traditions and in S̱ẖí’ih Muslim practice semen has been declared ritually unclean. Bahá’u’lláh has here dispelled this concept. See also note 106 below.
+
+---
 
 ## 104\. Cleave ye unto the cord of refinement [\#74](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph74)
 
 ‘Abdu’l-Bahá refers to the effect of "purity and holiness, cleanliness and refinement" on the exaltation of "the human condition" and "the development of man’s inner reality". He states: "The fact of having a pure and spotless body exercises an influence upon the spirit of man." (See also note 74.)
 
+---
+
 ## 105\. Wash ye every soiled thing with water that hath undergone no alteration in any one of the three respects [\#74](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph74)
 
 The "three respects" referred to in this verse are changes in the colour, taste or smell of the water. Bahá’u’lláh provides additional guidance concerning pure water and the point at which it is considered unsuitable for use (Q and A 91).
 
+---
+
 ## 106\. God hath ... abolished the concept of "uncleanness", whereby divers things and peoples have been held to be impure. [\#75](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph75)
 
 The concept of ritual "uncleanness", as understood and practised in some tribal societies and in the religious communities of certain earlier Dispensations, has been abolished by Bahá’u’lláh. He states that through His Revelation "all created things were immersed in the sea of purification". (See also notes 12, 20, and 103.)
+
+---
 
 ## 107\. first day of Ridván [\#75](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph75)
 
@@ -2035,11 +2251,15 @@ This is a reference to the arrival of Bahá’u’lláh and His companions in th
 
 The Declaration of Bahá’u’lláh is celebrated annually by the twelve-day Ridván Festival, described by Shoghi Effendi as "the holiest and most significant of all Bahá’í festivals" (see notes 138 and 140).
 
+---
+
 ## 108\. the Bayán [\#77](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph77)
 
 The Bayán, the Mother Book of the Bábí Dispensation, is the title given by the Báb to His Book of Laws, and it is also applied to the entire body of His Writings. The Persian Bayán is the major doctrinal work and principal repository of the laws ordained by the Báb. The Arabic Bayán is parallel in content but smaller and less weighty. When describing the Persian Bayán in God Passes By Shoghi Effendi indicated that it should be regarded "primarily as a eulogy of the Promised One rather than as a code of laws and ordinances designed to be a permanent guide to future generations".
 
 ‘Abdu’l-Bahá has written: "The Bayán hath been superseded by the Kitáb-i-Aqdas, except in respect of such laws as have been confirmed and mentioned in the Kitáb-i-Aqdas."
+
+---
 
 ## 109\. the destruction of books [\#77](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph77)
 
@@ -2051,23 +2271,33 @@ As to the nature and severity of the laws of the Bayán, Shoghi Effendi in a let
 
 The severe laws and injunctions revealed by the Báb can be properly appreciated and understood only when interpreted in the light of His own statements regarding the nature, purpose and character of His own Dispensation. As these statements clearly reveal, the Bábí Dispensation was essentially in the nature of a religious and indeed social revolution, and its duration had therefore to be short, but full of tragic events, of sweeping and drastic reforms. Those drastic measures enforced by the Báb and His followers were taken with the view of undermining the very foundations of S̱ẖí’ih orthodoxy, and thus paving the way for the coming of Bahá’u’lláh. To assert the independence of the new Dispensation, and to prepare also the ground for the approaching Revelation of Bahá’u’lláh, the Báb had therefore to reveal very severe laws, even though most of them were never enforced. But the mere fact that He revealed them was in itself a proof of the independent character of His Dispensation and was sufficient to create such widespread agitation, and excite such opposition on the part of the clergy that led them to cause His eventual martyrdom. 
 
+---
+
 ## 110\. We have permitted you to read such sciences as are profitable unto you, not such as end in idle disputation [\#77](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph77)
 
 The Bahá’í Writings enjoin the acquisition of knowledge and the study of the arts and sciences. Bahá’ís are admonished to respect people of learning and accomplishment, and are warned against the pursuit of studies that are productive only of futile wrangling.
 
 In His Tablets Bahá’u’lláh counsels the believers to study such sciences and arts as are "useful" and would further "the progress and advancement" of society, and He cautions against sciences which "begin with words and end with words", the pursuit of which leads to "idle disputation". Shoghi Effendi, in a letter written on his behalf, likened sciences that "begin with words and end with words" to "fruitless excursions into metaphysical hair-splittings", and, in another letter, he explained that what Bahá’u’lláh primarily intended by such "sciences" are "those theological treatises and commentaries that encumber the human mind rather than help it to attain the truth".
 
+---
+
 ## 111\. He Who held converse with God [\#80](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph80)
 
 This is a traditional Jewish and Islamic title of Moses. Bahá’u’lláh states that with the coming of His Revelation "human ears have been privileged to hear what He Who conversed with God heard upon Sinai".
+
+---
 
 ## 112\. Sinai [\#80](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph80)
 
 The mountain where the Law was revealed by God to Moses.
 
+---
+
 ## 113\. the Spirit of God [\#80](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph80)
 
 This is one of the titles used in the Islamic and Bahá’í Writings to designate Jesus Christ.
+
+---
 
 ## 114\. Carmel ... Zion [\#80](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph80)
 
@@ -2075,9 +2305,13 @@ Carmel, the "Vineyard of God", is the mountain in the Holy Land where the Shrine
 
 Zion is a hill in Jerusalem, the traditional site of the tomb of King David, and is symbolic of Jerusalem as a Holy City.
 
+---
+
 ## 115\. the Crimson Ark [\#84](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph84)
 
 The "Crimson Ark" refers to the Cause of Bahá’u’lláh. His followers are designated as the "companions of the Crimson Ark", lauded by the Báb in the Qayyúmu’l-Asmá.
+
+---
 
 ## 116\. O Emperor of Austria! He Who is the Dayspring of God’s Light dwelt in the prison of Akká at the time when thou didst set forth to visit the Aqsá Mosque. [\#85](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph85)
 
@@ -2085,9 +2319,13 @@ Francis Joseph (Franz Josef, 1830-1916), Emperor of Austria and King of Hungary,
 
 The Aqsá Mosque, literally, the "Most Distant" Mosque, is referred to in the Qur’án, and has become identified with the Temple Mount in Jerusalem.
 
+---
+
 ## 117\. O King of Berlin! [\#86](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph86)
 
 Kaiser William I (Wilhelm Friedrich Ludwig, 1797-1888), the seventh king of Prussia, was acclaimed first Emperor of Germany in January 1871 at Versailles in France, following the victory of Germany over France in the Franco-Prussian War.
+
+---
 
 ## 118\. the one whose power transcended thy power, and whose station excelled thy station [\#86](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph86)
 
@@ -2097,9 +2335,13 @@ Bahá’u’lláh addressed two Tablets to Napoleon III, in the second of which 
 
 Within a year, Napoleon III suffered a resounding defeat, at the hands of Kaiser William I, at the Battle of Sedan in 1870\. He went in exile to England, where he died three years later.
 
+---
+
 ## 119\. O people of Constantinople! [\#89](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph89)
 
 The word here translated as "Constantinople" is, in the original, "Ar-Rúm" or "Rome". This term has generally been used in the Middle East to designate Constantinople and the Eastern Roman Empire, then the city of Byzantium and its empire, and later the Ottoman Empire.
+
+---
 
 ## 120\. O Spot that art situate on the shores of the two seas! [\#89](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph89)
 
@@ -2107,23 +2349,33 @@ This is a reference to Constantinople, now called Istanbul. Located on the Bosph
 
 Constantinople was the capital of the Ottoman Empire from 1453 until 1922\. During Bahá’u’lláh’s sojourn in this city, the tyrannical Sultan ‘Abdu’l-‘Azíz occupied the throne. The Ottoman Sultans were also the Caliphs, the leaders of Sunní Islám. Bahá’u’lláh anticipated the fall of the Caliphate, which was abolished in 1924.
 
+---
+
 ## 121\. O banks of the Rhine! [\#90](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph90)
 
 In one of His Tablets written before the First World War (1914-1918), ‘Abdu’l-Bahá explained that Bahá’u’lláh’s reference to having seen the banks of the Rhine "covered with gore" related to the Franco-Prussian War (1870-1871), and that there was more suffering to come.
 
 In God Passes By Shoghi Effendi states that the "oppressively severe treaty" that was imposed on Germany following its defeat in the First World War "provoked ‘the lamentations’" of Berlin "which half a century before, had been ominously prophesied".
 
+---
+
 ## 122\. O Land of Tá [\#91](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph91)
 
 "Tá" is the initial letter of Ṭihrán, the capital of Iran. Bahá’u’lláh has often chosen to represent certain place names by reference to their initial letter. According to the abjad system of reckoning, the numerical value of Tá is nine, which equals the numerical value of the name Bahá.
+
+---
 
 ## 123\. within thee was born the Manifestation of His Glory [\#92](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph92)
 
 This is a reference to the birth of Bahá’u’lláh in Ṭihrán on 12 November 1817.
 
+---
+
 ## 124\. O Land of Ḵẖá! [\#94](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph94)
 
 A reference to the Iranian province of Ḵẖurásán and neighbouring areas, which include the city of Is̱ẖqábád (Ashkhabad).
+
+---
 
 ## 125\. Should anyone acquire one hundred miṯẖqáls of gold, nineteen miṯẖqáls thereof are God’s and to be rendered unto Him [\#97](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph97)
 
@@ -2135,21 +2387,31 @@ Certain categories of possessions, such as one’s residence, are exempt from th
 
 Extensive extracts from Tablets, Questions and Answers, and other Writings concerning the spiritual significance of Ḥuqúqu’lláh and the details of its application have been published in a compilation entitled Ḥuqúqu’lláh.
 
+---
+
 ## 126\. Various petitions have come before Our throne from the believers, concerning laws from God... We have, in consequence, revealed this Holy Tablet and arrayed it with the mantle of His Law that haply the people may keep the commandments of their Lord. [\#98](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph98)
 
 "For a number of years", Bahá’u’lláh states in one of His Tablets, "petitions reached the Most Holy Presence from various lands begging for the laws of God, but We held back the Pen ere the appointed time had come." Not until twenty years from the birth of His Prophetic Mission in the Síyáh-C̱ẖál of Ṭihrán had elapsed did Bahá’u’lláh reveal the Kitáb-i-Aqdas, the Repository of the laws of His Dispensation. Even after its revelation the Aqdas was withheld by Him for some time before it was sent to the friends in Persia. This divinely purposed delay in the revelation of the basic laws of God for this age, and the subsequent gradual implementation of their provisions, illustrate the principle of progressive revelation which applies even within the ministry of each Prophet.
+
+---
 
 ## 127\. crimson Spot [\#100](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph100)
 
 This is a reference to the prison-city of Akká. In the Bahá’í Writings the word "crimson" is used in several allegorical and symbolic senses. (See also note 115.)
 
+---
+
 ## 128\. the Sadratu’l-Muntahá [\#100](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph100)
 
 Literally "the furthermost Lote-Tree", translated by Shoghi Effendi as "the Tree beyond which there is no passing". This is used as a symbol in Islám, for example in the accounts of Muḥammad’s Night Journey, to mark the point in the heavens beyond which neither men nor angels can pass in their approach to God, and thus to delimit the bounds of divine knowledge as revealed to mankind. Hence it is often used in the Bahá’í Writings to designate the Manifestation of God Himself. (See also note 164.)
 
+---
+
 ## 129\. the Mother Book [\#103](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph103)
 
 The term "Mother Book" is generally used to designate the central Book of a religious Dispensation. In the Qur’án and Islamic Hadíṯẖ, the term is used to describe the Qur’án itself. In the Bábí Dispensation, the Bayán is the Mother Book, and the Kitáb-i-Aqdas is the Mother Book of the Dispensation of Bahá’u’lláh. Further, the Guardian in a letter written on his behalf has stated that this concept can also be used as a "collective term indicating the body of the Teachings revealed by Bahá’u’lláh". This term is also used in a broader sense to signify the Divine Repository of Revelation.
+
+---
 
 ## 130\. Whoso interpreteth what hath been sent down from the heaven of Revelation, and altereth its evident meaning [\#105](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph105)
 
@@ -2159,19 +2421,27 @@ As explained in notes 145 and 184, Bahá’u’lláh designated ‘Abdu’l-Bah�
 
 The existence of authoritative interpretations does not preclude the individual from engaging in the study of the Teachings and thereby arriving at a personal interpretation or understanding. A clear distinction is, however, drawn in the Bahá’í Writings between authoritative interpretation and the understanding that each individual arrives at from a study of its Teachings. Individual interpretations based on a person’s understanding of the Teachings constitute the fruit of man’s rational power and may well contribute to a greater comprehension of the Faith. Such views, nevertheless, lack authority. In presenting their personal ideas, individuals are cautioned not to discard the authority of the revealed words, not to deny or contend with the authoritative interpretation, and not to engage in controversy; rather they should offer their thoughts as a contribution to knowledge, making it clear that their views are merely their own.
 
+---
+
 ## 131\. approach not the public pools of Persian baths [\#106](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph106)
 
 Bahá’u’lláh prohibits the use of the pools found in the traditional public bath-houses of Persia. In these baths it was the custom for many people to wash themselves in the same pool and for the water to be changed at infrequent intervals. Consequently, the water was discoloured, befouled and unhygienic, and had a highly offensive stench.
 
+---
+
 ## 132\. Avoid ye likewise the malodorous pools in the courtyards of Persian homes [\#106](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph106)
 
 Most houses in Persia used to have a pool in their courtyard which served as a reservoir for water used for cleaning, washing and other domestic purposes. Since the water in the pool was stagnant and was not usually changed for weeks at a time, it tended to develop a very unpleasant odour.
+
+---
 
 ## 133\. It is forbidden you to wed your fathers’ wives. [\#107](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph107)
 
 Marriage with one’s stepmother is here explicitly prohibited. This prohibition also applies to marrying one’s stepfather. Where Bahá’u’lláh has expressed a law between a man and a woman it applies mutatis mutandis as between a woman and a man unless the context should make this impossible.
 
 ‘Abdu’l-Bahá and Shoghi Effendi confirmed that, while stepmothers are the only category of relatives mentioned in the text, this does not mean that all other unions within a family are permissible. Bahá’u’lláh states that it devolves upon the House of Justice to legislate "concerning the legitimacy or otherwise of marrying one’s relatives" (Q and A 50). ‘Abdu’l-Bahá has written that the more distant the blood-relationship between the couple the better, since such marriages provide the basis for the physical well-being of humanity and are conducive to fellowship among mankind.
+
+---
 
 ## 134\. the subject of boys [\#107](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph107)
 
@@ -2185,9 +2455,13 @@ No matter how devoted and fine the love may be between people of the same sex, t
 
 Bahá’u’lláh makes provision for the Universal House of Justice to determine, according to the degree of the offence, penalties for adultery and sodomy (Q and A 49).
 
+---
+
 ## 135\. To none is it permitted to mutter sacred verses before the public gaze as he walketh in the street or marketplace [\#108](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph108)
 
 This is an allusion to the practice of certain clerics and religious leaders of earlier Dispensations who, out of hypocrisy and affectation, and in order to win the praise of their followers, would ostentatiously mutter prayers in public places as a demonstration of their piety. Bahá’u’lláh forbids such behaviour and stresses the importance of humility and genuine devotion to God.
+
+---
 
 ## 136\. Unto everyone hath been enjoined the writing of a will. [\#109](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph109)
 
@@ -2195,9 +2469,13 @@ According to the Teachings of Bahá’u’lláh, the individual has a duty to wr
 
 Bahá’u’lláh affirms that in drawing up his will "a person hath full jurisdiction over his property", since God has permitted the individual "to deal with that which He hath bestowed upon him in whatever manner he may desire" (Q and A 69). Provisions are set out in the Kitáb-i-Aqdas for the distribution of inheritance in the case of intestacy. (See notes 38-48.)
 
+---
+
 ## 137\. the Most Great Name [\#109](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph109)
 
 As explained in note 33, the Greatest Name of God can take various forms, all based on the word "Bahá". The Bahá’ís in the East have implemented this injunction of the Aqdas by heading their wills with such phrases as "O Thou Glory of the All-Glorious", "In the name of God, the All-Glorious" or "He is the All-Glorious" and the like.
+
+---
 
 ## 138\. All Feasts have attained their consummation in the two Most Great Festivals, and in the two other Festivals that fall on the twin days [\#110](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph110)
 
@@ -2205,27 +2483,39 @@ This passage establishes four great festivals of the Bahá’í year. The two de
 
 The "two other Festivals" are the anniversaries of the births of Bahá’u’lláh and the Báb. In the Muslim lunar calendar these fall on consecutive days, the birth of Bahá’u’lláh on the second day of the month of Muharram 1233 A.H. (12 November 1817), and the birth of the Báb on the first day of the same month 1235 A.H. (20 October 1819), respectively. They are thus referred to as the "Twin Birthdays" and Bahá’u’lláh states that these two days are accounted as one in the sight of God (Q and A 2). He states that, should they fall within the month of fasting, the command to fast shall not apply on those days (Q and A 36). Given that the Bahá’í calendar (see notes 26 and 147) is a solar calendar, it remains for the Universal House of Justice to determine whether the Twin Holy Birthdays are to be celebrated on a solar or lunar basis.
 
+---
+
 ## 139\. the first day of the month of Bahá [\#111](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph111)
 
 In the Bahá’í calendar the first month of the year and the first day of each month are given the name "Bahá". The day of Bahá of the month of Bahá is thus the Bahá’í New Year, Naw-Rúz, which was ordained by the Báb as a festival and is here confirmed by Bahá’u’lláh (see notes 26 and 147).
 
 In addition to the seven Holy Days ordained in these passages of the Kitáb-i-Aqdas, the anniversary of the Martyrdom of the Báb was also commemorated as a Holy Day in the lifetime of Bahá’u’lláh and, as a corollary to this, ‘Abdu’l-Bahá added the observance of the Ascension of Bahá’u’lláh, making nine Holy Days in all. Two other anniversaries which are observed, but on which work is not suspended, are the Day of the Covenant and the anniversary of the Passing of ‘Abdu’l-Bahá. See the section on the Bahá’í calendar in The Bahá’í World, volume XVIII.
 
+---
+
 ## 140\. The Most Great Festival is, indeed, the King of Festivals [\#112](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph112)
 
 A reference to the Ridván Festival (see notes 107 and 138).
+
+---
 
 ## 141\. God had formerly laid upon each one of the believers the duty of offering before Our throne priceless gifts from among his possessions. Now ... We have absolved them of this obligation. [\#114](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph114)
 
 This passage abrogates a provision of the Bayán which decreed that all objects unparalleled of their kind should, upon the appearance of Him Whom God will make manifest, be rendered unto Him. The Báb explained that, since the Manifestation of God is beyond compare, whatever is peerless in its kind should rightfully be reserved for Him, unless He decrees otherwise.
 
+---
+
 ## 142\. the hour of dawn [\#115](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph115)
 
 With reference to attending dawn prayers in the Mas̱ẖriqu’l-Aḏẖkár, the Bahá’í House of Worship, Bahá’u’lláh has explained that, although the actual time specified in the Book of God is "the hour of dawn", it is acceptable at any time from "the earliest dawn of day, between dawn and sunrise, or even up to two hours after sunrise" (Q and A 15).
 
+---
+
 ## 143\. These Tablets are embellished with the seal of Him Who causeth the dawn to appear, Who lifteth up His voice between the heavens and the earth. [\#117](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph117)
 
 Bahá’u’lláh repeatedly affirms the absolute integrity of His Writings as the Word of God. Some of His Tablets also bear the mark of one of His seals. The Bahá’í World, volume V, p. 4, contains a photograph of a number of Bahá’u’lláh’s seals.
+
+---
 
 ## 144\. It is inadmissible that man, who hath been endowed with reason, should consume that which stealeth it away. [\#119](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph119)
 
@@ -2237,9 +2527,13 @@ Beware lest ye exchange the Wine of God for your own wine, for it will stupefy y
 
 Shoghi Effendi, in letters written on his behalf, states that this prohibition includes not only the consumption of wine but of "everything that deranges the mind", and he clarifies that the use of alcohol is permitted only when it constitutes part of a medical treatment which is implemented "under the advice of a competent and conscientious physician, who may have to prescribe it for the cure of some special ailment".
 
+---
+
 ## 145\. turn your faces toward Him Whom God hath purposed, Who hath branched from this Ancient Root [\#121](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph121)
 
 Bahá’u’lláh here alludes to ‘Abdu’l-Bahá as His Successor and calls upon the believers to turn towards Him. In the Book of the Covenant, His Will and Testament, Bahá’u’lláh discloses the intention of this verse. He states: "The object of this sacred verse is none other except the Most Mighty Branch." The "Most Mighty Branch" is one of the titles conferred by Bahá’u’lláh on ‘Abdu’l-Bahá. (See also notes 66 and 184.)
+
+---
 
 ## 146\. In the Bayán it had been forbidden you to ask Us questions. [\#126](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph126)
 
@@ -2247,13 +2541,19 @@ The Báb forbade His followers to ask questions of Him Whom God will make manife
 
 Bahá’u’lláh removes this prohibition of the Báb. He invites the believers to ask such questions as they "need to ask", and He cautions them to refrain from posing "idle questions" of the kind which preoccupied "the men of former times".
 
+---
+
 ## 147\. The number of months in a year, appointed in the Book of God, is nineteen. [\#127](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph127)
 
 The Bahá’í year, in accordance with the Badí calendar, consists of nineteen months of nineteen days each, with the addition of certain intercalary days (four in an ordinary year and five in a leap year) between the eighteenth and nineteenth months in order to adjust the calendar to the solar year. The Báb named the months after certain attributes of God. The Bahá’í New Year, Naw-Rúz, is astronomically fixed, coinciding with the March equinox (see note 26). For further details, including the names of the days of the week and the months, see the section on the Bahá’í calendar in The Bahá’í World, volume XVIII.
 
+---
+
 ## 148\. the first hath been adorned with this Name which overshadoweth the whole of creation [\#127](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph127)
 
 In the Persian Bayán, the Báb bestowed the name "Bahá" on the first month of the year (see note 139).
+
+---
 
 ## 149\. The Lord hath decreed that the dead should be interred in coffins [\#128](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph128)
 
@@ -2263,9 +2563,13 @@ In brief, the Bahá’í law for the burial of the dead states that it is forbid
 
 With regard to the material from which the coffin is to be made, the spirit of the law is that coffins should be of as durable a material as possible. Hence, the Universal House of Justice has explained that, in addition to the materials specified in the Aqdas, there is no objection to using the hardest wood available or concrete for the casket. For the present, the Bahá’ís are left free to make their own choices in this matter.
 
+---
+
 ## 150\. the Point of the Bayán [\#129](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph129)
 
 The "Point of the Bayán" is one of the titles by which the Báb referred to Himself.
+
+---
 
 ## 151\. the deceased should be enfolded in five sheets of silk or cotton [\#130](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph130)
 
@@ -2275,21 +2579,29 @@ When asked whether the "five sheets" mentioned in the law referred to "five full
 
 Concerning the way in which the body should be wrapped, there is nothing in the Bahá’í Writings to define how the wrapping of the body is to be done, either when "five cloths" are used or only "a single sheet". At present, the Bahá’ís are free to use their judgement in the matter.
 
+---
+
 ## 152\. It is forbidden you to transport the body of the deceased a greater distance than one hour’s journey from the city [\#130](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph130)
 
 The intention of this command is to limit the duration of the journey to one hour’s time, irrespective of the means of transport that are chosen to carry the body to the burial site. Bahá’u’lláh affirms that the sooner the burial takes place, "the more fitting and acceptable will it be" (Q and A 16).
 
 The place of death may be taken to encompass the city or town in which the person passes away, and therefore the one hour’s journey may be calculated from the city limits to the place of burial. The spirit of Bahá’u’lláh’s law is for the deceased to be buried near where he or she dies.
 
+---
+
 ## 153\. God hath removed the restrictions on travel that had been imposed in the Bayán. [\#131](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph131)
 
 The Báb decreed certain restrictions on travel which were to remain in force until the advent of the Promised One of the Bayán, at which time the believers were instructed to set out, even if on foot, to meet Him, since the attainment of His presence was the fruit and purpose of their very existence.
+
+---
 
 ## 154\. Raise up and exalt the two Houses in the Twin Hallowed Spots, and the other sites wherein the throne of your Lord ... hath been established. [\#133](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph133)
 
 Bahá’u’lláh identifies the "two Houses" as His House in Bag̱ẖdád, designated by Him as the "Most Great House", and the House of the Báb in S̱ẖíráz, both of which have been ordained by Him as sites of pilgrimage. (See Q and A 29, 32 and note 54.)
 
 Shoghi Effendi explained that "the other sites wherein the throne of your Lord ... hath been established" refers to those places where the Person of the Manifestation of God has resided. Bahá’u’lláh states that "the people of the areas where these are situated may choose to preserve either each house" wherein He resided, "or one of them" (Q and A 32). Bahá’í institutions have identified, documented, and where possible, acquired and restored a number of the historical sites associated with the Twin Manifestations.
+
+---
 
 ## 155\. Take heed lest ye be prevented by aught that hath been recorded in the Book from hearkening unto this, the Living Book [\#134](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph134)
 
@@ -2299,13 +2611,19 @@ These words contain an allusion to a statement of the Báb in the Persian Bayán
 
 In this verse of the Aqdas, and again in paragraph 168 of the Aqdas, Bahá’u’lláh refers to Himself as the "Living Book". He cautions the "followers of every other Faith" against seeking "reasons in their Holy Books" for refuting the utterances of the "Living Book". He admonishes the people not to allow what has been recorded in the "Book" to prevent them from recognising His Station and from holding fast to what is in this new Revelation.
 
+---
+
 ## 156\. tribute to this Revelation, from the Pen of Him Who was My Herald [\#135](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph135)
 
 The "tribute" that Bahá’u’lláh quotes in this passage is from the Arabic Bayán.
 
+---
+
 ## 157\. "The Qiblih is indeed He Whom God will make manifest; whenever He moveth, it moveth, until He shall come to rest." [\#137](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph137)
 
 For a discussion of this verse see notes 7 and 8.
+
+---
 
 ## 158\. It is unlawful to enter into marriage save with a believer in the Bayán. Should only one party to a marriage embrace this Cause, his or her possessions will become unlawful to the other [\#139](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph139)
 
@@ -2313,9 +2631,13 @@ The passage of the Bayán which Bahá’u’lláh here quotes draws the attentio
 
 In God Passes By Shoghi Effendi points out that the Bayán "should be regarded primarily as a eulogy of the Promised One rather than a code of laws and ordinances designed to be a permanent guide to future generations". "Designedly severe in the rules and regulations it imposed," he continues, "revolutionizing in the principles it instilled, calculated to awaken from their age-long torpor the clergy and the people, and to administer a sudden and fatal blow to obsolete and corrupt institutions, it proclaimed, through its drastic provisions, the advent of the anticipated Day, the Day when ‘the Summoner shall summon to a stern business’, when He will ‘demolish whatever hath been before Him, even as the Apostle of God demolished the ways of those that preceded Him’" (see also note 109).
 
+---
+
 ## 159\. The Point of the Bayán [\#140](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph140)
 
 One of the titles of the Báb.
+
+---
 
 ## 160\. Verily, there is none other God besides Me [\#143](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph143)
 
@@ -2341,11 +2663,15 @@ And, regarding His own relationship to God, He testifies:
 
 When I contemplate, O my God, the relationship that bindeth me to Thee, I am moved to proclaim to all created things "verily I am God"; and when I consider my own self, lo, I find it coarser than clay!
 
+---
+
 ## 161\. payment of Zakát [\#146](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph146)
 
 Zakát is referred to in the Qur’án as a regular charity binding upon Muslims. In due course the concept evolved into a form of alms-tax which imposed the obligation to give a fixed portion of certain categories of income, beyond specified limits, for the relief of the poor, for various charitable purposes, and to aid the Faith of God. The limit of exemption varied for different commodities, as did the percentage payable on the portion assessable.
 
 Bahá’u’lláh states that the Bahá’í law of Zakát follows "what hath been revealed in the Qur’án" (Q and A 107). Since such issues as the limits for exemption, the categories of income concerned, the frequency of payments, and the scale of rates for the various categories of Zakát are not mentioned in the Qur’án, these matters will have to be set forth in the future by the Universal House of Justice. Shoghi Effendi has indicated that pending such legislation the believers should, according to their means and possibilities, make regular contributions to the Bahá’í Fund.
+
+---
 
 ## 162\. It is unlawful to beg, and it is forbidden to give to him who beggeth. [\#147](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph147)
 
@@ -2353,13 +2679,19 @@ In a Tablet ‘Abdu’l-Bahá expounds the meaning of this verse. He states that
 
 The prohibition against giving charity to people who beg does not preclude individuals and Spiritual Assemblies from extending financial assistance to the poor and needy or from providing them with opportunities to acquire such skills as would enable them to earn a livelihood (see note 56).
 
+---
+
 ## 163\. A fine ... had formerly been prescribed ... for anyone who was the cause of sadness to another [\#148](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph148)
 
 Bahá’u’lláh abrogates the law of the Persian Bayán concerning the payment of a fine in reparation for causing sadness to one’s neighbour.
 
+---
+
 ## 164\. the sacred Lote-Tree [\# 148](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph148)
 
 The "sacred Lote-Tree" is a reference to the Sadratu’l-Muntahá, the "Tree beyond which there is no passing" (see note 128). It is used here symbolically to designate Bahá’u’lláh.
+
+---
 
 ## 165\. Recite ye the verses of God every morn and eventide. [\#149](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph149)
 
@@ -2367,13 +2699,19 @@ Bahá’u’lláh states that the essential "requisite" for reciting "the verses
 
 With regard to the definition of "verses of God", Bahá’u’lláh states that it refers to "all that hath been sent down from the Heaven of Divine Utterance". Shoghi Effendi, in a letter written to one of the believers in the East, has clarified that the term "verses of God" does not include the writings of ‘Abdu’l-Bahá; he has likewise indicated that this term does not apply to his own writings.
 
+---
+
 ## 166\. Ye have been enjoined to renew the furnishings of your homes after the passing of each nineteen years [\#151](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph151)
 
 Bahá’u’lláh confirms the injunction in the Arabic Bayán regarding the renewal, every nineteen years, of the furnishings of one’s home, provided one is able to do so. ‘Abdu’l-Bahá relates this ordinance to the promotion of refinement and cleanliness. He explains that the purpose of the law is that one should change those furnishings that become old, lose their lustre and provoke repugnance. It does not apply to such things as rare or treasured articles, antiques or jewellery.
 
+---
+
 ## 167\. Wash your feet [\#152](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph152)
 
 The believers are exhorted in the Kitáb-i-Aqdas to bathe regularly, to wear clean clothes and generally to be the essence of cleanliness and refinement. The Synopsis and Codification, section IV.D.3.y.i.-vii., summarizes the relevant provisions. In relation to the washing of the feet, Bahá’u’lláh states that it is preferable to use warm water; however, washing in cold water is also permissible (Q and A 97).
+
+---
 
 ## 168\. Ye have been prohibited from making use of pulpits. Whoso wisheth to recite unto you the verses of his Lord, let him sit on a chair placed upon a dais [\#154](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph154)
 
@@ -2381,11 +2719,15 @@ These provisions have their antecedent in the Persian Bayán. The Báb forbade t
 
 In comments on this law, ‘Abdu’l-Bahá and Shoghi Effendi have made it clear that in the Mas̱ẖriqu’l-Aḏẖkár (where sermons are prohibited and only the words of Holy Scripture may be read) the reader may stand or sit, and if necessary to be better heard, may use a low moveable platform, but that no pulpit is permitted. In the case of meetings in places other than the Mas̱ẖriqu’l-Aḏẖkár, it is also permissible for the reader or speaker to sit or stand, and to use a platform. In one of His Tablets, when reiterating the prohibition of the use of pulpits in any location, ‘Abdu’l-Bahá has stressed that when Bahá’ís deliver their speeches in gatherings, they are to do so in an attitude of utmost humility and self-abnegation.
 
+---
+
 ## 169\. Gambling [\#155](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph155)
 
 The activities that are included in this prohibition have not been outlined in the Writings of Bahá’u’lláh. As both ‘Abdu’l-Bahá and Shoghi Effendi have indicated, it is left to the Universal House of Justice to specify the details of this prohibition. In response to questions about whether lotteries, betting on such things as horse races and football games, bingo, and the like, are included under the prohibition of gambling, the Universal House of Justice has indicated that this is a matter that will be considered in detail in the future. In the meantime, the Assemblies and individuals are counselled not to make an issue of these matters and to leave it to the conscience of the individual believers.
 
 The House of Justice has ruled that it is not appropriate for funds for the Faith to be raised through lotteries, raffles, and games of chance.
+
+---
 
 ## 170\. the use of opium ... any substance that induceth sluggishness and torpor [\#155](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph155)
 
@@ -2405,15 +2747,21 @@ Regarding hashish you have pointed out that some Persians have become habituated
 
 It should be noted that the above prohibition against taking certain classes of drugs does not forbid their use when prescribed by qualified physicians as part of a medical treatment.
 
+---
+
 ## 171\. the "mystery of the Great Reversal in the Sign of the Sovereign" [\#157](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph157)
 
 S̱ẖayḵẖ Aḥmad-i-Ahsá’í (1753-1831), who was the founder of the S̱ẖayḵẖí School and the first of the "twin luminaries that heralded the advent of the Faith of the Báb", prophesied that at the appearance of the Promised One all things would be reversed, the last would be first, the first last. Bahá’u’lláh in one of His Tablets refers to the "symbol and allusion" of the "mystery of the Great Reversal in the Sign of the Sovereign". He states: "Through this reversal He hath caused the exalted to be abased and the abased to be exalted", and He recalls that "in the days of Jesus, it was those who were distinguished for their learning, the men of letters and religion, who denied Him, whilst humble fishermen made haste to gain admittance into the Kingdom" (see also note 172). For additional information about S̱ẖayḵẖ Aḥmad-i-Ahsá’í see The Dawn-Breakers, chapters 1 and 10.
+
+---
 
 ## 172\. the "Six" raised up by virtue of this "Upright Alif" [\#157](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph157)
 
 In his writings, S̱ẖayḵẖ Aḥmad-i-Ahsá’í placed great emphasis on the Arabic letter "Váv". In The Dawn-Breakers, Nabíl states that this letter "symbolized for the Báb the advent of a new cycle of Divine Revelation, and has since been alluded to by Bahá’u’lláh in the Kitáb-i-Aqdas in such passages as ‘the mystery of the Great Reversal’ and ‘the Sign of the Sovereign’".
 
 The name for the letter "Váv" consists of three letters: Váv, Alif, Váv. According to the abjad reckoning, the numerical value of each of these letters is 6, 1 and 6 respectively. Shoghi Effendi in a letter written on his behalf to one of the believers in the East provides an interpretation of this verse of the Aqdas. He states that the "Upright Alif" refers to the advent of the Báb. The first letter with its value of six, which comes before the Alif, is a symbol of earlier Dispensations and Manifestations which predate the Báb, while the third letter, which also has a numerical value of six, stands for Bahá’u’lláh’s supreme Revelation which was made manifest after the Alif.
+
+---
 
 ## 173\. It hath been forbidden you to carry arms unless essential [\#159](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph159)
 
@@ -2423,9 +2771,13 @@ On the societal level, the principle of collective security enunciated by Bahá�
 
 In another Tablet Bahá’u’lláh stresses the importance of fellowship with the followers of all religions; He also states that "the law of holy war hath been blotted out from the Book".
 
+---
+
 ## 174\. and permitted you to attire yourselves in silk [\#159](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph159)
 
 According to Islamic practice, the wearing of silk by men was generally forbidden, except in times of holy war. This prohibition, which was not based on the verses of the Qur’án, was abrogated by the Báb.
+
+---
 
 ## 175\. The Lord hath relieved you ... of the restrictions that formerly applied to clothing and to the trim of the beard. [\#159](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph159)
 
@@ -2433,13 +2785,19 @@ Many rules about dress had their origins in the laws and traditional practices o
 
 Bahá’u’lláh removed such limitations on one’s apparel and beard. He leaves such matters to the "discretion" of the individual, and at the same time calls upon the believers not to transgress the bounds of propriety and to exercise moderation in all that pertains to dress.
 
+---
+
 ## 176\. O Land of Káf and Rá! [\#164](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph164)
 
 Káf and Rá are the first two consonants of Kirmán, the name of a city and province of Iran.
 
+---
+
 ## 177\. We perceive that which secretly and stealthily diffuseth from thee. [\#164](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph164)
 
 This passage is a reference to the intrigues of a group of Azalís, followers of Mírzá Yaḥyá (see note 190), associated with the city of Kirmán. They include Mullá Ja’far, his son S̱ẖayḵẖ Aḥmad-i-Rúhí and Mírzá Áqá Ḵẖán-i-Kirmání (both sons-in-law of Mírzá Yaḥyá), as well as Mírzá Aḥmad-i-Kirmání. They not only sought to undermine the Faith, but involved themselves in political intrigues which culminated in the assassination of Náṣiri’d-Dín S̱ẖáh.
+
+---
 
 ## 178\. Call ye to mind the s̱ẖayḵẖ whose name was Muḥammad-Ḥasan [\#166](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph166)
 
@@ -2447,13 +2805,19 @@ S̱ẖayḵẖ Muḥammad-Ḥasan, one of the leading exponents of S̱ẖí’ih
 
 Nabíl, in The Dawn-Breakers, describes the encounter that took place in Najaf between Mullá ‘Alíy-i-Bastamí, one of the Letters of the Living, and S̱ẖayḵẖ Muḥammad-Ḥasan. During the meeting, Mullá ‘Alí announced the manifestation of the Báb and extolled the potency of His Revelation. At the instigation of the s̱ẖayḵẖ, Mullá ‘Alí was forthwith pronounced a heretic and expelled from the assembly. He was put on trial, transported to Istanbul, and condemned to hard labour.
 
+---
+
 ## 179\. a sifter of wheat and barley [\# 166](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph166)
 
 This is an allusion to Mullá Muḥammad Ja’far Gandum-Pák-Kun, the first person in Iṣfáhán to accept the Faith of the Báb. He is mentioned in the Persian Bayán and praised as one who "donned the robe of discipleship". In The Dawn-Breakers, Nabíl describes the unreserved acceptance of the Message by the "sifter of wheat" and his zealous advocacy of the new Revelation. He joined the company of the defenders of the Fort of S̱ẖayḵẖ Tabarsí and perished during that siege.
 
+---
+
 ## 180\. Take heed lest the word "Prophet" withhold you from this Most Great Announcement [\#167](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph167)
 
 Bahá’u’lláh cautions people "of insight" not to allow their interpretations of the Holy Scriptures to prevent them from recognizing the Manifestation of God. Followers of each religion have tended to allow their devotion to its Founder to cause them to perceive His Revelation as the final Word of God and to deny the possibility of the appearance of any subsequent Prophet. This has been the case of Judaism, Christianity and Islám. Bahá’u’lláh denies the validity of this concept of finality both in relation to past Dispensations and to His own. With regard to Muslims, He wrote in the Kitáb-i-Iqán that the "people of the Qur’án ... have allowed the words ‘Seal of the Prophets’ to veil their eyes", "to obscure their understanding, and deprive them of the grace of all His manifold bounties". He affirms that "this theme hath ... been a sore test unto all mankind", and laments the fate of "those who, clinging unto these words, have disbelieved in Him Who is their true Revealer". The Báb refers to this same theme when He warns: "Let not names shut you out as by a veil from Him Who is their Lord, even the name Prophet, for such a name is but a creation of His utterance."
+
+---
 
 ## 181\. any reference to "Vicegerency" debar you from the sovereignty of Him Who is the Vicegerent of God [\#167](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph167)
 
@@ -2461,11 +2825,15 @@ The word here translated "Vicegerency" is, in the original Arabic, "viláyat", w
 
 In this verse of the Aqdas, Bahá’u’lláh warns against allowing such concepts to blind one to the "sovereignty" of the new Divine Manifestation, the true "Vicegerent of God".
 
+---
+
 ## 182\. Call ye to mind Karím [\#170](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph170)
 
 Ḥájí Mírzá Muḥammad Karím Ḵẖán-i-Kirmání (1810- circa 1873) was the self-appointed leader of the S̱ẖayḵẖí community after the death of Siyyid Kázim, who was the appointed successor to S̱ẖayḵẖ Aḥmad-i-Ahsá’í (see notes 171 and 172). He dedicated himself to the promotion of the teachings of S̱ẖayḵẖ Aḥmad. The opinions he expressed became the subject of controversy among his supporters and opponents alike.
 
 Regarded as one of the leading savants and prolific authors of his age, he composed numerous books and epistles in the various fields of learning that were cultivated in those times. He actively opposed both the Báb and Bahá’u’lláh, and used his treatises to attack the Báb and His Teachings. In the Kitáb-i-Iqán, Bahá’u’lláh condemns the tone and content of his writings and singles out for criticism one of his works which contains negative allusions to the Báb. Shoghi Effendi describes him as "inordinately ambitious and hypocritical" and describes how he "at the special request of the S̱ẖáh had in a treatise viciously attacked the new Faith and its doctrines".
+
+---
 
 ## 183\. O ye the learned ones in Bahá [\#173](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph173)
 
@@ -2477,9 +2845,13 @@ The Hands of the Cause of God were individuals appointed by Bahá’u’lláh an
 
 The Universal House of Justice appoints the Counsellor members of the International Teaching Centre and the Continental Counsellors. Members of Auxiliary Boards are appointed by the Continental Counsellors. All these individuals fall within the definition of the "learned" given by Shoghi Effendi in the statement quoted above.
 
+---
+
 ## 184\. refer ye whatsoever ye understand not in the Book to Him Who hath branched from this mighty Stock [\#174](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph174)
 
 Bahá’u’lláh invests ‘Abdu’l-Bahá with the right of interpreting His holy Writ (see also note 145).
+
+---
 
 ## 185\. the School of Transcendent Oneness [\#175](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph175)
 
@@ -2489,19 +2861,27 @@ These Bábís maintained that, since Bahá’u’lláh was two years older than 
 
 Bahá’u’lláh here explains that the reference is to events transpiring in the spiritual worlds beyond this plane of existence.
 
+---
+
 ## 186\. We accepted the verses of God ... which He presented unto Us [\#175](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph175)
 
 In His Tablet addressed to "Him Who will be made manifest", the Báb characterizes the Bayán as an offering from Him to Bahá’u’lláh. See Selections from the Writings of the Báb.
 
+---
+
 ## 187\. O people of the Bayán! [\#176](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph176)
 
 Reference to the followers of the Báb.
+
+---
 
 ## 188\. the letters B and E were joined and knit together [\#177](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph177)
 
 Shoghi Effendi, in letters written on his behalf, has explained the significance of the "letters B and E". They constitute the word "Be", which, he states, "means the creative Power of God Who through His command causes all things to come into being" and "the power of the Manifestation of God, His great spiritual creative force".
 
 The imperative "Be" in the original Arabic is the word "kun", consisting of the two letters "káf" and "nún". They have been translated by Shoghi Effendi in the above manner. This word has been used in the Qur’án as God’s bidding calling creation into being.
+
+---
 
 ## 189\. this new World Order [\#181](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph181)
 
@@ -2511,13 +2891,19 @@ The features of the "new World Order" are delineated in the Writings of Bahá’
 
 For additional information on the evolution of this new World Order, see, for example, the letters of Shoghi Effendi published in The World Order of Bahá’u’lláh.
 
+---
+
 ## 190\. O source of perversion! [\#184](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph184)
 
 This is a reference to Mírzá Yaḥyá, known as Subh-i-Azal (Morning of Eternity), a younger half-brother of Bahá’u’lláh, who arose against Him and opposed His Cause. Mírzá Yaḥyá was nominated by the Báb to serve as a figure-head for the Bábí community pending the imminent manifestation of the Promised One. At the instigation of Siyyid Muḥammad-i-Iṣfáhání (see note 192), Mírzá Yaḥyá betrayed the trust of the Báb, claimed to be His successor, and intrigued against Bahá’u’lláh, even attempting to have Him murdered. When Bahá’u’lláh formally declared His Mission to him in Adrianople, Mírzá Yaḥyá responded by going to the length of putting forward his own claim to be the recipient of an independent Revelation. His pretensions were eventually rejected by all but a few, who became known as Azalís (see note 177). He is described by Shoghi Effendi as the "Arch-Breaker of the Covenant of the Báb" (see God Passes By, chapter X).
 
+---
+
 ## 191\. remember how We nurtured thee by day and by night for service to the Cause [\#184](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph184)
 
 In God Passes By, Shoghi Effendi refers to the fact that Bahá’u’lláh, Who was thirteen years older than Mírzá Yaḥyá, had counselled him and watched over his early youth and manhood.
+
+---
 
 ## 192\. God hath laid hold on him who led thee astray. [\#184](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph184)
 
@@ -2527,9 +2913,13 @@ A fresh danger now clearly threatened the life of Bahá’u’lláh. Though He H
 
 The consternation that seized an already oppressed community was indescribable. Bahá’u’lláh’s indignation knew no bounds. "Were We", He thus voices His emotions, in a Tablet revealed shortly after this act had been committed, "to make mention of what befell Us, the heavens would be rent asunder and the mountains would crumble." "My captivity", He wrote on another occasion, "cannot harm Me. That which can harm Me is the conduct of those who love Me, who claim to be related to Me, and yet perpetrate what causeth My heart and My pen to groan."
 
+---
+
 ## 193\. Select ye a single language ... adopt ye ... a common script. [\#189](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph189)
 
 Bahá’u’lláh enjoins the adoption of a universal language and script. His Writings envisage two stages in this process. The first stage is to consist of the selection of an existing language or an invented one which would then be taught in all the schools of the world as an auxiliary to the mother tongues. The governments of the world through their parliaments are called upon to effect this momentous enactment. The second stage, in the distant future, would be the eventual adoption of one single language and common script for all on earth.
+
+---
 
 ## 194\. We have appointed two signs for the coming of age of the human race [\#189](http://www.gutenberg.org/files/16523/16523-h/16523-h.html#Paragraph189)
 
