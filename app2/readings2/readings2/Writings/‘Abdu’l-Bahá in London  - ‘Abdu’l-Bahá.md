@@ -3,6 +3,7 @@
 * The City Temple: Introduction
 * Address given by ‘Abdu’l-Bahá at the City Temple
 * Discourse of ‘Abdu’l-Bahá at St. John’s, Westminster.
+* Theosophical Society: Introduction
 * Discourse of ‘Abdu’l-Bahá given at the Theosophical Head Quarters.
 * Farewell Reception: Introduction
 * Meeting of Farewell to ‘Abdu’l-Bahá.
@@ -55,10 +56,6 @@
 
 ---
 
-# ‘Abdu’l-Bahá in London
-
----
-
 # The City Temple: Introduction
 
 On September 10th, the first Sunday after ‘Abdu’l-Bahá’s arrival in England, he spoke from the City Temple pulpit to the evening congregation at the special desire of the Pastor, the Reverend R. J. Campbell.
@@ -102,6 +99,8 @@ This Address is printed by kind permission, from The Christian Commonwealth of S
 On September 17th, ‘Abdu’l-Bahá at the request of the venerable Archdeacon of Westminster addressed the congregation of Saint John the Divine after evening service. With a few warm words characteristic of his whole attitude Archdeacon Wilberforce introduced the revered Messenger from the East, who had crossed seas and countries on his Mission of Peace and Unity for which he had suffered forty years of captivity and persecution. The Archdeacon had the Bishop’s chair placed for his Guest on the Chancel steps, and standing beside him read the translation of ‘Abdu’l-Bahá’s address himself. The Congregation was profoundly moved, and following the Archdeacon’s example knelt to receive the blessing of the Servant of God—who stood with extended arms—his wonderful voice rising and falling in the silence with the power of his invocation. As the Archdeacon said: “Truly the East and the West have met in this sacred place tonight.” The hymn “O God our help in ages past” was sung by the entire assembly standing, as ‘Abdu’l-Bahá and the Archdeacon passed down the aisle to the vestry hand in hand.
 
 Outside the Church, Salvationists were holding their meeting and ‘Abdu’l-Bahá was deeply impressed and touched at the sight of the men, women and children gathered together in the night, at the street corner, praying and singing.
+
+---
 
 # Discourse of ‘Abdu’l-Bahá at St. John’s, Westminster.
 
@@ -148,6 +147,8 @@ Thou art the Giver of all! Thou art the Forgiver! Thou art the Merciful! Amen.
 # Theosophical Society: Introduction
 
 On September 30th, ‘Abdu’l-Bahá met the Theosophical society at their new Headquarters at the express request of their president Mrs. Annie Besant. After a general history of the movement and sympathetic words of welcome by Mr. A. P. Sinnett, ‘Abdu’l-Bahá rose and delivered to the crowded assembly an address upon the distinctive notes of the Bahá’í teaching, warmly commending the eagerness of the Society in its search for Truth.
+
+---
 
 # Discourse of ‘Abdu’l-Bahá given at the Theosophical Head Quarters.
 
