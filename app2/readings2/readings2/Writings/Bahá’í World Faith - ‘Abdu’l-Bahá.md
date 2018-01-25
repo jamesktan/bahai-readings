@@ -145,6 +145,8 @@
 
 # CHAPTER SIX: THE FAITH OF BAHÁ’U’LLÁH
 
+---
+
 ## MANKIND IS IN DANGER
 
 O people of the world!
@@ -615,6 +617,8 @@ Should any one object that, since the communities and nations and races and peop
 
 # CHAPTER SEVEN: SOUL, MIND AND SPIRIT
 
+---
+
 ## THE ORIGIN OF MAN
 
 Know that it is one of the most abstruse spiritual truths that the world of existence, that is to say this endless universe, has no beginning.
@@ -988,6 +992,8 @@ In conclusion, these few words are written, and unto everyone they will be a cle
 ---
 
 # CHAPTER EIGHT: THE LOOM OF REALITY
+
+---
 
 ## HIS DEATHLESS SPLENDOR
 
@@ -1686,6 +1692,8 @@ Thus may eternal glory and everlasting supremacy, like unto the mid-day sun, shi
 ---
 
 # CHAPTER NINE: THE DIVINE PLAN
+
+---
 
 ## THE CAUSE OF BAHÁ’U’LLÁH
 
