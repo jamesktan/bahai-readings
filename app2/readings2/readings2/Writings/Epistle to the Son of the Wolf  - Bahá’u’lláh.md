@@ -1,9 +1,6 @@
 # Contents
 
 * Epistle to the Son of the Wolf
-* Credits
-* A Word from Project Gutenberg
-* The Full Project Gutenberg License
 
 ---
 
