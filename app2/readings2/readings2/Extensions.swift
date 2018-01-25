@@ -28,6 +28,12 @@ padding-top: 0.5em;
 font-size: 2em;
 padding-bottom: 0.5em;
 }
+h4   {
+text-align: center;
+padding-top: 0.5em;
+font-size: 2em;
+padding-bottom: 0.5em;
+}
 p    {
 font-size: 1.5em;
 padding-bottom: 1.5em;
@@ -48,6 +54,12 @@ font-size: 4em;
 padding-bottom: 0.5em;
 }
 h3   {
+text-align: center;
+padding-top: 0.5em;
+font-size: 3em;
+padding-bottom: 0.5em;
+}
+h4   {
 text-align: center;
 padding-top: 0.5em;
 font-size: 3em;
@@ -78,6 +90,12 @@ padding-top: 0.5em;
 font-size: 4em;
 padding-bottom: 0.5em;
 }
+h4   {
+text-align: center;
+padding-top: 0.5em;
+font-size: 4em;
+padding-bottom: 0.5em;
+}
 p    {
 font-size: 3em;
 padding-bottom: 1.5em;
@@ -103,6 +121,12 @@ padding-top: 0.5em;
 font-size: 5em;
 padding-bottom: 0.5em;
 }
+h4   {
+text-align: center;
+padding-top: 0.5em;
+font-size: 5em;
+padding-bottom: 0.5em;
+}
 p    {
 font-size: 4em;
 padding-bottom: 1.5em;
@@ -123,6 +147,12 @@ font-size: 7em;
 padding-bottom: 0.5em;
 }
 h3   {
+text-align: center;
+padding-top: 0.5em;
+font-size: 6em;
+padding-bottom: 0.5em;
+}
+h4   {
 text-align: center;
 padding-top: 0.5em;
 font-size: 6em;
