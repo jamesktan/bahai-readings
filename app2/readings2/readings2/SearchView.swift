@@ -96,7 +96,7 @@ class SearchView: UITableViewController, UISearchBarDelegate {
           var occuranceCount = 0
           var results : [String] = []
           for item in arrayContents {
-            if item.lowercased().range(of:searchText.lowercased()) != nil {
+            if item.lowercased().removingCharacters(inCharacterSet: .punctuationCharacters).range(of:searchText.lowercased().removingCharacters(inCharacterSet: .punctuationCharacters)) != nil {
               // String Exists!
               // Count the Occurance
               if !item.contains("*") && !item.contains("#") {
@@ -132,3 +132,19 @@ class SearchView: UITableViewController, UISearchBarDelegate {
   
 }
 
+extension String {
+  func removingCharacters(inCharacterSet forbiddenCharacters:CharacterSet) -> String
+  {
+    var filteredString = self
+    while true {
+      if let forbiddenCharRange = filteredString.rangeOfCharacter(from: forbiddenCharacters)  {
+        filteredString.removeSubrange(forbiddenCharRange)
+      }
+      else {
+        break
+      }
+    }
+    
+    return filteredString
+  }
+}
