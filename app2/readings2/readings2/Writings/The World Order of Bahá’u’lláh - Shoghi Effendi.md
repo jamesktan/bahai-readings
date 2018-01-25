@@ -41,7 +41,7 @@
   * Our Beloved Temple
 * AMERICA AND THE MOST GREAT PEACE
   * America and the Most Great Peace
-THE DISPENSATION OF BAHÁ’U’LLÁH
+* THE DISPENSATION OF BAHÁ’U’LLÁH
   * The Dispensation of Bahá’u’lláh
   * The Báb
   * ‘Abdu’l-Bahá
