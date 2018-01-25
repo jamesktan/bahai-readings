@@ -37,8 +37,21 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
   }
   
   func goTo(_ page:Int) {
+//    self.setViewControllers([self.storedViewController[page]], direction: .reverse, animated: true, completion: nil)
+    
+    
+    // Not sure why the below works but it does
     let vc = self.storedViewController[page]
-    self.setViewControllers([vc], direction: .forward, animated: true, completion: nil)
+    weak var weakPageVc = vc
+    self.setViewControllers([vc], direction: .forward, animated: true) { finished in
+      guard weakPageVc != nil else {
+        return
+      }
+      DispatchQueue.main.async {
+        self.setViewControllers([vc], direction: .forward, animated: false)
+      }
+    }
+
   }
   
   func showTableOfContents(_ content:TableOfContents) {
