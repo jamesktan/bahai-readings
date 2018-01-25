@@ -1226,6 +1226,8 @@ Blessed, doubly blessed, is the ground which His footsteps have trodden, the eye
 
 # EXCERPTS FROM OTHER TABLETS
 
+---
+
 ## “God testifieth that there is none other God but...”
 
 God testifieth that there is none other God but Him and that He Who hath come from the heaven of divine revelation is the Hidden Secret, the Impenetrable Mystery, Whose advent hath been foretold in the Book of God and hath been heralded by His Prophets and Messengers. Through Him the mysteries have been unravelled, the veils rent asunder and the signs and evidences disclosed. Lo! He hath now been made manifest. He bringeth to light whatsoever He willeth, and treadeth upon the high places of the earth, invested with transcendent majesty and power.
