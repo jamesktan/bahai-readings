@@ -1,11 +1,22 @@
 # Contents
 
-* Letter of January 21st, 1922.
+* PART ONE: Excerpts from the Will and Testament of ‘Abdu’l-Bahá
+	* “All-praise to Him Who, by the Shield of His Covenant, hath...”
+	* “O ye beloved of the Lord! The greatest of all things is the...”
+	* “According to the direct and sacred command of God we are...”
+	* “O God, my God! Thou seest this wronged servant of Thine,...”
+	* “O God, my God! Shield Thy trusted servants from the evils of...”
+	* “O ye beloved of the Lord! It is incumbent upon you to be submissive...”
+	* “By the Ancient Beauty! This wronged one hath in no wise...”
+	* “O ye beloved of the Lord! Strive with all your heart to shield...”
+	* “Whosoever and whatsoever meeting becometh a hindrance to...”
+* PART TWO: Letters from Shoghi Effendi Guardian of the Bahá’í Cause January 21, 1922-July 17, 1932
+	* Letter of January 21st, 1922.
 	* Letter of March 5, 1922.
 	* The Mission of the Cause
 	* Local and National Spiritual Assemblies
 	* Committees of the National Assembly
-	* Letter of Circa May, 1922.
+	* Letter of Circa May, 1922 (undated).
 	* Our Common Servitude
 	* Letter of December 16, 1922
 	* Letter of December 23rd, 1922
