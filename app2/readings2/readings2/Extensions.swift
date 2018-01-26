@@ -9,6 +9,8 @@
 import UIKit
 import Down
 
+var wasLaunchFromMain : Bool = false
+
 let fontSize1 = """
 h1   {
 text-align: center;

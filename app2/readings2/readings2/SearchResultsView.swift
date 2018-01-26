@@ -28,6 +28,7 @@ class SearchResultsView : UITableViewController {
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
+    wasLaunchFromMain = false
     findPageLaunchReader(row: indexPath.row)
   }
   

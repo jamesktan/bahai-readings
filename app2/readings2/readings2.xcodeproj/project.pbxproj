@@ -16,6 +16,10 @@
 		540F0FAD201424CC007209B2 /* idea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 540F0FAB201424CB007209B2 /* idea@2x.png */; };
 		540F0FAE201424CC007209B2 /* idea.png in Resources */ = {isa = PBXBuildFile; fileRef = 540F0FAC201424CB007209B2 /* idea.png */; };
 		540F0FB0201425BE007209B2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F0FAF201425BE007209B2 /* SearchView.swift */; };
+		542E43B5201AD9CF00B70B18 /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B3201AD9CD00B70B18 /* bookmark@2x.png */; };
+		542E43B6201AD9CF00B70B18 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B4201AD9CE00B70B18 /* bookmark.png */; };
+		542E43B9201ADB4D00B70B18 /* multiply@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B7201ADB4C00B70B18 /* multiply@2x.png */; };
+		542E43BA201ADB4D00B70B18 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B8201ADB4D00B70B18 /* multiply.png */; };
 		547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplateLight.html */; };
 		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
 		54860115200C6AA5004BFF08 /* layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860114200C6AA4004BFF08 /* layers@2x.png */; };
@@ -112,6 +116,10 @@
 		540F0FAB201424CB007209B2 /* idea@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idea@2x.png"; sourceTree = "<group>"; };
 		540F0FAC201424CB007209B2 /* idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idea.png; sourceTree = "<group>"; };
 		540F0FAF201425BE007209B2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		542E43B3201AD9CD00B70B18 /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark@2x.png"; sourceTree = "<group>"; };
+		542E43B4201AD9CE00B70B18 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		542E43B7201ADB4C00B70B18 /* multiply@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiply@2x.png"; sourceTree = "<group>"; };
+		542E43B8201ADB4D00B70B18 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiply.png; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplateLight.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateLight.html; sourceTree = "<group>"; };
 		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		54860114200C6AA4004BFF08 /* layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layers@2x.png"; sourceTree = "<group>"; };
@@ -254,6 +262,10 @@
 				54EA1E5B200C93FD000FE090 /* ReaderTemplateDark.html */,
 				54EA1E5D200C9416000FE090 /* ReaderTemplateSepia.html */,
 				540BD7E01FECCC9A00315366 /* Assets.xcassets */,
+				542E43B8201ADB4D00B70B18 /* multiply.png */,
+				542E43B7201ADB4C00B70B18 /* multiply@2x.png */,
+				542E43B4201AD9CE00B70B18 /* bookmark.png */,
+				542E43B3201AD9CD00B70B18 /* bookmark@2x.png */,
 				54EA1E5F200C9B73000FE090 /* star_filled.png */,
 				54EA1E60200C9B73000FE090 /* star_filled@2x.png */,
 				5486011E200C6BB4004BFF08 /* menu@2x.png */,
@@ -418,6 +430,7 @@
 				54DB98972013A9B300272A21 /* Bahíyyih Khánum  - Baha'i World Centre.md in Resources */,
 				54DB98CC2013DA3C00272A21 /* The Prosperity of Humankind  - Baha'i International Community.md in Resources */,
 				54DB98C52013DA3000272A21 /* The Summons of the Lord of Hosts  - Bahá’u’lláh.md in Resources */,
+				542E43B5201AD9CF00B70B18 /* bookmark@2x.png in Resources */,
 				54DB98B02013A9CF00272A21 /* Bahá’í Administration  - Shoghi Effendi.md in Resources */,
 				54DB989E2013A9C300272A21 /* A Compilaton on Scholarship  - Research Department of the Universal House of Justice.md in Resources */,
 				5499ADE6200BEF24001E9E1B /* file.png in Resources */,
@@ -434,6 +447,7 @@
 				54EA1E6C200CA061000FE090 /* The Advent of Divine Justice - Shoghi Effendi.md in Resources */,
 				5499ADE0200BE5FB001E9E1B /* settings.png in Resources */,
 				54EA1E9C200CA89D000FE090 /* iTunesArtwork@3x.png in Resources */,
+				542E43BA201ADB4D00B70B18 /* multiply.png in Resources */,
 				54DB98AC2013A9CF00272A21 /* The Light of Divine Guidance (Volume 2)  - Shoghi Effendi.md in Resources */,
 				54EA1EB82011E931000FE090 /* The Promulgation of Universal Peace  - ‘Abdu’l-Bahá.md in Resources */,
 				540F0FAE201424CC007209B2 /* idea.png in Resources */,
@@ -446,6 +460,7 @@
 				547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */,
 				54DB98CE2013DA3C00272A21 /* Century of Light - Baha'i International Community.md in Resources */,
 				54DB98A02013A9C300272A21 /* A Compilaton on Women  - Research Department of the Universal House of Justice.md in Resources */,
+				542E43B6201AD9CF00B70B18 /* bookmark.png in Resources */,
 				54DB98BE2013DA3000272A21 /* Epistle to the Son of the Wolf  - Bahá’u’lláh.md in Resources */,
 				540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */,
 				54DB98CD2013DA3C00272A21 /* One Common Faith  - Baha'i International Community.md in Resources */,
@@ -454,6 +469,7 @@
 				54EA1E9B200CA89D000FE090 /* AppIcon.appiconset in Resources */,
 				54DB98CF2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md in Resources */,
 				54EA1E62200C9B74000FE090 /* star_filled@2x.png in Resources */,
+				542E43B9201ADB4D00B70B18 /* multiply@2x.png in Resources */,
 				54DB98AB2013A9CF00272A21 /* Messages to the Bahá’í World  1950–1957  - Shoghi Effendi.md in Resources */,
 				54EA1EBE2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md in Resources */,
 				54EA1E9E200CA89D000FE090 /* iTunesArtwork@1x.png in Resources */,

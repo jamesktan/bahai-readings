@@ -49,6 +49,7 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
     tableView.deselectRow(at: indexPath, animated: true)
     let cell = tableView.cellForRow(at: indexPath) as! WritingCell
     if let path = cell.path {
+      wasLaunchFromMain = true
       launchReader(presentingView: self, path: path)
     }
   }

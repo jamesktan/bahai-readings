@@ -26,7 +26,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   var tapGesture : UITapGestureRecognizer!
   var isToolBarHidden : Bool = true
   var passage : String? = nil
-  
+  var highlightedText : [String] = []
+
   override func viewDidLoad() {
     super.viewDidLoad()
     // Menu Button
@@ -57,11 +58,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     
     let lookup = UIMenuItem(title: "Save", action: #selector(runGrok))
     UIMenuController.shared.menuItems = [lookup]
-
-    
   }
   
-  var highlightedText : [String] = []
   @objc func runGrok() {
     readView.evaluateJavaScript("window.getSelection().toString();") { (text, error) in
       self.readView.evaluateJavaScript("window.getSelection().getRangeAt(0).startOffset;", completionHandler: { (startIndex, error2) in
@@ -136,6 +134,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     
     
     if passage != nil && didEvaluateJS == false {
+      // Go to this Position
       Timer.scheduledTimer(withTimeInterval: 0.2, repeats: false, block: { (timer) in
         print(self.passage!)
         webView.evaluateJavaScript("window.scrollTo(0,$('span')[0].getBoundingClientRect().top)") { (result, error) in
@@ -148,18 +147,20 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
           }
         }
       })
-    }
+    } else {
+      if wasLaunchFromMain {
+          if let progress = getWritingProgress(fileName: tableOfContents!.fileName) {
+            if castedParent?.currentIndex == progress.page {
+              let position = progress.position
+              Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
+                let positionY = CGFloat(position) * (webView.scrollView.contentSize.height - webView.scrollView.frame.height)
+                webView.scrollView.contentOffset = CGPoint(x: 0, y: positionY)
+              })
+            }
+          }
 
-//    if let progress = getWritingProgress(fileName: tableOfContents!.fileName) {
-//
-//      if castedParent?.currentIndex == progress.page {
-//        let position = progress.position
-//        Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { (timer) in
-//          let positionY = CGFloat(position) * (webView.scrollView.contentSize.height - webView.scrollView.frame.height)
-//          webView.scrollView.contentOffset = CGPoint(x: 0, y: positionY)
-//        })
-//      }
-//    }
+      }
+    }
   }
   
   func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void)
@@ -168,11 +169,11 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
 
   func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-    storePosition(scrollView: scrollView)
+//    storePosition(scrollView: scrollView)
   }
   
   func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-    storePosition(scrollView: scrollView)
+//    storePosition(scrollView: scrollView)
   }
   
   func storePosition(scrollView:UIScrollView) {
@@ -182,6 +183,14 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       let completed = position / height
       storeWritingProgress(fileName: tableOfContents!.fileName, page: page, position: Float(completed))
     }
+  }
+  
+  @IBAction func bookmarkAction(_ sender: Any) {
+    let alert = UIAlertController.alertWith(title: "Bookmark Created", text: "You've saved your current position!") {
+      print("saved!")
+    }
+    self.present(alert, animated: true, completion: nil)
+    storePosition(scrollView: self.readView.scrollView)
   }
   
   @IBAction func closeReader() {

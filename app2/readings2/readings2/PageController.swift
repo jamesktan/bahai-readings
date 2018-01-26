@@ -37,8 +37,6 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
   }
   
   func goTo(_ page:Int) {
-//    self.setViewControllers([self.storedViewController[page]], direction: .reverse, animated: true, completion: nil)
-    
     
     // Not sure why the below works but it does
     let vc = self.storedViewController[page]
