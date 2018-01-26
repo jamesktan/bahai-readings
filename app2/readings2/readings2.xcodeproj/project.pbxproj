@@ -20,6 +20,8 @@
 		542E43B6201AD9CF00B70B18 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B4201AD9CE00B70B18 /* bookmark.png */; };
 		542E43B9201ADB4D00B70B18 /* multiply@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B7201ADB4C00B70B18 /* multiply@2x.png */; };
 		542E43BA201ADB4D00B70B18 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B8201ADB4D00B70B18 /* multiply.png */; };
+		542E43BD201AF07800B70B18 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43BB201AF07700B70B18 /* error@2x.png */; };
+		542E43BE201AF07800B70B18 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43BC201AF07800B70B18 /* error.png */; };
 		547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplateLight.html */; };
 		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
 		54860115200C6AA5004BFF08 /* layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860114200C6AA4004BFF08 /* layers@2x.png */; };
@@ -120,6 +122,8 @@
 		542E43B4201AD9CE00B70B18 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
 		542E43B7201ADB4C00B70B18 /* multiply@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiply@2x.png"; sourceTree = "<group>"; };
 		542E43B8201ADB4D00B70B18 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiply.png; sourceTree = "<group>"; };
+		542E43BB201AF07700B70B18 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		542E43BC201AF07800B70B18 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplateLight.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateLight.html; sourceTree = "<group>"; };
 		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		54860114200C6AA4004BFF08 /* layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layers@2x.png"; sourceTree = "<group>"; };
@@ -266,6 +270,8 @@
 				542E43B7201ADB4C00B70B18 /* multiply@2x.png */,
 				542E43B4201AD9CE00B70B18 /* bookmark.png */,
 				542E43B3201AD9CD00B70B18 /* bookmark@2x.png */,
+				542E43BC201AF07800B70B18 /* error.png */,
+				542E43BB201AF07700B70B18 /* error@2x.png */,
 				54EA1E5F200C9B73000FE090 /* star_filled.png */,
 				54EA1E60200C9B73000FE090 /* star_filled@2x.png */,
 				5486011E200C6BB4004BFF08 /* menu@2x.png */,
@@ -443,6 +449,7 @@
 				54860121200C6BCE004BFF08 /* star@2x.png in Resources */,
 				54EA1EB42011E931000FE090 /* The Will And Testament of `Abdu'l-Bahá  - ‘Abdu’l-Bahá.md in Resources */,
 				540BD7EC1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md in Resources */,
+				542E43BD201AF07800B70B18 /* error@2x.png in Resources */,
 				54EA1E69200CA061000FE090 /* The Light of Divine Guidance (Volume 1) - Shoghi Effendi.md in Resources */,
 				54EA1E6C200CA061000FE090 /* The Advent of Divine Justice - Shoghi Effendi.md in Resources */,
 				5499ADE0200BE5FB001E9E1B /* settings.png in Resources */,
@@ -471,6 +478,7 @@
 				54EA1E62200C9B74000FE090 /* star_filled@2x.png in Resources */,
 				542E43B9201ADB4D00B70B18 /* multiply@2x.png in Resources */,
 				54DB98AB2013A9CF00272A21 /* Messages to the Bahá’í World  1950–1957  - Shoghi Effendi.md in Resources */,
+				542E43BE201AF07800B70B18 /* error.png in Resources */,
 				54EA1EBE2011E931000FE090 /* Tablets of the Divine Plan - ‘Abdu’l-Bahá.md in Resources */,
 				54EA1E9E200CA89D000FE090 /* iTunesArtwork@1x.png in Resources */,
 				54DB98C62013DA3000272A21 /* The Kitáb-i-Aqdas  - Bahá’u’lláh.md in Resources */,

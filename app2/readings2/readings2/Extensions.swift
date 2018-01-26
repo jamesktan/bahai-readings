@@ -296,6 +296,14 @@ func getWritingProgress(fileName:String) -> (page:Int, position:Float)? {
     return nil
   }
 }
+func removeWritingProgress(filename:String) {
+  if let progress = UserDefaults.standard.dictionary(forKey: Constants.ProgressKey) as? [String:[Any]] {
+    if progress.keys.contains(filename) {
+      var newProgress = progress
+      newProgress.removeValue(forKey: filename)
+      UserDefaults.standard.set(newProgress, forKey: Constants.ProgressKey)
+    }
+  }}
 
 func getPath(state:OrganizeWritingsState) -> [Any] {
   

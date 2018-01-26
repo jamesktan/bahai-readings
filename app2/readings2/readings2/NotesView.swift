@@ -46,6 +46,24 @@ class NotesView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     return cell
   }
   
+  func tableView(_ tableView: UITableView,
+                 trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
+  {
+    let modifyAction = UIContextualAction(style: .destructive, title:  "Delete", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+      // Delete A Progress Indicator
+      let note = self.notes[indexPath.row]
+      RealmAdapter.deleteNote(text: note.text)
+      RealmAdapter.getNotes(completion: { (notes) in
+        self.notes = notes
+        DispatchQueue.main.async {
+          self.notesTable.reloadData()
+        }
+      })
+      success(true)
+    })
+    return UISwipeActionsConfiguration(actions: [modifyAction])
+  }
+
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.

@@ -83,13 +83,35 @@ class WritingsView: UIViewController, UITableViewDelegate, UITableViewDataSource
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     if sortOption == .Author {
       let cell = tableView.dequeueReusableCell(withIdentifier: "WritingCell") as! WritingCell
-      cell.load(path: (paths[indexPath.section] as! [String])[indexPath.row] as! String)
+      cell.load(path: (paths[indexPath.section] as! [String])[indexPath.row])
       return cell
     }
     
     let cell = tableView.dequeueReusableCell(withIdentifier: "WritingCell") as! WritingCell
     cell.load(path: paths[indexPath.row] as! String)
     return cell
+  }
+  
+  func tableView(_ tableView: UITableView,
+                 trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
+  {
+    if sortOption == .Bookmarked || sortOption == .Starred {
+      let modifyAction = UIContextualAction(style: .destructive, title:  "Delete", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+        // Delete A Progress Indicator
+        let cell = tableView.cellForRow(at: indexPath) as! WritingCell
+        let name = cell.path.fileNameComponent.filename
+        if self.sortOption == .Bookmarked {
+          removeWritingProgress(filename: name)
+        } else {
+          _ = removeStarredWriting(fileName: name)
+        }
+        self.paths = getPath(state: self.sortOption)
+        self.writingTableView.reloadData()
+        success(true)
+      })
+      return UISwipeActionsConfiguration(actions: [modifyAction])
+    }
+    return UISwipeActionsConfiguration(actions: [])
   }
   
   @IBAction func showSortOptions(_ sender: UIBarButtonItem) {
