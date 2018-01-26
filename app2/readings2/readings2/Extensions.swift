@@ -515,6 +515,16 @@ func launchReader(presentingView:UIViewController, path:String, page:Int?=nil, p
 }
 var navigation : UINavigationController? = nil
 
+extension Date {
+  var readableString : String {
+    get {
+      let formatter = DateFormatter()
+      formatter.dateFormat = "MMM/dd/yy - H:m:s"
+      return formatter.string(from: self)
+    }
+  }
+}
+
 extension String {
   var fileNameComponent : (book:String, author:String, filename: String) {
     get {

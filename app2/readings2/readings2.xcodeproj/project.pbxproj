@@ -22,6 +22,7 @@
 		542E43BA201ADB4D00B70B18 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43B8201ADB4D00B70B18 /* multiply.png */; };
 		542E43BD201AF07800B70B18 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43BB201AF07700B70B18 /* error@2x.png */; };
 		542E43BE201AF07800B70B18 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43BC201AF07800B70B18 /* error.png */; };
+		542E43C0201AF58200B70B18 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E43BF201AF58200B70B18 /* NoteView.swift */; };
 		547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplateLight.html */; };
 		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
 		54860115200C6AA5004BFF08 /* layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860114200C6AA4004BFF08 /* layers@2x.png */; };
@@ -124,6 +125,7 @@
 		542E43B8201ADB4D00B70B18 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiply.png; sourceTree = "<group>"; };
 		542E43BB201AF07700B70B18 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
 		542E43BC201AF07800B70B18 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		542E43BF201AF58200B70B18 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplateLight.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateLight.html; sourceTree = "<group>"; };
 		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		54860114200C6AA4004BFF08 /* layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layers@2x.png"; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				5499ADDB200B616C001E9E1B /* PageView.swift */,
 				54FB5BDC20172E97000C9112 /* TableOfContentsView.swift */,
 				54860112200C4EC9004BFF08 /* NotesView.swift */,
+				542E43BF201AF58200B70B18 /* NoteView.swift */,
 				54EA1E59200C7F8E000FE090 /* SettingsView.swift */,
 				540F0FAF201425BE007209B2 /* SearchView.swift */,
 				54FB5BDE20185D0D000C9112 /* SearchResultsView.swift */,
@@ -582,6 +585,7 @@
 			files = (
 				540BD7DC1FECCC9A00315366 /* WritingsView.swift in Sources */,
 				5499ADDC200B616C001E9E1B /* PageView.swift in Sources */,
+				542E43C0201AF58200B70B18 /* NoteView.swift in Sources */,
 				54FB5BDB201715BB000C9112 /* PageController.swift in Sources */,
 				54860113200C4EC9004BFF08 /* NotesView.swift in Sources */,
 				54FB5BDD20172E97000C9112 /* TableOfContentsView.swift in Sources */,
