@@ -23,6 +23,8 @@
 		542E43BD201AF07800B70B18 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43BB201AF07700B70B18 /* error@2x.png */; };
 		542E43BE201AF07800B70B18 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 542E43BC201AF07800B70B18 /* error.png */; };
 		542E43C0201AF58200B70B18 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E43BF201AF58200B70B18 /* NoteView.swift */; };
+		546B0E6B201B09AF00A12FCD /* The Tabernacle of Unity - Bahá’u’lláh.md in Resources */ = {isa = PBXBuildFile; fileRef = 546B0E69201B09AE00A12FCD /* The Tabernacle of Unity - Bahá’u’lláh.md */; };
+		546B0E6C201B09AF00A12FCD /* Days of Remembrance - Bahá’u’lláh.md in Resources */ = {isa = PBXBuildFile; fileRef = 546B0E6A201B09AE00A12FCD /* Days of Remembrance - Bahá’u’lláh.md */; };
 		547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */ = {isa = PBXBuildFile; fileRef = 547E92351FECD24700BEB909 /* ReaderTemplateLight.html */; };
 		54860113200C4EC9004BFF08 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54860112200C4EC9004BFF08 /* NotesView.swift */; };
 		54860115200C6AA5004BFF08 /* layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54860114200C6AA4004BFF08 /* layers@2x.png */; };
@@ -126,6 +128,8 @@
 		542E43BB201AF07700B70B18 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
 		542E43BC201AF07800B70B18 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		542E43BF201AF58200B70B18 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		546B0E69201B09AE00A12FCD /* The Tabernacle of Unity - Bahá’u’lláh.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The Tabernacle of Unity - Bahá’u’lláh.md"; sourceTree = "<group>"; };
+		546B0E6A201B09AE00A12FCD /* Days of Remembrance - Bahá’u’lláh.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Days of Remembrance - Bahá’u’lláh.md"; sourceTree = "<group>"; };
 		547E92351FECD24700BEB909 /* ReaderTemplateLight.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ReaderTemplateLight.html; sourceTree = "<group>"; };
 		54860112200C4EC9004BFF08 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		54860114200C6AA4004BFF08 /* layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layers@2x.png"; sourceTree = "<group>"; };
@@ -305,6 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				54DB98D02013DA4500272A21 /* Selections From the Writings of the Báb  - The Báb.md */,
+				546B0E6A201B09AE00A12FCD /* Days of Remembrance - Bahá’u’lláh.md */,
+				546B0E69201B09AE00A12FCD /* The Tabernacle of Unity - Bahá’u’lláh.md */,
 				54DB98CA2013DA3B00272A21 /* Century of Light - Baha'i International Community.md */,
 				54DB98C92013DA3A00272A21 /* One Common Faith  - Baha'i International Community.md */,
 				54DB98CB2013DA3C00272A21 /* Statement on Bahá’u’lláh  - Baha'i International Community.md */,
@@ -464,6 +470,7 @@
 				54EA1E6A200CA061000FE090 /* Citadel of Faith - Shoghi Effendi.md in Resources */,
 				54EA1EBA2011E931000FE090 /* ‘Abdu’l-Bahá in London  - ‘Abdu’l-Bahá.md in Resources */,
 				54EA1EBB2011E931000FE090 /* Memorials of the Faithful - ‘Abdu’l-Bahá.md in Resources */,
+				546B0E6B201B09AF00A12FCD /* The Tabernacle of Unity - Bahá’u’lláh.md in Resources */,
 				5486011D200C6BAC004BFF08 /* menu.png in Resources */,
 				54DB98C32013DA3000272A21 /* The Proclamation of Bahá’u’lláh  - Bahá’u’lláh.md in Resources */,
 				54DB98C12013DA3000272A21 /* Gleanings from the Writings of Bahá’u’lláh  - Bahá’u’lláh.md in Resources */,
@@ -493,6 +500,7 @@
 				54EA1EB92011E931000FE090 /* Paris Talks  - ‘Abdu’l-Bahá.md in Resources */,
 				54DB98BD2013DA3000272A21 /* Gems of Divine Mysteries  - Bahá’u’lláh.md in Resources */,
 				540F0FAD201424CC007209B2 /* idea@2x.png in Resources */,
+				546B0E6C201B09AF00A12FCD /* Days of Remembrance - Bahá’u’lláh.md in Resources */,
 				5499ADE2200BED5E001E9E1B /* layers.png in Resources */,
 				54DB98AE2013A9CF00272A21 /* Directives from the Guardian  - Shoghi Effendi.md in Resources */,
 				54EA1E9D200CA89D000FE090 /* iTunesArtwork@2x.png in Resources */,
