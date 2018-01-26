@@ -50,7 +50,7 @@ class NotesView: UIViewController, UITableViewDelegate, UITableViewDataSource {
                  trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
   {
     let modifyAction = UIContextualAction(style: .destructive, title:  "Delete", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
-      // Delete A Progress Indicator
+      // Delete A Note
       let note = self.notes[indexPath.row]
       RealmAdapter.deleteNote(text: note.text)
       RealmAdapter.getNotes(completion: { (notes) in
