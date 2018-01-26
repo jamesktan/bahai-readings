@@ -48,6 +48,12 @@ class SettingsView: UITableViewController, MFMailComposeViewControllerDelegate {
         // Contact Triggered
         sendEmail()
       }
+      if cell.tag == 300 {
+        // Reset All 
+      }
+      if cell.tag == 301 {
+        
+      }
     }
     tableView.deselectRow(at: indexPath, animated: false)
   }

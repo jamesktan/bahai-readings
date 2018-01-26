@@ -202,6 +202,7 @@ struct TableOfContents {
 enum OrganizeWritingsState : String {
   case All = "All Writings"
   case Starred = "Starred Writings"
+  case Bookmarked = "Bookmarked Writings"
   case Author = "Grouped by Author"
   case None = "None"
   case Recent = "Recently Opened"
@@ -316,6 +317,18 @@ func getPath(state:OrganizeWritingsState) -> [Any] {
       }
     }
     return parsedPaths
+  }
+  if state == .Bookmarked {
+    let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
+    let bookmarks = getWritingProgressKeys() // Reall Filenames
+    
+    var bookmarkedPaths : [String] = []
+    for path in allPaths {
+      if bookmarks.contains(path.fileNameComponent.filename) {
+        bookmarkedPaths.append(path)
+      }
+    }
+    return bookmarkedPaths
   }
   if state == .Author {
     let allPaths = Bundle.main.paths(forResourcesOfType: "md", inDirectory: nil)
@@ -531,17 +544,19 @@ extension UIAlertController {
     let starred = UIAlertAction(title: OrganizeWritingsState.Starred.rawValue, style: .default, handler: { action in
       completion(OrganizeWritingsState.Starred)
     })
+    let bookmarked = UIAlertAction(title: OrganizeWritingsState.Bookmarked.rawValue, style: .default, handler: { action in
+      completion(OrganizeWritingsState.Bookmarked)
+    })
     let author = UIAlertAction(title: OrganizeWritingsState.Author.rawValue, style: .default, handler: { action in
       completion(OrganizeWritingsState.Author)
     })
-    //    let recent = UIAlertAction(title: OrganizeWritingsState.Recent.rawValue, style: .default, handler: { action in
-    //      completion(OrganizeWritingsState.Recent)
-    //    })
+    
     alert.addAction(all)
     alert.addAction(starred)
-        alert.addAction(author)
-    //    alert.addAction(recent)
+    alert.addAction(bookmarked)
+    alert.addAction(author)
     alert.addAction(cancel)
+    
     return alert
   }
 }

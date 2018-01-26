@@ -104,7 +104,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       starButton.image = UIImage(named: "star_filled.png")
     } else {
       starButton.image = UIImage(named: "star.png")
-
     }
   }
   
