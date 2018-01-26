@@ -34,7 +34,7 @@ class NoteView : UITableViewController {
     
     for path in allPaths {
       if NSString(string:path).contains(fileName) {
-        launchReader(presentingView: self, path: path, page: note.page, passage: note.text)
+        launchReader(presentingView: self, path: path, page: note.page+1, passage: note.text)
         return
       }
     }
