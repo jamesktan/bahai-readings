@@ -202,7 +202,7 @@ struct TableOfContents {
 enum OrganizeWritingsState : String {
   case All = "All Writings"
   case Starred = "Starred Writings"
-  case Bookmarked = "Bookmarked Writings"
+  case Bookmarked = "Writings with Bookmarks"
   case Author = "Grouped by Author"
   case None = "None"
   case Recent = "Recently Opened"
