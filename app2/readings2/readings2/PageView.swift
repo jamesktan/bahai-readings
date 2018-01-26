@@ -11,6 +11,8 @@ import WebKit
 
 class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UIGestureRecognizerDelegate {
   
+  var index : Int = 0
+  
   @IBOutlet weak var readView: WKWebView!
   @IBOutlet weak var toolbar: UIToolbar!
   @IBOutlet weak var starButton: UIBarButtonItem!

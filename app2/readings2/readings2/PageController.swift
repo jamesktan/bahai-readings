@@ -8,21 +8,20 @@
 
 import UIKit
 
-class PageController : UIPageViewController, UIPageViewControllerDataSource {
+class PageController : UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
   var storedViewController : [UIViewController] = []
   
   func setup() {
     self.dataSource = self
+    self.delegate = self
   }
   
   var currentIndex : Int {
     get {
-      if let presented = self.presentedViewController {
-        if let index = self.storedViewController.index(of: presented) {
-          return index.advanced(by: 0)
-        }
+      if currentPageIndex == nil {
+        return (self.viewControllers?.first! as! PageView).index
       }
-      return 0
+      return currentPageIndex!
     }
   }
   
@@ -75,5 +74,25 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource {
     }
     return nil
   }
+  
+  var lastPendingViewControllerIndex : Int = 0
+  var currentPageIndex : Int? = nil
+  
+  func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]){
+    // 1
+    if let viewController = pendingViewControllers[0] as? PageView {
+      // 2
+      self.lastPendingViewControllerIndex = viewController.index
+    }
+  }
+
+  func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+    // 1
+    if completed {
+      // 2
+      self.currentPageIndex = self.lastPendingViewControllerIndex
+    }
+  }
+
 }
 

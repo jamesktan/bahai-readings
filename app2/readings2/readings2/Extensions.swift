@@ -418,7 +418,10 @@ func createPages(pathToResource:String) -> (TableOfContents?, [Page]?) {
 
 func createViewsForPages(table: TableOfContents, pages:[Page], template:String) -> [UIViewController] {
   var viewControllers : [UIViewController] = []
+  var index : Int = 0
   for page in pages {
+    
+    
     var rendered = template.replacingOccurrences(of: "{{content}}", with: page.contentsConverted!)
     
     
@@ -439,8 +442,10 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
     let view = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PageView") as! PageView
     view.contents = rendered
     view.tableOfContents = table
-    
+    view.index = index
     viewControllers.append(view)
+    
+    index += 1
 
   }
   return viewControllers
@@ -474,7 +479,7 @@ func launchReader(presentingView:UIViewController, path:String, page:Int?=nil, p
       currentViewController = viewControllers[page!-1]
       (currentViewController as? PageView)?.passage = passage
     } else if let page = getWritingProgress(fileName: result.0!.fileName)?.page {
-      currentViewController = (page - 1 > 0) ? viewControllers[page-1] : viewControllers[0]
+      currentViewController = (page > 0) ? viewControllers[page] : viewControllers[0]
     } else {
       currentViewController = viewControllers[0]
     }
