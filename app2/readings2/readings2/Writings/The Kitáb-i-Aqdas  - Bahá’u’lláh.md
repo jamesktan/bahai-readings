@@ -1367,6 +1367,8 @@ ANSWER: The intention is those territories that are remote. In these climes, how
 
 # Synopsis And Codification Of The Laws And Ordinances Of The Kitáb-i-Aqdas
 
+---
+
 ## Summary Of Contents
 
 I. THE APPOINTMENT OF ‘ABDU’L-BAHÁ AS THE SUCCESSOR OF BAHÁ’U’LLÁH AND INTERPRETER OF HIS TEACHINGSA. Turn towards HimB. Refer to HimII. ANTICIPATION OF THE INSTITUTION OF THE GUARDIANSHIPIII. THE INSTITUTION OF THE HOUSE OF JUSTICEIV. LAWS, ORDINANCES AND EXHORTATIONSA. PrayerB. FastingC. Laws of Personal StatusD. Miscellaneous Laws, Ordinances and ExhortationsV. SPECIFIC ADMONITIONS, REPROOFS AND WARNINGSVI. MISCELLANEOUS SUBJECTS

@@ -92,8 +92,6 @@ The blessing of the Eternal One be with you in all its richness, that each soul 
 
 This Address is printed by kind permission, from The Christian Commonwealth of September 13th, 1911\. Spoken by ‘Abdu’l-Bahá in Persian from the city Temple pulpit, the above translation was then read to the congregation by Mr. W. Tudor-Pole.
 
----
-
 # St. John’s Westminster: Introduction
 
 On September 17th, ‘Abdu’l-Bahá at the request of the venerable Archdeacon of Westminster addressed the congregation of Saint John the Divine after evening service. With a few warm words characteristic of his whole attitude Archdeacon Wilberforce introduced the revered Messenger from the East, who had crossed seas and countries on his Mission of Peace and Unity for which he had suffered forty years of captivity and persecution. The Archdeacon had the Bishop’s chair placed for his Guest on the Chancel steps, and standing beside him read the translation of ‘Abdu’l-Bahá’s address himself. The Congregation was profoundly moved, and following the Archdeacon’s example knelt to receive the blessing of the Servant of God—who stood with extended arms—his wonderful voice rising and falling in the silence with the power of his invocation. As the Archdeacon said: “Truly the East and the West have met in this sacred place tonight.” The hymn “O God our help in ages past” was sung by the entire assembly standing, as ‘Abdu’l-Bahá and the Archdeacon passed down the aisle to the vestry hand in hand.
@@ -530,7 +528,6 @@ Yes, and yet not in Essence. A Divine Manifestation is as a mirror reflecting th
 
 The Manifestations of God are as the heavenly bodies. All have their appointed place and time of ascension, but the Light they give is the same. If one wishes to look for the sun rising, one does not look always at the same point because that point changes with the seasons. When one sees the sun rise further in the north one recognizes it, though it has risen at a different point.
 
----
 
 # Notes of a conversation with ‘Abdu’l-Bahá
 
@@ -1024,7 +1021,6 @@ We sat in a circle facing ‘Abdu’l-Bahá who inquired if there were any quest
 
 “At nine years of age, I accompanied my father, Bahá’u’lláh, in his journey of exile to Baghdád, seventy of his disciples going with us. This decree of exile, after persistent persecution, was intended to effectively stamp out of Persia what the authorities considered a dangerous religion. Bahá’u’lláh, with his family and followers, was banished, and travelled from one place to another. When I was about twenty-five years old, we were moved from Constantinople to Adrianople, and from there went with a guard of soldiers to the fortressed city of Akká, where we were imprisoned and closely guarded.”
 
----
 
 ## The First Summer
 
@@ -1034,7 +1030,6 @@ We sat in a circle facing ‘Abdu’l-Bahá who inquired if there were any quest
 
 At this point one of the Persians explained to me that it was on account of ‘Abdu’l-Bahá’s wonderful patience, helpfulness, and endurance that he was always called “The Master.” One could easily feel his mastership in his complete severance from time and place, and absolute detachment from all that even a Turkish prison could inflict.
 
----
 
 ## Better Conditions
 
@@ -1044,7 +1039,6 @@ I learned, afterwards, from a Persian, who, during these troublous times, was a 
 
 The Government thought that the tomb of the Báb, an imposing building on Mount Carmel, was a fortification erected with the aid of American money, and that it was being armed and garrisoned secretly. Suspicion grew with each new arrival, resulting in extra spies and guards.
 
----
 
 ## ‘Abdu’l-Ḥamíd’s Committee
 
@@ -1062,7 +1056,6 @@ The Government thought that the tomb of the Báb, an imposing building on Mount 
 
 “When the committee reached the Turkish capital, they had more urgent things to think of. The city was in a state of uproar and rebellion, and the committee, as members of the government staff, were delegated to investigate the insurrection. Meanwhile the people were establishing a constitutional government and ‘Abdu’l-Ḥamíd was given no chance to act.”
 
----
 
 ## The Release
 
