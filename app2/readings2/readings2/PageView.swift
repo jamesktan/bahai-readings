@@ -15,7 +15,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   
   @IBOutlet weak var readView: WKWebView!
   @IBOutlet weak var toolbar: UIToolbar!
-  @IBOutlet weak var starButton: UIBarButtonItem!
   
   var castedParent : PageController? {
     get {
@@ -94,14 +93,16 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     }
     
     // Check the Starred
-    if getStarredWritings().contains(tableOfContents!.fileName) {
-      starButton.image = UIImage(named: "star_filled.png")
-    } else {
-      starButton.image = UIImage(named: "star.png")
-    }
+//    if getStarredWritings().contains(tableOfContents!.fileName) {
+////      starButton.image = UIImage(named: "star_filled.png")
+//    } else {
+////      starButton.image = UIImage(named: "star.png")
+//    }
   }
   
   override func viewDidAppear(_ animated: Bool) {
+    self.parent?.setToolbarItems(self.toolbar.items, animated: true)
+    self.parent?.navigationItem.leftBarButtonItem = self.toolbar.items?.first!
   }
   
   override func viewWillDisappear(_ animated: Bool) {
@@ -201,6 +202,18 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     }
   }
   
+  @IBAction func pageForward(_ sender: UIBarButtonItem) {
+    print(self.castedParent!.currentIndex)
+    self.castedParent?.goTo(self.castedParent!.currentIndex + 1)
+  }
+  
+  @IBAction func pageBackward(_ sender: UIBarButtonItem) {
+    DispatchQueue.main.async {
+      print(self.castedParent!.currentIndex)
+      self.castedParent?.goTo(self.castedParent!.currentIndex - 1, isForward: false)
+    }
+  }
+  
   @IBAction func bookmarkAction(_ sender: Any) {
     let alert = UIAlertController.alertWith(title: "Bookmark Created", text: "You've saved your current position!") {
       print("saved!")
@@ -213,25 +226,25 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     parent?.dismiss(animated: true, completion: nil)
   }
   
-  @IBAction func favoriteWriting () {
-    // Store the Data
-    let list = getStarredWritings()
-    if list.contains(tableOfContents!.fileName) {
-      let result = removeStarredWriting(fileName: tableOfContents!.fileName)
-      print("Removal Result: \(result)")
-    } else {
-      saveStarredWriting(fileName: tableOfContents!.fileName)
-    }
-    
-    // Update the Image
-    if getStarredWritings().contains(tableOfContents!.fileName) {
-      starButton.image = UIImage(named: "star_filled.png")
-    } else {
-      starButton.image = UIImage(named: "star.png")
-      
-    }
-
-  }
+//  @IBAction func favoriteWriting () {
+//    // Store the Data
+//    let list = getStarredWritings()
+//    if list.contains(tableOfContents!.fileName) {
+//      let result = removeStarredWriting(fileName: tableOfContents!.fileName)
+//      print("Removal Result: \(result)")
+//    } else {
+//      saveStarredWriting(fileName: tableOfContents!.fileName)
+//    }
+//
+//    // Update the Image
+//    if getStarredWritings().contains(tableOfContents!.fileName) {
+////      starButton.image = UIImage(named: "star_filled.png")
+//    } else {
+////      starButton.image = UIImage(named: "star.png")
+//
+//    }
+//
+//  }
   
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
     self.castedParent!.showTableOfContents(self.tableOfContents!)

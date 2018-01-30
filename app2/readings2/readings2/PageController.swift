@@ -35,17 +35,35 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource, UIP
     super.viewWillDisappear(animated)
   }
   
-  func goTo(_ page:Int) {
+  func goTo(_ page:Int, isForward:Bool=true) {
+    
+    // Check the Page
+    if page > self.storedViewController.count || page < 0 {
+      return
+    }
+    
+    // Current Page
+    currentPageIndex = page
+    
+    // Ftch the VC
+    let vc = self.storedViewController[page]
+    
+    // Set the Direction
+    var direction : UIPageViewControllerNavigationDirection!
+    if isForward {
+      direction = .forward
+    } else {
+      direction = .reverse
+    }
     
     // Not sure why the below works but it does
-    let vc = self.storedViewController[page]
     weak var weakPageVc = vc
-    self.setViewControllers([vc], direction: .forward, animated: true) { finished in
+    self.setViewControllers([vc], direction: direction, animated: true) { finished in
       guard weakPageVc != nil else {
         return
       }
       DispatchQueue.main.async {
-        self.setViewControllers([vc], direction: .forward, animated: false)
+        self.setViewControllers([vc], direction: direction, animated: false)
       }
     }
 
