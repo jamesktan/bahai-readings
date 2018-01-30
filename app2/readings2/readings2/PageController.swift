@@ -26,9 +26,13 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource, UIP
   }
   
   override func viewWillAppear(_ animated: Bool) {
-    self.navigationController?.setNavigationBarHidden(true, animated: animated)
     super.viewWillAppear(animated)
   }
+  
+  override func viewDidAppear(_ animated: Bool) {
+  }
+  
+  var isFirst : Bool = true
   
   override func viewWillDisappear(_ animated: Bool) {
     self.navigationController?.setNavigationBarHidden(false, animated: animated)

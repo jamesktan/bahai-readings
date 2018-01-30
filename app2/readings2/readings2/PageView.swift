@@ -51,8 +51,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     // Handle the Note
     let lookup = UIMenuItem(title: "Save Note", action: #selector(runGrok))
     UIMenuController.shared.menuItems = [lookup]
-    
-    
   }
   
   @objc func runGrok() {
@@ -92,6 +90,11 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       indicator.color = UIColor.white
     }
     
+    // Configure the toolBar
+    self.parent?.setToolbarItems(self.toolbar.items, animated: false)
+    self.parent?.navigationItem.leftBarButtonItem = self.toolbar.items?.first!
+    self.parent?.navigationItem.rightBarButtonItem = self.toolbar.items?.last!
+
     // Check the Starred
 //    if getStarredWritings().contains(tableOfContents!.fileName) {
 ////      starButton.image = UIImage(named: "star_filled.png")
@@ -101,9 +104,12 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   override func viewDidAppear(_ animated: Bool) {
-    self.parent?.setToolbarItems(self.toolbar.items, animated: true)
-    self.parent?.navigationItem.leftBarButtonItem = self.toolbar.items?.first!
-    self.parent?.navigationItem.rightBarButtonItem = self.toolbar.items?.last!
+    Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false) { (timer) in
+      if self.castedParent?.isFirst == true {
+        self.didScrollUp()
+        self.castedParent?.isFirst = false
+      }
+    }
   }
   
   override func viewWillDisappear(_ animated: Bool) {
