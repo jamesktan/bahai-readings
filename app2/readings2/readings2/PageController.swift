@@ -38,7 +38,7 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource, UIP
   func goTo(_ page:Int, isForward:Bool=true) {
     
     // Check the Page
-    if page > self.storedViewController.count || page < 0 {
+    if page >= self.storedViewController.count || page < 0 {
       return
     }
     
