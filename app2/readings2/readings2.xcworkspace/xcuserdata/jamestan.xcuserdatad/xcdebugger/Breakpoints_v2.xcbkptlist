@@ -10,29 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "readings2/Extensions.swift"
-            timestampString = "538998473.343031"
+            timestampString = "538998522.752012"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "468"
             endingLineNumber = "468"
             landmarkName = "createViewsForPages(table:pages:template:)"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "readings2/PageView.swift"
-            timestampString = "538998473.3433549"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
-            landmarkName = "pageForward(_:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -131,11 +131,13 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
 
   var didEvaluateJS : Bool = false
+  var didFinish : Bool = false
   
   func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
     indicator.stopAnimating()
     indicator.setAlpha(alpha: 0.0, duration: 0.3, completion: {
       self.indicator.removeFromSuperview()
+      self.didFinish = true
       self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
     })
     
@@ -204,13 +206,13 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   @IBAction func pageForward(_ sender: UIBarButtonItem) {
-    print(self.castedParent!.currentIndex)
-    self.castedParent?.goTo(self.castedParent!.currentIndex + 1)
+    if didFinish {
+      self.castedParent?.goTo(self.castedParent!.currentIndex + 1)
+    }
   }
   
   @IBAction func pageBackward(_ sender: UIBarButtonItem) {
-    DispatchQueue.main.async {
-      print(self.castedParent!.currentIndex)
+    if didFinish {
       self.castedParent?.goTo(self.castedParent!.currentIndex - 1, isForward: false)
     }
   }
