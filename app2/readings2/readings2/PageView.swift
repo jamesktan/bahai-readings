@@ -230,7 +230,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
 
   @IBAction func shareAction(_ sender: UIBarButtonItem) {
-    let shareItem : String = "\(self.tableOfContents?.combined ?? "") \n\n \(contents.html2String)"
+    let contentString = contents.html2String
+    let converted = NSString(string:contentString).replacingOccurrences(of: "\n", with: "\n\n")
+    let shareItem : String = "\(self.tableOfContents?.combined ?? "") \n\n \(converted)"
     let activity = UIActivityViewController(activityItems: [shareItem], applicationActivities: nil)
     self.present(activity, animated: true, completion: nil)
   }
