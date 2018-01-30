@@ -47,9 +47,9 @@
 		5499ADEC200C4A3C001E9E1B /* RealmAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */; };
 		54DB98972013A9B300272A21 /* Bahíyyih Khánum  - Baha'i World Centre.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98962013A9B200272A21 /* Bahíyyih Khánum  - Baha'i World Centre.md */; };
 		54DB989D2013A9C300272A21 /* The Promise of World Peace  - Universal House of Justice.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98982013A9C000272A21 /* The Promise of World Peace  - Universal House of Justice.md */; };
-		54DB989E2013A9C300272A21 /* A Compilaton on Scholarship  - Research Department of the Universal House of Justice.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98992013A9C100272A21 /* A Compilaton on Scholarship  - Research Department of the Universal House of Justice.md */; };
+		54DB989E2013A9C300272A21 /* A Compilation on Scholarship  - Research Department of the Universal House of Justice.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98992013A9C100272A21 /* A Compilation on Scholarship  - Research Department of the Universal House of Justice.md */; };
 		54DB989F2013A9C300272A21 /* A Compilation on Bahá’í Education  - Research Department of the Universal House of Justice.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB989A2013A9C200272A21 /* A Compilation on Bahá’í Education  - Research Department of the Universal House of Justice.md */; };
-		54DB98A02013A9C300272A21 /* A Compilaton on Women  - Research Department of the Universal House of Justice.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB989B2013A9C200272A21 /* A Compilaton on Women  - Research Department of the Universal House of Justice.md */; };
+		54DB98A02013A9C300272A21 /* A Compilation on Women  - Research Department of the Universal House of Justice.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB989B2013A9C200272A21 /* A Compilation on Women  - Research Department of the Universal House of Justice.md */; };
 		54DB98A12013A9C300272A21 /* Compilation on Peace  - Research Department of the Universal House of Justice.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB989C2013A9C300272A21 /* Compilation on Peace  - Research Department of the Universal House of Justice.md */; };
 		54DB98AA2013A9CF00272A21 /* Messages to America  - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98A22013A9CA00272A21 /* Messages to America  - Shoghi Effendi.md */; };
 		54DB98AB2013A9CF00272A21 /* Messages to the Bahá’í World  1950–1957  - Shoghi Effendi.md in Resources */ = {isa = PBXBuildFile; fileRef = 54DB98A32013A9CB00272A21 /* Messages to the Bahá’í World  1950–1957  - Shoghi Effendi.md */; };
@@ -157,9 +157,9 @@
 		5499ADEB200C4A3B001E9E1B /* RealmAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAdapter.swift; sourceTree = "<group>"; };
 		54DB98962013A9B200272A21 /* Bahíyyih Khánum  - Baha'i World Centre.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Bahíyyih Khánum  - Baha'i World Centre.md"; sourceTree = "<group>"; };
 		54DB98982013A9C000272A21 /* The Promise of World Peace  - Universal House of Justice.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "The Promise of World Peace  - Universal House of Justice.md"; sourceTree = "<group>"; };
-		54DB98992013A9C100272A21 /* A Compilaton on Scholarship  - Research Department of the Universal House of Justice.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "A Compilaton on Scholarship  - Research Department of the Universal House of Justice.md"; sourceTree = "<group>"; };
+		54DB98992013A9C100272A21 /* A Compilation on Scholarship  - Research Department of the Universal House of Justice.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "A Compilation on Scholarship  - Research Department of the Universal House of Justice.md"; sourceTree = "<group>"; };
 		54DB989A2013A9C200272A21 /* A Compilation on Bahá’í Education  - Research Department of the Universal House of Justice.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "A Compilation on Bahá’í Education  - Research Department of the Universal House of Justice.md"; sourceTree = "<group>"; };
-		54DB989B2013A9C200272A21 /* A Compilaton on Women  - Research Department of the Universal House of Justice.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "A Compilaton on Women  - Research Department of the Universal House of Justice.md"; sourceTree = "<group>"; };
+		54DB989B2013A9C200272A21 /* A Compilation on Women  - Research Department of the Universal House of Justice.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "A Compilation on Women  - Research Department of the Universal House of Justice.md"; sourceTree = "<group>"; };
 		54DB989C2013A9C300272A21 /* Compilation on Peace  - Research Department of the Universal House of Justice.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Compilation on Peace  - Research Department of the Universal House of Justice.md"; sourceTree = "<group>"; };
 		54DB98A22013A9CA00272A21 /* Messages to America  - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Messages to America  - Shoghi Effendi.md"; sourceTree = "<group>"; };
 		54DB98A32013A9CB00272A21 /* Messages to the Bahá’í World  1950–1957  - Shoghi Effendi.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Messages to the Bahá’í World  1950–1957  - Shoghi Effendi.md"; sourceTree = "<group>"; };
@@ -350,8 +350,8 @@
 				54DB98A42013A9CB00272A21 /* The Light of Divine Guidance (Volume 2)  - Shoghi Effendi.md */,
 				54DB98A92013A9CF00272A21 /* Unfolding Destiny - Shoghi Effendi.md */,
 				54DB989A2013A9C200272A21 /* A Compilation on Bahá’í Education  - Research Department of the Universal House of Justice.md */,
-				54DB98992013A9C100272A21 /* A Compilaton on Scholarship  - Research Department of the Universal House of Justice.md */,
-				54DB989B2013A9C200272A21 /* A Compilaton on Women  - Research Department of the Universal House of Justice.md */,
+				54DB98992013A9C100272A21 /* A Compilation on Scholarship  - Research Department of the Universal House of Justice.md */,
+				54DB989B2013A9C200272A21 /* A Compilation on Women  - Research Department of the Universal House of Justice.md */,
 				54DB989C2013A9C300272A21 /* Compilation on Peace  - Research Department of the Universal House of Justice.md */,
 				54DB98982013A9C000272A21 /* The Promise of World Peace  - Universal House of Justice.md */,
 				540BD7EB1FECCCAB00315366 /* God Passes By - Shoghi Effendi.md */,
@@ -462,7 +462,7 @@
 				54DB98C52013DA3000272A21 /* The Summons of the Lord of Hosts  - Bahá’u’lláh.md in Resources */,
 				542E43B5201AD9CF00B70B18 /* bookmark@2x.png in Resources */,
 				54DB98B02013A9CF00272A21 /* Bahá’í Administration  - Shoghi Effendi.md in Resources */,
-				54DB989E2013A9C300272A21 /* A Compilaton on Scholarship  - Research Department of the Universal House of Justice.md in Resources */,
+				54DB989E2013A9C300272A21 /* A Compilation on Scholarship  - Research Department of the Universal House of Justice.md in Resources */,
 				5499ADE6200BEF24001E9E1B /* file.png in Resources */,
 				54DB98AA2013A9CF00272A21 /* Messages to America  - Shoghi Effendi.md in Resources */,
 				54DB98A12013A9C300272A21 /* Compilation on Peace  - Research Department of the Universal House of Justice.md in Resources */,
@@ -492,7 +492,7 @@
 				54DB98C12013DA3000272A21 /* Gleanings from the Writings of Bahá’u’lláh  - Bahá’u’lláh.md in Resources */,
 				547E92361FECD24700BEB909 /* ReaderTemplateLight.html in Resources */,
 				54DB98CE2013DA3C00272A21 /* Century of Light - Baha'i International Community.md in Resources */,
-				54DB98A02013A9C300272A21 /* A Compilaton on Women  - Research Department of the Universal House of Justice.md in Resources */,
+				54DB98A02013A9C300272A21 /* A Compilation on Women  - Research Department of the Universal House of Justice.md in Resources */,
 				542E43B6201AD9CF00B70B18 /* bookmark.png in Resources */,
 				54DB98BE2013DA3000272A21 /* Epistle to the Son of the Wolf  - Bahá’u’lláh.md in Resources */,
 				540BD7E41FECCC9A00315366 /* LaunchScreen.storyboard in Resources */,
