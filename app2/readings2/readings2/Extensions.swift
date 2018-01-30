@@ -464,6 +464,8 @@ func createViewsForPages(table: TableOfContents, pages:[Page], template:String) 
     view.contents = rendered
     view.tableOfContents = table
     view.index = index
+    view.title = table.title
+    
     viewControllers.append(view)
     
     index += 1
@@ -506,9 +508,8 @@ func launchReader(presentingView:UIViewController, path:String, page:Int?=nil, p
     }
 
     pController.setViewControllers([currentViewController!], direction: .forward, animated: true, completion: nil)
-
+    pController.title = currentViewController?.title
     navigation = UINavigationController(rootViewController: pController)
-    navigation!.navigationBar.isHidden = true
     presentingView.present(navigation!, animated: true, completion: nil)
 
   }

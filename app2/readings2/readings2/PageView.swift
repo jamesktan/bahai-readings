@@ -26,7 +26,6 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   var contents : String = ""
   var indicator : UIActivityIndicatorView!
   var tapGesture : UITapGestureRecognizer!
-  var isToolBarHidden : Bool = true
   var passage : String? = nil
   var highlightedText : [String] = []
 
@@ -50,16 +49,11 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     readView.alpha = 0.0
     readView.scrollView.delegate = self
     
-    tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap))
-    tapGesture.numberOfTapsRequired = 1
-    tapGesture.delegate = self
-    view.addGestureRecognizer(tapGesture)
-    
-    toolbar.alpha = 0.0
-    
-    
-    let lookup = UIMenuItem(title: "Save", action: #selector(runGrok))
+    // Handle the Note
+    let lookup = UIMenuItem(title: "Save Note", action: #selector(runGrok))
     UIMenuController.shared.menuItems = [lookup]
+    
+    
   }
   
   @objc func runGrok() {
@@ -107,19 +101,29 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     }
   }
   
+  override func viewDidAppear(_ animated: Bool) {
+  }
+  
   override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
-    if !isToolBarHidden {
-      didTap()
+  }
+  
+  func didScrollUp() {
+    DispatchQueue.main.async {
+      self.navigationController?.setToolbarHidden(false, animated: true)
+      self.navigationController?.setNavigationBarHidden(false, animated: true)
+
     }
   }
   
-  @objc func didTap() {
-    if isToolBarHidden { toolbar.setAlpha(alpha: 1.0) }
-    else { toolbar.setAlpha(alpha:0.0) }
-    isToolBarHidden = !isToolBarHidden
-  }
+  func didScrollDown() {
+    DispatchQueue.main.async {
+      self.navigationController?.setToolbarHidden(true, animated: true)
+      self.navigationController?.setNavigationBarHidden(true, animated: true)
 
+    }
+  }
+  
   func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
     return true
   }
@@ -168,15 +172,26 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   {
     decisionHandler(.cancel)
   }
+  
+  var directionDown : Bool = false {
+    didSet {
+      if oldValue == false && directionDown == true {
+        didScrollDown()
 
-  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-//    storePosition(scrollView: scrollView)
+      } else if oldValue == true && directionDown == false {
+        didScrollUp()
+      }
+    }
   }
-  
-  func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-//    storePosition(scrollView: scrollView)
+  func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    if(scrollView.panGestureRecognizer.translation(in: scrollView.superview).y > 0){
+      directionDown = false
+    }
+    else {
+      directionDown = true
+    }
   }
-  
+
   func storePosition(scrollView:UIScrollView) {
     if let page = self.castedParent?.currentIndex {
       let position = scrollView.contentOffset.y

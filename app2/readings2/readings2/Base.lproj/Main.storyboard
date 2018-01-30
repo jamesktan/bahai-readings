@@ -399,8 +399,9 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jct-yY-yWz">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                            <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jct-yY-yWz">
+                                <rect key="frame" x="0.0" y="507" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <barButtonItem image="multiply.png" style="plain" id="T0F-WN-QSP">
                                         <connections>
@@ -432,10 +433,7 @@
                         <constraints>
                             <constraint firstItem="5Ox-iA-hqf" firstAttribute="trailing" secondItem="RC9-Rp-dt7" secondAttribute="trailing" id="169-3e-Cyv"/>
                             <constraint firstItem="5Ox-iA-hqf" firstAttribute="leading" secondItem="RC9-Rp-dt7" secondAttribute="leading" id="2de-2h-HVP"/>
-                            <constraint firstItem="Jct-yY-yWz" firstAttribute="leading" secondItem="RC9-Rp-dt7" secondAttribute="leading" id="Eda-FT-Ivg"/>
-                            <constraint firstItem="RC9-Rp-dt7" firstAttribute="trailing" secondItem="Jct-yY-yWz" secondAttribute="trailing" id="MQ6-ca-NsO"/>
                             <constraint firstItem="5Ox-iA-hqf" firstAttribute="top" secondItem="sjA-sN-EcB" secondAttribute="top" id="cTr-qv-Na8"/>
-                            <constraint firstItem="Jct-yY-yWz" firstAttribute="top" secondItem="RC9-Rp-dt7" secondAttribute="bottom" constant="-44" id="jUF-QX-Xhr"/>
                             <constraint firstItem="5Ox-iA-hqf" firstAttribute="bottom" secondItem="RC9-Rp-dt7" secondAttribute="bottom" constant="40" id="lgF-72-PMN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RC9-Rp-dt7"/>
@@ -449,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCF-C8-Juw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1898" y="132"/>
+            <point key="canvasLocation" x="1896.8" y="131.78410794602701"/>
         </scene>
         <!--Table Of Contents View-->
         <scene sceneID="YRH-WY-lV6">

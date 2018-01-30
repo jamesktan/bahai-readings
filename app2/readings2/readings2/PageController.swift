@@ -62,7 +62,8 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource, UIP
     let index = self.storedViewController.index(of: viewController)
     let newIndex = index!.advanced(by: 1)
     if newIndex < self.storedViewController.count {
-      return self.storedViewController[newIndex]
+      let vc = self.storedViewController[newIndex]
+      return vc
     }
     return nil
   }
@@ -70,7 +71,8 @@ class PageController : UIPageViewController, UIPageViewControllerDataSource, UIP
     let index = self.storedViewController.index(of: viewController)
     let newIndex = index!.advanced(by: -1)
     if newIndex >= 0 {
-      return self.storedViewController[newIndex]
+      let vc = self.storedViewController[newIndex]
+      return vc
     }
     return nil
   }
