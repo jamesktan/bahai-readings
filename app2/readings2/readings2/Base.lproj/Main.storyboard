@@ -431,6 +431,11 @@
                                             <action selector="showTableOfContents:" destination="Btm-R7-cGy" id="h17-9a-YX5"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem systemItem="action" id="qc7-w4-aYp">
+                                        <connections>
+                                            <action selector="shareAction:" destination="Btm-R7-cGy" id="bO7-lv-65e"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>

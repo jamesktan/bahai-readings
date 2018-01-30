@@ -103,6 +103,7 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   override func viewDidAppear(_ animated: Bool) {
     self.parent?.setToolbarItems(self.toolbar.items, animated: true)
     self.parent?.navigationItem.leftBarButtonItem = self.toolbar.items?.first!
+    self.parent?.navigationItem.rightBarButtonItem = self.toolbar.items?.last!
   }
   
   override func viewWillDisappear(_ animated: Bool) {
@@ -225,26 +226,13 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   @IBAction func closeReader() {
     parent?.dismiss(animated: true, completion: nil)
   }
+
+  @IBAction func shareAction(_ sender: UIBarButtonItem) {
+    let shareItem : String = "\(self.tableOfContents?.combined ?? "") \n\n \(self.tableOfContents?.contents.joined(separator: "\n" ?? ""))"
+    let activity = UIActivityViewController(activityItems: [], applicationActivities: nil)
+    self.present(activity, animated: true, completion: nil)
+  }
   
-//  @IBAction func favoriteWriting () {
-//    // Store the Data
-//    let list = getStarredWritings()
-//    if list.contains(tableOfContents!.fileName) {
-//      let result = removeStarredWriting(fileName: tableOfContents!.fileName)
-//      print("Removal Result: \(result)")
-//    } else {
-//      saveStarredWriting(fileName: tableOfContents!.fileName)
-//    }
-//
-//    // Update the Image
-//    if getStarredWritings().contains(tableOfContents!.fileName) {
-////      starButton.image = UIImage(named: "star_filled.png")
-//    } else {
-////      starButton.image = UIImage(named: "star.png")
-//
-//    }
-//
-//  }
   
   @IBAction func showTableOfContents(_ sender: UIBarButtonItem) {
     self.castedParent!.showTableOfContents(self.tableOfContents!)
