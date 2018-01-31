@@ -183,7 +183,14 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
 //      didScrollDown()
 //    }
   }
-  
+  func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    if(scrollView.panGestureRecognizer.translation(in: scrollView.superview).y > 0){
+      didScrollUp()
+    }
+    else {
+      didScrollDown()
+    }
+  }
   func storePosition(scrollView:UIScrollView) {
     if let page = self.castedParent?.currentIndex {
       let position = scrollView.contentOffset.y
