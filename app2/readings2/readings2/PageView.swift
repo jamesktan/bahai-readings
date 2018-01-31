@@ -94,10 +94,13 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     self.parent?.setToolbarItems(self.toolbar.items, animated: false)
     self.parent?.navigationItem.leftBarButtonItem = self.toolbar.items?.first!
     self.parent?.navigationItem.rightBarButtonItem = self.toolbar.items?.last!
+    self.navigationController?.setToolbarHidden(false, animated: true)
+    self.navigationController?.setNavigationBarHidden(false, animated: true)
+    self.navigationController?.hidesBarsOnSwipe = true
   }
   
   override func viewDidAppear(_ animated: Bool) {
-    
+    print("did appear")
   }
   
   override func viewWillDisappear(_ animated: Bool) {
@@ -105,18 +108,18 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
   }
   
   func didScrollUp() {
+    print("did scroll up")
     DispatchQueue.main.async {
       self.navigationController?.setToolbarHidden(false, animated: true)
       self.navigationController?.setNavigationBarHidden(false, animated: true)
 
     }
   }
-  
   func didScrollDown() {
+    print("did scroll down")
     DispatchQueue.main.async {
       self.navigationController?.setToolbarHidden(true, animated: true)
       self.navigationController?.setNavigationBarHidden(true, animated: true)
-
     }
   }
   
@@ -172,25 +175,15 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     decisionHandler(.cancel)
   }
   
-  var directionDown : Bool = false {
-    didSet {
-      if oldValue == false && directionDown == true {
-        didScrollDown()
-
-      } else if oldValue == true && directionDown == false {
-        didScrollUp()
-      }
-    }
-  }
   func scrollViewDidScroll(_ scrollView: UIScrollView) {
-    if(scrollView.panGestureRecognizer.translation(in: scrollView.superview).y > 0){
-      directionDown = false
-    }
-    else {
-      directionDown = true
-    }
+//    if(scrollView.panGestureRecognizer.translation(in: scrollView.superview).y > 0){
+//      didScrollUp()
+//    }
+//    else {
+//      didScrollDown()
+//    }
   }
-
+  
   func storePosition(scrollView:UIScrollView) {
     if let page = self.castedParent?.currentIndex {
       let position = scrollView.contentOffset.y
