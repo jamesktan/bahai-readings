@@ -94,10 +94,10 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     self.parent?.setToolbarItems(self.toolbar.items, animated: false)
     self.parent?.navigationItem.leftBarButtonItem = self.toolbar.items?.first!
     self.parent?.navigationItem.rightBarButtonItem = self.toolbar.items?.last!
-
   }
   
   override func viewDidAppear(_ animated: Bool) {
+    
   }
   
   override func viewWillDisappear(_ animated: Bool) {
@@ -132,7 +132,8 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     indicator.setAlpha(alpha: 0.0, duration: 0.3, completion: {
       self.indicator.removeFromSuperview()
       self.didFinish = true
-      self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: nil)
+      self.readView.setAlpha(alpha: 1.0, duration: 0.3, completion: {
+      })
     })
     
     

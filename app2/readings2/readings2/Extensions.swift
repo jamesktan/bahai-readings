@@ -560,9 +560,6 @@ extension UIAlertController {
     let all = UIAlertAction(title: OrganizeWritingsState.All.rawValue, style: .default, handler: { action in
       completion(OrganizeWritingsState.All)
     })
-//    let starred = UIAlertAction(title: OrganizeWritingsState.Starred.rawValue, style: .default, handler: { action in
-//      completion(OrganizeWritingsState.Starred)
-//    })
     let bookmarked = UIAlertAction(title: OrganizeWritingsState.Bookmarked.rawValue, style: .default, handler: { action in
       completion(OrganizeWritingsState.Bookmarked)
     })
@@ -571,7 +568,6 @@ extension UIAlertController {
     })
     
     alert.addAction(all)
-//    alert.addAction(starred)
     alert.addAction(bookmarked)
     alert.addAction(author)
     alert.addAction(cancel)
