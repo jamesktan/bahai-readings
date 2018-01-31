@@ -44,9 +44,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
       view.backgroundColor = UIColor(red: 247.0/255.0, green: 241.0/255.0, blue: 227.0/255.0, alpha: 1.0)
     }
     
+    readView.scrollView.delegate = self
     readView.navigationDelegate = self
     readView.alpha = 0.0
-    readView.scrollView.delegate = self
     
     // Handle the Note
     let lookup = UIMenuItem(title: "Save Note", action: #selector(runGrok))
@@ -95,21 +95,9 @@ class PageView: UIViewController, UIScrollViewDelegate, WKNavigationDelegate, UI
     self.parent?.navigationItem.leftBarButtonItem = self.toolbar.items?.first!
     self.parent?.navigationItem.rightBarButtonItem = self.toolbar.items?.last!
 
-    // Check the Starred
-//    if getStarredWritings().contains(tableOfContents!.fileName) {
-////      starButton.image = UIImage(named: "star_filled.png")
-//    } else {
-////      starButton.image = UIImage(named: "star.png")
-//    }
   }
   
   override func viewDidAppear(_ animated: Bool) {
-    Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false) { (timer) in
-      if self.castedParent?.isFirst == true {
-        self.didScrollUp()
-        self.castedParent?.isFirst = false
-      }
-    }
   }
   
   override func viewWillDisappear(_ animated: Bool) {
