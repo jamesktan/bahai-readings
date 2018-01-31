@@ -509,12 +509,11 @@ func launchReader(presentingView:UIViewController, path:String, page:Int?=nil, p
 
     pController.setViewControllers([currentViewController!], direction: .forward, animated: true, completion: nil)
     pController.title = currentViewController?.title
-    navigation = UINavigationController(rootViewController: pController)
-    presentingView.present(navigation!, animated: true, completion: nil)
+    let nav = UINavigationController(rootViewController: pController)
+    presentingView.present(nav, animated: true, completion: nil)
 
   }
 }
-var navigation : UINavigationController? = nil
 
 extension Date {
   var readableString : String {
